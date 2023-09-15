@@ -1,4 +1,4 @@
-// partially derived from https://github.com/chinhodado/persona5_calculator/blob/master/data/PersonaDataRoyal.js
+// derived from https://github.com/chinhodado/persona5_calculator/blob/master/data/PersonaDataRoyal.js
 export const compendium = {
   Abaddon: {
     inherits: 'Curse',
