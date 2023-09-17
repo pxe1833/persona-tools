@@ -1,0 +1,20 @@
+.tool-container-outer.p5, .tool-container-outer.p5r {
+    background-color: var(--p5-white);
+    clip-path: polygon(0 6px, 0 100%, 99.5% 93%, 100% 0);
+    min-height: 316px;
+    margin: 30px;
+}
+
+.tool-container-inner.p5, .tool-container-inner.p5r {
+    background-color: var(--p5-black);
+    clip-path: polygon(0 6px, 0 100%, 99.5% 93%, 100% 0);
+    color: var(--p5-white);
+    font-family: P5Main, sans-serif;
+    font-size: min(40px, 3.3vw);
+    line-height: 45px;
+    min-height: 300px;
+    margin: 5px;
+    padding: 5px;
+    transform: translateY(3px);
+    vertical-align: center;
+}

@@ -1,5 +1,5 @@
 // derived from https://github.com/chinhodado/persona5_calculator/blob/master/data/PersonaDataRoyal.js
-export const compendium = {
+const compendium = {
   Abaddon: {
     inherits: 'Curse',
     item: { name: 'Megaton Raid Belt', type: 'Item' },
@@ -16,9 +16,9 @@ export const compendium = {
     },
     stats: { st: 51, ma: 42, en: 58, ag: 38, lu: 43 },
     trait: 'Mouth of Savoring',
-    area: "Da'at",
+    area: 'Da\'at',
     floor: 'All',
-    alarmItem: { name: "God's Hand Belt", type: 'Item' },
+    alarmItem: { name: 'God\'s Hand Belt', type: 'Item' },
     affinities: {
       physical: 'ab',
       gun: 'ab',
@@ -443,7 +443,7 @@ export const compendium = {
     level: 84,
     arcana: 'Temperance',
     skills: {
-      "God's Hand": 0,
+      'God\'s Hand': 0,
       'Cosmic Flare': 0,
       'Invigorate 3': 0,
       Agneyastra: 87,
@@ -468,9 +468,9 @@ export const compendium = {
       curse: '-'
     }
   },
-  'Arsene': {
+  Arsene: {
     inherits: 'Curse',
-    item: { name: "Arsene's Cane", type: 'Item' },
+    item: { name: 'Arsene\'s Cane', type: 'Item' },
     level: 1,
     arcana: 'Fool',
     skills: {
@@ -728,7 +728,7 @@ export const compendium = {
       Megidolaon: 92
     },
     stats: { st: 55, ma: 61, en: 54, ag: 56, lu: 42 },
-    trait: "Mother's Lament",
+    trait: 'Mother\'s Lament',
     max: true,
     alarmItem: { name: 'Fleurs du Mal R', type: 'Item' },
     affinities: {
@@ -871,7 +871,7 @@ export const compendium = {
       Mafreidyne: 69,
       'Nuke Amp': 71,
       Tetrakarn: 72,
-      "God's Hand": 73
+      'God\'s Hand': 73
     },
     stats: { st: 51, ma: 37, en: 42, ag: 44, lu: 34 },
     trait: 'Savior Bloodline',
@@ -1121,7 +1121,7 @@ export const compendium = {
     trait: 'Heated Bloodline',
     area: 'Sheriruth',
     floor: 'L7-9 (after Palace 7)',
-    alarmItem: { name: "God's Hand", type: 'Skill Card' },
+    alarmItem: { name: 'God\'s Hand', type: 'Skill Card' },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1151,7 +1151,7 @@ export const compendium = {
     },
     stats: { st: 40, ma: 37, en: 39, ag: 38, lu: 39 },
     trait: 'Crisis Control',
-    area: "Da'at",
+    area: 'Da\'at',
     floor: 'All',
     alarmItem: { name: 'Mamudoon', type: 'Skill Card' },
     affinities: {
@@ -1183,7 +1183,7 @@ export const compendium = {
       Concentrate: 94
     },
     stats: { st: 56, ma: 57, en: 54, ag: 53, lu: 51 },
-    trait: "Chi You's Blessing",
+    trait: 'Chi You\'s Blessing',
     alarmItem: { name: 'Absorb Phys', type: 'Skill Card' },
     affinities: {
       physical: 'rs',
@@ -1312,7 +1312,7 @@ export const compendium = {
     },
     stats: { st: 50, ma: 50, en: 50, ag: 50, lu: 50 },
     trait: 'Ultimate Vessel',
-    area: "Sheriruth / Da'at",
+    area: 'Sheriruth / Da\'at',
     floor: 'L7-9. 11-13 (after Palace 7) / All',
     alarmItem: { name: 'Crystal Skull R', type: 'Item' },
     affinities: {
@@ -1529,7 +1529,7 @@ export const compendium = {
     },
     stats: { st: 42, ma: 45, en: 43, ag: 44, lu: 37 },
     trait: 'Blessed Bloodline',
-    area: "Da'at",
+    area: 'Da\'at',
     floor: 'All',
     alarmItem: { name: 'Divine Judgement', type: 'Skill Card' },
     affinities: {
@@ -1576,9 +1576,9 @@ export const compendium = {
       curse: 'rs'
     }
   },
-  "Emperor's Amulet": {
+  'Emperor\'s Amulet': {
     rare: true,
-    item: { name: "Emperor's Amulet", type: 'Item' },
+    item: { name: 'Emperor\'s Amulet', type: 'Item' },
     level: 35,
     arcana: 'Hanged',
     skills: {
@@ -1598,7 +1598,7 @@ export const compendium = {
     trait: 'Ultimate Vessel',
     area: 'Sheriruth',
     floor: 'L7-9, 11-13 (after Palace 7)',
-    alarmItem: { name: "Emperor's Charm R", type: 'Item' },
+    alarmItem: { name: 'Emperor\'s Charm R', type: 'Item' },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -1716,7 +1716,7 @@ export const compendium = {
       Masukukaja: 0,
       Tetraja: 0,
       Garudyne: 47,
-      "Touch n' Go": 49,
+      'Touch n\' Go': 49,
       'Amrita Drop': 50,
       'Evade Elec': 51
     },
@@ -1810,7 +1810,7 @@ export const compendium = {
       'Divine Judgement': 78,
       'Ali Dance': 79,
       'Evade Curse': 80,
-      "Touch n' Go": 81,
+      'Touch n\' Go': 81,
       'Ice Amp': 82,
       Salvation: 83
     },
@@ -2423,7 +2423,7 @@ export const compendium = {
       curse: '-'
     }
   },
-  "Jack-o'-Lantern": {
+  'Jack-o\'-Lantern': {
     inherits: 'Fire',
     item: { name: 'Pumpkin Bomb', type: 'Item' },
     level: 2,
@@ -2786,7 +2786,7 @@ export const compendium = {
     stats: { st: 43, ma: 51, en: 50, ag: 53, lu: 38 },
     trait: 'Universal Law',
     max: true,
-    alarmItem: { name: "Dragon's Heart", type: 'Item' },
+    alarmItem: { name: 'Dragon\'s Heart', type: 'Item' },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3222,7 +3222,7 @@ export const compendium = {
     },
     stats: { st: 33, ma: 43, en: 37, ag: 39, lu: 35 },
     trait: 'Mighty Gaze',
-    area: "Da'at",
+    area: 'Da\'at',
     floor: 'All',
     alarmItem: { name: 'Repel Nuke', type: 'Skill Card' },
     affinities: {
@@ -3437,7 +3437,7 @@ export const compendium = {
     },
     stats: { st: 51, ma: 43, en: 43, ag: 45, lu: 44 },
     trait: 'Mighty Gaze',
-    area: "Da'at",
+    area: 'Da\'at',
     floor: 'All',
     alarmItem: { name: 'Psycho Force', type: 'Skill Card' },
     affinities: {
@@ -3525,11 +3525,11 @@ export const compendium = {
       Revolution: 60,
       Mahamaon: 62,
       Matarukaja: 63,
-      "God's Hand": 65
+      'God\'s Hand': 65
     },
     stats: { st: 37, ma: 32, en: 40, ag: 39, lu: 33 },
     trait: 'Deathly Illness',
-    area: "Da'at",
+    area: 'Da\'at',
     floor: 'All',
     alarmItem: { name: 'Mahamaon', type: 'Skill Card' },
     affinities: {
@@ -3562,7 +3562,7 @@ export const compendium = {
       'Divine Judgement': 95
     },
     stats: { st: 54, ma: 61, en: 60, ag: 57, lu: 42 },
-    trait: "Martyr's Gift",
+    trait: 'Martyr\'s Gift',
     alarmItem: { name: 'Nataraja EX', type: 'Item' },
     affinities: {
       physical: '-',
@@ -3747,7 +3747,7 @@ export const compendium = {
     },
     stats: { st: 32, ma: 45, en: 42, ag: 31, lu: 37 },
     trait: 'Immunity',
-    area: "Da'at",
+    area: 'Da\'at',
     floor: 'All',
     alarmItem: { name: 'Spiral Inferno Ring', type: 'Item' },
     affinities: {
@@ -3778,7 +3778,7 @@ export const compendium = {
     },
     stats: { st: 43, ma: 51, en: 48, ag: 42, lu: 39 },
     trait: 'Mighty Gaze',
-    area: "Da'at",
+    area: 'Da\'at',
     floor: 'All',
     alarmItem: { name: 'Repel Elec', type: 'Skill Card' },
     affinities: {
@@ -4203,7 +4203,7 @@ export const compendium = {
   },
   Okuninushi: {
     inherits: 'Psy',
-    item: { name: "Official's Robe", type: 'Item' },
+    item: { name: 'Official\'s Robe', type: 'Item' },
     level: 54,
     arcana: 'Faith',
     skills: {
@@ -4217,7 +4217,7 @@ export const compendium = {
     },
     stats: { st: 39, ma: 35, en: 33, ag: 32, lu: 30 },
     trait: 'Psychic Bloodline',
-    alarmItem: { name: "Official's Robe R", type: 'Item' },
+    alarmItem: { name: 'Official\'s Robe R', type: 'Item' },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4247,7 +4247,7 @@ export const compendium = {
       Agneyastra: 95
     },
     stats: { st: 56, ma: 53, en: 57, ag: 59, lu: 49 },
-    trait: "Demon's Bite",
+    trait: 'Demon\'s Bite',
     max: true,
     alarmItem: { name: 'Sword Dance Belt', type: 'Item' },
     affinities: {
@@ -4759,9 +4759,9 @@ export const compendium = {
       curse: '-'
     }
   },
-  "Queen's Necklace": {
+  'Queen\'s Necklace': {
     rare: true,
-    item: { name: "Queen's Necklace", type: 'Item' },
+    item: { name: 'Queen\'s Necklace', type: 'Item' },
     level: 15,
     arcana: 'Empress',
     skills: {
@@ -4781,7 +4781,7 @@ export const compendium = {
     trait: 'Ultimate Vessel',
     area: 'Kaitul',
     floor: 'L1-5, 7-9',
-    alarmItem: { name: "Queen's Necklace R", type: 'Item' },
+    alarmItem: { name: 'Queen\'s Necklace R', type: 'Item' },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -5184,7 +5184,7 @@ export const compendium = {
       'Riot Gun': 0,
       'Black Viper': 96,
       'Heat Riser': 97,
-      "Tyrant's Mind": 98,
+      'Tyrant\'s Mind': 98,
       'Victory Cry': 99
     },
     stats: { st: 63, ma: 60, en: 57, ag: 56, lu: 56 },
@@ -5473,7 +5473,7 @@ export const compendium = {
   },
   Skadi: {
     inherits: 'Ice',
-    item: { name: "Snow Queen's Whip", type: 'Item' },
+    item: { name: 'Snow Queen\'s Whip', type: 'Item' },
     level: 53,
     arcana: 'Priestess',
     skills: {
@@ -5489,7 +5489,7 @@ export const compendium = {
     trait: 'Bloodstained Eyes',
     area: 'Sheriruth',
     floor: 'L12 & 13 (before Palace 7) / L5 (after Palace 7)',
-    alarmItem: { name: "Snow Queen's Whip II", type: 'Item' },
+    alarmItem: { name: 'Snow Queen\'s Whip II', type: 'Item' },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5834,7 +5834,7 @@ export const compendium = {
     },
     stats: { st: 44, ma: 39, en: 43, ag: 38, lu: 35 },
     trait: 'Intense Focus',
-    area: "Da'at",
+    area: 'Da\'at',
     floor: 'All',
     alarmItem: { name: 'Imprisoned Mjolnir', type: 'Item' },
     affinities: {
@@ -5898,7 +5898,7 @@ export const compendium = {
     },
     stats: { st: 42, ma: 49, en: 43, ag: 46, lu: 43 },
     trait: 'Crisis Control',
-    area: "Da'at",
+    area: 'Da\'at',
     floor: 'All',
     alarmItem: { name: 'Judgement Cross', type: 'Item' },
     affinities: {
@@ -6040,7 +6040,7 @@ export const compendium = {
   },
   Uriel: {
     inherits: 'Almighty',
-    item: { name: "Heaven's Gate", type: 'Item' },
+    item: { name: 'Heaven\'s Gate', type: 'Item' },
     level: 81,
     arcana: 'Justice',
     skills: {
@@ -6146,7 +6146,7 @@ export const compendium = {
       'Riot Gun': 90
     },
     stats: { st: 56, ma: 51, en: 49, ag: 57, lu: 43 },
-    trait: "Vahana's Wings",
+    trait: 'Vahana\'s Wings',
     max: true,
     alarmItem: { name: 'Sudarshana EX', type: 'Item' },
     affinities: {
@@ -6270,7 +6270,7 @@ export const compendium = {
     },
     stats: { st: 44, ma: 38, en: 48, ag: 36, lu: 33 },
     trait: 'Cold-Blooded',
-    area: "Da'at",
+    area: 'Da\'at',
     floor: 'All',
     alarmItem: { name: 'One-shot Kill', type: 'Skill Card' },
     affinities: {
@@ -6379,13 +6379,13 @@ export const compendium = {
   },
   'Zaou-Gongen': {
     inherits: 'Fire',
-    item: { name: "God's Hand Belt", type: 'Item' },
+    item: { name: 'God\'s Hand Belt', type: 'Item' },
     level: 80,
     arcana: 'Strength',
     skills: {
       Maragidyne: 0,
       'Abysmal Surge': 0,
-      "God's Hand": 0,
+      'God\'s Hand': 0,
       'Evade Phys': 82,
       'Enduring Soul': 83,
       'Gun Amp': 84,
@@ -6886,7 +6886,7 @@ export const compendium = {
     skills: {
       Oratorio: 0,
       Megidolaon: 0,
-      "God's Hand": 0,
+      'God\'s Hand': 0,
       'Regenerate 3': 82,
       'Enduring Soul': 83,
       'Invigorate 3': 84,
@@ -7222,4 +7222,5 @@ export const compendium = {
       curse: 'rp'
     }
   }
-}
+};
+module.exports = { compendium };

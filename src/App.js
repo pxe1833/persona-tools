@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import { Header } from './components/Header/Header';
+import { ToolContainer } from './components/ToolContainer/ToolContainer';
+import {SessionContextProvider} from './context/SessionContext';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <SessionContextProvider>
+
+          <Header tool={'Fusion Calculator'} game={'p5'}/>
+          <ToolContainer game={'p5'}>
+              Izanagi-no-Okami Picaro
+          </ToolContainer>
+      </SessionContextProvider>
   );
 }
 

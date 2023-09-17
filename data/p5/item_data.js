@@ -4,7 +4,7 @@ export const items = {
     type: 'Protector - Women only',
     description: 'Def 200 / Ev 18 / +Reduce Elec dmg (high)'
   },
-  "Arsène's Cane": {
+  'Arsène\'s Cane': {
     type: 'Weapon - Joker only',
     description: 'Atk 130 / Acc 92 / +Random ailment (low)'
   },
@@ -44,7 +44,7 @@ export const items = {
     type: 'Weapon - Haru only',
     description: 'Atk 140 / Acc 86 / +Despair (low)'
   },
-  "Emperor's Amulet": { type: 'Accessory', description: 'En +5 / +Auto-Tarukaja' },
+  'Emperor\'s Amulet': { type: 'Accessory', description: 'En +5 / +Auto-Tarukaja' },
   'Fleur du Mal': {
     type: 'Weapon - Haru only',
     description: 'Atk 308 / Acc 86 / Ma +5 / +Dizzy (high)'
@@ -59,7 +59,7 @@ export const items = {
     type: 'Weapon - Morgana only',
     description: 'Atk 128 / Acc 90 / +Critical rate up (low)'
   },
-  "Heaven's Gate": {
+  'Heaven\'s Gate': {
     type: 'Gun - Yusuke only',
     description: 'Atk 378 / Acc 88 / Rounds 12 / Ag +10'
   },
@@ -80,7 +80,7 @@ export const items = {
     type: 'Gun - Yusuke only',
     description: 'Atk 300 / Acc 88 / Rounds 9 / +Random ailment (low)'
   },
-  "Legion's Jail": { type: 'Accessory', description: '+Null Fear' },
+  'Legion\'s Jail': { type: 'Accessory', description: '+Null Fear' },
   'Life Aid': { skillCard: true },
   'Lucifer Guard': {
     type: 'Protector - Unisex',
@@ -114,7 +114,7 @@ export const items = {
     type: 'Gun - Joker only',
     description: 'Atk 360 / Acc 94 / Rounds 8 / All stats +5'
   },
-  "Official's Robe": {
+  'Official\'s Robe': {
     type: 'Protector - Men only',
     description: 'Def 178 / Ev 18 / +Evade Curse (high)'
   },
@@ -132,7 +132,7 @@ export const items = {
     type: 'Gun - Ryuji only',
     description: 'Atk 160 / Acc 82 / Rounds 3 / +Burn (med)'
   },
-  "Queen's Necklace": { type: 'Accessory', description: 'All stats +1 / +30 SP' },
+  'Queen\'s Necklace': { type: 'Accessory', description: 'All stats +1 / +30 SP' },
   'Red Yarn Ball': { type: 'Accessory', description: 'Lu +10 / +Auto-Tarukaja' },
   Regent: {
     type: 'Accessory',
@@ -155,7 +155,7 @@ export const items = {
     type: 'Protector - Women only',
     description: 'Def 60 / Ev 10 / +Evade Magic (low)'
   },
-  "Snow Queen's Whip": {
+  'Snow Queen\'s Whip': {
     type: 'Weapon - Ann only',
     description: 'Atk 210 / Acc 90 / +Auto-Sukukaja'
   },
@@ -195,4 +195,4 @@ export const items = {
     type: 'Gun - Haru only',
     description: 'Atk 330 / Acc 80 / Rounds 1 / +Shock (med)'
   }
-}
+};

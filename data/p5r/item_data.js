@@ -16,7 +16,7 @@ export const items = {
     type: 'Protector - Women only',
     description: 'Def 300 / Ev 18 / +Reduce Elec dmg (high)'
   },
-  "Arsène's Cane": {
+  'Arsène\'s Cane': {
     type: 'Weapon - Joker only',
     description: 'Atk 130 / Acc 92 / +Random ailment (low)'
   },
@@ -145,13 +145,13 @@ export const items = {
     type: 'Gun - Akechi only',
     description: 'Atk 330 / Acc 85 / Rounds 5 / All Stats +5'
   },
-  "Dragon's Heart": {
+  'Dragon\'s Heart': {
     type: 'Accessory',
     description: '+Psycho Force (Severe Psy dmg to 1 foe)'
   },
   'Ember Ring': { type: 'Accessory', description: '+Agi (Light Fire dmg to 1 foe)' },
-  "Emperor's Amulet": { type: 'Accessory', description: 'En +5 / +Auto-Mataru' },
-  "Emperor's Charm R": { type: 'Accessory', description: 'En +8 / +Auto-Mataru' },
+  'Emperor\'s Amulet': { type: 'Accessory', description: 'En +5 / +Auto-Mataru' },
+  'Emperor\'s Charm R': { type: 'Accessory', description: 'En +8 / +Auto-Mataru' },
   'Energy Charm': {
     type: 'Accessory',
     description: '+Energy Drop (Cure Confuse/Fear/Despair/Rage/Brainwash for 1 ally)'
@@ -212,9 +212,9 @@ export const items = {
     type: 'Accessory',
     description: '+Gigantomachia (Colossal Phys dmg to all foes)'
   },
-  "God's Hand Belt": {
+  'God\'s Hand Belt': {
     type: 'Accessory',
-    description: "+God's Hand (Colossal Phys dmg to 1 foe)"
+    description: '+God\'s Hand (Colossal Phys dmg to 1 foe)'
   },
   'Goddess Horn': {
     type: 'Accessory',
@@ -252,7 +252,7 @@ export const items = {
     type: 'Weapon - Morgana only',
     description: 'Atk 150 / Acc 90 / +Critical rate up (med)'
   },
-  "Heaven's Gate": {
+  'Heaven\'s Gate': {
     type: 'Gun - Yusuke only',
     description: 'Atk 330 / Acc 75 / Rounds 12 / Ag +10'
   },
@@ -388,11 +388,11 @@ export const items = {
     type: 'Accessory',
     description: '+Freila (Med. Nuke dmg to 1 foe)'
   },
-  "Official's Robe": {
+  'Official\'s Robe': {
     type: 'Protector - Men only',
     description: 'Def 280 / Ev 15 / +Evade Curse (high)'
   },
-  "Official's Robe R": {
+  'Official\'s Robe R': {
     type: 'Protector - Men only',
     description: 'Def 295 / Ev 20 / +Evade Curse (high)'
   },
@@ -445,11 +445,11 @@ export const items = {
     type: 'Gun - Ryuji only',
     description: 'Atk 160 / Acc 85 / Rounds 3 / +Burn (high)'
   },
-  "Queen's Necklace": {
+  'Queen\'s Necklace': {
     type: 'Accessory',
     description: 'Mana Bonus (SP +10%) / All stats +1'
   },
-  "Queen's Necklace R": {
+  'Queen\'s Necklace R': {
     type: 'Accessory',
     description: 'Mana Bonus (SP +10%) / All stats +2'
   },
@@ -539,11 +539,11 @@ export const items = {
     type: 'Protector - Unisex',
     description: 'Def 330 / Ev 10 / +Reduce Magic dmg (high)'
   },
-  "Snow Queen's Whip": {
+  'Snow Queen\'s Whip': {
     type: 'Weapon - Ann only',
     description: 'Atk 260 / Acc 90 / +Auto-Sukukaja'
   },
-  "Snow Queen's Whip II": {
+  'Snow Queen\'s Whip II': {
     type: 'Weapon - Ann only',
     description: 'Atk 280 / Acc 90 / +Auto-Sukukaja'
   },
@@ -781,4 +781,4 @@ export const items = {
     type: 'Gun - Haru only',
     description: 'Atk 360 / Acc 70 / Rounds 1 / +Shock (high)'
   }
-}
+};

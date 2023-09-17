@@ -49,7 +49,7 @@ export const skills = {
     effect: 'Increase critical rate when being ambushed.',
     element: 'passive',
     personas: {
-      'Arsène': 7,
+      Arsène: 7,
       Jikokuten: 31,
       Rakshasa: 30,
       Raphael: 82,
@@ -62,19 +62,19 @@ export const skills = {
     cost: 400,
     effect: 'Deal light Fire damage to 1 foe.',
     element: 'fire',
-    personas: { 'Hua Po': 0, "Jack-o'-Lantern": 0, Onmoraki: 13, Succubus: 8 },
-    negotiate: "Jack-o'-Lantern"
+    personas: { 'Hua Po': 0, 'Jack-o\'-Lantern': 0, Onmoraki: 13, Succubus: 8 },
+    negotiate: 'Jack-o\'-Lantern'
   },
   Agidyne: {
     cost: 1200,
     effect: 'Deal heavy Fire damage to 1 foe.',
     element: 'fire',
-    itemize: [ 'Cerberus', 'Orpheus Picaro' ],
+    itemize: ['Cerberus', 'Orpheus Picaro'],
     personas: {
       Baphomet: 0,
       Belial: 0,
       Cerberus: 0,
-      "Emperor's Amulet": 0,
+      'Emperor\'s Amulet': 0,
       Mada: 0,
       Moloch: 62,
       'Orpheus Picaro': 32,
@@ -384,7 +384,7 @@ export const skills = {
     personas: {
       Baphomet: 59,
       Byakko: 55,
-      "Emperor's Amulet": 0,
+      'Emperor\'s Amulet': 0,
       'King Frost': 0,
       Lakshmi: 0,
       Seiryu: 0,
@@ -431,7 +431,7 @@ export const skills = {
     effect: 'Deal light Phys damage to 1 foe.',
     element: 'phys',
     itemize: 'Berith',
-    personas: { 'Arsène': 2, Berith: 0 },
+    personas: { Arsène: 2, Berith: 0 },
     negotiate: 'Berith'
   },
   'Life Aid': {
@@ -510,7 +510,7 @@ export const skills = {
     personas: {
       Angel: 0,
       Archangel: 0,
-      "Jack-o'-Lantern": 5,
+      'Jack-o\'-Lantern': 5,
       Mokoi: 0,
       Naga: 27
     }
@@ -540,7 +540,7 @@ export const skills = {
   },
   Debilitate: {
     cost: 3000,
-    effect: "Decrease 1 foe's Attack, Defense and Agility for 3 turns.",
+    effect: 'Decrease 1 foe\'s Attack, Defense and Agility for 3 turns.',
     element: 'support',
     itemize: 'Trumpeter',
     personas: { Michael: 0, 'Mother Harlot': 85, Sraosha: 85, Trumpeter: 65 }
@@ -615,7 +615,7 @@ export const skills = {
   },
   Dia: {
     cost: 300,
-    effect: "Slightly restore 1 ally's HP.",
+    effect: 'Slightly restore 1 ally\'s HP.',
     element: 'healing',
     itemize: 'Pixie',
     personas: { Agathion: 0, Angel: 0, Pixie: 0, Silky: 7 },
@@ -629,9 +629,9 @@ export const skills = {
   },
   Diarahan: {
     cost: 1800,
-    effect: "Fully restore 1 ally's HP.",
+    effect: 'Fully restore 1 ally\'s HP.',
     element: 'healing',
-    itemize: [ 'Norn', 'Kaguya Picaro' ],
+    itemize: ['Norn', 'Kaguya Picaro'],
     personas: {
       Bishamonten: 0,
       Daisoujou: 45,
@@ -647,7 +647,7 @@ export const skills = {
   },
   Diarama: {
     cost: 600,
-    effect: "Moderately restore 1 ally's HP.",
+    effect: 'Moderately restore 1 ally\'s HP.',
     element: 'healing',
     itemize: 'High Pixie',
     personas: {
@@ -799,7 +799,7 @@ export const skills = {
     effect: 'Deal medium Phys damage and inflict Sleep (medium odds) to 1 foe.',
     element: 'phys',
     itemize: 'Incubus',
-    personas: { 'Arsène': 5, Phoenix: 0, Inugami: 15, Pisaca: 0 }
+    personas: { Arsène: 5, Phoenix: 0, Inugami: 15, Pisaca: 0 }
   },
   Eiga: {
     cost: 800,
@@ -819,7 +819,7 @@ export const skills = {
     element: 'curse',
     itemize: 'Nebiros',
     personas: {
-      "Emperor's Amulet": 0,
+      'Emperor\'s Amulet': 0,
       Nebiros: 0,
       'Pale Rider': 0,
       Pazuzu: 48,
@@ -831,7 +831,7 @@ export const skills = {
     cost: 400,
     effect: 'Deal light Curse damage to 1 foe.',
     element: 'curse',
-    personas: { 'Arsène': 1, Incubus: 7, Slime: 11 }
+    personas: { Arsène: 1, Incubus: 7, Slime: 11 }
   },
   'Wild Thunder': {
     cost: 5400,
@@ -1066,7 +1066,7 @@ export const skills = {
     personas: {
       Ananta: 48,
       Bishamonten: 0,
-      "Emperor's Amulet": 0,
+      'Emperor\'s Amulet': 0,
       Mithras: 45,
       Titania: 0
     },
@@ -1100,7 +1100,7 @@ export const skills = {
     element: 'wind',
     itemize: 'Kurama Tengu',
     personas: {
-      "Emperor's Amulet": 0,
+      'Emperor\'s Amulet': 0,
       Fortuna: 47,
       Garuda: 0,
       'Kurama Tengu': 57,
@@ -1168,7 +1168,7 @@ export const skills = {
     },
     itemize: 'Asterius Picaro'
   },
-  "God's Hand": {
+  'God\'s Hand': {
     cost: 25,
     effect: 'Deal colossal Phys damage to 1 foe.',
     element: 'phys',
@@ -1257,9 +1257,9 @@ export const skills = {
   },
   'Heat Riser': {
     cost: 3000,
-    effect: "Increase 1 ally's Attack, Defense and Agility for 3 turns.",
+    effect: 'Increase 1 ally\'s Attack, Defense and Agility for 3 turns.',
     element: 'support',
-    itemize: [ 'Raphael', 'Magatsu-Izanagi Picaro' ],
+    itemize: ['Raphael', 'Magatsu-Izanagi Picaro'],
     personas: {
       Lucifer: 96,
       'Magatsu-Izanagi': 50,
@@ -1411,7 +1411,7 @@ export const skills = {
     effect: 'Deal heavy Bless damage to 1 foe.',
     element: 'bless',
     itemize: 'Horus',
-    personas: { Dominion: 0, "Emperor's Amulet": 0, Horus: 0, Sraosha: 0 }
+    personas: { Dominion: 0, 'Emperor\'s Amulet': 0, Horus: 0, Sraosha: 0 }
   },
   Kouha: {
     cost: 400,
@@ -1801,7 +1801,7 @@ export const skills = {
   },
   Marakukaja: {
     cost: 2400,
-    effect: "Increase party's Defense for 3 turns.",
+    effect: 'Increase party\'s Defense for 3 turns.',
     element: 'support',
     personas: {
       Ananta: 47,
@@ -1817,7 +1817,7 @@ export const skills = {
   },
   Marakunda: {
     cost: 2400,
-    effect: "Decrease all foes' Defense for 3 turns.",
+    effect: 'Decrease all foes\' Defense for 3 turns.',
     element: 'support',
     itemize: 'Girimehkala',
     personas: { 'Ara Mitama': 33, Girimehkala: 0, Kaiwan: 41, Orobas: 19 }
@@ -1838,7 +1838,7 @@ export const skills = {
   },
   Masukukaja: {
     cost: 2400,
-    effect: "Increase party's Agility for 3 turns.",
+    effect: 'Increase party\'s Agility for 3 turns.',
     element: 'support',
     itemize: 'Power',
     personas: {
@@ -1857,7 +1857,7 @@ export const skills = {
   },
   Masukunda: {
     cost: 2400,
-    effect: "Decrease all foes' Agility for 3 turns.",
+    effect: 'Decrease all foes\' Agility for 3 turns.',
     element: 'support',
     itemize: 'Forneus',
     personas: {
@@ -1871,7 +1871,7 @@ export const skills = {
   },
   Matarukaja: {
     cost: 2400,
-    effect: "Increase party's Attack power for 3 turns.",
+    effect: 'Increase party\'s Attack power for 3 turns.',
     element: 'support',
     itemize: 'Ose',
     personas: {
@@ -1893,7 +1893,7 @@ export const skills = {
   },
   Matarunda: {
     cost: 2400,
-    effect: "Decrease all foes' Attack power for 3 turns.",
+    effect: 'Decrease all foes\' Attack power for 3 turns.',
     element: 'support',
     personas: {
       Belial: 0,
@@ -1959,19 +1959,19 @@ export const skills = {
   },
   Media: {
     cost: 700,
-    effect: "Slightly restore party's HP.",
+    effect: 'Slightly restore party\'s HP.',
     element: 'healing',
     personas: {
       Apsaras: 13,
       'High Pixie': 0,
       'Kushi Mitama': 0,
       'Nigi Mitama': 0,
-      "Queen's Necklace": 0
+      'Queen\'s Necklace': 0
     }
   },
   Mediarahan: {
     cost: 3000,
-    effect: "Fully restore party's HP.",
+    effect: 'Fully restore party\'s HP.',
     element: 'healing',
     itemize: 'Titania',
     personas: {
@@ -1985,7 +1985,7 @@ export const skills = {
   },
   Mediarama: {
     cost: 1200,
-    effect: "Moderately restore party's HP.",
+    effect: 'Moderately restore party\'s HP.',
     element: 'healing',
     itemize: 'Sarasvati',
     personas: {
@@ -2064,7 +2064,7 @@ export const skills = {
   },
   Concentrate: {
     cost: 1500,
-    effect: "Multiply user's next magical attack damage by 2.5.",
+    effect: 'Multiply user\'s next magical attack damage by 2.5.',
     element: 'support',
     itemize: 'Mot',
     personas: {
@@ -2283,7 +2283,7 @@ export const skills = {
   },
   Oratorio: {
     cost: 3800,
-    effect: "Fully restore party's HP and negate all -nda debuffs.",
+    effect: 'Fully restore party\'s HP and negate all -nda debuffs.',
     element: 'healing',
     personas: { Messiah: 0, 'Messiah Picaro': 0 },
     unique: 'Messiah'
@@ -2310,7 +2310,7 @@ export const skills = {
   },
   Charge: {
     cost: 1500,
-    effect: "Multiply user's next Phys attack damage by 2.5.",
+    effect: 'Multiply user\'s next Phys attack damage by 2.5.',
     element: 'support',
     itemize: 'Cu Chulainn',
     personas: {
@@ -2386,7 +2386,7 @@ export const skills = {
     personas: {
       Bugs: 0,
       Dionysus: 0,
-      "Emperor's Amulet": 0,
+      'Emperor\'s Amulet': 0,
       Forneus: 0,
       Kali: 0,
       Moloch: 0,
@@ -2457,7 +2457,7 @@ export const skills = {
   },
   Rakukaja: {
     cost: 800,
-    effect: "Increase 1 ally's Defense for 3 turns.",
+    effect: 'Increase 1 ally\'s Defense for 3 turns.',
     element: 'support',
     itemize: 'Saki Mitama',
     personas: {
@@ -2466,25 +2466,25 @@ export const skills = {
       'Izanagi Picaro': 0,
       'Kin-Ki': 0,
       Lamia: 0,
-      "Queen's Necklace": 0,
+      'Queen\'s Necklace': 0,
       'Saki Mitama': 8
     },
     negotiate: 'Agathion'
   },
   Rakunda: {
     cost: 800,
-    effect: "Decrease 1 foe's Defense for 3 turns.",
+    effect: 'Decrease 1 foe\'s Defense for 3 turns.',
     element: 'support',
     personas: {
       Andras: 0,
       Genbu: 0,
       'Jack Frost': 13,
-      "Jack-o'-Lantern": 0,
+      'Jack-o\'-Lantern': 0,
       Jikokuten: 0,
       Kodama: 0,
       Koropokguru: 12,
       'Leanan Sidhe': 0,
-      "Queen's Necklace": 0
+      'Queen\'s Necklace': 0
     },
     negotiate: 'Leanan Sidhe'
   },
@@ -2511,7 +2511,7 @@ export const skills = {
   },
   Rebellion: {
     cost: 500,
-    effect: "Increase 1 ally's critical rate for 3 turns.",
+    effect: 'Increase 1 ally\'s critical rate for 3 turns.',
     element: 'support',
     personas: {
       Apsaras: 0,
@@ -2529,7 +2529,7 @@ export const skills = {
     effect: 'Revive 1 ally with 50% HP recovered.',
     element: 'healing',
     itemize: 'Leanan Sidhe',
-    personas: { Phoenix: 25, "Queen's Necklace": 0 }
+    personas: { Phoenix: 25, 'Queen\'s Necklace': 0 }
   },
   'Regenerate 1': {
     effect: 'Restore 2% of max HP each turn in battle.',
@@ -2677,7 +2677,7 @@ export const skills = {
   'Resist Sleep': {
     effect: 'Reduce susceptibility to Sleep.',
     element: 'passive',
-    personas: { "Jack-o'-Lantern": 7 }
+    personas: { 'Jack-o\'-Lantern': 7 }
   },
   'Resist Wind': {
     effect: 'Reduce damage from Wind attacks.',
@@ -2686,7 +2686,7 @@ export const skills = {
   },
   Revolution: {
     cost: 500,
-    effect: "Increase all foes and allies' critical rate for 3 turns.",
+    effect: 'Increase all foes and allies\' critical rate for 3 turns.',
     element: 'support',
     personas: {
       Baal: 0,
@@ -2756,7 +2756,7 @@ export const skills = {
     personas: {
       Eligor: 0,
       'Ippon-Datara': 16,
-      "Jack-o'-Lantern": 4,
+      'Jack-o\'-Lantern': 4,
       Oni: 22,
       Scathach: 0,
       Silky: 10,
@@ -2880,7 +2880,7 @@ export const skills = {
   },
   Sukukaja: {
     cost: 800,
-    effect: "Increase 1 ally's Agility for 3 turns.",
+    effect: 'Increase 1 ally\'s Agility for 3 turns.',
     element: 'support',
     personas: {
       Isis: 0,
@@ -2888,20 +2888,20 @@ export const skills = {
       Matador: 0,
       Orobas: 0,
       Power: 0,
-      "Queen's Necklace": 0
+      'Queen\'s Necklace': 0
     },
     negotiate: 'Sudama'
   },
   Sukunda: {
     cost: 800,
-    effect: "Decrease 1 foe's Agility for 3 turns.",
+    effect: 'Decrease 1 foe\'s Agility for 3 turns.',
     element: 'support',
     personas: {
-      'Arsène': 4,
+      Arsène: 4,
       Eligor: 19,
       Mandrake: 5,
       Obariyon: 0,
-      "Queen's Necklace": 0,
+      'Queen\'s Necklace': 0,
       Sandman: 25
     },
     negotiate: 'Obariyon'
@@ -2930,7 +2930,7 @@ export const skills = {
   },
   Tarukaja: {
     cost: 800,
-    effect: "Increase 1 ally's Attack power for 3 turns.",
+    effect: 'Increase 1 ally\'s Attack power for 3 turns.',
     element: 'support',
     itemize: 'Eligor',
     personas: {
@@ -2944,7 +2944,7 @@ export const skills = {
       Kodama: 14,
       Mokoi: 0,
       Pixie: 5,
-      "Queen's Necklace": 0,
+      'Queen\'s Necklace': 0,
       Rakshasa: 0,
       'Shiki-Ouji': 0
     },
@@ -2952,14 +2952,14 @@ export const skills = {
   },
   Tarunda: {
     cost: 800,
-    effect: "Decrease 1 foe's Attack power for 3 turns.",
+    effect: 'Decrease 1 foe\'s Attack power for 3 turns.',
     element: 'support',
     personas: {
       Bicorn: 0,
       'Hua Po': 11,
       Incubus: 8,
       Orpheus: 0,
-      "Queen's Necklace": 0,
+      'Queen\'s Necklace': 0,
       Suzaku: 0
     },
     negotiate: 'Slime'
@@ -3045,7 +3045,7 @@ export const skills = {
   },
   Thermopylae: {
     cost: 3000,
-    effect: "Increase party's Attack, Defense and Agility for 3 turns. Only usable if the party is being ambushed.",
+    effect: 'Increase party\'s Attack, Defense and Agility for 3 turns. Only usable if the party is being ambushed.',
     element: 'support',
     itemize: 'Dionysus',
     personas: { Attis: 0, Dionysus: 62, Mitra: 38 }
@@ -3071,7 +3071,7 @@ export const skills = {
     personas: { Asterius: 0, 'Asterius Picaro': 0 },
     unique: 'Asterius'
   },
-  "Touch n' Go": {
+  'Touch n\' Go': {
     effect: 'Apply Sukukaja when performing Baton Pass .',
     element: 'passive',
     personas: { Fortuna: 49, Gabriel: 81, Horus: 51 }
@@ -3201,7 +3201,7 @@ export const skills = {
     personas: {
       Baphomet: 61,
       Barong: 0,
-      "Emperor's Amulet": 0,
+      'Emperor\'s Amulet': 0,
       Norn: 0,
       Oberon: 0,
       'Raja Naga': 0,
@@ -3227,4 +3227,4 @@ export const skills = {
     },
     negotiate: 'Naga'
   }
-}
+};

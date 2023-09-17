@@ -1,0 +1,47 @@
+.header-outer-container.p5, .header-outer-container.p5r, .header-outer-container.unselected {
+    background-color: var(--p5-white);
+    height: 52px;
+    clip-path: polygon(6px 0, 0 100%, 99.5% 93%, 100% 14%);
+    margin: 30px;
+}
+
+.header-inner-container.p5, .header-inner-container.p5r, .header-inner-container.unselected {
+    background-color: var(--p5-black);
+    clip-path: polygon(6px 0, 0 100%, 99.5% 93%, 100% 14%);
+    color: var(--p5-white);
+    font-family: P5Main, sans-serif;
+    font-size: min(40px, 3.3vw);
+    height: 45px;
+    line-height: 45px;
+    margin: 5px;
+    text-align: center;
+    transform: translateY(3px);
+    vertical-align: center;
+}
+
+.header-title.p5:before {
+    content: "Persona 5 ~"
+}
+
+
+.header-title.p5r:before {
+    content: "Persona 5 Royal ~"
+}
+
+
+.header-title.unselected:before {
+    content: "Persona Tools"
+}
+
+@media only screen and (max-width: 450px) {
+    .header-title.p5:before {
+        content: "P5 ~"
+    }
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .header-title.p5r:before {
+        content: "P5R ~"
+    }
+}

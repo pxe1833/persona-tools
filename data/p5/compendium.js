@@ -393,7 +393,7 @@ export const compendium = {
       Agneyastra: 87,
       'Auto-Masuku': 88,
       'Cosmic Flare': 0,
-      "God's Hand": 0,
+      'God\'s Hand': 0,
       'Fortified Moxy': 89,
       'Invigorate 3': 0,
       Salvation: 90
@@ -484,7 +484,7 @@ export const compendium = {
       Eiha: 1,
       Sukunda: 4
     },
-    item: { name: "Arsene's Cane", type: 'Item' },
+    item: { name: 'Arsene\'s Cane', type: 'Item' },
     affinities: {
       physical: '-',
       gun: '-',
@@ -879,7 +879,7 @@ export const compendium = {
       'Deadly Fury': 68,
       Diarahan: 0,
       Freidyne: 0,
-      "God's Hand": 73,
+      'God\'s Hand': 73,
       Mafreidyne: 69,
       'Nuke Amp': 71,
       Tetrakarn: 72
@@ -1457,7 +1457,7 @@ export const compendium = {
       curse: '-'
     }
   },
-  "Emperor's Amulet": {
+  'Emperor\'s Amulet': {
     arcana: 'Hanged Man',
     level: 35,
     stats: { st: 35, ma: 35, en: 35, ag: 35, lu: 35 },
@@ -1474,7 +1474,7 @@ export const compendium = {
     rare: true,
     area: 'Sheriruth',
     floor: 'L7-9, 11-13 (after Palace 7)',
-    item: { name: "Emperor's Amulet", type: 'Item' },
+    item: { name: 'Emperor\'s Amulet', type: 'Item' },
     affinities: {
       physical: 'rs',
       gun: 'nu',
@@ -1587,7 +1587,7 @@ export const compendium = {
       Magarula: 0,
       Masukukaja: 0,
       Tetraja: 0,
-      "Touch n' Go": 49
+      'Touch n\' Go': 49
     },
     item: { name: 'Fast Heal', type: 'Skill Card' },
     affinities: {
@@ -1676,7 +1676,7 @@ export const compendium = {
       Mabufudyne: 0,
       Maziodyne: 0,
       Salvation: 83,
-      "Touch n' Go": 81
+      'Touch n\' Go': 81
     },
     item: { name: 'Mabufudyne', type: 'Skill Card' },
     affinities: {
@@ -2001,7 +2001,7 @@ export const compendium = {
       Kougaon: 0,
       Masukukaja: 52,
       Megido: 0,
-      "Touch n' Go": 51
+      'Touch n\' Go': 51
     },
     item: { name: 'Kougaon', type: 'Skill Card' },
     affinities: {
@@ -2285,7 +2285,7 @@ export const compendium = {
       curse: '-'
     }
   },
-  "Jack-o'-Lantern": {
+  'Jack-o\'-Lantern': {
     personaType: 'Fire',
     arcana: 'Magician',
     level: 2,
@@ -3040,7 +3040,7 @@ export const compendium = {
     personality: 'Unknown',
     area: 'Adyeshach',
     floor: 'L1-4',
-    item: { name: "Legion's Jail", type: 'Item' },
+    item: { name: 'Legion\'s Jail', type: 'Item' },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -3354,7 +3354,7 @@ export const compendium = {
     stats: { st: 37, ma: 38, en: 41, ag: 39, lu: 32 },
     skills: {
       'Amrita Drop': 65,
-      "God's Hand": 67,
+      'God\'s Hand': 67,
       'Hama Boost': 61,
       Hamaon: 0,
       Mahamaon: 64,
@@ -3384,7 +3384,7 @@ export const compendium = {
       'Absorb Phys': 85,
       'Almighty Boost': 87,
       'Enduring Soul': 83,
-      "God's Hand": 0,
+      'God\'s Hand': 0,
       'Invigorate 3': 84,
       Megidolaon: 0,
       Oratorio: 0,
@@ -4040,7 +4040,7 @@ export const compendium = {
       'Psy Break': 46,
       'Tempest Slash': 0
     },
-    item: { name: "Official's Robe", type: 'Item' },
+    item: { name: 'Official\'s Robe', type: 'Item' },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5200,7 +5200,7 @@ export const compendium = {
     },
     area: 'Sheriruth',
     floor: 'L12 & 13 (before Palace 7) / L5 (after Palace 7)',
-    item: { name: "Snow Queen's Whip", type: 'Item' },
+    item: { name: 'Snow Queen\'s Whip', type: 'Item' },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5538,7 +5538,7 @@ export const compendium = {
       curse: 'rp'
     }
   },
-  "Queen's Necklace": {
+  'Queen\'s Necklace': {
     arcana: 'Empress',
     level: 15,
     stats: { st: 15, ma: 15, en: 15, ag: 15, lu: 15 },
@@ -5555,7 +5555,7 @@ export const compendium = {
     rare: true,
     area: 'Kaitul',
     floor: 'L1-5, 7-9',
-    item: { name: "Queen's Necklace", type: 'Item' },
+    item: { name: 'Queen\'s Necklace', type: 'Item' },
     affinities: {
       physical: 'rs',
       gun: 'wk',
@@ -5820,7 +5820,7 @@ export const compendium = {
       'Repel Nuke': 83,
       'Spell Master': 86
     },
-    item: { name: "Heaven's Gate", type: 'Item' },
+    item: { name: 'Heaven\'s Gate', type: 'Item' },
     affinities: {
       physical: '-',
       gun: '-',
@@ -6104,13 +6104,13 @@ export const compendium = {
       'Abysmal Surge': 0,
       'Enduring Soul': 83,
       'Evade Physical': 82,
-      "God's Hand": 0,
+      'God\'s Hand': 0,
       'Blazing Hell': 86,
       Maragidyne: 0,
       Cripple: 84
     },
     max: true,
-    item: { name: "God's Hand", type: 'Skill Card' },
+    item: { name: 'God\'s Hand', type: 'Skill Card' },
     affinities: {
       physical: '-',
       gun: '-',
@@ -6152,4 +6152,4 @@ export const compendium = {
       curse: '-'
     }
   }
-}
+};
