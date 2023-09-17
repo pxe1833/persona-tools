@@ -1,0 +1,27 @@
+.search-wrapper {
+    background: var(--p5-white);
+    display: inline-block;
+
+    &.p5, &.p5r {
+        clip-path: polygon(0px 0px, 4px 100%, 99.5% 93%, 100% 4px);
+    }
+}
+
+.search-label {
+
+}
+
+.search-field {
+    background: var(--p5-black);
+    border: none;
+    color: var(--p5-white);
+    display: inline-block;
+    font-family: P5Main, sans-serif;
+    font-size: 20px;
+    height: 35px;
+    margin: 3px;
+    max-width: 300px;
+    &.p5, &.p5r {
+        clip-path: polygon(0px 0px, 4px 100%, 99.5% 93%, 100% 4px);
+    }
+}

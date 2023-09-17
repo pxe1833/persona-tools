@@ -17,6 +17,11 @@ code {
   src: url(Persona5main.ttf);
 }
 
+@font-face {
+  font-family: P5Expose;
+  src: url(Expose-Regular.otf);
+}
+
 :root {
   --p5-black: #0d0d0d;
   --p5-gold: #8c6723;

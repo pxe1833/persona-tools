@@ -190,16 +190,16 @@
         {
           "overrides": {
             "if": {
-              "after": false
+              "after": true
             },
             "for": {
-              "after": false
+              "after": true
             },
             "while": {
-              "after": false
+              "after": true
             },
             "switch": {
-              "after": false
+              "after": true
             },
             "catch": {
               "after": false

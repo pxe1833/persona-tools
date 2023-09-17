@@ -1,0 +1,42 @@
+.tool-button-outer.p5, .tool-button-outer.p5r {
+    background: var(--p5-white);
+    display: inline-block;
+    height: 44px;
+    margin: 0 5vw;
+}
+
+.alpha {
+    clip-path: polygon(0 6px, 0 100%, 99.5% 93%, 100% 0);
+}
+
+.beta {
+    clip-path: polygon(2% 4%, 0 91%, 99.5% 93%, 94% 0);
+}
+
+.chi {
+    clip-path: polygon(0 0, 3% 100%, 98% 98%, 98% 2%);
+}
+
+.tool-button.p5, .tool-button.p5r {
+    background: var(--p5-black);
+    border: none;
+    color: var(--p5-white);
+    font-family: P5Expose, sans-serif;
+    font-size: 30px;
+    height: 38px;
+    margin: 3px;
+    padding: 0 10px;
+    min-width: 100px;
+    transition: background 0.4s;
+    &:hover {
+        background: var(--p5-gold);
+        cursor: pointer;
+    }
+    &:disabled {
+        color: gray;
+        &:hover {
+            background: var(--p5-black);
+            cursor: default;
+        }
+    }
+}
