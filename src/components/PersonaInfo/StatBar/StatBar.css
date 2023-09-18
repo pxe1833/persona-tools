@@ -1,0 +1,15 @@
+.stat-bar-outer {
+    display: flex;
+    font-size: 30px;
+    height: 36px;
+    justify-content: left;
+    line-height: 30px;
+    padding: 3px;
+    width: 100%;
+}
+
+.stat-bar {
+    background-color: var(--p5-yellow);
+    height: 26px;
+    margin-left: 10px;
+}

@@ -1,12 +1,11 @@
-.content-container {
-  background-color: var(--p5-black);
-  color: var(--p5-white);
-  margin: 30px;
-  text-align: center;
-  -webkit-transform: skew(1deg);
-  -moz-transform: skew(1deg);
-  -o-transform: skew(1deg);
-  transform: skew(1deg);
+.content {
+  max-width: 1000px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .content {
+    margin-left: calc((100vw - 1000px) / 2);
+  }
 }
 
 /*.App-logo {*/

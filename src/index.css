@@ -12,6 +12,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+hr {
+  &.p5, &.p5r {
+    width: 20%;
+    color: var(--p5-gold);
+  }
+}
+
+.hilight {
+  &.p5, &.p5r {
+    color: var(--p5-yellow);
+  }
+}
+
+.invalid {
+  &.p5, &.p5r {
+    color: var(--p5-red);
+  }
+}
+
+.fs30 {
+  font-size: 30px;
+}
+
 @font-face {
   font-family: P5Main;
   src: url(Persona5main.ttf);
@@ -20,6 +43,11 @@ code {
 @font-face {
   font-family: P5Expose;
   src: url(Expose-Regular.otf);
+}
+
+@font-face {
+  font-family: P5Hatty;
+  src: url(P5Hatty.ttf);
 }
 
 :root {

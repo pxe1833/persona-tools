@@ -16,10 +16,11 @@
     border: none;
     color: var(--p5-white);
     display: inline-block;
-    font-family: P5Main, sans-serif;
-    font-size: 20px;
+    font-family: P5Hatty, sans-serif;
+    font-size: 28px;
     height: 35px;
     margin: 3px;
+    padding: 3px 5px;
     max-width: 300px;
     &.p5, &.p5r {
         clip-path: polygon(0px 0px, 4px 100%, 99.5% 93%, 100% 4px);

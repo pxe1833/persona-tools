@@ -1,0 +1,52 @@
+.affinity-tile-outest {
+    display: inline-block;
+    height: 59px;
+    margin: 0 9px;
+    width: 59px;
+}
+
+.affinity-tile-outer {
+    display: inline-block;
+    height: 58px;
+    width: 58px;
+    &.p5, &.p5r {
+        background-color: var(--p5-white);
+        clip-path: polygon(0px 0px, 4px 100%, 99.5% 93%, 100% 4px);
+    }
+}
+
+.affinity-tile-inner {
+    display: inline-block;
+    height: 50px;
+    margin: 3px;
+    overflow: visible;
+    width: 50px;
+    &.p5, &.p5r {
+        background-color: var(--p5-black);
+        clip-path: polygon(0px 0px, 4px 100%, 99.5% 93%, 100% 4px);
+    }
+}
+
+.affinity-text {
+    display: block;
+    font-size: 40px;
+    left: 15px;
+    min-height: 45px;
+    overflow: visible;
+    position: relative;
+    transform: skew(-10deg);
+    text-shadow:  -2px 2px 0 var(--p5-black), 2px 2px 0 var(--p5-black), 2px -2px 0 var(--p5-black), -2px -2px 0 var(--p5-black);
+    top: -35px;
+
+    &.na {
+        opacity: 0;
+    }
+
+    &.Str, &.Nul {
+        color: #888888;
+    }
+
+    &.Dr, &.Rpl {
+        color: var(--p5-gold);
+    }
+}
