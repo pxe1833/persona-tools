@@ -1,3 +1,5 @@
+import { FusionFrom } from './components/Fusion/FusionFrom';
+import { FusionTo } from './components/Fusion/FusionTo';
 import { Header } from './components/Header/Header';
 import { Nav } from './components/Nav/Nav';
 import { PersonaInfo } from './components/PersonaInfo/PersonaInfo';
@@ -11,11 +13,17 @@ function App() {
   return (
     <SessionContextProvider>
       <div className={'content'}>
-        <Header tool={'Fusion Calculator'} game={'p5'} />
+        <Header />
         <Nav />
         <Search />
-        <ToolContainer game={'p5'}>
+        <ToolContainer>
           <PersonaInfo />
+        </ToolContainer>
+        <ToolContainer>
+          <FusionFrom />
+        </ToolContainer>
+        <ToolContainer>
+          <FusionTo />
         </ToolContainer>
       </div>
     </SessionContextProvider>

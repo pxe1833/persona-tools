@@ -1,5 +1,3 @@
-import * as P5 from '../p5/fusion_data';
-
 // derived from https://github.com/chinhodado/persona5_calculator/blob/master/data/Data5Royal.js
 export const arcanaCombos = {
   Chariot: {
@@ -584,7 +582,7 @@ export const arcanaCombos = {
   World: { World: 'World' }
 };
 
-export const rarePersonae = {
+export const rarePersonaArcanaOffsets = {
   'Crystal Skull': {
     Chariot: -1,
     Councillor: 1,
@@ -821,7 +819,188 @@ export const rarePersonae = {
   }
 };
 
-export const inheritanceTypes = P5.inheritanceTypes;
+export const inheritanceTypes = {
+  Physical: {
+    physical: true,
+    gun: true,
+    fire: false,
+    ice: false,
+    electric: false,
+    wind: false,
+    psychic: false,
+    nuclear: false,
+    bless: false,
+    curse: false,
+    healing: true,
+    ailment: true,
+    almighty: true
+  },
+  Fire: {
+    physical: true,
+    gun: true,
+    fire: true,
+    ice: false,
+    electric: true,
+    wind: true,
+    psychic: true,
+    nuclear: true,
+    bless: true,
+    curse: true,
+    healing: true,
+    ailment: true,
+    almighty: true
+  },
+  Ice: {
+    physical: true,
+    gun: true,
+    fire: false,
+    ice: true,
+    electric: true,
+    wind: true,
+    psychic: true,
+    nuclear: true,
+    bless: true,
+    curse: true,
+    healing: true,
+    ailment: true,
+    almighty: true
+  },
+  Electric: {
+    physical: true,
+    gun: true,
+    fire: true,
+    ice: true,
+    electric: true,
+    wind: false,
+    psychic: true,
+    nuclear: true,
+    bless: true,
+    curse: true,
+    healing: true,
+    ailment: true,
+    almighty: true
+  },
+  Wind: {
+    physical: true,
+    gun: true,
+    fire: true,
+    ice: true,
+    electric: false,
+    wind: true,
+    psychic: true,
+    nuclear: true,
+    bless: true,
+    curse: true,
+    healing: true,
+    ailment: true,
+    almighty: true
+  },
+  Psy: {
+    physical: true,
+    gun: true,
+    fire: true,
+    ice: true,
+    electric: true,
+    wind: true,
+    psychic: true,
+    nuclear: false,
+    bless: true,
+    curse: true,
+    healing: true,
+    ailment: true,
+    almighty: true
+  },
+  Nuclear: {
+    physical: true,
+    gun: true,
+    fire: true,
+    ice: true,
+    electric: true,
+    wind: true,
+    psychic: false,
+    nuclear: true,
+    bless: true,
+    curse: true,
+    healing: true,
+    ailment: true,
+    almighty: true
+  },
+  Bless: {
+    physical: false,
+    gun: false,
+    fire: true,
+    ice: true,
+    electric: true,
+    wind: true,
+    psychic: true,
+    nuclear: true,
+    bless: true,
+    curse: false,
+    healing: true,
+    ailment: false,
+    almighty: true
+  },
+  Curse: {
+    physical: false,
+    gun: false,
+    fire: true,
+    ice: true,
+    electric: true,
+    wind: true,
+    psychic: true,
+    nuclear: true,
+    bless: false,
+    curse: true,
+    healing: false,
+    ailment: true,
+    almighty: true
+  },
+  Healing: {
+    physical: false,
+    gun: false,
+    fire: true,
+    ice: true,
+    electric: true,
+    wind: true,
+    psychic: true,
+    nuclear: true,
+    bless: true,
+    curse: false,
+    healing: true,
+    ailment: true,
+    almighty: true
+  },
+  Ailment: {
+    physical: true,
+    gun: true,
+    fire: true,
+    ice: true,
+    electric: true,
+    wind: true,
+    psychic: true,
+    nuclear: true,
+    bless: false,
+    curse: true,
+    healing: false,
+    ailment: true,
+    almighty: true
+  },
+  Almighty: {
+    physical: true,
+    gun: true,
+    fire: true,
+    ice: true,
+    electric: true,
+    wind: true,
+    psychic: true,
+    nuclear: true,
+    bless: true,
+    curse: true,
+    healing: true,
+    ailment: true,
+    almighty: true
+  }
+};
 
 export const dlcPersonae = [
   'Ariadne',

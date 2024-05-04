@@ -9,7 +9,7 @@ export const AffinityChart = () => {
   return (
     <div>
       {Object.entries(personaData.affinities).map(affinity => {
-        return <AffinityTile element={affinity[0]} affinity={affinity[1]}></AffinityTile>;
+        return <AffinityTile element={affinity[0]} affinity={affinity[1]} key={affinity[0]}></AffinityTile>;
       })}
     </div>
   );

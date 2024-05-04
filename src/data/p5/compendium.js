@@ -4,7 +4,13 @@ export const compendium = {
     personaType: 'Curse',
     arcana: 'Judgement',
     level: 74,
-    stats: { st: 51, ma: 38, en: 58, ag: 43, lu: 39 },
+    stats: {
+      st: 51,
+      ma: 38,
+      en: 58,
+      ag: 43,
+      lu: 39
+    },
     skills: {
       'Absorb Phys': 79,
       Deathbound: 0,
@@ -13,7 +19,10 @@ export const compendium = {
       'Spirit Drain': 0,
       'Survival Trick': 77
     },
-    item: { name: 'Makarakarn', type: 'Skill Card' },
+    item: {
+      name: 'Makarakarn',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'ab',
       gun: 'ab',
@@ -25,13 +34,20 @@ export const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: 'ab'
-    }
+    },
+    name: 'Abaddon'
   },
   Agathion: {
     personaType: 'Electric',
     arcana: 'Chariot',
     level: 3,
-    stats: { st: 3, ma: 4, en: 5, ag: 7, lu: 3 },
+    stats: {
+      st: 3,
+      ma: 4,
+      en: 5,
+      ag: 7,
+      lu: 3
+    },
     skills: {
       Baisudi: 0,
       Dia: 0,
@@ -43,7 +59,10 @@ export const compendium = {
     personality: 'Timid',
     area: 'Aiyatsbus',
     floor: 'L1',
-    item: { name: 'Zio', type: 'Skill Card' },
+    item: {
+      name: 'Zio',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -55,13 +74,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Agathion'
   },
   Alice: {
     personaType: 'Curse',
     arcana: 'Death',
     level: 79,
-    stats: { st: 43, ma: 59, en: 40, ag: 57, lu: 45 },
+    stats: {
+      st: 43,
+      ma: 59,
+      en: 40,
+      ag: 57,
+      lu: 45
+    },
     skills: {
       Dekunda: 0,
       'Die For Me!': 81,
@@ -73,7 +99,10 @@ export const compendium = {
     },
     special: true,
     max: true,
-    item: { name: 'Mamudoon', type: 'Skill Card' },
+    item: {
+      name: 'Mamudoon',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -85,13 +114,20 @@ export const compendium = {
       nuclear: 'rs',
       bless: 'wk',
       curse: 'rp'
-    }
+    },
+    name: 'Alice'
   },
   'Ame-no-Uzume': {
     personaType: 'Almighty',
     arcana: 'Lovers',
     level: 29,
-    stats: { st: 15, ma: 22, en: 19, ag: 20, lu: 18 },
+    stats: {
+      st: 15,
+      ma: 22,
+      en: 19,
+      ag: 20,
+      lu: 18
+    },
     skills: {
       Bufula: 0,
       Diarama: 0,
@@ -102,7 +138,10 @@ export const compendium = {
     },
     area: 'Chemdah',
     floor: 'L6 & 7',
-    item: { name: 'Senryou Yakusha', type: 'Item' },
+    item: {
+      name: 'Senryou Yakusha',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -114,13 +153,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Ame-no-Uzume'
   },
   Ananta: {
     personaType: 'Nuclear',
     arcana: 'Star',
     level: 43,
-    stats: { st: 24, ma: 30, en: 31, ag: 26, lu: 25 },
+    stats: {
+      st: 24,
+      ma: 30,
+      en: 31,
+      ag: 26,
+      lu: 25
+    },
     skills: {
       'Abysmal Surge': 45,
       'Defense Master': 0,
@@ -131,7 +177,10 @@ export const compendium = {
       Marakukaja: 47,
       'Nuke Boost': 49
     },
-    item: { name: 'Hua Khon', type: 'Item' },
+    item: {
+      name: 'Hua Khon',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -143,13 +192,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Ananta'
   },
   Andras: {
     personaType: 'Ice',
     arcana: 'Devil',
     level: 10,
-    stats: { st: 5, ma: 9, en: 7, ag: 10, lu: 6 },
+    stats: {
+      st: 5,
+      ma: 9,
+      en: 7,
+      ag: 10,
+      lu: 6
+    },
     skills: {
       'Apt Pupil': 13,
       Bufu: 0,
@@ -161,7 +217,10 @@ export const compendium = {
     personality: 'Timid',
     area: 'Aiyatsbus',
     floor: 'L5 & 6',
-    item: { name: 'Ice Break', type: 'Skill Card' },
+    item: {
+      name: 'Ice Break',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'wk',
@@ -173,13 +232,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Andras'
   },
   Angel: {
     personaType: 'Bless',
     arcana: 'Justice',
     level: 12,
-    stats: { st: 7, ma: 9, en: 9, ag: 9, lu: 9 },
+    stats: {
+      st: 7,
+      ma: 9,
+      en: 9,
+      ag: 9,
+      lu: 9
+    },
     skills: {
       Baisudi: 14,
       Dazzler: 0,
@@ -192,7 +258,10 @@ export const compendium = {
     personality: 'Irritable',
     area: 'Aiyatsbus / Kaitul',
     floor: 'L5 & 6 / L1-4',
-    item: { name: 'Baisudi', type: 'Skill Card' },
+    item: {
+      name: 'Baisudi',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -204,13 +273,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'wk'
-    }
+    },
+    name: 'Angel'
   },
   Anubis: {
     personaType: 'Almighty',
     arcana: 'Judgement',
     level: 37,
-    stats: { st: 23, ma: 26, en: 24, ag: 22, lu: 23 },
+    stats: {
+      st: 23,
+      ma: 26,
+      en: 24,
+      ag: 22,
+      lu: 23
+    },
     skills: {
       Dekunda: 40,
       Eiga: 43,
@@ -223,7 +299,10 @@ export const compendium = {
     personality: 'Gloomy',
     area: 'Akzeriyyuth',
     floor: 'L10 & 11',
-    item: { name: 'Makouha', type: 'Skill Card' },
+    item: {
+      name: 'Makouha',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -235,13 +314,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'nu'
-    }
+    },
+    name: 'Anubis'
   },
   Anzu: {
     personaType: 'Wind',
     arcana: 'Hierophant',
     level: 25,
-    stats: { st: 14, ma: 18, en: 15, ag: 21, lu: 14 },
+    stats: {
+      st: 14,
+      ma: 18,
+      en: 15,
+      ag: 21,
+      lu: 14
+    },
     skills: {
       'Assault Dive': 27,
       Dekaja: 28,
@@ -253,7 +339,10 @@ export const compendium = {
     personality: 'Irritable',
     area: 'Akzeriyyuth',
     floor: 'L1-3, 5-7, 9-11',
-    item: { name: 'Dekaja', type: 'Skill Card' },
+    item: {
+      name: 'Dekaja',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'wk',
@@ -265,13 +354,20 @@ export const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Anzu'
   },
   Apsaras: {
     personaType: 'Ice',
     arcana: 'Priestess',
     level: 11,
-    stats: { st: 7, ma: 11, en: 6, ag: 10, lu: 6 },
+    stats: {
+      st: 7,
+      ma: 11,
+      en: 6,
+      ag: 10,
+      lu: 6
+    },
     skills: {
       Bufu: 0,
       'Elec Wall': 14,
@@ -283,7 +379,10 @@ export const compendium = {
     personality: 'Upbeat',
     area: 'Chemdah',
     floor: 'L1-4',
-    item: { name: 'Freeze Boost', type: 'Skill Card' },
+    item: {
+      name: 'Freeze Boost',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -295,13 +394,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Apsaras'
   },
   'Ara Mitama': {
     personaType: 'Nuclear',
     arcana: 'Chariot',
     level: 31,
-    stats: { st: 20, ma: 19, en: 20, ag: 20, lu: 21 },
+    stats: {
+      st: 20,
+      ma: 19,
+      en: 20,
+      ag: 20,
+      lu: 21
+    },
     skills: {
       Freila: 0,
       Marakunda: 33,
@@ -310,7 +416,10 @@ export const compendium = {
       'Rage Boost': 35,
       Rebellion: 32
     },
-    item: { name: 'Freila', type: 'Skill Card' },
+    item: {
+      name: 'Freila',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -322,13 +431,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Ara Mitama'
   },
   Arahabaki: {
     personaType: 'Ailment',
     arcana: 'Hermit',
     level: 35,
-    stats: { st: 21, ma: 23, en: 22, ag: 24, lu: 22 },
+    stats: {
+      st: 21,
+      ma: 23,
+      en: 22,
+      ag: 24,
+      lu: 22
+    },
     skills: {
       'Abysmal Surge': 0,
       'Defense Master': 39,
@@ -340,7 +456,10 @@ export const compendium = {
     personality: 'Gloomy',
     area: 'Adyeshach',
     floor: 'L1-4, 6-8, 10',
-    item: { name: 'Tapsuan', type: 'Item' },
+    item: {
+      name: 'Tapsuan',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rp',
       gun: 'rp',
@@ -352,13 +471,20 @@ export const compendium = {
       nuclear: 'wk',
       bless: 'rs',
       curse: 'rs'
-    }
+    },
+    name: 'Arahabaki'
   },
   Archangel: {
     personaType: 'Bless',
     arcana: 'Justice',
     level: 16,
-    stats: { st: 13, ma: 10, en: 13, ag: 12, lu: 7 },
+    stats: {
+      st: 13,
+      ma: 10,
+      en: 13,
+      ag: 12,
+      lu: 7
+    },
     skills: {
       Dazzler: 0,
       Hama: 0,
@@ -370,7 +496,10 @@ export const compendium = {
     personality: 'Irritable',
     area: 'Aiyatsbus',
     floor: 'L5 & 6',
-    item: { name: 'Dazzler', type: 'Skill Card' },
+    item: {
+      name: 'Dazzler',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -382,13 +511,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'wk'
-    }
+    },
+    name: 'Archangel'
   },
   Ardha: {
     personaType: 'Almighty',
     arcana: 'Temperance',
     level: 84,
-    stats: { st: 54, ma: 56, en: 55, ag: 54, lu: 40 },
+    stats: {
+      st: 54,
+      ma: 56,
+      en: 55,
+      ag: 54,
+      lu: 40
+    },
     skills: {
       Agneyastra: 87,
       'Auto-Masuku': 88,
@@ -400,7 +536,10 @@ export const compendium = {
     },
     special: true,
     max: true,
-    item: { name: 'Agneyastra', type: 'Skill Card' },
+    item: {
+      name: 'Agneyastra',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -412,13 +551,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Ardha'
   },
   Ariadne: {
     personaType: 'Almighty',
     arcana: 'Fortune',
     level: 30,
-    stats: { st: 23, ma: 19, en: 20, ag: 17, lu: 18 },
+    stats: {
+      st: 23,
+      ma: 19,
+      en: 20,
+      ag: 17,
+      lu: 18
+    },
     skills: {
       'Apt Pupil': 0,
       'Attack Master': 31,
@@ -429,7 +575,10 @@ export const compendium = {
       'Beast Weaver': 0
     },
     dlc: true,
-    item: { name: 'Red Yarn Ball', type: 'Item' },
+    item: {
+      name: 'Red Yarn Ball',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -441,13 +590,20 @@ export const compendium = {
       nuclear: 'nu',
       bless: 'rs',
       curse: '-'
-    }
+    },
+    name: 'Ariadne'
   },
   'Ariadne Picaro': {
     personaType: 'Almighty',
     arcana: 'Fortune',
     level: 42,
-    stats: { st: 36, ma: 23, en: 29, ag: 24, lu: 21 },
+    stats: {
+      st: 36,
+      ma: 23,
+      en: 29,
+      ag: 24,
+      lu: 21
+    },
     skills: {
       'Apt Pupil': 0,
       'Auto-Mataru': 43,
@@ -458,7 +614,10 @@ export const compendium = {
       'Beast Weaver': 0
     },
     dlc: true,
-    item: { name: 'Auto-Mataru', type: 'Skill Card' },
+    item: {
+      name: 'Auto-Mataru',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -470,13 +629,20 @@ export const compendium = {
       nuclear: 'nu',
       bless: 'rs',
       curse: '-'
-    }
+    },
+    name: 'Ariadne Picaro'
   },
   Arsene: {
     personaType: 'Curse',
     arcana: 'Fool',
     level: 1,
-    stats: { st: 2, ma: 2, en: 2, ag: 3, lu: 1 },
+    stats: {
+      st: 2,
+      ma: 2,
+      en: 2,
+      ag: 3,
+      lu: 1
+    },
     skills: {
       Cleave: 2,
       'Adverse Resolve': 7,
@@ -484,7 +650,10 @@ export const compendium = {
       Eiha: 1,
       Sukunda: 4
     },
-    item: { name: 'Arsene\'s Cane', type: 'Item' },
+    item: {
+      name: 'Arsene\'s Cane',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -496,13 +665,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'rs'
-    }
+    },
+    name: 'Arsene'
   },
   Asterius: {
     personaType: 'Almighty',
     arcana: 'Fortune',
     level: 56,
-    stats: { st: 43, ma: 43, en: 32, ag: 32, lu: 25 },
+    stats: {
+      st: 43,
+      ma: 43,
+      en: 32,
+      ag: 32,
+      lu: 25
+    },
     skills: {
       'Auto-Mataru': 57,
       'Burn Boost': 0,
@@ -513,7 +689,10 @@ export const compendium = {
       Titanomachia: 0
     },
     dlc: true,
-    item: { name: 'Thunder Horns', type: 'Item' },
+    item: {
+      name: 'Thunder Horns',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -525,13 +704,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Asterius'
   },
   'Asterius Picaro': {
     personaType: 'Almighty',
     arcana: 'Fortune',
     level: 62,
-    stats: { st: 46, ma: 46, en: 36, ag: 36, lu: 29 },
+    stats: {
+      st: 46,
+      ma: 46,
+      en: 36,
+      ag: 36,
+      lu: 29
+    },
     skills: {
       'Auto-Masuku': 63,
       'Burn Boost': 0,
@@ -542,7 +728,10 @@ export const compendium = {
       Titanomachia: 0
     },
     dlc: true,
-    item: { name: 'Gigantomachia', type: 'Skill Card' },
+    item: {
+      name: 'Gigantomachia',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -554,13 +743,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Asterius Picaro'
   },
   'Asura-Ou': {
     personaType: 'Nuclear',
     arcana: 'Sun',
     level: 76,
-    stats: { st: 52, ma: 48, en: 51, ag: 49, lu: 35 },
+    stats: {
+      st: 52,
+      ma: 48,
+      en: 51,
+      ag: 49,
+      lu: 35
+    },
     skills: {
       'Atomic Flare': 0,
       'Auto-Mataru': 78,
@@ -572,7 +768,10 @@ export const compendium = {
     },
     special: true,
     max: true,
-    item: { name: 'Vajra', type: 'Item' },
+    item: {
+      name: 'Vajra',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -584,13 +783,20 @@ export const compendium = {
       nuclear: 'rp',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Asura-Ou'
   },
   Atropos: {
     personaType: 'Electric',
     arcana: 'Fortune',
     level: 39,
-    stats: { st: 23, ma: 30, en: 22, ag: 27, lu: 22 },
+    stats: {
+      st: 23,
+      ma: 30,
+      en: 22,
+      ag: 27,
+      lu: 22
+    },
     skills: {
       'Dodge Fire': 44,
       'Elec Boost': 43,
@@ -600,7 +806,10 @@ export const compendium = {
       Mediarama: 41,
       Concentrate: 45
     },
-    item: { name: 'Mazionga', type: 'Skill Card' },
+    item: {
+      name: 'Mazionga',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -612,13 +821,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Atropos'
   },
   Attis: {
     personaType: 'Fire',
     arcana: 'Hanged Man',
     level: 82,
-    stats: { st: 56, ma: 50, en: 48, ag: 51, lu: 48 },
+    stats: {
+      st: 56,
+      ma: 50,
+      en: 48,
+      ag: 51,
+      lu: 48
+    },
     skills: {
       'Absorb Curse': 86,
       'Enduring Soul': 84,
@@ -629,7 +845,10 @@ export const compendium = {
       Thermopylae: 0
     },
     max: true,
-    item: { name: 'Enduring Soul', type: 'Skill Card' },
+    item: {
+      name: 'Enduring Soul',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -641,13 +860,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'wk'
-    }
+    },
+    name: 'Attis'
   },
   Baal: {
     personaType: 'Wind',
     arcana: 'Emperor',
     level: 75,
-    stats: { st: 48, ma: 50, en: 47, ag: 47, lu: 40 },
+    stats: {
+      st: 48,
+      ma: 50,
+      en: 47,
+      ag: 47,
+      lu: 40
+    },
     skills: {
       Magarudyne: 0,
       Matarukaja: 0,
@@ -657,7 +883,10 @@ export const compendium = {
       Tetraja: 78,
       Ayamur: 80
     },
-    item: { name: 'Yagrush', type: 'Item' },
+    item: {
+      name: 'Yagrush',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -669,13 +898,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'rs'
-    }
+    },
+    name: 'Baal'
   },
   Baphomet: {
     personaType: 'Almighty',
     arcana: 'Devil',
     level: 58,
-    stats: { st: 34, ma: 42, en: 36, ag: 38, lu: 31 },
+    stats: {
+      st: 34,
+      ma: 42,
+      en: 36,
+      ag: 38,
+      lu: 31
+    },
     skills: {
       Agidyne: 0,
       Bufudyne: 59,
@@ -687,7 +923,10 @@ export const compendium = {
     },
     area: 'Sheriruth',
     floor: 'L13 (after Palace 7)',
-    item: { name: 'Shock Boost', type: 'Skill Card' },
+    item: {
+      name: 'Shock Boost',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -699,13 +938,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Baphomet'
   },
   Barong: {
     personaType: 'Electric',
     arcana: 'Emperor',
     level: 52,
-    stats: { st: 33, ma: 35, en: 33, ag: 37, lu: 25 },
+    stats: {
+      st: 33,
+      ma: 35,
+      en: 33,
+      ag: 37,
+      lu: 25
+    },
     skills: {
       'Elec Break': 0,
       'Invigorate 2': 54,
@@ -716,7 +962,10 @@ export const compendium = {
     },
     area: 'Sheriruth',
     floor: 'L11 & 12 (after Palace 7)',
-    item: { name: 'Invigorate 2', type: 'Skill Card' },
+    item: {
+      name: 'Invigorate 2',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -728,13 +977,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'wk'
-    }
+    },
+    name: 'Barong'
   },
   Beelzebub: {
     personaType: 'Curse',
     arcana: 'Devil',
     level: 84,
-    stats: { st: 55, ma: 60, en: 54, ag: 56, lu: 34 },
+    stats: {
+      st: 55,
+      ma: 60,
+      en: 54,
+      ag: 56,
+      lu: 34
+    },
     skills: {
       'Curse Amp': 85,
       'Devil Smile': 0,
@@ -746,7 +1002,10 @@ export const compendium = {
       'Repel Ice': 88
     },
     max: true,
-    item: { name: 'Fleur du Mal', type: 'Item' },
+    item: {
+      name: 'Fleur du Mal',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -758,13 +1017,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'rp'
-    }
+    },
+    name: 'Beelzebub'
   },
   Belial: {
     personaType: 'Curse',
     arcana: 'Devil',
     level: 68,
-    stats: { st: 45, ma: 41, en: 46, ag: 43, lu: 36 },
+    stats: {
+      st: 45,
+      ma: 41,
+      en: 46,
+      ag: 43,
+      lu: 36
+    },
     skills: {
       Agidyne: 0,
       'Heat Up': 72,
@@ -774,7 +1040,10 @@ export const compendium = {
       'Myriad Slashes': 74,
       'Survival Trick': 70
     },
-    item: { name: 'Maragion', type: 'Skill Card' },
+    item: {
+      name: 'Maragion',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -786,13 +1055,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Belial'
   },
   Belphegor: {
     personaType: 'Ice',
     arcana: 'Tower',
     level: 37,
-    stats: { st: 25, ma: 27, en: 24, ag: 23, lu: 19 },
+    stats: {
+      st: 25,
+      ma: 27,
+      en: 24,
+      ag: 23,
+      lu: 19
+    },
     skills: {
       Bufula: 0,
       'Dodge Fire': 0,
@@ -804,7 +1080,10 @@ export const compendium = {
     personality: 'Irritable',
     area: 'Adyeshach',
     floor: 'L6-8, 10',
-    item: { name: 'Mabufula', type: 'Skill Card' },
+    item: {
+      name: 'Mabufula',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -816,13 +1095,20 @@ export const compendium = {
       nuclear: 'rs',
       bless: '-',
       curse: 'rp'
-    }
+    },
+    name: 'Belphegor'
   },
   Berith: {
     personaType: 'Physical',
     arcana: 'Hierophant',
     level: 9,
-    stats: { st: 8, ma: 6, en: 7, ag: 8, lu: 5 },
+    stats: {
+      st: 8,
+      ma: 6,
+      en: 7,
+      ag: 8,
+      lu: 5
+    },
     skills: {
       Cleave: 0,
       'Dodge Fire': 11,
@@ -833,7 +1119,10 @@ export const compendium = {
     personality: 'Irritable',
     area: 'Aiyatsbus',
     floor: 'L5 & 6',
-    item: { name: 'Cleave', type: 'Skill Card' },
+    item: {
+      name: 'Cleave',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'nu',
@@ -845,18 +1134,34 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Berith'
   },
   Bicorn: {
     personaType: 'Wind',
     arcana: 'Hermit',
     level: 4,
-    stats: { st: 5, ma: 3, en: 3, ag: 5, lu: 3 },
-    skills: { 'Apt Pupil': 8, Garu: 6, 'Ice Wall': 7, Lunge: 0, Tarunda: 0 },
+    stats: {
+      st: 5,
+      ma: 3,
+      en: 3,
+      ag: 5,
+      lu: 3
+    },
+    skills: {
+      'Apt Pupil': 8,
+      Garu: 6,
+      'Ice Wall': 7,
+      Lunge: 0,
+      Tarunda: 0
+    },
     personality: 'Irritable',
     area: 'Aiyatsbus',
     floor: 'L1 & 2',
-    item: { name: 'Garu', type: 'Skill Card' },
+    item: {
+      name: 'Garu',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -868,13 +1173,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'rs'
-    }
+    },
+    name: 'Bicorn'
   },
   Bishamonten: {
     personaType: 'Nuclear',
     arcana: 'Hierophant',
     level: 67,
-    stats: { st: 49, ma: 37, en: 42, ag: 45, lu: 35 },
+    stats: {
+      st: 49,
+      ma: 37,
+      en: 42,
+      ag: 45,
+      lu: 35
+    },
     skills: {
       'Deadly Fury': 68,
       Diarahan: 0,
@@ -884,7 +1196,10 @@ export const compendium = {
       'Nuke Amp': 71,
       Tetrakarn: 72
     },
-    item: { name: 'Mafreidyne', type: 'Skill Card' },
+    item: {
+      name: 'Mafreidyne',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -896,13 +1211,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'rs'
-    }
+    },
+    name: 'Bishamonten'
   },
   'Black Frost': {
     personaType: 'Almighty',
     arcana: 'Fool',
     level: 67,
-    stats: { st: 44, ma: 46, en: 41, ag: 42, lu: 35 },
+    stats: {
+      st: 44,
+      ma: 46,
+      en: 41,
+      ag: 42,
+      lu: 35
+    },
     skills: {
       'Diamond Dust': 72,
       'Ice Amp': 70,
@@ -913,7 +1235,10 @@ export const compendium = {
     },
     special: true,
     note: 'Request "One Who Bullies Bullies" must be cleared',
-    item: { name: 'Naraka Whip', type: 'Item' },
+    item: {
+      name: 'Naraka Whip',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -925,13 +1250,20 @@ export const compendium = {
       nuclear: 'nu',
       bless: '-',
       curse: 'rp'
-    }
+    },
+    name: 'Black Frost'
   },
   'Black Ooze': {
     personaType: 'Curse',
     arcana: 'Moon',
     level: 29,
-    stats: { st: 19, ma: 18, en: 20, ag: 16, lu: 21 },
+    stats: {
+      st: 19,
+      ma: 18,
+      en: 20,
+      ag: 16,
+      lu: 21
+    },
     skills: {
       'Brain Jack': 34,
       'Ambient Aid': 31,
@@ -944,7 +1276,10 @@ export const compendium = {
     personality: 'Irritable',
     area: 'Adyeshach',
     floor: 'L1-4, 6',
-    item: { name: 'Stagnant Air', type: 'Skill Card' },
+    item: {
+      name: 'Stagnant Air',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -956,13 +1291,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Black Ooze'
   },
   'Black Rider': {
     personaType: 'Curse',
     arcana: 'Tower',
     level: 59,
-    stats: { st: 38, ma: 43, en: 37, ag: 45, lu: 30 },
+    stats: {
+      st: 38,
+      ma: 43,
+      en: 37,
+      ag: 45,
+      lu: 30
+    },
     skills: {
       Bloodbath: 61,
       'Ambient Aid': 60,
@@ -972,7 +1314,10 @@ export const compendium = {
       Mamudoon: 0,
       Megidola: 64
     },
-    item: { name: 'Bad Beat', type: 'Skill Card' },
+    item: {
+      name: 'Bad Beat',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -984,13 +1329,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'rs'
-    }
+    },
+    name: 'Black Rider'
   },
   Bugs: {
     personaType: 'Almighty',
     arcana: 'Fool',
     level: 49,
-    stats: { st: 35, ma: 33, en: 30, ag: 32, lu: 24 },
+    stats: {
+      st: 35,
+      ma: 33,
+      en: 30,
+      ag: 32,
+      lu: 24
+    },
     skills: {
       'Auto-Mataru': 51,
       'Evade Physical': 54,
@@ -1002,7 +1354,10 @@ export const compendium = {
     },
     special: true,
     note: 'Request "The Lovesick Cyberstalking Girl" must be cleared',
-    item: { name: 'Bear Gloves', type: 'Item' },
+    item: {
+      name: 'Bear Gloves',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1014,13 +1369,20 @@ export const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Bugs'
   },
   Byakko: {
     personaType: 'Ice',
     arcana: 'Temperance',
     level: 49,
-    stats: { st: 32, ma: 32, en: 31, ag: 32, lu: 27 },
+    stats: {
+      st: 32,
+      ma: 32,
+      en: 31,
+      ag: 32,
+      lu: 27
+    },
     skills: {
       Bufudyne: 55,
       Counterstrike: 0,
@@ -1030,7 +1392,10 @@ export const compendium = {
       'Null Rage': 54,
       'Swift Strike': 0
     },
-    item: { name: 'Swift Strike', type: 'Skill Card' },
+    item: {
+      name: 'Swift Strike',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1042,13 +1407,20 @@ export const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: 'rs'
-    }
+    },
+    name: 'Byakko'
   },
   Cerberus: {
     personaType: 'Fire',
     arcana: 'Chariot',
     level: 55,
-    stats: { st: 39, ma: 35, en: 32, ag: 39, lu: 27 },
+    stats: {
+      st: 39,
+      ma: 35,
+      en: 32,
+      ag: 39,
+      lu: 27
+    },
     skills: {
       Agidyne: 0,
       'Enduring Soul': 60,
@@ -1060,7 +1432,10 @@ export const compendium = {
     personality: 'Unknown',
     area: 'Sheriruth',
     floor: 'L7-9 (after Palace 7)',
-    item: { name: 'Agidyne', type: 'Skill Card' },
+    item: {
+      name: 'Agidyne',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1072,13 +1447,20 @@ export const compendium = {
       nuclear: 'rs',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Cerberus'
   },
   Chernobog: {
     personaType: 'Ailment',
     arcana: 'Death',
     level: 62,
-    stats: { st: 40, ma: 37, en: 39, ag: 38, lu: 39 },
+    stats: {
+      st: 40,
+      ma: 37,
+      en: 39,
+      ag: 38,
+      lu: 39
+    },
     skills: {
       Bloodbath: 0,
       'Deadly Fury': 0,
@@ -1088,7 +1470,10 @@ export const compendium = {
       'Myriad Slashes': 67,
       'Stagnant Air': 63
     },
-    item: { name: 'Deadly Fury', type: 'Skill Card' },
+    item: {
+      name: 'Deadly Fury',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -1100,13 +1485,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'rp'
-    }
+    },
+    name: 'Chernobog'
   },
   'Chi You': {
     personaType: 'Psy',
     arcana: 'Chariot',
     level: 86,
-    stats: { st: 54, ma: 56, en: 53, ag: 52, lu: 50 },
+    stats: {
+      st: 54,
+      ma: 56,
+      en: 53,
+      ag: 52,
+      lu: 50
+    },
     skills: {
       'Absorb Psy': 90,
       Gigantomachia: 0,
@@ -1118,7 +1510,10 @@ export const compendium = {
     },
     special: true,
     max: true,
-    item: { name: 'Arms Master', type: 'Skill Card' },
+    item: {
+      name: 'Arms Master',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -1130,13 +1525,20 @@ export const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Chi You'
   },
   Choronzon: {
     personaType: 'Curse',
     arcana: 'Magician',
     level: 28,
-    stats: { st: 16, ma: 19, en: 19, ag: 18, lu: 19 },
+    stats: {
+      st: 16,
+      ma: 19,
+      en: 19,
+      ag: 18,
+      lu: 19
+    },
     skills: {
       'Life Drain': 0,
       'Curse Boost': 32,
@@ -1150,7 +1552,10 @@ export const compendium = {
     personality: 'Timid',
     area: 'Kaitul',
     floor: 'L1-4',
-    item: { name: 'Maeiha', type: 'Skill Card' },
+    item: {
+      name: 'Maeiha',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1162,13 +1567,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: '-'
-    }
+    },
+    name: 'Choronzon'
   },
   Clotho: {
     personaType: 'Healing',
     arcana: 'Fortune',
     level: 26,
-    stats: { st: 14, ma: 19, en: 17, ag: 20, lu: 15 },
+    stats: {
+      st: 14,
+      ma: 19,
+      en: 17,
+      ag: 20,
+      lu: 15
+    },
     skills: {
       'Energy Shower': 30,
       'Invigorate 1': 32,
@@ -1178,7 +1590,10 @@ export const compendium = {
       'Me Patra': 0,
       Tetraja: 27
     },
-    item: { name: 'Invigorate 1', type: 'Skill Card' },
+    item: {
+      name: 'Invigorate 1',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1190,12 +1605,19 @@ export const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Clotho'
   },
   'Crystal Skull': {
     arcana: 'Fool',
     level: 50,
-    stats: { st: 50, ma: 50, en: 50, ag: 50, lu: 50 },
+    stats: {
+      st: 50,
+      ma: 50,
+      en: 50,
+      ag: 50,
+      lu: 50
+    },
     skills: {
       Mabufudyne: 0,
       Maeigaon: 0,
@@ -1209,7 +1631,10 @@ export const compendium = {
     rare: true,
     area: 'Sheriruth',
     floor: 'L7-9. 11-13 (after Palace 7)',
-    item: { name: 'Crystal Skull', type: 'Item' },
+    item: {
+      name: 'Crystal Skull',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: 'nu',
@@ -1221,13 +1646,20 @@ export const compendium = {
       nuclear: 'rp',
       bless: '-',
       curse: 'rp'
-    }
+    },
+    name: 'Crystal Skull'
   },
   'Cu Chulainn': {
     personaType: 'Almighty',
     arcana: 'Star',
     level: 67,
-    stats: { st: 47, ma: 36, en: 44, ag: 47, lu: 34 },
+    stats: {
+      st: 47,
+      ma: 36,
+      en: 44,
+      ag: 47,
+      lu: 34
+    },
     skills: {
       'Deadly Fury': 0,
       Dekunda: 70,
@@ -1237,7 +1669,10 @@ export const compendium = {
       'Oni Kagura': 0,
       Charge: 71
     },
-    item: { name: 'Charge', type: 'Skill Card' },
+    item: {
+      name: 'Charge',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -1249,13 +1684,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: '-'
-    }
+    },
+    name: 'Cu Chulainn'
   },
   Cybele: {
     personaType: 'Healing',
     arcana: 'Priestess',
     level: 73,
-    stats: { st: 44, ma: 48, en: 45, ag: 51, lu: 38 },
+    stats: {
+      st: 44,
+      ma: 48,
+      en: 45,
+      ag: 51,
+      lu: 38
+    },
     skills: {
       'Absorb Bless': 77,
       'Auto-Maraku': 76,
@@ -1266,7 +1708,10 @@ export const compendium = {
       Samarecarm: 0
     },
     max: true,
-    item: { name: 'Sabazios', type: 'Item' },
+    item: {
+      name: 'Sabazios',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1278,13 +1723,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: '-'
-    }
+    },
+    name: 'Cybele'
   },
   Daisoujou: {
     personaType: 'Bless',
     arcana: 'Hierophant',
     level: 42,
-    stats: { st: 22, ma: 33, en: 24, ag: 25, lu: 29 },
+    stats: {
+      st: 22,
+      ma: 33,
+      en: 24,
+      ag: 25,
+      lu: 29
+    },
     skills: {
       Diarahan: 45,
       'Bless Boost': 44,
@@ -1294,7 +1746,10 @@ export const compendium = {
       Samsara: 43,
       'Spirit Drain': 0
     },
-    item: { name: 'Makouga', type: 'Skill Card' },
+    item: {
+      name: 'Makouga',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -1306,13 +1761,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'wk'
-    }
+    },
+    name: 'Daisoujou'
   },
   Dakini: {
     personaType: 'Physical',
     arcana: 'Empress',
     level: 50,
-    stats: { st: 34, ma: 32, en: 34, ag: 28, lu: 29 },
+    stats: {
+      st: 34,
+      ma: 32,
+      en: 34,
+      ag: 28,
+      lu: 29
+    },
     skills: {
       'Bad Beat': 0,
       Deathbound: 53,
@@ -1325,7 +1787,10 @@ export const compendium = {
     personality: 'Unknown',
     area: 'Sheriruth',
     floor: 'L7-9 (after Palace 7)',
-    item: { name: 'Deathbound', type: 'Skill Card' },
+    item: {
+      name: 'Deathbound',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1337,13 +1802,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Dakini'
   },
   Decarabia: {
     personaType: 'Fire',
     arcana: 'Fool',
     level: 32,
-    stats: { st: 21, ma: 23, en: 19, ag: 22, lu: 18 },
+    stats: {
+      st: 21,
+      ma: 23,
+      en: 19,
+      ag: 22,
+      lu: 18
+    },
     skills: {
       Agilao: 0,
       'Devil Smile': 37,
@@ -1356,7 +1828,10 @@ export const compendium = {
     personality: 'Gloomy',
     area: 'Adyeshach',
     floor: 'L3, 4, 6-8',
-    item: { name: 'Fire Boost', type: 'Skill Card' },
+    item: {
+      name: 'Fire Boost',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'wk',
       gun: '-',
@@ -1368,13 +1843,20 @@ export const compendium = {
       nuclear: 'rs',
       bless: '-',
       curse: 'rs'
-    }
+    },
+    name: 'Decarabia'
   },
   Dionysus: {
     personaType: 'Psy',
     arcana: 'Fool',
     level: 61,
-    stats: { st: 35, ma: 41, en: 38, ag: 40, lu: 36 },
+    stats: {
+      st: 35,
+      ma: 41,
+      en: 38,
+      ag: 40,
+      lu: 36
+    },
     skills: {
       'Ailment Boost': 63,
       'Amrita Shower': 66,
@@ -1384,7 +1866,10 @@ export const compendium = {
       Psiodyne: 0,
       Thermopylae: 62
     },
-    item: { name: 'Thermopylae', type: 'Skill Card' },
+    item: {
+      name: 'Thermopylae',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1396,13 +1881,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'rs'
-    }
+    },
+    name: 'Dionysus'
   },
   Dominion: {
     personaType: 'Bless',
     arcana: 'Justice',
     level: 68,
-    stats: { st: 46, ma: 47, en: 45, ag: 48, lu: 40 },
+    stats: {
+      st: 46,
+      ma: 47,
+      en: 45,
+      ag: 48,
+      lu: 40
+    },
     skills: {
       'Nocturnal Flash': 0,
       'Evade Curse': 73,
@@ -1413,7 +1905,10 @@ export const compendium = {
       Makougaon: 70
     },
     personality: 'Unknown',
-    item: { name: 'Makougaon', type: 'Skill Card' },
+    item: {
+      name: 'Makougaon',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'wk',
@@ -1425,13 +1920,20 @@ export const compendium = {
       nuclear: 'rp',
       bless: 'nu',
       curse: 'rs'
-    }
+    },
+    name: 'Dominion'
   },
   Eligor: {
     personaType: 'Fire',
     arcana: 'Emperor',
     level: 16,
-    stats: { st: 12, ma: 10, en: 13, ag: 10, lu: 10 },
+    stats: {
+      st: 12,
+      ma: 10,
+      en: 13,
+      ag: 10,
+      lu: 10
+    },
     skills: {
       'Memory Blow': 20,
       'Sharp Student': 0,
@@ -1443,7 +1945,10 @@ export const compendium = {
     personality: 'Unknown',
     area: 'Chemdah',
     floor: 'L3 & 4',
-    item: { name: 'Tarukaja', type: 'Skill Card' },
+    item: {
+      name: 'Tarukaja',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -1455,12 +1960,19 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Eligor'
   },
   'Emperor\'s Amulet': {
     arcana: 'Hanged Man',
     level: 35,
-    stats: { st: 35, ma: 35, en: 35, ag: 35, lu: 35 },
+    stats: {
+      st: 35,
+      ma: 35,
+      en: 35,
+      ag: 35,
+      lu: 35
+    },
     skills: {
       Agidyne: 0,
       Bufudyne: 0,
@@ -1474,7 +1986,10 @@ export const compendium = {
     rare: true,
     area: 'Sheriruth',
     floor: 'L7-9, 11-13 (after Palace 7)',
-    item: { name: 'Emperor\'s Amulet', type: 'Item' },
+    item: {
+      name: 'Emperor\'s Amulet',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: 'nu',
@@ -1486,13 +2001,20 @@ export const compendium = {
       nuclear: 'ab',
       bless: 'nu',
       curse: 'nu'
-    }
+    },
+    name: 'Emperor\'s Amulet'
   },
   Phoenix: {
     personaType: 'Nuclear',
     arcana: 'Hierophant',
     level: 22,
-    stats: { st: 14, ma: 15, en: 15, ag: 18, lu: 11 },
+    stats: {
+      st: 14,
+      ma: 15,
+      en: 15,
+      ag: 18,
+      lu: 11
+    },
     skills: {
       Diarama: 23,
       'Dream Needle': 0,
@@ -1500,7 +2022,10 @@ export const compendium = {
       'Nuke Boost': 27,
       Recarm: 25
     },
-    item: { name: 'Nuke Boost', type: 'Skill Card' },
+    item: {
+      name: 'Nuke Boost',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1512,13 +2037,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Phoenix'
   },
   Flauros: {
     personaType: 'Ailment',
     arcana: 'Devil',
     level: 25,
-    stats: { st: 19, ma: 14, en: 18, ag: 18, lu: 13 },
+    stats: {
+      st: 19,
+      ma: 14,
+      en: 18,
+      ag: 18,
+      lu: 13
+    },
     skills: {
       'Assault Dive': 29,
       Dekaja: 0,
@@ -1530,7 +2062,10 @@ export const compendium = {
     },
     special: true,
     note: 'Needs Strength cooperation rank 1 to be fused',
-    item: { name: 'Shackles', type: 'Item' },
+    item: {
+      name: 'Shackles',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1542,13 +2077,20 @@ export const compendium = {
       nuclear: 'rs',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Flauros'
   },
   Forneus: {
     personaType: 'Psy',
     arcana: 'Hierophant',
     level: 63,
-    stats: { st: 41, ma: 39, en: 40, ag: 42, lu: 34 },
+    stats: {
+      st: 41,
+      ma: 39,
+      en: 40,
+      ag: 42,
+      lu: 34
+    },
     skills: {
       'Evade Psy': 68,
       Mapsiodyne: 67,
@@ -1561,7 +2103,10 @@ export const compendium = {
     personality: 'Unknown',
     area: 'Sheriruth',
     floor: 'L12 & 13 (after Palace 7)',
-    item: { name: 'Masukunda', type: 'Skill Card' },
+    item: {
+      name: 'Masukunda',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1573,13 +2118,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Forneus'
   },
   Fortuna: {
     personaType: 'Wind',
     arcana: 'Fortune',
     level: 46,
-    stats: { st: 23, ma: 32, en: 29, ag: 34, lu: 27 },
+    stats: {
+      st: 23,
+      ma: 32,
+      en: 29,
+      ag: 34,
+      lu: 27
+    },
     skills: {
       'Amrita Drop': 50,
       'Evade Elec': 51,
@@ -1589,7 +2141,10 @@ export const compendium = {
       Tetraja: 0,
       'Touch n\' Go': 49
     },
-    item: { name: 'Fast Heal', type: 'Skill Card' },
+    item: {
+      name: 'Fast Heal',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1601,13 +2156,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Fortuna'
   },
   Futsunushi: {
     personaType: 'Physical',
     arcana: 'Magician',
     level: 76,
-    stats: { st: 54, ma: 48, en: 47, ag: 49, lu: 37 },
+    stats: {
+      st: 54,
+      ma: 48,
+      en: 47,
+      ag: 49,
+      lu: 37
+    },
     skills: {
       'Ali Dance': 0,
       'Apt Pupil': 80,
@@ -1619,7 +2181,10 @@ export const compendium = {
       'Regenerate 3': 79
     },
     max: true,
-    item: { name: 'Brave Blade', type: 'Skill Card' },
+    item: {
+      name: 'Brave Blade',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -1631,13 +2196,20 @@ export const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Futsunushi'
   },
   'Fuu-Ki': {
     personaType: 'Wind',
     arcana: 'Star',
     level: 23,
-    stats: { st: 14, ma: 17, en: 16, ag: 15, lu: 14 },
+    stats: {
+      st: 14,
+      ma: 17,
+      en: 16,
+      ag: 15,
+      lu: 14
+    },
     skills: {
       'Dodge Wind': 26,
       Garula: 0,
@@ -1649,7 +2221,10 @@ export const compendium = {
     personality: 'Unknown',
     area: 'Kaitul',
     floor: 'L8 & 9',
-    item: { name: 'Wind Boost', type: 'Skill Card' },
+    item: {
+      name: 'Wind Boost',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1661,13 +2236,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Fuu-Ki'
   },
   Gabriel: {
     personaType: 'Almighty',
     arcana: 'Temperance',
     level: 77,
-    stats: { st: 43, ma: 51, en: 48, ag: 54, lu: 42 },
+    stats: {
+      st: 43,
+      ma: 51,
+      en: 48,
+      ag: 54,
+      lu: 42
+    },
     skills: {
       'Ali Dance': 79,
       'Divine Judgement': 78,
@@ -1678,7 +2260,10 @@ export const compendium = {
       Salvation: 83,
       'Touch n\' Go': 81
     },
-    item: { name: 'Mabufudyne', type: 'Skill Card' },
+    item: {
+      name: 'Mabufudyne',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1690,13 +2275,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'ab',
       curse: '-'
-    }
+    },
+    name: 'Gabriel'
   },
   Ganesha: {
     personaType: 'Ailment',
     arcana: 'Sun',
     level: 53,
-    stats: { st: 39, ma: 31, en: 37, ag: 33, lu: 26 },
+    stats: {
+      st: 39,
+      ma: 31,
+      en: 37,
+      ag: 33,
+      lu: 26
+    },
     skills: {
       Endure: 56,
       'Giant Slice': 0,
@@ -1709,7 +2301,10 @@ export const compendium = {
     personality: 'Unknown',
     area: 'Sheriruth',
     floor: 'L5, 7-9 (before Palace 7) / L3 & 4 (after Palace 7)',
-    item: { name: 'Miracle Punch', type: 'Skill Card' },
+    item: {
+      name: 'Miracle Punch',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -1721,13 +2316,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Ganesha'
   },
   Garuda: {
     personaType: 'Wind',
     arcana: 'Star',
     level: 52,
-    stats: { st: 30, ma: 36, en: 29, ag: 39, lu: 29 },
+    stats: {
+      st: 30,
+      ma: 36,
+      en: 29,
+      ag: 39,
+      lu: 29
+    },
     skills: {
       'Amrita Shower': 0,
       'Evade Elec': 55,
@@ -1740,7 +2342,10 @@ export const compendium = {
     personality: 'Unknown',
     area: 'Sheriruth',
     floor: 'L12 (after Palace 7)',
-    item: { name: 'Wind Amp', type: 'Skill Card' },
+    item: {
+      name: 'Wind Amp',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'wk',
@@ -1752,13 +2357,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rp',
       curse: '-'
-    }
+    },
+    name: 'Garuda'
   },
   Genbu: {
     personaType: 'Ice',
     arcana: 'Temperance',
     level: 7,
-    stats: { st: 5, ma: 6, en: 7, ag: 6, lu: 4 },
+    stats: {
+      st: 5,
+      ma: 6,
+      en: 7,
+      ag: 6,
+      lu: 4
+    },
     skills: {
       Bufu: 0,
       'Defense Master': 12,
@@ -1767,7 +2379,10 @@ export const compendium = {
       Rakunda: 0,
       'Resist Forget': 11
     },
-    item: { name: 'Patra', type: 'Skill Card' },
+    item: {
+      name: 'Patra',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1779,13 +2394,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Genbu'
   },
   Girimehkala: {
     personaType: 'Ailment',
     arcana: 'Moon',
     level: 44,
-    stats: { st: 36, ma: 24, en: 32, ag: 32, lu: 15 },
+    stats: {
+      st: 36,
+      ma: 24,
+      en: 32,
+      ag: 32,
+      lu: 15
+    },
     skills: {
       'Foul Breath': 46,
       Marakunda: 0,
@@ -1797,7 +2419,10 @@ export const compendium = {
     personality: 'Gloomy',
     area: 'Adyeshach',
     floor: 'L4, 6-8, 10',
-    item: { name: 'Marakunda', type: 'Skill Card' },
+    item: {
+      name: 'Marakunda',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rp',
       gun: 'rp',
@@ -1809,13 +2434,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Girimehkala'
   },
   Hanuman: {
     personaType: 'Physical',
     arcana: 'Star',
     level: 64,
-    stats: { st: 43, ma: 38, en: 40, ag: 40, lu: 38 },
+    stats: {
+      st: 43,
+      ma: 38,
+      en: 40,
+      ag: 40,
+      lu: 38
+    },
     skills: {
       Deathbound: 65,
       Matarunda: 0,
@@ -1827,7 +2459,10 @@ export const compendium = {
     personality: 'Unknown',
     area: 'Sheriruth',
     floor: 'L12 & 13 (after Palace 7)',
-    item: { name: 'Ruyi Jingu Bang', type: 'Item' },
+    item: {
+      name: 'Ruyi Jingu Bang',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1839,13 +2474,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: '-'
-    }
+    },
+    name: 'Hanuman'
   },
   Hariti: {
     personaType: 'Electric',
     arcana: 'Empress',
     level: 40,
-    stats: { st: 24, ma: 29, en: 25, ag: 26, lu: 23 },
+    stats: {
+      st: 24,
+      ma: 29,
+      en: 25,
+      ag: 26,
+      lu: 23
+    },
     skills: {
       'Nocturnal Flash': 42,
       'Dizzy Boost': 45,
@@ -1857,7 +2499,10 @@ export const compendium = {
       Zionga: 0
     },
     personality: 'Unknown',
-    item: { name: 'Spirit Drain', type: 'Skill Card' },
+    item: {
+      name: 'Spirit Drain',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1869,13 +2514,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: '-'
-    }
+    },
+    name: 'Hariti'
   },
   Hecatoncheires: {
     personaType: 'Psy',
     arcana: 'Hanged Man',
     level: 42,
-    stats: { st: 29, ma: 25, en: 30, ag: 25, lu: 24 },
+    stats: {
+      st: 29,
+      ma: 25,
+      en: 30,
+      ag: 25,
+      lu: 24
+    },
     skills: {
       Endure: 43,
       'Foul Breath': 45,
@@ -1885,7 +2537,10 @@ export const compendium = {
       'Swift Strike': 0,
       Tarukaja: 0
     },
-    item: { name: 'Endure', type: 'Skill Card' },
+    item: {
+      name: 'Endure',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -1897,13 +2552,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Hecatoncheires'
   },
   'Hell Biker': {
     personaType: 'Fire',
     arcana: 'Death',
     level: 39,
-    stats: { st: 26, ma: 27, en: 24, ag: 30, lu: 17 },
+    stats: {
+      st: 26,
+      ma: 27,
+      en: 24,
+      ag: 30,
+      lu: 17
+    },
     skills: {
       Agilao: 0,
       'Fire Boost': 40,
@@ -1914,7 +2576,10 @@ export const compendium = {
       Tentarafoo: 41,
       'Trigger Happy': 43
     },
-    item: { name: 'Black Jacket', type: 'Item' },
+    item: {
+      name: 'Black Jacket',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1926,13 +2591,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: '-'
-    }
+    },
+    name: 'Hell Biker'
   },
   'High Pixie': {
     personaType: 'Healing',
     arcana: 'Fool',
     level: 16,
-    stats: { st: 8, ma: 14, en: 10, ag: 13, lu: 10 },
+    stats: {
+      st: 8,
+      ma: 14,
+      en: 10,
+      ag: 13,
+      lu: 10
+    },
     skills: {
       Diarama: 18,
       Dormina: 0,
@@ -1944,7 +2616,10 @@ export const compendium = {
     personality: 'Irritable',
     area: 'Kaitul',
     floor: 'L1-3',
-    item: { name: 'Diarama', type: 'Skill Card' },
+    item: {
+      name: 'Diarama',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'wk',
@@ -1956,12 +2631,19 @@ export const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'High Pixie'
   },
   'Hope Diamond': {
     arcana: 'Death',
     level: 40,
-    stats: { st: 40, ma: 40, en: 40, ag: 40, lu: 40 },
+    stats: {
+      st: 40,
+      ma: 40,
+      en: 40,
+      ag: 40,
+      lu: 40
+    },
     skills: {
       'Auto-Maraku': 0,
       'Auto-Masuku': 0,
@@ -1975,7 +2657,10 @@ export const compendium = {
     rare: true,
     area: 'Sheriruth',
     floor: 'L7-9. 11-13 (after Palace 7)',
-    item: { name: 'Hope Diamond', type: 'Item' },
+    item: {
+      name: 'Hope Diamond',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: 'nu',
@@ -1987,13 +2672,20 @@ export const compendium = {
       nuclear: 'rp',
       bless: 'nu',
       curse: 'nu'
-    }
+    },
+    name: 'Hope Diamond'
   },
   Horus: {
     personaType: 'Almighty',
     arcana: 'Sun',
     level: 49,
-    stats: { st: 30, ma: 32, en: 32, ag: 35, lu: 25 },
+    stats: {
+      st: 30,
+      ma: 32,
+      en: 32,
+      ag: 35,
+      lu: 25
+    },
     skills: {
       Diarama: 0,
       'Hama Boost': 54,
@@ -2003,7 +2695,10 @@ export const compendium = {
       Megido: 0,
       'Touch n\' Go': 51
     },
-    item: { name: 'Kougaon', type: 'Skill Card' },
+    item: {
+      name: 'Kougaon',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2015,13 +2710,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rp',
       curse: '-'
-    }
+    },
+    name: 'Horus'
   },
   'Hua Po': {
     personaType: 'Fire',
     arcana: 'Hanged Man',
     level: 9,
-    stats: { st: 4, ma: 10, en: 4, ag: 8, lu: 8 },
+    stats: {
+      st: 4,
+      ma: 10,
+      en: 4,
+      ag: 8,
+      lu: 8
+    },
     skills: {
       Agi: 0,
       'Burn Boost': 15,
@@ -2033,7 +2735,10 @@ export const compendium = {
     personality: 'Upbeat',
     area: 'Chemdah',
     floor: 'L1-3',
-    item: { name: 'Agilao', type: 'Skill Card' },
+    item: {
+      name: 'Agilao',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'wk',
@@ -2045,13 +2750,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Hua Po'
   },
   Incubus: {
     personaType: 'Ailment',
     arcana: 'Devil',
     level: 5,
-    stats: { st: 4, ma: 6, en: 4, ag: 5, lu: 3 },
+    stats: {
+      st: 4,
+      ma: 6,
+      en: 4,
+      ag: 5,
+      lu: 3
+    },
     skills: {
       'Life Drain': 0,
       'Evil Touch': 0,
@@ -2062,7 +2774,10 @@ export const compendium = {
     personality: 'Timid',
     area: 'Aiyatsbus',
     floor: 'L2, 3 & 6',
-    item: { name: 'Dream Needle', type: 'Skill Card' },
+    item: {
+      name: 'Dream Needle',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'wk',
@@ -2074,13 +2789,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: '-'
-    }
+    },
+    name: 'Incubus'
   },
   Inugami: {
     personaType: 'Fire',
     arcana: 'Hanged Man',
     level: 14,
-    stats: { st: 11, ma: 9, en: 9, ag: 12, lu: 8 },
+    stats: {
+      st: 11,
+      ma: 9,
+      en: 9,
+      ag: 12,
+      lu: 8
+    },
     skills: {
       'Brain Shake': 18,
       'Dream Needle': 15,
@@ -2093,7 +2815,10 @@ export const compendium = {
     personality: 'Timid',
     area: 'Chemdah',
     floor: 'L4, 6 & 7',
-    item: { name: 'Brain Shake', type: 'Skill Card' },
+    item: {
+      name: 'Brain Shake',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2105,13 +2830,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Inugami'
   },
   'Ippon-Datara': {
     personaType: 'Physical',
     arcana: 'Hermit',
     level: 13,
-    stats: { st: 11, ma: 7, en: 14, ag: 6, lu: 8 },
+    stats: {
+      st: 11,
+      ma: 7,
+      en: 14,
+      ag: 6,
+      lu: 8
+    },
     skills: {
       'Sharp Student': 16,
       Counter: 18,
@@ -2123,7 +2855,10 @@ export const compendium = {
     personality: 'Unknown',
     area: 'Chemdah',
     floor: 'L1-4',
-    item: { name: 'Sledgehammer', type: 'Skill Card' },
+    item: {
+      name: 'Sledgehammer',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2135,13 +2870,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'rs'
-    }
+    },
+    name: 'Ippon-Datara'
   },
   Ishtar: {
     personaType: 'Healing',
     arcana: 'Lovers',
     level: 85,
-    stats: { st: 48, ma: 59, en: 49, ag: 58, lu: 48 },
+    stats: {
+      st: 48,
+      ma: 59,
+      en: 49,
+      ag: 58,
+      lu: 48
+    },
     skills: {
       'Absorb Wind': 0,
       'Insta-Heal': 87,
@@ -2152,7 +2894,10 @@ export const compendium = {
       'Spell Master': 89
     },
     max: true,
-    item: { name: 'Salvation', type: 'Skill Card' },
+    item: {
+      name: 'Salvation',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2164,13 +2909,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Ishtar'
   },
   Isis: {
     personaType: 'Healing',
     arcana: 'Priestess',
     level: 26,
-    stats: { st: 15, ma: 21, en: 16, ag: 18, lu: 15 },
+    stats: {
+      st: 15,
+      ma: 21,
+      en: 16,
+      ag: 18,
+      lu: 15
+    },
     skills: {
       Agilao: 0,
       Diarama: 0,
@@ -2183,7 +2935,10 @@ export const compendium = {
     personality: 'Timid',
     area: 'Akzeriyyuth',
     floor: 'L5-7, 9-11',
-    item: { name: 'Zionga', type: 'Skill Card' },
+    item: {
+      name: 'Zionga',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2195,13 +2950,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'nu'
-    }
+    },
+    name: 'Isis'
   },
   Izanagi: {
     personaType: 'Almighty',
     arcana: 'Fool',
     level: 20,
-    stats: { st: 14, ma: 13, en: 13, ag: 14, lu: 13 },
+    stats: {
+      st: 14,
+      ma: 13,
+      en: 13,
+      ag: 14,
+      lu: 13
+    },
     skills: {
       'Cross Slash': 0,
       'Dodge Physical': 22,
@@ -2212,7 +2974,10 @@ export const compendium = {
       Zionga: 0
     },
     dlc: true,
-    item: { name: 'White Headband', type: 'Item' },
+    item: {
+      name: 'White Headband',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2224,13 +2989,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Izanagi'
   },
   'Izanagi Picaro': {
     personaType: 'Almighty',
     arcana: 'Fool',
     level: 23,
-    stats: { st: 16, ma: 15, en: 15, ag: 16, lu: 14 },
+    stats: {
+      st: 16,
+      ma: 15,
+      en: 15,
+      ag: 16,
+      lu: 14
+    },
     skills: {
       'Cross Slash': 0,
       'Growth 3': 28,
@@ -2241,7 +3013,10 @@ export const compendium = {
       Zionga: 0
     },
     dlc: true,
-    item: { name: 'Growth 3', type: 'Skill Card' },
+    item: {
+      name: 'Growth 3',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2253,13 +3028,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Izanagi Picaro'
   },
   'Jack Frost': {
     personaType: 'Ice',
     arcana: 'Magician',
     level: 11,
-    stats: { st: 8, ma: 9, en: 7, ag: 9, lu: 7 },
+    stats: {
+      st: 8,
+      ma: 9,
+      en: 7,
+      ag: 9,
+      lu: 7
+    },
     skills: {
       Baisudi: 0,
       Bufu: 0,
@@ -2271,7 +3053,10 @@ export const compendium = {
     personality: 'Timid',
     area: 'Chemdah',
     floor: 'L4 & 6',
-    item: { name: 'Frost Hood', type: 'Item' },
+    item: {
+      name: 'Frost Hood',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2283,13 +3068,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Jack Frost'
   },
   'Jack-o\'-Lantern': {
     personaType: 'Fire',
     arcana: 'Magician',
     level: 2,
-    stats: { st: 2, ma: 3, en: 3, ag: 3, lu: 2 },
+    stats: {
+      st: 2,
+      ma: 3,
+      en: 3,
+      ag: 3,
+      lu: 2
+    },
     skills: {
       Agi: 0,
       Dazzler: 5,
@@ -2300,7 +3092,10 @@ export const compendium = {
     personality: 'Gloomy',
     area: 'Qimranut / Aiyatsbus',
     floor: 'All / L1',
-    item: { name: 'Pumpkin Bomb', type: 'Item' },
+    item: {
+      name: 'Pumpkin Bomb',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: 'wk',
@@ -2312,13 +3107,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Jack-o\'-Lantern'
   },
   Jatayu: {
     personaType: 'Wind',
     arcana: 'Tower',
     level: 32,
-    stats: { st: 18, ma: 21, en: 20, ag: 27, lu: 17 },
+    stats: {
+      st: 18,
+      ma: 21,
+      en: 20,
+      ag: 27,
+      lu: 17
+    },
     skills: {
       'Dodge Psy': 33,
       'Flash Bomb': 0,
@@ -2328,7 +3130,10 @@ export const compendium = {
       Snipe: 35,
       'Speed Master': 38
     },
-    item: { name: 'Flash Bomb', type: 'Skill Card' },
+    item: {
+      name: 'Flash Bomb',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2340,13 +3145,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Jatayu'
   },
   Jikokuten: {
     personaType: 'Physical',
     arcana: 'Temperance',
     level: 25,
-    stats: { st: 19, ma: 12, en: 19, ag: 17, lu: 15 },
+    stats: {
+      st: 19,
+      ma: 12,
+      en: 19,
+      ag: 17,
+      lu: 15
+    },
     skills: {
       'Memory Blow': 0,
       Counter: 28,
@@ -2356,7 +3168,10 @@ export const compendium = {
       Matarukaja: 30,
       Rakunda: 0
     },
-    item: { name: 'Memory Blow', type: 'Skill Card' },
+    item: {
+      name: 'Memory Blow',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -2368,13 +3183,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'wk'
-    }
+    },
+    name: 'Jikokuten'
   },
   Kaguya: {
     personaType: 'Almighty',
     arcana: 'Moon',
     level: 16,
-    stats: { st: 11, ma: 15, en: 12, ag: 11, lu: 6 },
+    stats: {
+      st: 11,
+      ma: 15,
+      en: 12,
+      ag: 11,
+      lu: 6
+    },
     skills: {
       'Amrita Shower': 18,
       Counterstrike: 0,
@@ -2385,7 +3207,10 @@ export const compendium = {
       'Repel Phys': 22
     },
     dlc: true,
-    item: { name: 'Moonlight Robe', type: 'Item' },
+    item: {
+      name: 'Moonlight Robe',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2397,13 +3222,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'nu'
-    }
+    },
+    name: 'Kaguya'
   },
   'Kaguya Picaro': {
     personaType: 'Almighty',
     arcana: 'Moon',
     level: 25,
-    stats: { st: 17, ma: 20, en: 19, ag: 15, lu: 11 },
+    stats: {
+      st: 17,
+      ma: 20,
+      en: 19,
+      ag: 15,
+      lu: 11
+    },
     skills: {
       'Amrita Shower': 27,
       Diarahan: 30,
@@ -2414,7 +3246,10 @@ export const compendium = {
       'Repel Phys': 31
     },
     dlc: true,
-    item: { name: 'Diarahan', type: 'Skill Card' },
+    item: {
+      name: 'Diarahan',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2426,13 +3261,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'nu'
-    }
+    },
+    name: 'Kaguya Picaro'
   },
   Kaiwan: {
     personaType: 'Almighty',
     arcana: 'Star',
     level: 36,
-    stats: { st: 23, ma: 26, en: 24, ag: 22, lu: 20 },
+    stats: {
+      st: 23,
+      ma: 26,
+      en: 24,
+      ag: 22,
+      lu: 20
+    },
     skills: {
       'Forget Boost': 37,
       Makajam: 0,
@@ -2445,7 +3287,10 @@ export const compendium = {
     personality: 'Timid',
     area: 'Adyeshach',
     floor: 'L10-12',
-    item: { name: 'Mapsio', type: 'Skill Card' },
+    item: {
+      name: 'Mapsio',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'nu',
@@ -2457,13 +3302,20 @@ export const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Kaiwan'
   },
   Kali: {
     personaType: 'Fire',
     arcana: 'Empress',
     level: 77,
-    stats: { st: 53, ma: 45, en: 46, ag: 53, lu: 41 },
+    stats: {
+      st: 53,
+      ma: 45,
+      en: 46,
+      ag: 53,
+      lu: 41
+    },
     skills: {
       'Absorb Nuke': 82,
       'Evade Ice': 79,
@@ -2473,7 +3325,10 @@ export const compendium = {
       Tentarafoo: 0,
       'Vorpal Blade': 0
     },
-    item: { name: 'Khamrai Tao', type: 'Item' },
+    item: {
+      name: 'Khamrai Tao',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2485,13 +3340,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'rs'
-    }
+    },
+    name: 'Kali'
   },
   Kelpie: {
     personaType: 'Wind',
     arcana: 'Strength',
     level: 6,
-    stats: { st: 5, ma: 5, en: 5, ag: 6, lu: 4 },
+    stats: {
+      st: 5,
+      ma: 5,
+      en: 5,
+      ag: 6,
+      lu: 4
+    },
     skills: {
       Garu: 0,
       Lunge: 0,
@@ -2502,7 +3364,10 @@ export const compendium = {
     personality: 'Upbeat',
     area: 'Aiyatsbus',
     floor: 'L3',
-    item: { name: 'Terror Claw', type: 'Skill Card' },
+    item: {
+      name: 'Terror Claw',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2514,13 +3379,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Kelpie'
   },
   'Kikuri-Hime': {
     personaType: 'Healing',
     arcana: 'Priestess',
     level: 40,
-    stats: { st: 22, ma: 31, en: 24, ag: 28, lu: 22 },
+    stats: {
+      st: 22,
+      ma: 31,
+      en: 24,
+      ag: 28,
+      lu: 22
+    },
     skills: {
       'Divine Grace': 45,
       'Energy Drop': 0,
@@ -2532,7 +3404,10 @@ export const compendium = {
     personality: 'Unknown',
     area: 'Sheriruth',
     floor: 'L3-5 (before Palace 7) / L2 & 3 (after Palace 7)',
-    item: { name: 'Divine Grace', type: 'Skill Card' },
+    item: {
+      name: 'Divine Grace',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2544,13 +3419,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: '-'
-    }
+    },
+    name: 'Kikuri-Hime'
   },
   'Kin-Ki': {
     personaType: 'Physical',
     arcana: 'Chariot',
     level: 25,
-    stats: { st: 21, ma: 13, en: 21, ag: 15, lu: 12 },
+    stats: {
+      st: 21,
+      ma: 13,
+      en: 21,
+      ag: 15,
+      lu: 12
+    },
     skills: {
       'Bad Beat': 30,
       Counterstrike: 31,
@@ -2563,7 +3445,10 @@ export const compendium = {
     personality: 'Gloomy',
     area: 'Kaitul',
     floor: 'L4, 5, 7-9',
-    item: { name: 'Regenerate 1', type: 'Skill Card' },
+    item: {
+      name: 'Regenerate 1',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -2575,13 +3460,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Kin-Ki'
   },
   'King Frost': {
     personaType: 'Ice',
     arcana: 'Emperor',
     level: 61,
-    stats: { st: 38, ma: 39, en: 45, ag: 33, lu: 35 },
+    stats: {
+      st: 38,
+      ma: 39,
+      en: 45,
+      ag: 33,
+      lu: 35
+    },
     skills: {
       'Auto-Mataru': 64,
       Bufudyne: 0,
@@ -2594,7 +3486,10 @@ export const compendium = {
     personality: 'Unknown',
     area: 'Sheriruth',
     floor: 'L8, 11, 12, 13 (after Palace 7)',
-    item: { name: 'King Frost Cape', type: 'Item' },
+    item: {
+      name: 'King Frost Cape',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2606,13 +3501,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: '-'
-    }
+    },
+    name: 'King Frost'
   },
   Kodama: {
     personaType: 'Ailment',
     arcana: 'Star',
     level: 11,
-    stats: { st: 7, ma: 11, en: 8, ag: 10, lu: 4 },
+    stats: {
+      st: 7,
+      ma: 11,
+      en: 8,
+      ag: 10,
+      lu: 4
+    },
     skills: {
       'Evil Touch': 13,
       'Fear Boost': 15,
@@ -2625,7 +3527,10 @@ export const compendium = {
     personality: 'Upbeat',
     area: 'Aiyatsbus',
     floor: 'L1-3',
-    item: { name: 'Fear Boost', type: 'Skill Card' },
+    item: {
+      name: 'Fear Boost',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2637,12 +3542,19 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Kodama'
   },
   'Koh-i-Noor': {
     arcana: 'Priestess',
     level: 25,
-    stats: { st: 25, ma: 25, en: 25, ag: 25, lu: 25 },
+    stats: {
+      st: 25,
+      ma: 25,
+      en: 25,
+      ag: 25,
+      lu: 25
+    },
     skills: {
       'Dodge Curse': 0,
       'Dodge Elec': 0,
@@ -2656,7 +3568,10 @@ export const compendium = {
     rare: true,
     area: 'Adyeshach',
     floor: 'L1-4, 6-8, 10-12',
-    item: { name: 'Koh-i-Noor', type: 'Item' },
+    item: {
+      name: 'Koh-i-Noor',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -2668,13 +3583,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'nu'
-    }
+    },
+    name: 'Koh-i-Noor'
   },
   Kohryu: {
     personaType: 'Psy',
     arcana: 'Hierophant',
     level: 76,
-    stats: { st: 43, ma: 51, en: 50, ag: 53, lu: 38 },
+    stats: {
+      st: 43,
+      ma: 51,
+      en: 50,
+      ag: 53,
+      lu: 38
+    },
     skills: {
       'Life Aid': 78,
       Mapsiodyne: 0,
@@ -2686,7 +3608,10 @@ export const compendium = {
     },
     special: true,
     max: true,
-    item: { name: 'Sudarshana', type: 'Item' },
+    item: {
+      name: 'Sudarshana',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2698,13 +3623,20 @@ export const compendium = {
       nuclear: 'nu',
       bless: 'nu',
       curse: '-'
-    }
+    },
+    name: 'Kohryu'
   },
   'Koppa Tengu': {
     personaType: 'Wind',
     arcana: 'Temperance',
     level: 11,
-    stats: { st: 7, ma: 8, en: 8, ag: 11, lu: 6 },
+    stats: {
+      st: 7,
+      ma: 8,
+      en: 8,
+      ag: 11,
+      lu: 6
+    },
     skills: {
       Snap: 0,
       Garu: 0,
@@ -2716,7 +3648,10 @@ export const compendium = {
     personality: 'Upbeat',
     area: 'Chemdah',
     floor: 'L6 & 7',
-    item: { name: 'Growth 1', type: 'Skill Card' },
+    item: {
+      name: 'Growth 1',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2728,13 +3663,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: '-'
-    }
+    },
+    name: 'Koppa Tengu'
   },
   Koropokguru: {
     personaType: 'Ice',
     arcana: 'Hermit',
     level: 9,
-    stats: { st: 5, ma: 8, en: 6, ag: 9, lu: 6 },
+    stats: {
+      st: 5,
+      ma: 8,
+      en: 6,
+      ag: 9,
+      lu: 6
+    },
     skills: {
       Bufu: 0,
       'Dodge Ice': 11,
@@ -2746,7 +3688,10 @@ export const compendium = {
     personality: 'Timid',
     area: 'Chemdah',
     floor: 'L2 & 3',
-    item: { name: 'Bufu', type: 'Skill Card' },
+    item: {
+      name: 'Bufu',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -2758,13 +3703,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Koropokguru'
   },
   Koumokuten: {
     personaType: 'Physical',
     arcana: 'Hermit',
     level: 49,
-    stats: { st: 37, ma: 32, en: 34, ag: 31, lu: 25 },
+    stats: {
+      st: 37,
+      ma: 32,
+      en: 34,
+      ag: 31,
+      lu: 25
+    },
     skills: {
       'Assault Dive': 0,
       'Attack Master': 51,
@@ -2775,7 +3727,10 @@ export const compendium = {
       'Regenerate 2': 0,
       Revolution: 0
     },
-    item: { name: 'Regenerate 2', type: 'Skill Card' },
+    item: {
+      name: 'Regenerate 2',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -2787,13 +3742,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: '-'
-    }
+    },
+    name: 'Koumokuten'
   },
   Kumbhanda: {
     personaType: 'Ailment',
     arcana: 'Hermit',
     level: 42,
-    stats: { st: 29, ma: 25, en: 27, ag: 26, lu: 26 },
+    stats: {
+      st: 29,
+      ma: 25,
+      en: 27,
+      ag: 26,
+      lu: 26
+    },
     skills: {
       Dekaja: 45,
       'Hysterical Slap': 0,
@@ -2805,7 +3767,10 @@ export const compendium = {
     },
     area: 'Sheriruth',
     floor: 'L8, 9, 11-13 (before Palace 7) / L4 & 5 (after Palace 7)',
-    item: { name: 'Rage Boost', type: 'Skill Card' },
+    item: {
+      name: 'Rage Boost',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2817,13 +3782,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'rs'
-    }
+    },
+    name: 'Kumbhanda'
   },
   'Kurama Tengu': {
     personaType: 'Wind',
     arcana: 'Hermit',
     level: 56,
-    stats: { st: 34, ma: 38, en: 34, ag: 42, lu: 27 },
+    stats: {
+      st: 34,
+      ma: 38,
+      en: 34,
+      ag: 42,
+      lu: 27
+    },
     skills: {
       'Brain Buster': 0,
       Garudyne: 57,
@@ -2834,7 +3806,10 @@ export const compendium = {
     },
     area: 'Sheriruth',
     floor: 'L11 (after Palace 7)',
-    item: { name: 'Garudyne', type: 'Skill Card' },
+    item: {
+      name: 'Garudyne',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2846,13 +3821,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'rs'
-    }
+    },
+    name: 'Kurama Tengu'
   },
   Kushinada: {
     personaType: 'Healing',
     arcana: 'Lovers',
     level: 42,
-    stats: { st: 24, ma: 30, en: 26, ag: 28, lu: 25 },
+    stats: {
+      st: 24,
+      ma: 30,
+      en: 26,
+      ag: 28,
+      lu: 25
+    },
     skills: {
       'Amrita Shower': 47,
       'Hysterical Slap': 0,
@@ -2864,7 +3846,10 @@ export const compendium = {
     },
     area: 'Sheriruth',
     floor: 'L5, 7-9 (before Palace 7) / L3 & 4 (after Palace 7)',
-    item: { name: 'Wind Wall', type: 'Skill Card' },
+    item: {
+      name: 'Wind Wall',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2876,13 +3861,20 @@ export const compendium = {
       nuclear: 'wk',
       bless: 'rp',
       curse: '-'
-    }
+    },
+    name: 'Kushinada'
   },
   'Kushi Mitama': {
     personaType: 'Healing',
     arcana: 'Strength',
     level: 14,
-    stats: { st: 8, ma: 12, en: 11, ag: 9, lu: 9 },
+    stats: {
+      st: 8,
+      ma: 12,
+      en: 11,
+      ag: 9,
+      lu: 9
+    },
     skills: {
       Bufu: 0,
       'Forget Boost': 18,
@@ -2892,7 +3884,10 @@ export const compendium = {
       'Regenerate 1': 15,
       'Wind Wall': 16
     },
-    item: { name: 'Forget Boost', type: 'Skill Card' },
+    item: {
+      name: 'Forget Boost',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2904,13 +3899,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Kushi Mitama'
   },
   Lachesis: {
     personaType: 'Ice',
     arcana: 'Fortune',
     level: 34,
-    stats: { st: 18, ma: 25, en: 22, ag: 25, lu: 19 },
+    stats: {
+      st: 18,
+      ma: 25,
+      en: 22,
+      ag: 25,
+      lu: 19
+    },
     skills: {
       Bufula: 0,
       'Elec Wall': 36,
@@ -2920,7 +3922,10 @@ export const compendium = {
       Mabufula: 38,
       Marakukaja: 35
     },
-    item: { name: 'Ice Boost', type: 'Skill Card' },
+    item: {
+      name: 'Ice Boost',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2932,13 +3937,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Lachesis'
   },
   Lakshmi: {
     personaType: 'Healing',
     arcana: 'Fortune',
     level: 69,
-    stats: { st: 40, ma: 47, en: 43, ag: 46, lu: 38 },
+    stats: {
+      st: 40,
+      ma: 47,
+      en: 43,
+      ag: 46,
+      lu: 38
+    },
     skills: {
       'Amrita Shower': 72,
       Bufudyne: 0,
@@ -2949,7 +3961,10 @@ export const compendium = {
       'Rainy Play': 71
     },
     max: true,
-    item: { name: 'Life Aid', type: 'Skill Card' },
+    item: {
+      name: 'Life Aid',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2961,13 +3976,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: '-'
-    }
+    },
+    name: 'Lakshmi'
   },
   Lamia: {
     personaType: 'Fire',
     arcana: 'Empress',
     level: 26,
-    stats: { st: 21, ma: 15, en: 18, ag: 19, lu: 12 },
+    stats: {
+      st: 21,
+      ma: 15,
+      en: 18,
+      ag: 19,
+      lu: 12
+    },
     skills: {
       Agilao: 0,
       'Despair Boost': 31,
@@ -2980,7 +4002,10 @@ export const compendium = {
     personality: 'Gloomy',
     area: 'Akzeriyyuth',
     floor: 'L3, 5-7, 9-11',
-    item: { name: 'Despair Boost', type: 'Skill Card' },
+    item: {
+      name: 'Despair Boost',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -2992,13 +4017,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Lamia'
   },
   'Leanan Sidhe': {
     personaType: 'Almighty',
     arcana: 'Lovers',
     level: 19,
-    stats: { st: 9, ma: 17, en: 12, ag: 16, lu: 10 },
+    stats: {
+      st: 9,
+      ma: 17,
+      en: 12,
+      ag: 16,
+      lu: 10
+    },
     skills: {
       Eiga: 23,
       Mamudo: 21,
@@ -3010,7 +4042,10 @@ export const compendium = {
     personality: 'Irritable',
     area: 'Kaitul',
     floor: 'L3-5',
-    item: { name: 'Recarm', type: 'Skill Card' },
+    item: {
+      name: 'Recarm',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3022,13 +4057,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Leanan Sidhe'
   },
   Legion: {
     personaType: 'Psy',
     arcana: 'Fool',
     level: 38,
-    stats: { st: 24, ma: 24, en: 30, ag: 23, lu: 20 },
+    stats: {
+      st: 24,
+      ma: 24,
+      en: 30,
+      ag: 23,
+      lu: 20
+    },
     skills: {
       'Life Drain': 0,
       'Negative Pile': 0,
@@ -3040,7 +4082,10 @@ export const compendium = {
     personality: 'Unknown',
     area: 'Adyeshach',
     floor: 'L1-4',
-    item: { name: 'Legion\'s Jail', type: 'Item' },
+    item: {
+      name: 'Legion\'s Jail',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -3052,13 +4097,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Legion'
   },
   Lilim: {
     personaType: 'Ice',
     arcana: 'Devil',
     level: 32,
-    stats: { st: 17, ma: 23, en: 18, ag: 25, lu: 20 },
+    stats: {
+      st: 17,
+      ma: 23,
+      en: 18,
+      ag: 25,
+      lu: 20
+    },
     skills: {
       Bufula: 0,
       'Devil Smile': 0,
@@ -3071,7 +4123,10 @@ export const compendium = {
     personality: 'Gloomy',
     area: 'Adyeshach',
     floor: 'L6-8, 10-12',
-    item: { name: 'Lullaby', type: 'Skill Card' },
+    item: {
+      name: 'Lullaby',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'wk',
@@ -3083,13 +4138,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Lilim'
   },
   Lilith: {
     personaType: 'Almighty',
     arcana: 'Moon',
     level: 60,
-    stats: { st: 33, ma: 43, en: 37, ag: 39, lu: 35 },
+    stats: {
+      st: 33,
+      ma: 43,
+      en: 37,
+      ag: 39,
+      lu: 35
+    },
     skills: {
       Mabufudyne: 0,
       Magarudyne: 62,
@@ -3099,7 +4161,10 @@ export const compendium = {
       Mudoon: 0,
       'Spirit Drain': 63
     },
-    item: { name: 'Mabufudyne', type: 'Skill Card' },
+    item: {
+      name: 'Mabufudyne',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3111,13 +4176,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Lilith'
   },
   Lucifer: {
     personaType: 'Almighty',
     arcana: 'Star',
     level: 93,
-    stats: { st: 61, ma: 59, en: 59, ag: 56, lu: 51 },
+    stats: {
+      st: 61,
+      ma: 59,
+      en: 59,
+      ag: 56,
+      lu: 51
+    },
     skills: {
       'Absorb Phys': 99,
       Gigantomachia: 0,
@@ -3130,7 +4202,10 @@ export const compendium = {
     },
     special: true,
     max: true,
-    item: { name: 'Tyrant Pistol', type: 'Item' },
+    item: {
+      name: 'Tyrant Pistol',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3142,13 +4217,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: '-'
-    }
+    },
+    name: 'Lucifer'
   },
   Mada: {
     personaType: 'Fire',
     arcana: 'Tower',
     level: 85,
-    stats: { st: 52, ma: 51, en: 58, ag: 56, lu: 45 },
+    stats: {
+      st: 52,
+      ma: 51,
+      en: 58,
+      ag: 56,
+      lu: 45
+    },
     skills: {
       Agidyne: 0,
       'Amrita Shower': 88,
@@ -3160,7 +4242,10 @@ export const compendium = {
       'Unshaken Will': 86
     },
     max: true,
-    item: { name: 'Unshaken Will', type: 'Skill Card' },
+    item: {
+      name: 'Unshaken Will',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3172,13 +4257,20 @@ export const compendium = {
       nuclear: 'nu',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Mada'
   },
   'Magatsu-Izanagi': {
     personaType: 'Almighty',
     arcana: 'Tower',
     level: 44,
-    stats: { st: 37, ma: 35, en: 32, ag: 25, lu: 10 },
+    stats: {
+      st: 37,
+      ma: 35,
+      en: 32,
+      ag: 25,
+      lu: 10
+    },
     skills: {
       'Attack Master': 48,
       Bloodbath: 46,
@@ -3189,7 +4281,10 @@ export const compendium = {
       Megidola: 0
     },
     dlc: true,
-    item: { name: 'Black Headband', type: 'Item' },
+    item: {
+      name: 'Black Headband',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -3201,13 +4296,20 @@ export const compendium = {
       nuclear: 'wk',
       bless: 'nu',
       curse: 'nu'
-    }
+    },
+    name: 'Magatsu-Izanagi'
   },
   'Magatsu-Izanagi Picaro': {
     personaType: 'Almighty',
     arcana: 'Tower',
     level: 48,
-    stats: { st: 40, ma: 38, en: 35, ag: 27, lu: 11 },
+    stats: {
+      st: 40,
+      ma: 38,
+      en: 35,
+      ag: 27,
+      lu: 11
+    },
     skills: {
       Bloodbath: 50,
       'Ghastly Wail': 0,
@@ -3218,7 +4320,10 @@ export const compendium = {
       'Speed Master': 52
     },
     dlc: true,
-    item: { name: 'Heat Riser', type: 'Skill Card' },
+    item: {
+      name: 'Heat Riser',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -3230,13 +4335,20 @@ export const compendium = {
       nuclear: 'wk',
       bless: 'nu',
       curse: 'nu'
-    }
+    },
+    name: 'Magatsu-Izanagi Picaro'
   },
   Makami: {
     personaType: 'Nuclear',
     arcana: 'Temperance',
     level: 15,
-    stats: { st: 13, ma: 12, en: 8, ag: 11, lu: 8 },
+    stats: {
+      st: 13,
+      ma: 12,
+      en: 8,
+      ag: 11,
+      lu: 8
+    },
     skills: {
       'Dodge Elec': 20,
       'Double Fangs': 0,
@@ -3249,7 +4361,10 @@ export const compendium = {
     personality: 'Upbeat',
     area: 'Chemdah',
     floor: 'L6 & 7',
-    item: { name: 'Makajam', type: 'Skill Card' },
+    item: {
+      name: 'Makajam',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3261,13 +4376,20 @@ export const compendium = {
       nuclear: 'rs',
       bless: 'nu',
       curse: '-'
-    }
+    },
+    name: 'Makami'
   },
   Mandrake: {
     personaType: 'Electric',
     arcana: 'Death',
     level: 3,
-    stats: { st: 2, ma: 3, en: 3, ag: 4, lu: 4 },
+    stats: {
+      st: 2,
+      ma: 3,
+      en: 3,
+      ag: 4,
+      lu: 4
+    },
     skills: {
       'Energy Drop': 0,
       Lunge: 4,
@@ -3278,7 +4400,10 @@ export const compendium = {
     personality: 'Upbeat',
     area: 'Qimranut / Aiyatsbus',
     floor: 'All / L1',
-    item: { name: 'Energy Drop', type: 'Skill Card' },
+    item: {
+      name: 'Energy Drop',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3290,13 +4415,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Mandrake'
   },
   Mara: {
     personaType: 'Fire',
     arcana: 'Tower',
     level: 73,
-    stats: { st: 47, ma: 46, en: 49, ag: 45, lu: 39 },
+    stats: {
+      st: 47,
+      ma: 46,
+      en: 49,
+      ag: 45,
+      lu: 39
+    },
     skills: {
       'Firm Stance': 78,
       'Heat Up': 77,
@@ -3306,7 +4438,10 @@ export const compendium = {
       Charge: 74,
       'Tetra Break': 0
     },
-    item: { name: 'Maragidyne', type: 'Skill Card' },
+    item: {
+      name: 'Maragidyne',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'nu',
@@ -3318,13 +4453,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'rp'
-    }
+    },
+    name: 'Mara'
   },
   Matador: {
     personaType: 'Psy',
     arcana: 'Death',
     level: 19,
-    stats: { st: 12, ma: 13, en: 12, ag: 16, lu: 11 },
+    stats: {
+      st: 12,
+      ma: 13,
+      en: 12,
+      ag: 16,
+      lu: 11
+    },
     skills: {
       Garula: 23,
       'Null Dizzy': 0,
@@ -3333,7 +4475,10 @@ export const compendium = {
       'Swift Strike': 20,
       'Trigger Happy': 22
     },
-    item: { name: 'Garula', type: 'Skill Card' },
+    item: {
+      name: 'Garula',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3345,13 +4490,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Matador'
   },
   Melchizedek: {
     personaType: 'Bless',
     arcana: 'Justice',
     level: 60,
-    stats: { st: 37, ma: 38, en: 41, ag: 39, lu: 32 },
+    stats: {
+      st: 37,
+      ma: 38,
+      en: 41,
+      ag: 39,
+      lu: 32
+    },
     skills: {
       'Amrita Drop': 65,
       'God\'s Hand': 67,
@@ -3361,7 +4513,10 @@ export const compendium = {
       'Megaton Raid': 0,
       Revolution: 62
     },
-    item: { name: 'Mahamaon', type: 'Skill Card' },
+    item: {
+      name: 'Mahamaon',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3373,13 +4528,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'ab',
       curse: 'nu'
-    }
+    },
+    name: 'Melchizedek'
   },
   Messiah: {
     personaType: 'Almighty',
     arcana: 'Judgement',
     level: 81,
-    stats: { st: 50, ma: 50, en: 50, ag: 50, lu: 50 },
+    stats: {
+      st: 50,
+      ma: 50,
+      en: 50,
+      ag: 50,
+      lu: 50
+    },
     skills: {
       'Absorb Phys': 85,
       'Almighty Boost': 87,
@@ -3391,7 +4553,10 @@ export const compendium = {
       'Regenerate 3': 82
     },
     dlc: true,
-    item: { name: 'Lucifer Guard', type: 'Item' },
+    item: {
+      name: 'Lucifer Guard',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3403,13 +4568,20 @@ export const compendium = {
       nuclear: 'rs',
       bless: 'rp',
       curse: 'wk'
-    }
+    },
+    name: 'Messiah'
   },
   'Messiah Picaro': {
     personaType: 'Almighty',
     arcana: 'Judgement',
     level: 90,
-    stats: { st: 56, ma: 56, en: 55, ag: 55, lu: 55 },
+    stats: {
+      st: 56,
+      ma: 56,
+      en: 55,
+      ag: 55,
+      lu: 55
+    },
     skills: {
       Agneyastra: 0,
       'Almighty Boost': 96,
@@ -3421,7 +4593,10 @@ export const compendium = {
       Oratorio: 0
     },
     dlc: true,
-    item: { name: 'Insta-Heal', type: 'Skill Card' },
+    item: {
+      name: 'Insta-Heal',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3433,13 +4608,20 @@ export const compendium = {
       nuclear: 'rs',
       bless: 'rp',
       curse: 'wk'
-    }
+    },
+    name: 'Messiah Picaro'
   },
   Metatron: {
     personaType: 'Bless',
     arcana: 'Justice',
     level: 89,
-    stats: { st: 54, ma: 61, en: 60, ag: 57, lu: 42 },
+    stats: {
+      st: 54,
+      ma: 61,
+      en: 60,
+      ag: 57,
+      lu: 42
+    },
     skills: {
       'Sword Dance': 0,
       'Divine Judgement': 95,
@@ -3452,7 +4634,10 @@ export const compendium = {
     },
     special: true,
     max: true,
-    item: { name: 'Nataraja', type: 'Item' },
+    item: {
+      name: 'Nataraja',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3464,13 +4649,20 @@ export const compendium = {
       nuclear: 'ab',
       bless: '-',
       curse: 'wk'
-    }
+    },
+    name: 'Metatron'
   },
   Michael: {
     personaType: 'Almighty',
     arcana: 'Judgement',
     level: 87,
-    stats: { st: 57, ma: 54, en: 55, ag: 56, lu: 46 },
+    stats: {
+      st: 57,
+      ma: 54,
+      en: 55,
+      ag: 56,
+      lu: 46
+    },
     skills: {
       'Cosmic Flare': 92,
       'Sword Dance': 89,
@@ -3482,7 +4674,10 @@ export const compendium = {
     },
     special: true,
     note: 'Needs Strength cooperation rank 5 to be fused',
-    item: { name: 'Judge of the Dead', type: 'Item' },
+    item: {
+      name: 'Judge of the Dead',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -3494,13 +4689,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rp',
       curse: 'nu'
-    }
+    },
+    name: 'Michael'
   },
   Mitra: {
     personaType: 'Bless',
     arcana: 'Temperance',
     level: 33,
-    stats: { st: 19, ma: 26, en: 19, ag: 24, lu: 18 },
+    stats: {
+      st: 19,
+      ma: 26,
+      en: 19,
+      ag: 24,
+      lu: 18
+    },
     skills: {
       Dekunda: 35,
       Diarama: 0,
@@ -3510,7 +4712,10 @@ export const compendium = {
       Makouga: 34,
       Thermopylae: 38
     },
-    item: { name: 'Death Contract', type: 'Item' },
+    item: {
+      name: 'Death Contract',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3522,13 +4727,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: '-'
-    }
+    },
+    name: 'Mitra'
   },
   Mithras: {
     personaType: 'Nuclear',
     arcana: 'Sun',
     level: 39,
-    stats: { st: 27, ma: 25, en: 27, ag: 25, lu: 20 },
+    stats: {
+      st: 27,
+      ma: 25,
+      en: 27,
+      ag: 25,
+      lu: 20
+    },
     skills: {
       Freidyne: 45,
       Mafreila: 0,
@@ -3540,7 +4752,10 @@ export const compendium = {
     personality: 'Gloomy',
     area: 'Adyeshach',
     floor: 'L11 & 12',
-    item: { name: 'Petra Genetrix', type: 'Item' },
+    item: {
+      name: 'Petra Genetrix',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -3552,13 +4767,20 @@ export const compendium = {
       nuclear: 'nu',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Mithras'
   },
   Mokoi: {
     personaType: 'Ailment',
     arcana: 'Death',
     level: 9,
-    stats: { st: 9, ma: 5, en: 6, ag: 10, lu: 4 },
+    stats: {
+      st: 9,
+      ma: 5,
+      en: 6,
+      ag: 10,
+      lu: 4
+    },
     skills: {
       Dazzler: 0,
       Dekunda: 14,
@@ -3570,7 +4792,10 @@ export const compendium = {
     personality: 'Gloomy',
     area: 'Chemdah',
     floor: 'L1-4',
-    item: { name: 'Dekunda', type: 'Skill Card' },
+    item: {
+      name: 'Dekunda',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3582,13 +4807,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Mokoi'
   },
   Moloch: {
     personaType: 'Psy',
     arcana: 'Hanged Man',
     level: 60,
-    stats: { st: 32, ma: 45, en: 42, ag: 31, lu: 37 },
+    stats: {
+      st: 32,
+      ma: 45,
+      en: 42,
+      ag: 31,
+      lu: 37
+    },
     skills: {
       'Absorb Fire': 64,
       Agidyne: 62,
@@ -3598,7 +4830,10 @@ export const compendium = {
       Psiodyne: 0,
       'Stagnant Air': 0
     },
-    item: { name: 'Nuke Amp', type: 'Skill Card' },
+    item: {
+      name: 'Nuke Amp',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3610,13 +4845,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Moloch'
   },
   Mot: {
     personaType: 'Ailment',
     arcana: 'Death',
     level: 72,
-    stats: { st: 43, ma: 51, en: 48, ag: 42, lu: 39 },
+    stats: {
+      st: 43,
+      ma: 51,
+      en: 48,
+      ag: 42,
+      lu: 39
+    },
     skills: {
       Matarukaja: 0,
       Maziodyne: 0,
@@ -3625,7 +4867,10 @@ export const compendium = {
       Concentrate: 74,
       'Repel Elec': 77
     },
-    item: { name: 'Concentrate', type: 'Skill Card' },
+    item: {
+      name: 'Concentrate',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -3637,13 +4882,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'rp'
-    }
+    },
+    name: 'Mot'
   },
   'Mother Harlot': {
     personaType: 'Ice',
     arcana: 'Empress',
     level: 80,
-    stats: { st: 55, ma: 48, en: 46, ag: 49, lu: 49 },
+    stats: {
+      st: 55,
+      ma: 48,
+      en: 46,
+      ag: 49,
+      lu: 49
+    },
     skills: {
       Debilitate: 85,
       'Ice Age': 81,
@@ -3654,7 +4906,10 @@ export const compendium = {
       'Null Bless': 83
     },
     max: true,
-    item: { name: 'Claiomh Solais - Sable', type: 'Item' },
+    item: {
+      name: 'Claiomh Solais - Sable',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3666,13 +4921,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Mother Harlot'
   },
   Mothman: {
     personaType: 'Electric',
     arcana: 'Moon',
     level: 33,
-    stats: { st: 21, ma: 24, en: 16, ag: 24, lu: 21 },
+    stats: {
+      st: 21,
+      ma: 24,
+      en: 16,
+      ag: 24,
+      lu: 21
+    },
     skills: {
       'Ambient Aid': 36,
       Makajamon: 37,
@@ -3684,7 +4946,10 @@ export const compendium = {
     personality: 'Timid',
     area: 'Adyeshach',
     floor: 'L3, 4, 7, 8, 10',
-    item: { name: 'Foul Breath', type: 'Skill Card' },
+    item: {
+      name: 'Foul Breath',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'wk',
@@ -3696,13 +4961,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Mothman'
   },
   Naga: {
     personaType: 'Electric',
     arcana: 'Hermit',
     level: 24,
-    stats: { st: 15, ma: 17, en: 15, ag: 17, lu: 15 },
+    stats: {
+      st: 15,
+      ma: 17,
+      en: 15,
+      ag: 17,
+      lu: 15
+    },
     skills: {
       'Memory Blow': 0,
       Dazzler: 27,
@@ -3715,7 +4987,10 @@ export const compendium = {
     personality: 'Gloomy',
     area: 'Akzeriyyuth',
     floor: 'L2, 3, 5-7, 9',
-    item: { name: 'Elec Boost', type: 'Skill Card' },
+    item: {
+      name: 'Elec Boost',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3727,13 +5002,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Naga'
   },
   Narcissus: {
     personaType: 'Ailment',
     arcana: 'Lovers',
     level: 50,
-    stats: { st: 27, ma: 36, en: 29, ag: 35, lu: 30 },
+    stats: {
+      st: 27,
+      ma: 36,
+      en: 29,
+      ag: 35,
+      lu: 30
+    },
     skills: {
       'Nocturnal Flash': 0,
       'Ambient Aid': 55,
@@ -3745,7 +5027,10 @@ export const compendium = {
     },
     area: 'Sheriruth',
     floor: 'L7 & 8 (after Palace 7)',
-    item: { name: 'Daffodils', type: 'Item' },
+    item: {
+      name: 'Daffodils',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3757,13 +5042,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: '-'
-    }
+    },
+    name: 'Narcissus'
   },
   Nebiros: {
     personaType: 'Curse',
     arcana: 'Devil',
     level: 62,
-    stats: { st: 39, ma: 40, en: 42, ag: 36, lu: 36 },
+    stats: {
+      st: 39,
+      ma: 40,
+      en: 42,
+      ag: 36,
+      lu: 36
+    },
     skills: {
       'Curse Amp': 65,
       Eigaon: 0,
@@ -3773,7 +5065,10 @@ export const compendium = {
       'Marin Karin': 0,
       Megidolaon: 68
     },
-    item: { name: 'Eigaon', type: 'Skill Card' },
+    item: {
+      name: 'Eigaon',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3785,13 +5080,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'rp'
-    }
+    },
+    name: 'Nebiros'
   },
   'Neko Shogun': {
     personaType: 'Almighty',
     arcana: 'Star',
     level: 30,
-    stats: { st: 19, ma: 20, en: 19, ag: 21, lu: 18 },
+    stats: {
+      st: 19,
+      ma: 20,
+      en: 19,
+      ag: 21,
+      lu: 18
+    },
     skills: {
       'Defense Master': 34,
       Diarama: 0,
@@ -3803,7 +5105,10 @@ export const compendium = {
     },
     special: true,
     note: 'Needs Strength cooperation rank 1 to be fused',
-    item: { name: 'Catnap', type: 'Item' },
+    item: {
+      name: 'Catnap',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -3815,13 +5120,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'rs'
-    }
+    },
+    name: 'Neko Shogun'
   },
   Nekomata: {
     personaType: 'Ailment',
     arcana: 'Magician',
     level: 17,
-    stats: { st: 13, ma: 10, en: 12, ag: 15, lu: 8 },
+    stats: {
+      st: 13,
+      ma: 10,
+      en: 12,
+      ag: 15,
+      lu: 8
+    },
     skills: {
       'Evil Touch': 0,
       'Dodge Elec': 22,
@@ -3834,7 +5146,10 @@ export const compendium = {
     personality: 'Upbeat',
     area: 'Kaitul',
     floor: 'L2-4',
-    item: { name: 'Pawzooka', type: 'Item' },
+    item: {
+      name: 'Pawzooka',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3846,13 +5161,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Nekomata'
   },
   'Nigi Mitama': {
     personaType: 'Healing',
     arcana: 'Temperance',
     level: 20,
-    stats: { st: 12, ma: 14, en: 14, ag: 15, lu: 12 },
+    stats: {
+      st: 12,
+      ma: 14,
+      en: 14,
+      ag: 15,
+      lu: 12
+    },
     skills: {
       Baisudi: 0,
       'Divine Grace': 22,
@@ -3861,7 +5183,10 @@ export const compendium = {
       Media: 0,
       'Rainy Play': 24
     },
-    item: { name: 'Me Patra', type: 'Skill Card' },
+    item: {
+      name: 'Me Patra',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3873,13 +5198,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'rs'
-    }
+    },
+    name: 'Nigi Mitama'
   },
   Norn: {
     personaType: 'Almighty',
     arcana: 'Fortune',
     level: 52,
-    stats: { st: 30, ma: 38, en: 33, ag: 34, lu: 28 },
+    stats: {
+      st: 30,
+      ma: 38,
+      en: 33,
+      ag: 34,
+      lu: 28
+    },
     skills: {
       'Amrita Drop': 55,
       'Nocturnal Flash': 0,
@@ -3891,7 +5223,10 @@ export const compendium = {
     },
     area: 'Sheriruth',
     floor: 'L11-13 (before Palace 7) / L5 (after Palace 7)',
-    item: { name: 'Diarahan', type: 'Skill Card' },
+    item: {
+      name: 'Diarahan',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3903,13 +5238,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Norn'
   },
   Nue: {
     personaType: 'Curse',
     arcana: 'Moon',
     level: 20,
-    stats: { st: 16, ma: 10, en: 17, ag: 14, lu: 10 },
+    stats: {
+      st: 16,
+      ma: 10,
+      en: 17,
+      ag: 14,
+      lu: 10
+    },
     skills: {
       'Assault Dive': 25,
       'Curse Boost': 26,
@@ -3922,7 +5264,10 @@ export const compendium = {
     personality: 'Irritable',
     area: 'Chemdah',
     floor: 'L4',
-    item: { name: 'Skull Cracker', type: 'Skill Card' },
+    item: {
+      name: 'Skull Cracker',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3934,13 +5279,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Nue'
   },
   Obariyon: {
     personaType: 'Physical',
     arcana: 'Fool',
     level: 8,
-    stats: { st: 7, ma: 3, en: 9, ag: 8, lu: 4 },
+    stats: {
+      st: 7,
+      ma: 3,
+      en: 9,
+      ag: 8,
+      lu: 4
+    },
     skills: {
       Dekaja: 12,
       Snap: 0,
@@ -3951,7 +5303,10 @@ export const compendium = {
     personality: 'Unknown',
     area: 'Aiyatsbus',
     floor: 'L3, 5 & 6',
-    item: { name: 'Lucky Punch', type: 'Skill Card' },
+    item: {
+      name: 'Lucky Punch',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -3963,13 +5318,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Obariyon'
   },
   Oberon: {
     personaType: 'Electric',
     arcana: 'Emperor',
     level: 66,
-    stats: { st: 40, ma: 44, en: 43, ag: 43, lu: 35 },
+    stats: {
+      st: 40,
+      ma: 44,
+      en: 43,
+      ag: 43,
+      lu: 35
+    },
     skills: {
       'Brain Jack': 0,
       'Elec Amp': 72,
@@ -3983,7 +5345,10 @@ export const compendium = {
     personality: 'Unknown',
     area: 'Sheriruth',
     floor: 'L13 (after Palace 7)',
-    item: { name: 'Elec Amp', type: 'Skill Card' },
+    item: {
+      name: 'Elec Amp',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3995,13 +5360,20 @@ export const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Oberon'
   },
   Odin: {
     personaType: 'Electric',
     arcana: 'Emperor',
     level: 82,
-    stats: { st: 53, ma: 52, en: 54, ag: 52, lu: 42 },
+    stats: {
+      st: 53,
+      ma: 52,
+      en: 54,
+      ag: 52,
+      lu: 42
+    },
     skills: {
       'Wild Thunder': 84,
       'Elec Amp': 87,
@@ -4012,7 +5384,10 @@ export const compendium = {
       'Thunder Reign': 0
     },
     max: true,
-    item: { name: 'Wild Hunt', type: 'Item' },
+    item: {
+      name: 'Wild Hunt',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4024,13 +5399,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rp',
       curse: 'rp'
-    }
+    },
+    name: 'Odin'
   },
   Okuninushi: {
     personaType: 'Psy',
     arcana: 'Emperor',
     level: 44,
-    stats: { st: 30, ma: 28, en: 29, ag: 28, lu: 24 },
+    stats: {
+      st: 30,
+      ma: 28,
+      en: 29,
+      ag: 28,
+      lu: 24
+    },
     skills: {
       'Evade Nuke': 47,
       'Heat Wave': 49,
@@ -4040,7 +5422,10 @@ export const compendium = {
       'Psy Break': 46,
       'Tempest Slash': 0
     },
-    item: { name: 'Official\'s Robe', type: 'Item' },
+    item: {
+      name: 'Official\'s Robe',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4052,13 +5437,20 @@ export const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Okuninushi'
   },
   'Ongyo-Ki': {
     personaType: 'Physical',
     arcana: 'Hermit',
     level: 75,
-    stats: { st: 56, ma: 42, en: 47, ag: 48, lu: 39 },
+    stats: {
+      st: 56,
+      ma: 42,
+      en: 47,
+      ag: 48,
+      lu: 39
+    },
     skills: {
       Agneyastra: 81,
       'Arms Master': 77,
@@ -4070,7 +5462,10 @@ export const compendium = {
     },
     special: true,
     max: true,
-    item: { name: 'Myriad Slashes', type: 'Skill Card' },
+    item: {
+      name: 'Myriad Slashes',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -4082,13 +5477,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rp',
       curse: 'rp'
-    }
+    },
+    name: 'Ongyo-Ki'
   },
   Oni: {
     personaType: 'Physical',
     arcana: 'Strength',
     level: 19,
-    stats: { st: 17, ma: 8, en: 16, ag: 13, lu: 10 },
+    stats: {
+      st: 17,
+      ma: 8,
+      en: 16,
+      ag: 13,
+      lu: 10
+    },
     skills: {
       'Memory Blow': 23,
       'Sharp Student': 22,
@@ -4100,7 +5502,10 @@ export const compendium = {
     personality: 'Upbeat',
     area: 'Kaitul',
     floor: 'L3-5, 8, 9',
-    item: { name: 'Rampage', type: 'Skill Card' },
+    item: {
+      name: 'Rampage',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -4112,13 +5517,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Oni'
   },
   Onmoraki: {
     personaType: 'Curse',
     arcana: 'Moon',
     level: 12,
-    stats: { st: 9, ma: 12, en: 7, ag: 10, lu: 5 },
+    stats: {
+      st: 9,
+      ma: 12,
+      en: 7,
+      ag: 10,
+      lu: 5
+    },
     skills: {
       Agi: 13,
       'Ice Wall': 0,
@@ -4130,7 +5542,10 @@ export const compendium = {
     personality: 'Gloomy',
     area: 'Chemdah',
     floor: 'L3 & 4',
-    item: { name: 'Confuse Boost', type: 'Skill Card' },
+    item: {
+      name: 'Confuse Boost',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'wk',
@@ -4142,12 +5557,19 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Onmoraki'
   },
   Orlov: {
     arcana: 'Strength',
     level: 30,
-    stats: { st: 30, ma: 30, en: 30, ag: 30, lu: 30 },
+    stats: {
+      st: 30,
+      ma: 30,
+      en: 30,
+      ag: 30,
+      lu: 30
+    },
     skills: {
       Mabufula: 0,
       Maeiga: 0,
@@ -4161,7 +5583,10 @@ export const compendium = {
     rare: true,
     area: 'Sheriruth',
     floor: 'All (before Palace 7) / L1-5 (after Palace 7)',
-    item: { name: 'Orlov', type: 'Item' },
+    item: {
+      name: 'Orlov',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: 'nu',
@@ -4173,13 +5598,20 @@ export const compendium = {
       nuclear: 'nu',
       bless: 'nu',
       curse: 'nu'
-    }
+    },
+    name: 'Orlov'
   },
   Orobas: {
     personaType: 'Fire',
     arcana: 'Hierophant',
     level: 17,
-    stats: { st: 11, ma: 14, en: 15, ag: 12, lu: 6 },
+    stats: {
+      st: 11,
+      ma: 14,
+      en: 15,
+      ag: 12,
+      lu: 6
+    },
     skills: {
       Dekaja: 0,
       'Fire Break': 20,
@@ -4191,7 +5623,10 @@ export const compendium = {
     personality: 'Timid',
     area: 'Kaitul',
     floor: 'L1-3',
-    item: { name: 'Maragi', type: 'Skill Card' },
+    item: {
+      name: 'Maragi',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4203,13 +5638,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'rs'
-    }
+    },
+    name: 'Orobas'
   },
   Orpheus: {
     personaType: 'Almighty',
     arcana: 'Fool',
     level: 26,
-    stats: { st: 17, ma: 17, en: 17, ag: 17, lu: 17 },
+    stats: {
+      st: 17,
+      ma: 17,
+      en: 17,
+      ag: 17,
+      lu: 17
+    },
     skills: {
       Agilao: 0,
       Cadenza: 0,
@@ -4220,7 +5662,10 @@ export const compendium = {
       Tarunda: 0
     },
     dlc: true,
-    item: { name: 'Hades Harp', type: 'Item' },
+    item: {
+      name: 'Hades Harp',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4232,13 +5677,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'wk'
-    }
+    },
+    name: 'Orpheus'
   },
   'Orpheus Picaro': {
     personaType: 'Almighty',
     arcana: 'Fool',
     level: 29,
-    stats: { st: 19, ma: 19, en: 19, ag: 19, lu: 18 },
+    stats: {
+      st: 19,
+      ma: 19,
+      en: 19,
+      ag: 19,
+      lu: 18
+    },
     skills: {
       Agidyne: 32,
       Cadenza: 0,
@@ -4249,7 +5701,10 @@ export const compendium = {
       Matarunda: 0
     },
     dlc: true,
-    item: { name: 'Agidyne', type: 'Skill Card' },
+    item: {
+      name: 'Agidyne',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4261,13 +5716,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'wk'
-    }
+    },
+    name: 'Orpheus Picaro'
   },
   Orthrus: {
     personaType: 'Fire',
     arcana: 'Hanged Man',
     level: 21,
-    stats: { st: 16, ma: 14, en: 14, ag: 19, lu: 7 },
+    stats: {
+      st: 16,
+      ma: 14,
+      en: 14,
+      ag: 19,
+      lu: 7
+    },
     skills: {
       Agilao: 0,
       'Burn Boost': 22,
@@ -4279,7 +5741,10 @@ export const compendium = {
     personality: 'Irritable',
     area: 'Kaitul',
     floor: 'L4, 5, 7-9',
-    item: { name: 'Burn Boost', type: 'Skill Card' },
+    item: {
+      name: 'Burn Boost',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4291,13 +5756,20 @@ export const compendium = {
       nuclear: 'rs',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Orthrus'
   },
   Ose: {
     personaType: 'Ailment',
     arcana: 'Fool',
     level: 42,
-    stats: { st: 32, ma: 24, en: 25, ag: 31, lu: 21 },
+    stats: {
+      st: 32,
+      ma: 24,
+      en: 25,
+      ag: 31,
+      lu: 21
+    },
     skills: {
       Counterstrike: 0,
       'Heat Wave': 47,
@@ -4308,7 +5780,10 @@ export const compendium = {
     personality: 'Unknown',
     area: 'Sheriruth',
     floor: 'L1-5, 9 (before Palace 7) / L1-4 (after Palace 7)',
-    item: { name: 'Matarukaja', type: 'Skill Card' },
+    item: {
+      name: 'Matarukaja',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4320,13 +5795,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Ose'
   },
   'Pale Rider': {
     personaType: 'Curse',
     arcana: 'Death',
     level: 53,
-    stats: { st: 34, ma: 34, en: 33, ag: 39, lu: 26 },
+    stats: {
+      st: 34,
+      ma: 34,
+      en: 33,
+      ag: 39,
+      lu: 26
+    },
     skills: {
       'Abysmal Surge': 0,
       'Brain Shake': 0,
@@ -4336,7 +5818,10 @@ export const compendium = {
       'Evade Bless': 57,
       Megidola: 54
     },
-    item: { name: 'Megidola', type: 'Skill Card' },
+    item: {
+      name: 'Megidola',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4348,13 +5833,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'rp'
-    }
+    },
+    name: 'Pale Rider'
   },
   Parvati: {
     personaType: 'Psy',
     arcana: 'Lovers',
     level: 56,
-    stats: { st: 33, ma: 39, en: 33, ag: 39, lu: 31 },
+    stats: {
+      st: 33,
+      ma: 39,
+      en: 33,
+      ag: 39,
+      lu: 31
+    },
     skills: {
       Diarahan: 58,
       Diarama: 0,
@@ -4367,7 +5859,10 @@ export const compendium = {
     personality: 'Unknown',
     area: 'Sheriruth',
     floor: 'L9, 11, 12 (after Palace 7)',
-    item: { name: 'Psiodyne', type: 'Skill Card' },
+    item: {
+      name: 'Psiodyne',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4379,13 +5874,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'wk'
-    }
+    },
+    name: 'Parvati'
   },
   Pazuzu: {
     personaType: 'Curse',
     arcana: 'Devil',
     level: 43,
-    stats: { st: 29, ma: 30, en: 27, ag: 26, lu: 24 },
+    stats: {
+      st: 29,
+      ma: 30,
+      en: 27,
+      ag: 26,
+      lu: 24
+    },
     skills: {
       'Bad Beat': 47,
       'Ambient Aid': 45,
@@ -4395,7 +5897,10 @@ export const compendium = {
       Mudoon: 0,
       Tentarafoo: 0
     },
-    item: { name: 'Maeiga', type: 'Skill Card' },
+    item: {
+      name: 'Maeiga',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4407,13 +5912,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Pazuzu'
   },
   Pisaca: {
     personaType: 'Curse',
     arcana: 'Death',
     level: 29,
-    stats: { st: 19, ma: 21, en: 21, ag: 17, lu: 16 },
+    stats: {
+      st: 19,
+      ma: 21,
+      en: 21,
+      ag: 17,
+      lu: 16
+    },
     skills: {
       'Abysmal Surge': 32,
       'Despair Boost': 33,
@@ -4426,7 +5938,10 @@ export const compendium = {
     personality: 'Unknown',
     area: 'Akzeriyyuth',
     floor: 'L5-7, 9-11',
-    item: { name: 'Headhunter Ladle', type: 'Item' },
+    item: {
+      name: 'Headhunter Ladle',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4438,18 +5953,34 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Pisaca'
   },
   Pixie: {
     personaType: 'Electric',
     arcana: 'Lovers',
     level: 2,
-    stats: { st: 1, ma: 3, en: 3, ag: 4, lu: 2 },
-    skills: { Dia: 0, Patra: 3, 'Resist Confuse': 6, Tarukaja: 5, Zio: 0 },
+    stats: {
+      st: 1,
+      ma: 3,
+      en: 3,
+      ag: 4,
+      lu: 2
+    },
+    skills: {
+      Dia: 0,
+      Patra: 3,
+      'Resist Confuse': 6,
+      Tarukaja: 5,
+      Zio: 0
+    },
     personality: 'Timid',
     area: 'Qimranut / Aiyatsbus',
     floor: 'All / L1 & 3',
-    item: { name: 'Dia', type: 'Skill Card' },
+    item: {
+      name: 'Dia',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'wk',
@@ -4461,13 +5992,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'wk'
-    }
+    },
+    name: 'Pixie'
   },
   Power: {
     personaType: 'Bless',
     arcana: 'Justice',
     level: 41,
-    stats: { st: 30, ma: 26, en: 28, ag: 25, lu: 21 },
+    stats: {
+      st: 30,
+      ma: 26,
+      en: 28,
+      ag: 25,
+      lu: 21
+    },
     skills: {
       Diarama: 44,
       Hamaon: 0,
@@ -4480,7 +6018,10 @@ export const compendium = {
     personality: 'Unknown',
     area: 'Sheriruth',
     floor: 'L1-5, 7 (before Palace 7) / L1-3 (after Palace 7)',
-    item: { name: 'Masukukaja', type: 'Skill Card' },
+    item: {
+      name: 'Masukukaja',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'wk',
@@ -4492,13 +6033,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'wk'
-    }
+    },
+    name: 'Power'
   },
   Principality: {
     personaType: 'Bless',
     arcana: 'Justice',
     level: 29,
-    stats: { st: 17, ma: 19, en: 18, ag: 21, lu: 19 },
+    stats: {
+      st: 17,
+      ma: 19,
+      en: 18,
+      ag: 21,
+      lu: 19
+    },
     skills: {
       'Bless Boost': 34,
       Mabaisudi: 32,
@@ -4507,7 +6055,10 @@ export const compendium = {
       Mediarama: 31,
       Tetraja: 0
     },
-    item: { name: 'Tetraja', type: 'Skill Card' },
+    item: {
+      name: 'Tetraja',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4519,13 +6070,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'wk'
-    }
+    },
+    name: 'Principality'
   },
   'Queen Mab': {
     personaType: 'Almighty',
     arcana: 'Magician',
     level: 43,
-    stats: { st: 23, ma: 35, en: 26, ag: 30, lu: 22 },
+    stats: {
+      st: 23,
+      ma: 35,
+      en: 26,
+      ag: 30,
+      lu: 22
+    },
     skills: {
       Agidyne: 48,
       Makajamon: 0,
@@ -4537,7 +6095,10 @@ export const compendium = {
     personality: 'Unknown',
     area: 'Sheriruth',
     floor: 'L5, 7-9 (before Palace 7) / L3 & 4 (after Palace 7)',
-    item: { name: 'Masquerade Ribbon', type: 'Item' },
+    item: {
+      name: 'Masquerade Ribbon',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4549,13 +6110,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Queen Mab'
   },
   Quetzalcoatl: {
     personaType: 'Wind',
     arcana: 'Sun',
     level: 63,
-    stats: { st: 38, ma: 42, en: 41, ag: 41, lu: 34 },
+    stats: {
+      st: 38,
+      ma: 42,
+      en: 41,
+      ag: 41,
+      lu: 34
+    },
     skills: {
       'Memory Blow': 0,
       Garudyne: 0,
@@ -4565,7 +6133,10 @@ export const compendium = {
       'Regenerate 3': 66,
       'Wind Amp': 68
     },
-    item: { name: 'Regenerate 3', type: 'Skill Card' },
+    item: {
+      name: 'Regenerate 3',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4577,13 +6148,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Quetzalcoatl'
   },
   'Raja Naga': {
     personaType: 'Electric',
     arcana: 'Temperance',
     level: 55,
-    stats: { st: 33, ma: 37, en: 36, ag: 35, lu: 31 },
+    stats: {
+      st: 33,
+      ma: 37,
+      en: 36,
+      ag: 35,
+      lu: 31
+    },
     skills: {
       'Elec Break': 0,
       'Evade Wind': 60,
@@ -4593,7 +6171,10 @@ export const compendium = {
       Tentarafoo: 0,
       Ziodyne: 0
     },
-    item: { name: 'Ziodyne', type: 'Skill Card' },
+    item: {
+      name: 'Ziodyne',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4605,13 +6186,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Raja Naga'
   },
   Rakshasa: {
     personaType: 'Physical',
     arcana: 'Strength',
     level: 24,
-    stats: { st: 20, ma: 15, en: 18, ag: 17, lu: 9 },
+    stats: {
+      st: 20,
+      ma: 15,
+      en: 18,
+      ag: 17,
+      lu: 9
+    },
     skills: {
       Counterstrike: 28,
       'Adverse Resolve': 30,
@@ -4624,7 +6212,10 @@ export const compendium = {
     personality: 'Irritable',
     area: 'Kaitul',
     floor: 'L5, 7-9',
-    item: { name: 'Mind Slice', type: 'Skill Card' },
+    item: {
+      name: 'Mind Slice',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -4636,13 +6227,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'rs'
-    }
+    },
+    name: 'Rakshasa'
   },
   Rangda: {
     personaType: 'Curse',
     arcana: 'Magician',
     level: 48,
-    stats: { st: 28, ma: 34, en: 30, ag: 33, lu: 26 },
+    stats: {
+      st: 28,
+      ma: 34,
+      en: 30,
+      ag: 33,
+      lu: 26
+    },
     skills: {
       Bloodbath: 0,
       Counterstrike: 0,
@@ -4654,7 +6252,10 @@ export const compendium = {
     personality: 'Unknown',
     area: 'Sheriruth',
     floor: 'L11-13 (before Palace 7) / L5 (after Palace 7)',
-    item: { name: 'Bloodbath', type: 'Skill Card' },
+    item: {
+      name: 'Bloodbath',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rp',
       gun: 'rp',
@@ -4666,13 +6267,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Rangda'
   },
   Raphael: {
     personaType: 'Almighty',
     arcana: 'Lovers',
     level: 78,
-    stats: { st: 57, ma: 45, en: 49, ag: 55, lu: 35 },
+    stats: {
+      st: 57,
+      ma: 45,
+      en: 49,
+      ag: 55,
+      lu: 35
+    },
     skills: {
       'Arms Master': 83,
       'Adverse Resolve': 82,
@@ -4682,7 +6290,10 @@ export const compendium = {
       'Heat Riser': 80,
       Charge: 0
     },
-    item: { name: 'Heat Riser', type: 'Skill Card' },
+    item: {
+      name: 'Heat Riser',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4694,13 +6305,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: '-'
-    }
+    },
+    name: 'Raphael'
   },
   'Red Rider': {
     personaType: 'Psy',
     arcana: 'Tower',
     level: 41,
-    stats: { st: 26, ma: 27, en: 25, ag: 29, lu: 23 },
+    stats: {
+      st: 26,
+      ma: 27,
+      en: 25,
+      ag: 29,
+      lu: 23
+    },
     skills: {
       Mapsio: 0,
       'Negative Pile': 42,
@@ -4710,7 +6328,10 @@ export const compendium = {
       'Rising Slash': 0,
       'Resist Confuse': 44
     },
-    item: { name: 'Psy Break', type: 'Skill Card' },
+    item: {
+      name: 'Psy Break',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4722,12 +6343,19 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Red Rider'
   },
   Regent: {
     arcana: 'Emperor',
     level: 10,
-    stats: { st: 10, ma: 10, en: 10, ag: 10, lu: 10 },
+    stats: {
+      st: 10,
+      ma: 10,
+      en: 10,
+      ag: 10,
+      lu: 10
+    },
     skills: {
       Mabufu: 0,
       Maeiha: 0,
@@ -4741,7 +6369,10 @@ export const compendium = {
     rare: true,
     area: 'Qimranut / Aiyatsbus / Chemdah',
     floor: 'All / L1-3, 5 & 6 / L1-4, 6 & 7',
-    item: { name: 'Regent', type: 'Item' },
+    item: {
+      name: 'Regent',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -4753,13 +6384,20 @@ export const compendium = {
       nuclear: 'wk',
       bless: 'nu',
       curse: 'nu'
-    }
+    },
+    name: 'Regent'
   },
   'Saki Mitama': {
     personaType: 'Healing',
     arcana: 'Lovers',
     level: 6,
-    stats: { st: 4, ma: 6, en: 5, ag: 6, lu: 4 },
+    stats: {
+      st: 4,
+      ma: 6,
+      en: 5,
+      ag: 6,
+      lu: 4
+    },
     skills: {
       Bufu: 0,
       'Energy Drop': 0,
@@ -4768,7 +6406,10 @@ export const compendium = {
       'Resist Dizzy': 10,
       'Wind Wall': 0
     },
-    item: { name: 'Rakukaja', type: 'Skill Card' },
+    item: {
+      name: 'Rakukaja',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4780,13 +6421,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Saki Mitama'
   },
   Sandalphon: {
     personaType: 'Bless',
     arcana: 'Moon',
     level: 75,
-    stats: { st: 46, ma: 51, en: 49, ag: 48, lu: 38 },
+    stats: {
+      st: 46,
+      ma: 51,
+      en: 49,
+      ag: 48,
+      lu: 38
+    },
     skills: {
       'Amrita Shower': 0,
       'Angelic Grace': 77,
@@ -4796,7 +6444,10 @@ export const compendium = {
       Samarecarm: 0
     },
     max: true,
-    item: { name: 'Angelic Grace', type: 'Skill Card' },
+    item: {
+      name: 'Angelic Grace',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -4808,13 +6459,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rp',
       curse: 'nu'
-    }
+    },
+    name: 'Sandalphon'
   },
   Sandman: {
     personaType: 'Wind',
     arcana: 'Magician',
     level: 24,
-    stats: { st: 11, ma: 13, en: 14, ag: 20, lu: 21 },
+    stats: {
+      st: 11,
+      ma: 13,
+      en: 14,
+      ag: 20,
+      lu: 21
+    },
     skills: {
       'Dormin Rush': 0,
       Dormina: 0,
@@ -4827,7 +6485,10 @@ export const compendium = {
     personality: 'Irritable',
     area: 'Akzeriyyuth',
     floor: 'L1-3',
-    item: { name: 'Sleep Boost', type: 'Skill Card' },
+    item: {
+      name: 'Sleep Boost',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4839,13 +6500,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Sandman'
   },
   Sarasvati: {
     personaType: 'Healing',
     arcana: 'Priestess',
     level: 50,
-    stats: { st: 30, ma: 35, en: 32, ag: 33, lu: 27 },
+    stats: {
+      st: 30,
+      ma: 35,
+      en: 32,
+      ag: 33,
+      lu: 27
+    },
     skills: {
       Dekaja: 52,
       Diarahan: 54,
@@ -4857,7 +6525,10 @@ export const compendium = {
     },
     area: 'Sheriruth',
     floor: 'L7-9. 12 (after Palace 7)',
-    item: { name: 'Mediarama', type: 'Skill Card' },
+    item: {
+      name: 'Mediarama',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4869,13 +6540,20 @@ export const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Sarasvati'
   },
   Satan: {
     personaType: 'Ice',
     arcana: 'Judgement',
     level: 92,
-    stats: { st: 62, ma: 59, en: 55, ag: 52, lu: 55 },
+    stats: {
+      st: 62,
+      ma: 59,
+      en: 55,
+      ag: 52,
+      lu: 55
+    },
     skills: {
       'Absorb Ice': 98,
       'Black Viper': 94,
@@ -4887,7 +6565,10 @@ export const compendium = {
       'Fortify Spirit': 96
     },
     max: true,
-    item: { name: 'Tantric Oath', type: 'Item' },
+    item: {
+      name: 'Tantric Oath',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -4899,13 +6580,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'rp'
-    }
+    },
+    name: 'Satan'
   },
   Satanael: {
     personaType: 'Almighty',
     arcana: 'Fool',
     level: 95,
-    stats: { st: 63, ma: 60, en: 57, ag: 56, lu: 56 },
+    stats: {
+      st: 63,
+      ma: 60,
+      en: 57,
+      ag: 56,
+      lu: 56
+    },
     skills: {
       'Cosmic Flare': 96,
       'Heat Riser': 97,
@@ -4918,7 +6606,10 @@ export const compendium = {
     },
     special: true,
     note: 'Only available on NG+',
-    item: { name: 'Paradise Lost', type: 'Item' },
+    item: {
+      name: 'Paradise Lost',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -4930,13 +6621,20 @@ export const compendium = {
       nuclear: 'rs',
       bless: 'nu',
       curse: 'ab'
-    }
+    },
+    name: 'Satanael'
   },
   Scathach: {
     personaType: 'Wind',
     arcana: 'Priestess',
     level: 45,
-    stats: { st: 29, ma: 30, en: 28, ag: 30, lu: 25 },
+    stats: {
+      st: 29,
+      ma: 30,
+      en: 28,
+      ag: 30,
+      lu: 25
+    },
     skills: {
       'Attack Master': 49,
       'Sharp Student': 0,
@@ -4949,7 +6647,10 @@ export const compendium = {
     personality: 'Upbeat',
     area: 'Adyeshach',
     floor: 'L10-12',
-    item: { name: 'Tempest Slash', type: 'Skill Card' },
+    item: {
+      name: 'Tempest Slash',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4961,13 +6662,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Scathach'
   },
   Seiryu: {
     personaType: 'Ice',
     arcana: 'Temperance',
     level: 62,
-    stats: { st: 38, ma: 41, en: 43, ag: 37, lu: 34 },
+    stats: {
+      st: 38,
+      ma: 41,
+      en: 43,
+      ag: 37,
+      lu: 34
+    },
     skills: {
       'Amrita Drop': 66,
       Bufudyne: 0,
@@ -4977,7 +6685,10 @@ export const compendium = {
       Marakukaja: 0,
       'Repel Nuke': 63
     },
-    item: { name: 'Amrita Drop', type: 'Skill Card' },
+    item: {
+      name: 'Amrita Drop',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4989,13 +6700,20 @@ export const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Seiryu'
   },
   Setanta: {
     personaType: 'Physical',
     arcana: 'Emperor',
     level: 28,
-    stats: { st: 20, ma: 17, en: 19, ag: 18, lu: 17 },
+    stats: {
+      st: 20,
+      ma: 17,
+      en: 19,
+      ag: 18,
+      lu: 17
+    },
     skills: {
       Counter: 0,
       'Dormin Rush': 0,
@@ -5004,7 +6722,10 @@ export const compendium = {
       'Rising Slash': 31,
       Rebellion: 32
     },
-    item: { name: 'Counter', type: 'Skill Card' },
+    item: {
+      name: 'Counter',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5016,13 +6737,20 @@ export const compendium = {
       nuclear: 'rs',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Setanta'
   },
   Seth: {
     personaType: 'Fire',
     arcana: 'Tower',
     level: 51,
-    stats: { st: 32, ma: 35, en: 30, ag: 35, lu: 28 },
+    stats: {
+      st: 32,
+      ma: 35,
+      en: 30,
+      ag: 35,
+      lu: 28
+    },
     skills: {
       Agidyne: 0,
       'Fire Break': 54,
@@ -5033,7 +6761,10 @@ export const compendium = {
     },
     special: true,
     note: 'Needs Strength cooperation rank 1 to be fused',
-    item: { name: 'One-shot Kill', type: 'Skill Card' },
+    item: {
+      name: 'One-shot Kill',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5045,13 +6776,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'rs'
-    }
+    },
+    name: 'Seth'
   },
   Shiisaa: {
     personaType: 'Electric',
     arcana: 'Chariot',
     level: 16,
-    stats: { st: 13, ma: 9, en: 12, ag: 13, lu: 8 },
+    stats: {
+      st: 13,
+      ma: 9,
+      en: 12,
+      ag: 13,
+      lu: 8
+    },
     skills: {
       'Dodge Curse': 20,
       'Dodge Elec': 21,
@@ -5060,7 +6798,10 @@ export const compendium = {
       'Skull Cracker': 0,
       Zio: 0
     },
-    item: { name: 'Mazio', type: 'Skill Card' },
+    item: {
+      name: 'Mazio',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -5072,13 +6813,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'wk'
-    }
+    },
+    name: 'Shiisaa'
   },
   'Shiki-Ouji': {
     personaType: 'Psy',
     arcana: 'Chariot',
     level: 21,
-    stats: { st: 16, ma: 14, en: 15, ag: 14, lu: 11 },
+    stats: {
+      st: 16,
+      ma: 14,
+      en: 15,
+      ag: 14,
+      lu: 11
+    },
     skills: {
       Dekaja: 24,
       Snap: 0,
@@ -5091,7 +6839,10 @@ export const compendium = {
     personality: 'Irritable',
     area: 'Chemdah',
     floor: 'L6 & 7',
-    item: { name: 'Dormin Rush', type: 'Skill Card' },
+    item: {
+      name: 'Dormin Rush',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'nu',
       gun: 'nu',
@@ -5103,13 +6854,20 @@ export const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Shiki-Ouji'
   },
   Shiva: {
     personaType: 'Psy',
     arcana: 'Judgement',
     level: 82,
-    stats: { st: 55, ma: 54, en: 53, ag: 53, lu: 38 },
+    stats: {
+      st: 55,
+      ma: 54,
+      en: 53,
+      ag: 53,
+      lu: 38
+    },
     skills: {
       'Auto-Mataru': 87,
       'Enduring Soul': 0,
@@ -5120,7 +6878,10 @@ export const compendium = {
       'Riot Gun': 85
     },
     special: true,
-    item: { name: 'Megido Fire', type: 'Item' },
+    item: {
+      name: 'Megido Fire',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5132,13 +6893,20 @@ export const compendium = {
       nuclear: 'wk',
       bless: 'nu',
       curse: 'nu'
-    }
+    },
+    name: 'Shiva'
   },
   Siegfried: {
     personaType: 'Physical',
     arcana: 'Strength',
     level: 69,
-    stats: { st: 51, ma: 37, en: 47, ag: 48, lu: 31 },
+    stats: {
+      st: 51,
+      ma: 37,
+      en: 47,
+      ag: 48,
+      lu: 31
+    },
     skills: {
       'Auto-Mataru': 72,
       'High Counter': 0,
@@ -5147,7 +6915,10 @@ export const compendium = {
       Charge: 70,
       'Vorpal Blade': 74
     },
-    item: { name: 'Vorpal Blade', type: 'Skill Card' },
+    item: {
+      name: 'Vorpal Blade',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'nu',
       gun: '-',
@@ -5159,18 +6930,34 @@ export const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Siegfried'
   },
   Silky: {
     personaType: 'Healing',
     arcana: 'Priestess',
     level: 6,
-    stats: { st: 4, ma: 7, en: 4, ag: 5, lu: 5 },
-    skills: { Bufu: 0, 'Sharp Student': 10, Dia: 7, Dormina: 0, Patra: 9 },
+    stats: {
+      st: 4,
+      ma: 7,
+      en: 4,
+      ag: 5,
+      lu: 5
+    },
+    skills: {
+      Bufu: 0,
+      'Sharp Student': 10,
+      Dia: 7,
+      Dormina: 0,
+      Patra: 9
+    },
     personality: 'Gloomy',
     area: 'Aiyatsbus',
     floor: 'L2, 3, 5 & 6',
-    item: { name: 'Silk Dress', type: 'Item' },
+    item: {
+      name: 'Silk Dress',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5182,13 +6969,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Silky'
   },
   Skadi: {
     personaType: 'Ice',
     arcana: 'Priestess',
     level: 55,
-    stats: { st: 35, ma: 39, en: 34, ag: 34, lu: 30 },
+    stats: {
+      st: 35,
+      ma: 39,
+      en: 34,
+      ag: 34,
+      lu: 30
+    },
     skills: {
       Bufudyne: 58,
       'Evil Touch': 0,
@@ -5200,7 +6994,10 @@ export const compendium = {
     },
     area: 'Sheriruth',
     floor: 'L12 & 13 (before Palace 7) / L5 (after Palace 7)',
-    item: { name: 'Snow Queen\'s Whip', type: 'Item' },
+    item: {
+      name: 'Snow Queen\'s Whip',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5212,13 +7009,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Skadi'
   },
   Slime: {
     personaType: 'Curse',
     arcana: 'Chariot',
     level: 10,
-    stats: { st: 9, ma: 6, en: 11, ag: 6, lu: 5 },
+    stats: {
+      st: 9,
+      ma: 6,
+      en: 11,
+      ag: 6,
+      lu: 5
+    },
     skills: {
       'Evil Touch': 0,
       Eiha: 11,
@@ -5229,7 +7033,10 @@ export const compendium = {
     personality: 'Timid',
     area: 'Qimranut / Aiyatsbus',
     floor: 'All / L1, 2, 3, 6',
-    item: { name: 'Headbutt', type: 'Skill Card' },
+    item: {
+      name: 'Headbutt',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -5241,13 +7048,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Slime'
   },
   Sraosha: {
     personaType: 'Bless',
     arcana: 'Star',
     level: 80,
-    stats: { st: 47, ma: 56, en: 45, ag: 56, lu: 43 },
+    stats: {
+      st: 47,
+      ma: 56,
+      en: 45,
+      ag: 56,
+      lu: 43
+    },
     skills: {
       'Amrita Shower': 84,
       'Angelic Grace': 83,
@@ -5259,7 +7073,10 @@ export const compendium = {
     },
     special: true,
     note: 'Needs Strength cooperation rank 5 to be fused',
-    item: { name: 'Archangel Bra', type: 'Item' },
+    item: {
+      name: 'Archangel Bra',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5271,12 +7088,19 @@ export const compendium = {
       nuclear: '-',
       bless: 'rp',
       curse: 'wk'
-    }
+    },
+    name: 'Sraosha'
   },
   'Stone of Scone': {
     arcana: 'Fortune',
     level: 20,
-    stats: { st: 20, ma: 20, en: 20, ag: 20, lu: 20 },
+    stats: {
+      st: 20,
+      ma: 20,
+      en: 20,
+      ag: 20,
+      lu: 20
+    },
     skills: {
       Agilao: 0,
       Bufula: 0,
@@ -5290,7 +7114,10 @@ export const compendium = {
     rare: true,
     area: 'Akzeriyyuth',
     floor: 'L1-3, 5-7, 9-11',
-    item: { name: 'Stone of Scone', type: 'Item' },
+    item: {
+      name: 'Stone of Scone',
+      type: 'Item'
+    },
     affinities: {
       physical: 'nu',
       gun: 'nu',
@@ -5302,13 +7129,20 @@ export const compendium = {
       nuclear: 'nu',
       bless: 'nu',
       curse: 'wk'
-    }
+    },
+    name: 'Stone of Scone'
   },
   Succubus: {
     personaType: 'Curse',
     arcana: 'Moon',
     level: 7,
-    stats: { st: 4, ma: 7, en: 5, ag: 8, lu: 4 },
+    stats: {
+      st: 4,
+      ma: 7,
+      en: 5,
+      ag: 8,
+      lu: 4
+    },
     skills: {
       Agi: 8,
       'Brainwash Boost': 11,
@@ -5320,7 +7154,10 @@ export const compendium = {
     personality: 'Irritable',
     area: 'Aiyatsbus',
     floor: 'L5 & 6',
-    item: { name: 'Brain Shot', type: 'Item' },
+    item: {
+      name: 'Brain Shot',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: 'wk',
@@ -5332,13 +7169,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Succubus'
   },
   Sudama: {
     personaType: 'Wind',
     arcana: 'Hermit',
     level: 17,
-    stats: { st: 9, ma: 14, en: 12, ag: 13, lu: 10 },
+    stats: {
+      st: 9,
+      ma: 14,
+      en: 12,
+      ag: 13,
+      lu: 10
+    },
     skills: {
       'Apt Pupil': 22,
       'Ambient Aid': 20,
@@ -5350,7 +7194,10 @@ export const compendium = {
     },
     area: 'Chemdah',
     floor: 'L6 & 7',
-    item: { name: 'Magaru', type: 'Skill Card' },
+    item: {
+      name: 'Magaru',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5362,13 +7209,20 @@ export const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Sudama'
   },
   'Sui-Ki': {
     personaType: 'Ice',
     arcana: 'Moon',
     level: 24,
-    stats: { st: 16, ma: 15, en: 15, ag: 18, lu: 15 },
+    stats: {
+      st: 16,
+      ma: 15,
+      en: 15,
+      ag: 18,
+      lu: 15
+    },
     skills: {
       Bufula: 0,
       'Dodge Fire': 29,
@@ -5381,7 +7235,10 @@ export const compendium = {
     personality: 'Unknown',
     area: 'Kaitul',
     floor: 'L7-9',
-    item: { name: 'Mabufu', type: 'Skill Card' },
+    item: {
+      name: 'Mabufu',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5393,13 +7250,20 @@ export const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Sui-Ki'
   },
   Surt: {
     personaType: 'Fire',
     arcana: 'Magician',
     level: 59,
-    stats: { st: 37, ma: 40, en: 39, ag: 35, lu: 33 },
+    stats: {
+      st: 37,
+      ma: 40,
+      en: 39,
+      ag: 35,
+      lu: 33
+    },
     skills: {
       Agidyne: 0,
       'Fire Break': 0,
@@ -5408,7 +7272,10 @@ export const compendium = {
       Maragidyne: 60,
       'Megaton Raid': 0
     },
-    item: { name: 'Fire Amp', type: 'Skill Card' },
+    item: {
+      name: 'Fire Amp',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5420,13 +7287,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Surt'
   },
   Suzaku: {
     personaType: 'Nuclear',
     arcana: 'Sun',
     level: 19,
-    stats: { st: 11, ma: 14, en: 10, ag: 18, lu: 11 },
+    stats: {
+      st: 11,
+      ma: 14,
+      en: 10,
+      ag: 18,
+      lu: 11
+    },
     skills: {
       Frei: 0,
       Mafrei: 22,
@@ -5436,7 +7310,10 @@ export const compendium = {
       Tarunda: 0,
       'Ominous Words': 21
     },
-    item: { name: 'Mafrei', type: 'Skill Card' },
+    item: {
+      name: 'Mafrei',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5448,13 +7325,20 @@ export const compendium = {
       nuclear: 'rs',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Suzaku'
   },
   'Take-Minakata': {
     personaType: 'Electric',
     arcana: 'Hanged Man',
     level: 29,
-    stats: { st: 20, ma: 22, en: 21, ag: 18, lu: 13 },
+    stats: {
+      st: 20,
+      ma: 22,
+      en: 21,
+      ag: 18,
+      lu: 13
+    },
     skills: {
       'Assault Dive': 0,
       'Defense Master': 32,
@@ -5466,7 +7350,10 @@ export const compendium = {
     personality: 'Gloomy',
     area: 'Kaitul',
     floor: 'L7-9',
-    item: { name: 'Thunder Band', type: 'Item' },
+    item: {
+      name: 'Thunder Band',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5478,13 +7365,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'rs'
-    }
+    },
+    name: 'Take-Minakata'
   },
   Thanatos: {
     personaType: 'Almighty',
     arcana: 'Death',
     level: 65,
-    stats: { st: 43, ma: 49, en: 41, ag: 38, lu: 31 },
+    stats: {
+      st: 43,
+      ma: 49,
+      en: 41,
+      ag: 38,
+      lu: 31
+    },
     skills: {
       'Curse Amp': 66,
       'Door of Hades': 0,
@@ -5495,7 +7389,10 @@ export const compendium = {
       'One-shot Kill': 68
     },
     dlc: true,
-    item: { name: 'Darkness Ring', type: 'Item' },
+    item: {
+      name: 'Darkness Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -5507,13 +7404,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'rp'
-    }
+    },
+    name: 'Thanatos'
   },
   'Thanatos Picaro': {
     personaType: 'Almighty',
     arcana: 'Death',
     level: 69,
-    stats: { st: 45, ma: 51, en: 43, ag: 40, lu: 35 },
+    stats: {
+      st: 45,
+      ma: 51,
+      en: 43,
+      ag: 40,
+      lu: 35
+    },
     skills: {
       'Adverse Resolve': 73,
       'Door of Hades': 0,
@@ -5524,7 +7428,10 @@ export const compendium = {
       'One-shot Kill': 72
     },
     dlc: true,
-    item: { name: 'Maeigaon', type: 'Skill Card' },
+    item: {
+      name: 'Maeigaon',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -5536,12 +7443,19 @@ export const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'rp'
-    }
+    },
+    name: 'Thanatos Picaro'
   },
   'Queen\'s Necklace': {
     arcana: 'Empress',
     level: 15,
-    stats: { st: 15, ma: 15, en: 15, ag: 15, lu: 15 },
+    stats: {
+      st: 15,
+      ma: 15,
+      en: 15,
+      ag: 15,
+      lu: 15
+    },
     skills: {
       Media: 0,
       Rakukaja: 0,
@@ -5555,7 +7469,10 @@ export const compendium = {
     rare: true,
     area: 'Kaitul',
     floor: 'L1-5, 7-9',
-    item: { name: 'Queen\'s Necklace', type: 'Item' },
+    item: {
+      name: 'Queen\'s Necklace',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: 'wk',
@@ -5567,13 +7484,20 @@ export const compendium = {
       nuclear: 'rs',
       bless: 'rs',
       curse: 'rs'
-    }
+    },
+    name: 'Queen\'s Necklace'
   },
   Thor: {
     personaType: 'Electric',
     arcana: 'Chariot',
     level: 64,
-    stats: { st: 44, ma: 39, en: 43, ag: 38, lu: 35 },
+    stats: {
+      st: 44,
+      ma: 39,
+      en: 43,
+      ag: 38,
+      lu: 35
+    },
     skills: {
       'Attack Master': 70,
       'Elec Amp': 66,
@@ -5583,7 +7507,10 @@ export const compendium = {
       'Megaton Raid': 0,
       Ziodyne: 0
     },
-    item: { name: 'Mjolnir', type: 'Item' },
+    item: {
+      name: 'Mjolnir',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -5595,13 +7522,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'rs'
-    }
+    },
+    name: 'Thor'
   },
   Thoth: {
     personaType: 'Nuclear',
     arcana: 'Emperor',
     level: 36,
-    stats: { st: 21, ma: 28, en: 21, ag: 24, lu: 21 },
+    stats: {
+      st: 21,
+      ma: 28,
+      en: 21,
+      ag: 24,
+      lu: 21
+    },
     skills: {
       Freila: 0,
       'Growth 2': 42,
@@ -5614,7 +7548,10 @@ export const compendium = {
     personality: 'Gloomy',
     area: 'Akzeriyyuth',
     floor: 'L6, 7, 9-11',
-    item: { name: 'Growth 2', type: 'Skill Card' },
+    item: {
+      name: 'Growth 2',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5626,13 +7563,20 @@ export const compendium = {
       nuclear: 'nu',
       bless: 'nu',
       curse: '-'
-    }
+    },
+    name: 'Thoth'
   },
   Throne: {
     personaType: 'Bless',
     arcana: 'Justice',
     level: 71,
-    stats: { st: 42, ma: 49, en: 47, ag: 46, lu: 36 },
+    stats: {
+      st: 42,
+      ma: 49,
+      en: 47,
+      ag: 46,
+      lu: 36
+    },
     skills: {
       'Auto-Maraku': 76,
       'Evade Curse': 75,
@@ -5644,7 +7588,10 @@ export const compendium = {
     },
     special: true,
     note: 'Needs Strength cooperation rank 5 to be fused',
-    item: { name: 'Invigorate 3', type: 'Skill Card' },
+    item: {
+      name: 'Invigorate 3',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5656,13 +7603,20 @@ export const compendium = {
       nuclear: 'rs',
       bless: 'nu',
       curse: 'wk'
-    }
+    },
+    name: 'Throne'
   },
   Titania: {
     personaType: 'Nuclear',
     arcana: 'Empress',
     level: 56,
-    stats: { st: 32, ma: 40, en: 35, ag: 38, lu: 30 },
+    stats: {
+      st: 32,
+      ma: 40,
+      en: 35,
+      ag: 38,
+      lu: 30
+    },
     skills: {
       Freidyne: 0,
       Lullaby: 0,
@@ -5673,7 +7627,10 @@ export const compendium = {
     },
     area: 'Sheriruth',
     floor: 'L8, 9, 11-13 (after Palace 7)',
-    item: { name: 'Mediarahan', type: 'Skill Card' },
+    item: {
+      name: 'Mediarahan',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5685,13 +7642,20 @@ export const compendium = {
       nuclear: 'rs',
       bless: 'rs',
       curse: 'rs'
-    }
+    },
+    name: 'Titania'
   },
   Trumpeter: {
     personaType: 'Almighty',
     arcana: 'Judgement',
     level: 59,
-    stats: { st: 33, ma: 42, en: 40, ag: 38, lu: 31 },
+    stats: {
+      st: 33,
+      ma: 42,
+      en: 40,
+      ag: 38,
+      lu: 31
+    },
     skills: {
       'Abysmal Surge': 0,
       'Brain Buster': 0,
@@ -5703,7 +7667,10 @@ export const compendium = {
     },
     special: true,
     note: 'Needs Strength cooperation rank 5 to be fused',
-    item: { name: 'Debilitate', type: 'Skill Card' },
+    item: {
+      name: 'Debilitate',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5715,13 +7682,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rp',
       curse: 'nu'
-    }
+    },
+    name: 'Trumpeter'
   },
   Tsukiyomi: {
     personaType: 'Almighty',
     arcana: 'Moon',
     level: 50,
-    stats: { st: 38, ma: 32, en: 33, ag: 37, lu: 17 },
+    stats: {
+      st: 38,
+      ma: 32,
+      en: 33,
+      ag: 37,
+      lu: 17
+    },
     skills: {
       'Absorb Curse': 0,
       'Arms Master': 56,
@@ -5732,7 +7706,10 @@ export const compendium = {
       'Vorpal Blade': 55
     },
     dlc: true,
-    item: { name: 'Black Moon', type: 'Item' },
+    item: {
+      name: 'Black Moon',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -5744,13 +7721,20 @@ export const compendium = {
       nuclear: 'wk',
       bless: 'rs',
       curse: 'rp'
-    }
+    },
+    name: 'Tsukiyomi'
   },
   'Tsukiyomi Picaro': {
     personaType: 'Almighty',
     arcana: 'Moon',
     level: 55,
-    stats: { st: 41, ma: 35, en: 36, ag: 40, lu: 20 },
+    stats: {
+      st: 41,
+      ma: 35,
+      en: 36,
+      ag: 40,
+      lu: 20
+    },
     skills: {
       'Absorb Curse': 0,
       'Curse Amp': 58,
@@ -5761,7 +7745,10 @@ export const compendium = {
       'Vorpal Blade': 60
     },
     dlc: true,
-    item: { name: 'Spell Master', type: 'Skill Card' },
+    item: {
+      name: 'Spell Master',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -5773,13 +7760,20 @@ export const compendium = {
       nuclear: 'wk',
       bless: 'rs',
       curse: 'rp'
-    }
+    },
+    name: 'Tsukiyomi Picaro'
   },
   Unicorn: {
     personaType: 'Bless',
     arcana: 'Hierophant',
     level: 39,
-    stats: { st: 20, ma: 27, en: 25, ag: 28, lu: 24 },
+    stats: {
+      st: 20,
+      ma: 27,
+      en: 25,
+      ag: 28,
+      lu: 24
+    },
     skills: {
       'Assault Dive': 0,
       Dekunda: 0,
@@ -5792,7 +7786,10 @@ export const compendium = {
     personality: 'Unknown',
     area: 'Sheriruth',
     floor: 'L1-4 (before Palace 7) / L1 & 2 (after Palace 7)',
-    item: { name: 'Samarecarm', type: 'Skill Card' },
+    item: {
+      name: 'Samarecarm',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5804,13 +7801,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'wk'
-    }
+    },
+    name: 'Unicorn'
   },
   Uriel: {
     personaType: 'Almighty',
     arcana: 'Justice',
     level: 81,
-    stats: { st: 50, ma: 54, en: 49, ag: 55, lu: 42 },
+    stats: {
+      st: 50,
+      ma: 54,
+      en: 49,
+      ag: 55,
+      lu: 42
+    },
     skills: {
       'Angelic Grace': 85,
       Bloodbath: 0,
@@ -5820,7 +7824,10 @@ export const compendium = {
       'Repel Nuke': 83,
       'Spell Master': 86
     },
-    item: { name: 'Heaven\'s Gate', type: 'Item' },
+    item: {
+      name: 'Heaven\'s Gate',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5832,13 +7839,20 @@ export const compendium = {
       nuclear: 'ab',
       bless: 'rp',
       curse: '-'
-    }
+    },
+    name: 'Uriel'
   },
   Valkyrie: {
     personaType: 'Physical',
     arcana: 'Strength',
     level: 44,
-    stats: { st: 33, ma: 24, en: 28, ag: 29, lu: 25 },
+    stats: {
+      st: 33,
+      ma: 24,
+      en: 28,
+      ag: 29,
+      lu: 25
+    },
     skills: {
       'Attack Master': 45,
       Counterstrike: 0,
@@ -5849,7 +7863,10 @@ export const compendium = {
     },
     area: 'Sheriruth',
     floor: 'L3-5, 7-9 (before Palace 7) / L2-4 (after Palace 7)',
-    item: { name: 'Giant Slice', type: 'Skill Card' },
+    item: {
+      name: 'Giant Slice',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -5861,13 +7878,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: '-'
-    }
+    },
+    name: 'Valkyrie'
   },
   Vasuki: {
     personaType: 'Ailment',
     arcana: 'Hanged Man',
     level: 68,
-    stats: { st: 41, ma: 46, en: 45, ag: 42, lu: 37 },
+    stats: {
+      st: 41,
+      ma: 46,
+      en: 45,
+      ag: 42,
+      lu: 37
+    },
     skills: {
       'Brain Jack': 0,
       'Brainwash Boost': 72,
@@ -5879,7 +7903,10 @@ export const compendium = {
     },
     special: true,
     note: 'Needs Strength cooperation rank 1 to be fused',
-    item: { name: 'Kuzuryu Gouhou', type: 'Item' },
+    item: {
+      name: 'Kuzuryu Gouhou',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5891,13 +7918,20 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'wk'
-    }
+    },
+    name: 'Vasuki'
   },
   Vishnu: {
     personaType: 'Almighty',
     arcana: 'Fool',
     level: 83,
-    stats: { st: 56, ma: 51, en: 49, ag: 57, lu: 43 },
+    stats: {
+      st: 56,
+      ma: 51,
+      en: 49,
+      ag: 57,
+      lu: 43
+    },
     skills: {
       'Ali Dance': 0,
       Magarudyne: 0,
@@ -5909,7 +7943,10 @@ export const compendium = {
       'Wind Amp': 88
     },
     max: true,
-    item: { name: 'Riot Gun', type: 'Skill Card' },
+    item: {
+      name: 'Riot Gun',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5921,13 +7958,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'nu'
-    }
+    },
+    name: 'Vishnu'
   },
   'White Rider': {
     personaType: 'Curse',
     arcana: 'Chariot',
     level: 39,
-    stats: { st: 24, ma: 24, en: 25, ag: 26, lu: 25 },
+    stats: {
+      st: 24,
+      ma: 24,
+      en: 25,
+      ag: 26,
+      lu: 25
+    },
     skills: {
       'Ailment Boost': 45,
       'Evil Touch': 0,
@@ -5938,7 +7982,10 @@ export const compendium = {
       Snipe: 41,
       'Triple Down': 0
     },
-    item: { name: 'Triple Down', type: 'Skill Card' },
+    item: {
+      name: 'Triple Down',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5950,13 +7997,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'rp'
-    }
+    },
+    name: 'White Rider'
   },
   Yaksini: {
     personaType: 'Ice',
     arcana: 'Empress',
     level: 20,
-    stats: { st: 14, ma: 11, en: 13, ag: 16, lu: 13 },
+    stats: {
+      st: 14,
+      ma: 11,
+      en: 13,
+      ag: 16,
+      lu: 13
+    },
     skills: {
       'Attack Master': 23,
       Counter: 0,
@@ -5968,7 +8022,10 @@ export const compendium = {
     personality: 'Irritable',
     area: 'Kaitul',
     floor: 'L3-5, 7',
-    item: { name: 'Vicious Strike', type: 'Skill Card' },
+    item: {
+      name: 'Vicious Strike',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5980,13 +8037,20 @@ export const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Yaksini'
   },
   'Yamata-no-Orochi': {
     personaType: 'Ice',
     arcana: 'Judgement',
     level: 64,
-    stats: { st: 44, ma: 38, en: 48, ag: 36, lu: 33 },
+    stats: {
+      st: 44,
+      ma: 38,
+      en: 48,
+      ag: 36,
+      lu: 33
+    },
     skills: {
       'Adverse Resolve': 67,
       Deathbound: 0,
@@ -5995,7 +8059,10 @@ export const compendium = {
       'Repel Fire': 66,
       'Unshaken Will': 69
     },
-    item: { name: 'Oni Kagura', type: 'Skill Card' },
+    item: {
+      name: 'Oni Kagura',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -6007,13 +8074,20 @@ export const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: 'rs'
-    }
+    },
+    name: 'Yamata-no-Orochi'
   },
   Yatagarasu: {
     personaType: 'Fire',
     arcana: 'Sun',
     level: 57,
-    stats: { st: 35, ma: 41, en: 30, ag: 40, lu: 32 },
+    stats: {
+      st: 35,
+      ma: 41,
+      en: 30,
+      ag: 40,
+      lu: 32
+    },
     skills: {
       Agidyne: 0,
       Dekunda: 0,
@@ -6023,7 +8097,10 @@ export const compendium = {
       'Pressing Stance': 60,
       'Wind Break': 61
     },
-    item: { name: 'Black Wing Robe', type: 'Item' },
+    item: {
+      name: 'Black Wing Robe',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -6035,13 +8112,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'wk'
-    }
+    },
+    name: 'Yatagarasu'
   },
   Yoshitsune: {
     personaType: 'Physical',
     arcana: 'Tower',
     level: 79,
-    stats: { st: 58, ma: 47, en: 45, ag: 53, lu: 41 },
+    stats: {
+      st: 58,
+      ma: 47,
+      en: 45,
+      ag: 53,
+      lu: 41
+    },
     skills: {
       'Brave Blade': 0,
       'Elec Amp': 84,
@@ -6053,7 +8137,10 @@ export const compendium = {
     },
     special: true,
     note: 'Needs Strength cooperation rank 5 to be fused',
-    item: { name: 'Usumidori', type: 'Item' },
+    item: {
+      name: 'Usumidori',
+      type: 'Item'
+    },
     affinities: {
       physical: 'nu',
       gun: '-',
@@ -6065,13 +8152,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rp',
       curse: '-'
-    }
+    },
+    name: 'Yoshitsune'
   },
   Yurlungur: {
     personaType: 'Electric',
     arcana: 'Sun',
     level: 42,
-    stats: { st: 26, ma: 29, en: 28, ag: 27, lu: 23 },
+    stats: {
+      st: 26,
+      ma: 29,
+      en: 28,
+      ag: 27,
+      lu: 23
+    },
     skills: {
       'Brain Jack': 0,
       'Elec Boost': 48,
@@ -6081,7 +8175,10 @@ export const compendium = {
       Revolution: 44,
       'Tetra Break': 47
     },
-    item: { name: 'Mirrirmina', type: 'Item' },
+    item: {
+      name: 'Mirrirmina',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -6093,13 +8190,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: '-'
-    }
+    },
+    name: 'Yurlungur'
   },
   'Zaou-Gongen': {
     personaType: 'Fire',
     arcana: 'Strength',
     level: 80,
-    stats: { st: 57, ma: 45, en: 50, ag: 56, lu: 39 },
+    stats: {
+      st: 57,
+      ma: 45,
+      en: 50,
+      ag: 56,
+      lu: 39
+    },
     skills: {
       'Abysmal Surge': 0,
       'Enduring Soul': 83,
@@ -6110,7 +8214,10 @@ export const compendium = {
       Cripple: 84
     },
     max: true,
-    item: { name: 'God\'s Hand', type: 'Skill Card' },
+    item: {
+      name: 'God\'s Hand',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -6122,13 +8229,20 @@ export const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'nu'
-    }
+    },
+    name: 'Zaou-Gongen'
   },
   Zouchouten: {
     personaType: 'Electric',
     arcana: 'Strength',
     level: 31,
-    stats: { st: 22, ma: 19, en: 24, ag: 18, lu: 17 },
+    stats: {
+      st: 22,
+      ma: 19,
+      en: 24,
+      ag: 18,
+      lu: 17
+    },
     skills: {
       'Attack Master': 36,
       'Sharp Student': 33,
@@ -6138,7 +8252,10 @@ export const compendium = {
       'Terror Claw': 32,
       Zionga: 0
     },
-    item: { name: 'Sharp Student', type: 'Skill Card' },
+    item: {
+      name: 'Sharp Student',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -6150,6 +8267,7 @@ export const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Zouchouten'
   }
 };

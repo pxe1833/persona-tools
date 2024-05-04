@@ -32,6 +32,7 @@ export const PersonaInfo = () => {
         <InheritanceChart />
         <hr className={selectedGame} />
         <AffinityChart />
+        <hr className={selectedGame} style={{ 'margin-top': '-16px' }} />
       </div>
     </>
     : null;

@@ -477,7 +477,7 @@ export const arcanaCombos = {
   }
 };
 
-export const rarePersonae = {
+export const rarePersonaArcanaOffsets = {
   'Crystal Skull': {
     Chariot: -1,
     Death: 1,

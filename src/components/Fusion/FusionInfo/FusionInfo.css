@@ -1,0 +1,9 @@
+.fusion-info-page-nav.p5, .fusion-info-page-nav.p5r {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fusion-info-page-count.p5, .fusion-info-page-count.p5r {
+    display: inline-flex;
+}

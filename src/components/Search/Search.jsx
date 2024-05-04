@@ -35,7 +35,7 @@ export const Search = () => {
   return (
     <div className={'search-container'}>
       <form onSubmit={formSubmit}>
-        <TextInput id={'personaSearch'} placeholder={'Persona'} validate={validateInput} />
+        <TextInput id={'personaSearch'} placeholder={'Persona'} onChange={validateInput} />
         <Button copy={'Change Persona'} type={'submit'} disabled={!isValid} />
       </form>
     </div>

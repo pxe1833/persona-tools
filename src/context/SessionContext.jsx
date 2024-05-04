@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState } from 'react';
 
-export const SessionContext = createContext();
+export const SessionContext = createContext(undefined);
 
 export const SessionContextProvider = ({ children }) => {
   const [selectedGame, setSelectedGame] = useState('p5r');

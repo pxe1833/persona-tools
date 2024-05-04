@@ -2,7 +2,10 @@
 const compendium = {
   Abaddon: {
     inherits: 'Curse',
-    item: { name: 'Megaton Raid Belt', type: 'Item' },
+    item: {
+      name: 'Megaton Raid Belt',
+      type: 'Item'
+    },
     level: 75,
     arcana: 'Judgement',
     skills: {
@@ -14,11 +17,20 @@ const compendium = {
       'Absorb Phys': 80,
       Gigantomachia: 81
     },
-    stats: { st: 51, ma: 42, en: 58, ag: 38, lu: 43 },
+    stats: {
+      st: 51,
+      ma: 42,
+      en: 58,
+      ag: 38,
+      lu: 43
+    },
     trait: 'Mouth of Savoring',
     area: 'Da\'at',
     floor: 'All',
-    alarmItem: { name: 'God\'s Hand Belt', type: 'Item' },
+    alarmItem: {
+      name: 'God\'s Hand Belt',
+      type: 'Item'
+    },
     affinities: {
       physical: 'ab',
       gun: 'ab',
@@ -30,11 +42,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'ab'
-    }
+    },
+    name: 'Abaddon'
   },
   Agathion: {
     inherits: 'Electric',
-    item: { name: 'Zio', type: 'Skill Card' },
+    item: {
+      name: 'Zio',
+      type: 'Skill Card'
+    },
     level: 3,
     arcana: 'Chariot',
     skills: {
@@ -45,11 +61,20 @@ const compendium = {
       Zio: 7,
       'Dodge Elec': 8
     },
-    stats: { st: 3, ma: 4, en: 5, ag: 7, lu: 3 },
+    stats: {
+      st: 3,
+      ma: 4,
+      en: 5,
+      ag: 7,
+      lu: 3
+    },
     trait: 'Rare Antibody',
     area: 'Aiyatsbus',
     floor: 'L1',
-    alarmItem: { name: 'Mazio', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Mazio',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -61,12 +86,16 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Agathion'
   },
   Alice: {
     special: true,
     inherits: 'Curse',
-    item: { name: 'Spiral Hell Ring', type: 'Item' },
+    item: {
+      name: 'Spiral Hell Ring',
+      type: 'Item'
+    },
     level: 83,
     arcana: 'Death',
     skills: {
@@ -78,10 +107,19 @@ const compendium = {
       Concentrate: 87,
       'Survival Trick': 88
     },
-    stats: { st: 45, ma: 61, en: 49, ag: 54, lu: 47 },
+    stats: {
+      st: 45,
+      ma: 61,
+      en: 49,
+      ag: 54,
+      lu: 47
+    },
     trait: 'Just Die',
     max: true,
-    alarmItem: { name: 'Cursed Ribbon', type: 'Item' },
+    alarmItem: {
+      name: 'Cursed Ribbon',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -93,11 +131,15 @@ const compendium = {
       nuclear: 'rs',
       bless: 'wk',
       curse: 'rp'
-    }
+    },
+    name: 'Alice'
   },
   Alilat: {
     inherits: 'Ice',
-    item: { name: 'Mabufudyne', type: 'Skill Card' },
+    item: {
+      name: 'Mabufudyne',
+      type: 'Skill Card'
+    },
     level: 81,
     arcana: 'Empress',
     skills: {
@@ -110,10 +152,19 @@ const compendium = {
       'Ice Amp': 86,
       'Ice Age': 87
     },
-    stats: { st: 45, ma: 54, en: 57, ag: 49, lu: 45 },
+    stats: {
+      st: 45,
+      ma: 54,
+      en: 57,
+      ag: 49,
+      lu: 45
+    },
     trait: 'Frigid Bloodline',
     note: 'Only available after 1/12',
-    alarmItem: { name: 'Diamond Dust', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Diamond Dust',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rp',
       gun: 'rp',
@@ -125,11 +176,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'wk'
-    }
+    },
+    name: 'Alilat'
   },
   'Ame-no-Uzume': {
     inherits: 'Almighty',
-    item: { name: 'Senryou Yakusha', type: 'Item' },
+    item: {
+      name: 'Senryou Yakusha',
+      type: 'Item'
+    },
     level: 13,
     arcana: 'Lovers',
     skills: {
@@ -140,11 +195,20 @@ const compendium = {
       Baisudi: 16,
       'Divine Grace': 18
     },
-    stats: { st: 7, ma: 10, en: 9, ag: 11, lu: 9 },
+    stats: {
+      st: 7,
+      ma: 10,
+      en: 9,
+      ag: 11,
+      lu: 9
+    },
     trait: 'Electric Bloodline',
     area: 'Chemdah',
     floor: 'L6 & 7',
-    alarmItem: { name: 'Senryou Yakusha R', type: 'Item' },
+    alarmItem: {
+      name: 'Senryou Yakusha R',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -156,11 +220,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Ame-no-Uzume'
   },
   Ananta: {
     inherits: 'Nuclear',
-    item: { name: 'Spiral Nuclear Ring', type: 'Item' },
+    item: {
+      name: 'Spiral Nuclear Ring',
+      type: 'Item'
+    },
     level: 44,
     arcana: 'Councillor',
     skills: {
@@ -173,9 +241,18 @@ const compendium = {
       Freidyne: 49,
       'Nuke Boost': 50
     },
-    stats: { st: 26, ma: 30, en: 31, ag: 27, lu: 25 },
+    stats: {
+      st: 26,
+      ma: 30,
+      en: 31,
+      ag: 27,
+      lu: 25
+    },
     trait: 'Atomic Bloodline',
-    alarmItem: { name: 'Reactor Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Reactor Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -187,11 +264,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Ananta'
   },
   Andras: {
     inherits: 'Ice',
-    item: { name: 'Evil Touch', type: 'Skill Card' },
+    item: {
+      name: 'Evil Touch',
+      type: 'Skill Card'
+    },
     level: 27,
     arcana: 'Devil',
     skills: {
@@ -202,11 +283,20 @@ const compendium = {
       Rakunda: 31,
       'Ghastly Wail': 32
     },
-    stats: { st: 15, ma: 19, en: 19, ag: 21, lu: 14 },
+    stats: {
+      st: 15,
+      ma: 19,
+      en: 19,
+      ag: 21,
+      lu: 14
+    },
     trait: 'Foul Odor',
     area: 'Akzeriyyuth',
     floor: '???',
-    alarmItem: { name: 'Evil Smile', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Evil Smile',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -218,11 +308,15 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Andras'
   },
   Angel: {
     inherits: 'Bless',
-    item: { name: 'Kouha', type: 'Skill Card' },
+    item: {
+      name: 'Kouha',
+      type: 'Skill Card'
+    },
     level: 9,
     arcana: 'Justice',
     skills: {
@@ -233,11 +327,20 @@ const compendium = {
       'Dodge Curse': 11,
       Dekunda: 12
     },
-    stats: { st: 6, ma: 9, en: 5, ag: 9, lu: 5 },
+    stats: {
+      st: 6,
+      ma: 9,
+      en: 5,
+      ag: 9,
+      lu: 5
+    },
     trait: 'Skillful Combo',
     area: 'Aiyatsbus / Kaitul',
     floor: 'L5 & 6 / L1-4',
-    alarmItem: { name: 'Makouha', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Makouha',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'wk',
@@ -249,11 +352,15 @@ const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'wk'
-    }
+    },
+    name: 'Angel'
   },
   Anubis: {
     inherits: 'Almighty',
-    item: { name: 'Makouga', type: 'Skill Card' },
+    item: {
+      name: 'Makouga',
+      type: 'Skill Card'
+    },
     level: 34,
     arcana: 'Judgement',
     skills: {
@@ -264,11 +371,20 @@ const compendium = {
       Dekunda: 37,
       'Resist Bless': 38
     },
-    stats: { st: 19, ma: 24, en: 22, ag: 21, lu: 23 },
+    stats: {
+      st: 19,
+      ma: 24,
+      en: 22,
+      ag: 21,
+      lu: 23
+    },
     trait: 'Deathly Illness',
     area: 'Akzeriyyuth',
     floor: 'L10 & 11',
-    alarmItem: { name: 'Kougaon', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Kougaon',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -280,11 +396,15 @@ const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'nu'
-    }
+    },
+    name: 'Anubis'
   },
   Anzu: {
     inherits: 'Wind',
-    item: { name: 'Garula', type: 'Skill Card' },
+    item: {
+      name: 'Garula',
+      type: 'Skill Card'
+    },
     level: 25,
     arcana: 'Hierophant',
     skills: {
@@ -295,11 +415,20 @@ const compendium = {
       Dekaja: 28,
       'Null Forget': 29
     },
-    stats: { st: 14, ma: 18, en: 15, ag: 21, lu: 14 },
+    stats: {
+      st: 14,
+      ma: 18,
+      en: 15,
+      ag: 21,
+      lu: 14
+    },
     trait: 'Wind Bloodline',
     area: 'Akzeriyyuth',
     floor: 'L1-3, 5-7, 9-11',
-    alarmItem: { name: 'Magarula', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Magarula',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'wk',
@@ -311,11 +440,15 @@ const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Anzu'
   },
   Apsaras: {
     inherits: 'Ice',
-    item: { name: 'Media', type: 'Skill Card' },
+    item: {
+      name: 'Media',
+      type: 'Skill Card'
+    },
     level: 11,
     arcana: 'Priestess',
     skills: {
@@ -326,11 +459,20 @@ const compendium = {
       'Elec Wall': 14,
       'Wind Wall': 16
     },
-    stats: { st: 7, ma: 11, en: 6, ag: 10, lu: 6 },
+    stats: {
+      st: 7,
+      ma: 11,
+      en: 6,
+      ag: 10,
+      lu: 6
+    },
     trait: 'Internal Hypnosis',
     area: 'Chemdah',
     floor: 'L1-4',
-    alarmItem: { name: 'Diarama', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Diarama',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -342,11 +484,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Apsaras'
   },
   'Ara Mitama': {
     inherits: 'Nuclear',
-    item: { name: 'Nuclear Ring', type: 'Item' },
+    item: {
+      name: 'Nuclear Ring',
+      type: 'Item'
+    },
     level: 30,
     arcana: 'Chariot',
     skills: {
@@ -358,9 +504,18 @@ const compendium = {
       'Rage Boost': 34,
       Matarukaja: 35
     },
-    stats: { st: 20, ma: 18, en: 20, ag: 20, lu: 19 },
+    stats: {
+      st: 20,
+      ma: 18,
+      en: 20,
+      ag: 20,
+      lu: 19
+    },
     trait: 'Atomic Bloodline',
-    alarmItem: { name: 'Spiral Nuclear Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Spiral Nuclear Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -372,11 +527,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Ara Mitama'
   },
   Arahabaki: {
     inherits: 'Ailment',
-    item: { name: 'Tapsuan', type: 'Item' },
+    item: {
+      name: 'Tapsuan',
+      type: 'Item'
+    },
     level: 35,
     arcana: 'Hermit',
     skills: {
@@ -387,11 +546,20 @@ const compendium = {
       'Flash Bomb': 38,
       'Defense Master': 39
     },
-    stats: { st: 21, ma: 23, en: 22, ag: 24, lu: 22 },
+    stats: {
+      st: 21,
+      ma: 23,
+      en: 22,
+      ag: 24,
+      lu: 22
+    },
     trait: 'Immunity',
     area: 'Adyeshach',
     floor: 'L1-4, 6-8, 10',
-    alarmItem: { name: 'Fine Tapsuan', type: 'Item' },
+    alarmItem: {
+      name: 'Fine Tapsuan',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rp',
       gun: 'rp',
@@ -403,11 +571,15 @@ const compendium = {
       nuclear: 'wk',
       bless: 'rs',
       curse: 'rs'
-    }
+    },
+    name: 'Arahabaki'
   },
   Archangel: {
     inherits: 'Bless',
-    item: { name: 'Hama', type: 'Skill Card' },
+    item: {
+      name: 'Hama',
+      type: 'Skill Card'
+    },
     level: 14,
     arcana: 'Justice',
     skills: {
@@ -418,11 +590,20 @@ const compendium = {
       'Power Slash': 17,
       'Vajra Blast': 19
     },
-    stats: { st: 11, ma: 9, en: 10, ag: 12, lu: 7 },
+    stats: {
+      st: 11,
+      ma: 9,
+      en: 10,
+      ag: 12,
+      lu: 7
+    },
     trait: 'Skillful Combo',
     area: 'Aiyatsbus',
     floor: 'L5 & 6',
-    alarmItem: { name: 'Mahama', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Mahama',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -434,12 +615,16 @@ const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'wk'
-    }
+    },
+    name: 'Archangel'
   },
   Ardha: {
     special: true,
     inherits: 'Almighty',
-    item: { name: 'Sahasrara', type: 'Item' },
+    item: {
+      name: 'Sahasrara',
+      type: 'Item'
+    },
     level: 84,
     arcana: 'Temperance',
     skills: {
@@ -451,10 +636,19 @@ const compendium = {
       'Fortified Moxy': 89,
       Salvation: 90
     },
-    stats: { st: 54, ma: 56, en: 55, ag: 54, lu: 40 },
+    stats: {
+      st: 54,
+      ma: 56,
+      en: 55,
+      ag: 54,
+      lu: 40
+    },
     trait: 'Naranari',
     max: true,
-    alarmItem: { name: 'Sahasrara EX', type: 'Item' },
+    alarmItem: {
+      name: 'Sahasrara EX',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -466,11 +660,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Ardha'
   },
   Arsene: {
     inherits: 'Curse',
-    item: { name: 'Arsene\'s Cane', type: 'Item' },
+    item: {
+      name: 'Arsene\'s Cane',
+      type: 'Item'
+    },
     level: 1,
     arcana: 'Fool',
     skills: {
@@ -480,9 +678,18 @@ const compendium = {
       'Dream Needle': 5,
       'Adverse Resolve': 7
     },
-    stats: { st: 2, ma: 2, en: 2, ag: 3, lu: 1 },
+    stats: {
+      st: 2,
+      ma: 2,
+      en: 2,
+      ag: 3,
+      lu: 1
+    },
     trait: 'Pinch Anchor',
-    alarmItem: { name: 'The Great Thief Stick', type: 'Item' },
+    alarmItem: {
+      name: 'The Great Thief Stick',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -494,12 +701,16 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'rs'
-    }
+    },
+    name: 'Arsene'
   },
   Asura: {
     special: true,
     inherits: 'Nuclear',
-    item: { name: 'Vajra', type: 'Item' },
+    item: {
+      name: 'Vajra',
+      type: 'Item'
+    },
     level: 76,
     arcana: 'Sun',
     skills: {
@@ -511,10 +722,19 @@ const compendium = {
       'High Counter': 80,
       'Unshaken Will': 81
     },
-    stats: { st: 52, ma: 48, en: 51, ag: 49, lu: 35 },
+    stats: {
+      st: 52,
+      ma: 48,
+      en: 51,
+      ag: 49,
+      lu: 35
+    },
     trait: 'Atomic Hellscape',
     max: true,
-    alarmItem: { name: 'Unparalleled Vajra', type: 'Item' },
+    alarmItem: {
+      name: 'Unparalleled Vajra',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -526,11 +746,15 @@ const compendium = {
       nuclear: 'rp',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Asura'
   },
   Atavaka: {
     inherits: 'Physical',
-    item: { name: 'Brave Blade', type: 'Skill Card' },
+    item: {
+      name: 'Brave Blade',
+      type: 'Skill Card'
+    },
     level: 65,
     arcana: 'Faith',
     skills: {
@@ -542,9 +766,18 @@ const compendium = {
       'Brave Blade': 70,
       'Attack Master': 71
     },
-    stats: { st: 51, ma: 36, en: 43, ag: 38, lu: 34 },
+    stats: {
+      st: 51,
+      ma: 36,
+      en: 43,
+      ag: 38,
+      lu: 34
+    },
     trait: 'Savior Bloodline',
-    alarmItem: { name: 'Sword Dance', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Sword Dance',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: 'nu',
@@ -556,11 +789,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'rs'
-    }
+    },
+    name: 'Atavaka'
   },
   Atropos: {
     inherits: 'Electric',
-    item: { name: 'Mazionga', type: 'Skill Card' },
+    item: {
+      name: 'Mazionga',
+      type: 'Skill Card'
+    },
     level: 39,
     arcana: 'Fortune',
     skills: {
@@ -572,9 +809,18 @@ const compendium = {
       Ziodyne: 44,
       Concentrate: 45
     },
-    stats: { st: 23, ma: 30, en: 22, ag: 27, lu: 22 },
+    stats: {
+      st: 23,
+      ma: 30,
+      en: 22,
+      ag: 27,
+      lu: 22
+    },
     trait: 'Mighty Gaze',
-    alarmItem: { name: 'Ziodyne', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Ziodyne',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -586,13 +832,17 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Atropos'
   },
   Attis: {
     inherits: 'Fire',
-    item: { name: 'Null Curse', type: 'Skill Card' },
+    item: {
+      name: 'Null Curse',
+      type: 'Skill Card'
+    },
     level: 82,
-    arcana: 'Hanged',
+    arcana: 'Hanged Man',
     skills: {
       Maragidyne: 0,
       Salvation: 0,
@@ -602,10 +852,19 @@ const compendium = {
       'Absorb Curse': 86,
       'Blazing Hell': 88
     },
-    stats: { st: 49, ma: 50, en: 48, ag: 54, lu: 52 },
+    stats: {
+      st: 49,
+      ma: 50,
+      en: 48,
+      ag: 54,
+      lu: 52
+    },
     trait: 'Vitality of the Tree',
     max: true,
-    alarmItem: { name: 'Absorb Curse', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Absorb Curse',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -617,11 +876,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'wk'
-    }
+    },
+    name: 'Attis'
   },
   Baal: {
     inherits: 'Wind',
-    item: { name: 'Yagrush', type: 'Item' },
+    item: {
+      name: 'Yagrush',
+      type: 'Item'
+    },
     level: 82,
     arcana: 'Emperor',
     skills: {
@@ -633,9 +896,18 @@ const compendium = {
       Charge: 86,
       'Vacuum Wave': 87
     },
-    stats: { st: 54, ma: 58, en: 53, ag: 47, lu: 41 },
+    stats: {
+      st: 54,
+      ma: 58,
+      en: 53,
+      ag: 47,
+      lu: 41
+    },
     trait: 'Wind Bloodline',
-    alarmItem: { name: 'Yagrush EX', type: 'Item' },
+    alarmItem: {
+      name: 'Yagrush EX',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -647,11 +919,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: '-'
-    }
+    },
+    name: 'Baal'
   },
   Baphomet: {
     inherits: 'Almighty',
-    item: { name: 'Bufudyne', type: 'Skill Card' },
+    item: {
+      name: 'Bufudyne',
+      type: 'Skill Card'
+    },
     level: 58,
     arcana: 'Devil',
     skills: {
@@ -663,11 +939,20 @@ const compendium = {
       'Shock Boost': 62,
       'Freeze Boost': 63
     },
-    stats: { st: 34, ma: 42, en: 36, ag: 38, lu: 31 },
+    stats: {
+      st: 34,
+      ma: 42,
+      en: 36,
+      ag: 38,
+      lu: 31
+    },
     trait: 'Thermal Conduct',
     area: 'Sheriruth',
     floor: 'L13 (after Palace 7)',
-    alarmItem: { name: 'Mabufudyne', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Mabufudyne',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -679,11 +964,15 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Baphomet'
   },
   Barong: {
     inherits: 'Electric',
-    item: { name: 'Ziodyne', type: 'Skill Card' },
+    item: {
+      name: 'Ziodyne',
+      type: 'Skill Card'
+    },
     level: 52,
     arcana: 'Emperor',
     skills: {
@@ -694,11 +983,20 @@ const compendium = {
       'Null Elec': 55,
       Maziodyne: 57
     },
-    stats: { st: 33, ma: 35, en: 33, ag: 37, lu: 25 },
+    stats: {
+      st: 33,
+      ma: 35,
+      en: 33,
+      ag: 37,
+      lu: 25
+    },
     trait: 'Blessed Bloodline',
     area: 'Sheriruth',
     floor: 'L11 & 12 (after Palace 7)',
-    alarmItem: { name: 'Maziodyne', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Maziodyne',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -710,11 +1008,15 @@ const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'wk'
-    }
+    },
+    name: 'Barong'
   },
   Beelzebub: {
     inherits: 'Curse',
-    item: { name: 'Fleurs du Mal', type: 'Item' },
+    item: {
+      name: 'Fleurs du Mal',
+      type: 'Item'
+    },
     level: 87,
     arcana: 'Devil',
     skills: {
@@ -727,10 +1029,19 @@ const compendium = {
       'Repel Ice': 91,
       Megidolaon: 92
     },
-    stats: { st: 55, ma: 61, en: 54, ag: 56, lu: 42 },
+    stats: {
+      st: 55,
+      ma: 61,
+      en: 54,
+      ag: 56,
+      lu: 42
+    },
     trait: 'Mother\'s Lament',
     max: true,
-    alarmItem: { name: 'Fleurs du Mal R', type: 'Item' },
+    alarmItem: {
+      name: 'Fleurs du Mal R',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -742,11 +1053,15 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'rp'
-    }
+    },
+    name: 'Beelzebub'
   },
   Belial: {
     inherits: 'Curse',
-    item: { name: 'Mamudoon', type: 'Skill Card' },
+    item: {
+      name: 'Mamudoon',
+      type: 'Skill Card'
+    },
     level: 82,
     arcana: 'Devil',
     skills: {
@@ -758,9 +1073,18 @@ const compendium = {
       Mamudoon: 86,
       'Demonic Decree': 88
     },
-    stats: { st: 52, ma: 53, en: 51, ag: 48, lu: 49 },
+    stats: {
+      st: 52,
+      ma: 53,
+      en: 51,
+      ag: 48,
+      lu: 49
+    },
     trait: 'Bloodstained Eyes',
-    alarmItem: { name: 'Demonic Decree', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Demonic Decree',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'nu',
       gun: '-',
@@ -772,11 +1096,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Belial'
   },
   Belphegor: {
     inherits: 'Ice',
-    item: { name: 'Mabufula', type: 'Skill Card' },
+    item: {
+      name: 'Mabufula',
+      type: 'Skill Card'
+    },
     level: 37,
     arcana: 'Tower',
     skills: {
@@ -787,11 +1115,20 @@ const compendium = {
       Bufudyne: 41,
       Concentrate: 42
     },
-    stats: { st: 25, ma: 27, en: 24, ag: 23, lu: 19 },
+    stats: {
+      st: 25,
+      ma: 27,
+      en: 24,
+      ag: 23,
+      lu: 19
+    },
     trait: 'Intense Focus',
     area: 'Adyeshach',
     floor: 'L6-8, 10',
-    alarmItem: { name: 'Bufudyne', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Bufudyne',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -803,11 +1140,15 @@ const compendium = {
       nuclear: 'rs',
       bless: '-',
       curse: 'rp'
-    }
+    },
+    name: 'Belphegor'
   },
   Berith: {
     inherits: 'Physical',
-    item: { name: 'Cleave', type: 'Skill Card' },
+    item: {
+      name: 'Cleave',
+      type: 'Skill Card'
+    },
     level: 9,
     arcana: 'Hierophant',
     skills: {
@@ -817,11 +1158,20 @@ const compendium = {
       'Dodge Fire': 11,
       'Power Slash': 13
     },
-    stats: { st: 9, ma: 6, en: 8, ag: 8, lu: 3 },
+    stats: {
+      st: 9,
+      ma: 6,
+      en: 8,
+      ag: 8,
+      lu: 3
+    },
     trait: 'Crisis Control',
     area: 'Aiyatsbus',
     floor: 'L5 & 6',
-    alarmItem: { name: 'Power Slash', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Power Slash',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'nu',
@@ -833,19 +1183,38 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Berith'
   },
   Bicorn: {
     inherits: 'Wind',
-    item: { name: 'Lunge', type: 'Skill Card' },
+    item: {
+      name: 'Lunge',
+      type: 'Skill Card'
+    },
     level: 4,
     arcana: 'Hermit',
-    skills: { Lunge: 0, Tarunda: 0, Garu: 6, 'Ice Wall': 7, 'Apt Pupil': 8 },
-    stats: { st: 5, ma: 3, en: 3, ag: 5, lu: 3 },
+    skills: {
+      Lunge: 0,
+      Tarunda: 0,
+      Garu: 6,
+      'Ice Wall': 7,
+      'Apt Pupil': 8
+    },
+    stats: {
+      st: 5,
+      ma: 3,
+      en: 3,
+      ag: 5,
+      lu: 3
+    },
     trait: 'Striking Weight',
     area: 'Aiyatsbus',
     floor: 'L1 & 2',
-    alarmItem: { name: 'Assault Dive', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Assault Dive',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -857,11 +1226,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'rs'
-    }
+    },
+    name: 'Bicorn'
   },
   Bishamonten: {
     inherits: 'Nuclear',
-    item: { name: 'Mafreidyne', type: 'Skill Card' },
+    item: {
+      name: 'Mafreidyne',
+      type: 'Skill Card'
+    },
     level: 67,
     arcana: 'Hierophant',
     skills: {
@@ -873,9 +1246,18 @@ const compendium = {
       Tetrakarn: 72,
       'God\'s Hand': 73
     },
-    stats: { st: 51, ma: 37, en: 42, ag: 44, lu: 34 },
+    stats: {
+      st: 51,
+      ma: 37,
+      en: 42,
+      ag: 44,
+      lu: 34
+    },
     trait: 'Savior Bloodline',
-    alarmItem: { name: 'Atomic Flare', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Atomic Flare',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -887,12 +1269,16 @@ const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'rs'
-    }
+    },
+    name: 'Bishamonten'
   },
   'Black Frost': {
     special: true,
     inherits: 'Almighty',
-    item: { name: 'Naraka Whip', type: 'Item' },
+    item: {
+      name: 'Naraka Whip',
+      type: 'Item'
+    },
     level: 67,
     arcana: 'Fool',
     skills: {
@@ -904,9 +1290,18 @@ const compendium = {
       'Repel Fire': 71,
       'Diamond Dust': 72
     },
-    stats: { st: 44, ma: 46, en: 41, ag: 42, lu: 35 },
+    stats: {
+      st: 44,
+      ma: 46,
+      en: 41,
+      ag: 42,
+      lu: 35
+    },
     trait: 'Frigid Bloodline',
-    alarmItem: { name: 'Dainaraka Whip', type: 'Item' },
+    alarmItem: {
+      name: 'Dainaraka Whip',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -918,11 +1313,15 @@ const compendium = {
       nuclear: 'nu',
       bless: '-',
       curse: 'rp'
-    }
+    },
+    name: 'Black Frost'
   },
   'Black Ooze': {
     inherits: 'Curse',
-    item: { name: 'Headbutt', type: 'Skill Card' },
+    item: {
+      name: 'Headbutt',
+      type: 'Skill Card'
+    },
     level: 18,
     arcana: 'Moon',
     skills: {
@@ -934,11 +1333,20 @@ const compendium = {
       'Brain Jack': 23,
       'Flash Bomb': 24
     },
-    stats: { st: 15, ma: 7, en: 16, ag: 8, lu: 15 },
+    stats: {
+      st: 15,
+      ma: 7,
+      en: 16,
+      ag: 8,
+      lu: 15
+    },
     trait: 'Rare Antibody',
     area: 'Adyeshach',
     floor: 'L1-4, 6',
-    alarmItem: { name: 'Memory Blow', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Memory Blow',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -950,11 +1358,15 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Black Ooze'
   },
   'Black Rider': {
     inherits: 'Curse',
-    item: { name: 'Megidola', type: 'Skill Card' },
+    item: {
+      name: 'Megidola',
+      type: 'Skill Card'
+    },
     level: 59,
     arcana: 'Tower',
     skills: {
@@ -966,9 +1378,18 @@ const compendium = {
       'Ghastly Wail': 63,
       Megidola: 64
     },
-    stats: { st: 36, ma: 42, en: 34, ag: 42, lu: 30 },
+    stats: {
+      st: 36,
+      ma: 42,
+      en: 34,
+      ag: 42,
+      lu: 30
+    },
     trait: 'Gloomy Child',
-    alarmItem: { name: 'Megidolaon', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Megidolaon',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -980,12 +1401,16 @@ const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'rs'
-    }
+    },
+    name: 'Black Rider'
   },
   Bugs: {
     special: true,
     inherits: 'Almighty',
-    item: { name: 'Bear Gloves', type: 'Item' },
+    item: {
+      name: 'Bear Gloves',
+      type: 'Item'
+    },
     level: 49,
     arcana: 'Fool',
     skills: {
@@ -997,9 +1422,18 @@ const compendium = {
       'Evade Phys': 54,
       'Fast Heal': 55
     },
-    stats: { st: 35, ma: 33, en: 30, ag: 32, lu: 24 },
+    stats: {
+      st: 35,
+      ma: 33,
+      en: 30,
+      ag: 32,
+      lu: 24
+    },
     trait: 'Potent Hypnosis',
-    alarmItem: { name: 'Big Bear Gloves', type: 'Item' },
+    alarmItem: {
+      name: 'Big Bear Gloves',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1011,11 +1445,15 @@ const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Bugs'
   },
   Byakhee: {
     inherits: 'Fire',
-    item: { name: 'Null Wind', type: 'Skill Card' },
+    item: {
+      name: 'Null Wind',
+      type: 'Skill Card'
+    },
     level: 70,
     arcana: 'Moon',
     skills: {
@@ -1027,10 +1465,19 @@ const compendium = {
       'Fire Break': 74,
       'Heat Riser': 75
     },
-    stats: { st: 42, ma: 49, en: 43, ag: 51, lu: 32 },
+    stats: {
+      st: 42,
+      ma: 49,
+      en: 43,
+      ag: 51,
+      lu: 32
+    },
     trait: 'Heated Bloodline',
     note: 'Only available after 1/12',
-    alarmItem: { name: 'Repel Wind', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Repel Wind',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1042,11 +1489,15 @@ const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Byakhee'
   },
   Byakko: {
     inherits: 'Ice',
-    item: { name: 'Spiral Snow Ring', type: 'Item' },
+    item: {
+      name: 'Spiral Snow Ring',
+      type: 'Item'
+    },
     level: 45,
     arcana: 'Temperance',
     skills: {
@@ -1059,9 +1510,18 @@ const compendium = {
       'Null Rage': 50,
       Bufudyne: 51
     },
-    stats: { st: 35, ma: 28, en: 30, ag: 32, lu: 17 },
+    stats: {
+      st: 35,
+      ma: 28,
+      en: 30,
+      ag: 32,
+      lu: 17
+    },
     trait: 'Retaliating Body',
-    alarmItem: { name: 'Blizzard Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Blizzard Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1073,11 +1533,15 @@ const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: 'rs'
-    }
+    },
+    name: 'Byakko'
   },
   'Cait Sith': {
     inherits: 'Ailment',
-    item: { name: 'Agi', type: 'Skill Card' },
+    item: {
+      name: 'Agi',
+      type: 'Skill Card'
+    },
     level: 5,
     arcana: 'Magician',
     skills: {
@@ -1088,9 +1552,18 @@ const compendium = {
       Sukukaja: 7,
       Media: 9
     },
-    stats: { st: 6, ma: 4, en: 4, ag: 5, lu: 3 },
+    stats: {
+      st: 6,
+      ma: 4,
+      en: 4,
+      ag: 5,
+      lu: 3
+    },
     trait: 'Thermal Conduct',
-    alarmItem: { name: 'Maragi', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Maragi',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1102,11 +1575,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Cait Sith'
   },
   Cerberus: {
     inherits: 'Fire',
-    item: { name: 'Megaton Raid', type: 'Skill Card' },
+    item: {
+      name: 'Megaton Raid',
+      type: 'Skill Card'
+    },
     level: 55,
     arcana: 'Chariot',
     skills: {
@@ -1117,11 +1594,20 @@ const compendium = {
       Maragidyne: 58,
       'Enduring Soul': 60
     },
-    stats: { st: 39, ma: 35, en: 32, ag: 39, lu: 27 },
+    stats: {
+      st: 39,
+      ma: 35,
+      en: 32,
+      ag: 39,
+      lu: 27
+    },
     trait: 'Heated Bloodline',
     area: 'Sheriruth',
     floor: 'L7-9 (after Palace 7)',
-    alarmItem: { name: 'God\'s Hand', type: 'Skill Card' },
+    alarmItem: {
+      name: 'God\'s Hand',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1133,11 +1619,15 @@ const compendium = {
       nuclear: 'rs',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Cerberus'
   },
   Chernobog: {
     inherits: 'Ailment',
-    item: { name: 'Mudoon', type: 'Skill Card' },
+    item: {
+      name: 'Mudoon',
+      type: 'Skill Card'
+    },
     level: 62,
     arcana: 'Death',
     skills: {
@@ -1149,11 +1639,20 @@ const compendium = {
       'Fear Boost': 66,
       'Brave Blade': 67
     },
-    stats: { st: 40, ma: 37, en: 39, ag: 38, lu: 39 },
+    stats: {
+      st: 40,
+      ma: 37,
+      en: 39,
+      ag: 38,
+      lu: 39
+    },
     trait: 'Crisis Control',
     area: 'Da\'at',
     floor: 'All',
-    alarmItem: { name: 'Mamudoon', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Mamudoon',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -1165,12 +1664,16 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'ab'
-    }
+    },
+    name: 'Chernobog'
   },
   'Chi You': {
     special: true,
     inherits: 'Psy',
-    item: { name: 'Repel Phys', type: 'Skill Card' },
+    item: {
+      name: 'Repel Phys',
+      type: 'Skill Card'
+    },
     level: 88,
     arcana: 'Chariot',
     skills: {
@@ -1182,9 +1685,18 @@ const compendium = {
       'Absorb Psy': 92,
       Concentrate: 94
     },
-    stats: { st: 56, ma: 57, en: 54, ag: 53, lu: 51 },
+    stats: {
+      st: 56,
+      ma: 57,
+      en: 54,
+      ag: 53,
+      lu: 51
+    },
     trait: 'Chi You\'s Blessing',
-    alarmItem: { name: 'Absorb Phys', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Absorb Phys',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -1196,11 +1708,15 @@ const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Chi You'
   },
   Chimera: {
     inherits: 'Physical',
-    item: { name: 'Null Fire', type: 'Skill Card' },
+    item: {
+      name: 'Null Fire',
+      type: 'Skill Card'
+    },
     level: 74,
     arcana: 'Strength',
     skills: {
@@ -1212,10 +1728,19 @@ const compendium = {
       Mabufudyne: 78,
       'Ice Amp': 79
     },
-    stats: { st: 51, ma: 40, en: 42, ag: 48, lu: 48 },
+    stats: {
+      st: 51,
+      ma: 40,
+      en: 42,
+      ag: 48,
+      lu: 48
+    },
     trait: 'Foul Stench',
     note: 'Only available after 1/12',
-    alarmItem: { name: 'Absorb Fire', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Absorb Fire',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1227,11 +1752,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'wk'
-    }
+    },
+    name: 'Chimera'
   },
   Choronzon: {
     inherits: 'Curse',
-    item: { name: 'Curse Ring', type: 'Item' },
+    item: {
+      name: 'Curse Ring',
+      type: 'Item'
+    },
     level: 28,
     arcana: 'Magician',
     skills: {
@@ -1244,11 +1773,20 @@ const compendium = {
       'Curse Boost': 32,
       'Climate Decorum': 33
     },
-    stats: { st: 16, ma: 19, en: 19, ag: 18, lu: 19 },
+    stats: {
+      st: 16,
+      ma: 19,
+      en: 19,
+      ag: 18,
+      lu: 19
+    },
     trait: 'Draining Mouth',
     area: 'Kaitul',
     floor: 'L1-4',
-    alarmItem: { name: 'Spiral Curse Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Spiral Curse Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -1260,11 +1798,15 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: '-'
-    }
+    },
+    name: 'Choronzon'
   },
   Clotho: {
     inherits: 'Healing',
-    item: { name: 'Tetraja', type: 'Skill Card' },
+    item: {
+      name: 'Tetraja',
+      type: 'Skill Card'
+    },
     level: 27,
     arcana: 'Fortune',
     skills: {
@@ -1276,9 +1818,18 @@ const compendium = {
       'Energy Shower': 31,
       'Invigorate 1': 33
     },
-    stats: { st: 14, ma: 19, en: 18, ag: 20, lu: 17 },
+    stats: {
+      st: 14,
+      ma: 19,
+      en: 18,
+      ag: 20,
+      lu: 17
+    },
     trait: 'Relief Bloodline',
-    alarmItem: { name: 'Makarakarn', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Makarakarn',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1290,11 +1841,15 @@ const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Clotho'
   },
   'Crystal Skull': {
     rare: true,
-    item: { name: 'Crystal Skull', type: 'Item' },
+    item: {
+      name: 'Crystal Skull',
+      type: 'Item'
+    },
     level: 50,
     arcana: 'Fool',
     skills: {
@@ -1310,11 +1865,20 @@ const compendium = {
       'Ailment Hunter': 0,
       'Cursed Bloodline': 0
     },
-    stats: { st: 50, ma: 50, en: 50, ag: 50, lu: 50 },
+    stats: {
+      st: 50,
+      ma: 50,
+      en: 50,
+      ag: 50,
+      lu: 50
+    },
     trait: 'Ultimate Vessel',
     area: 'Sheriruth / Da\'at',
     floor: 'L7-9. 11-13 (after Palace 7) / All',
-    alarmItem: { name: 'Crystal Skull R', type: 'Item' },
+    alarmItem: {
+      name: 'Crystal Skull R',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -1326,11 +1890,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Crystal Skull'
   },
   'Cu Chulainn': {
     inherits: 'Almighty',
-    item: { name: 'One-shot Kill', type: 'Skill Card' },
+    item: {
+      name: 'One-shot Kill',
+      type: 'Skill Card'
+    },
     level: 76,
     arcana: 'Faith',
     skills: {
@@ -1342,9 +1910,18 @@ const compendium = {
       Charge: 80,
       'Apt Pupil': 81
     },
-    stats: { st: 55, ma: 44, en: 46, ag: 48, lu: 42 },
+    stats: {
+      st: 55,
+      ma: 44,
+      en: 46,
+      ag: 48,
+      lu: 42
+    },
     trait: 'Potent Hypnosis',
-    alarmItem: { name: 'Riot Gun', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Riot Gun',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -1356,11 +1933,15 @@ const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: '-'
-    }
+    },
+    name: 'Cu Chulainn'
   },
   Cybele: {
     inherits: 'Healing',
-    item: { name: 'Sabazios', type: 'Item' },
+    item: {
+      name: 'Sabazios',
+      type: 'Item'
+    },
     level: 83,
     arcana: 'Priestess',
     skills: {
@@ -1372,10 +1953,19 @@ const compendium = {
       'Absorb Bless': 87,
       Salvation: 89
     },
-    stats: { st: 44, ma: 57, en: 49, ag: 51, lu: 55 },
+    stats: {
+      st: 44,
+      ma: 57,
+      en: 49,
+      ag: 51,
+      lu: 55
+    },
     trait: 'Linked Bloodline',
     max: true,
-    alarmItem: { name: 'Gordios', type: 'Item' },
+    alarmItem: {
+      name: 'Gordios',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1387,11 +1977,15 @@ const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: '-'
-    }
+    },
+    name: 'Cybele'
   },
   Daisoujou: {
     inherits: 'Bless',
-    item: { name: 'Spiral Blessing Ring', type: 'Item' },
+    item: {
+      name: 'Spiral Blessing Ring',
+      type: 'Item'
+    },
     level: 40,
     arcana: 'Hierophant',
     skills: {
@@ -1403,9 +1997,18 @@ const compendium = {
       'Me Patra': 44,
       'Null Rage': 45
     },
-    stats: { st: 21, ma: 33, en: 24, ag: 24, lu: 25 },
+    stats: {
+      st: 21,
+      ma: 33,
+      en: 24,
+      ag: 24,
+      lu: 25
+    },
     trait: 'Draining Mouth',
-    alarmItem: { name: 'Divine Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Divine Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -1417,11 +2020,15 @@ const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'wk'
-    }
+    },
+    name: 'Daisoujou'
   },
   Dakini: {
     inherits: 'Physical',
-    item: { name: 'Tempest Slash', type: 'Skill Card' },
+    item: {
+      name: 'Tempest Slash',
+      type: 'Skill Card'
+    },
     level: 50,
     arcana: 'Empress',
     skills: {
@@ -1433,11 +2040,20 @@ const compendium = {
       Rebellion: 54,
       Charge: 55
     },
-    stats: { st: 34, ma: 32, en: 34, ag: 28, lu: 29 },
+    stats: {
+      st: 34,
+      ma: 32,
+      en: 34,
+      ag: 28,
+      lu: 29
+    },
     trait: 'Skillful Combo',
     area: 'Sheriruth',
     floor: 'L7-9 (after Palace 7)',
-    alarmItem: { name: 'Myriad Slashes', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Myriad Slashes',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'nu',
@@ -1449,11 +2065,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Dakini'
   },
   Decarabia: {
     inherits: 'Fire',
-    item: { name: 'Maragion', type: 'Skill Card' },
+    item: {
+      name: 'Maragion',
+      type: 'Skill Card'
+    },
     level: 32,
     arcana: 'Councillor',
     skills: {
@@ -1465,11 +2085,20 @@ const compendium = {
       'Null Fire': 37,
       Megidola: 38
     },
-    stats: { st: 21, ma: 23, en: 19, ag: 22, lu: 18 },
+    stats: {
+      st: 21,
+      ma: 23,
+      en: 19,
+      ag: 22,
+      lu: 18
+    },
     trait: 'Heated Bloodline',
     area: 'Adyeshach',
     floor: 'L3, 4, 6-8',
-    alarmItem: { name: 'Agidyne', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Agidyne',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'wk',
       gun: '-',
@@ -1481,11 +2110,15 @@ const compendium = {
       nuclear: 'rs',
       bless: '-',
       curse: 'rs'
-    }
+    },
+    name: 'Decarabia'
   },
   Dionysus: {
     inherits: 'Ailment',
-    item: { name: 'Maziodyne', type: 'Skill Card' },
+    item: {
+      name: 'Maziodyne',
+      type: 'Skill Card'
+    },
     level: 71,
     arcana: 'Councillor',
     skills: {
@@ -1497,9 +2130,18 @@ const compendium = {
       'Amrita Shower': 75,
       Debilitate: 76
     },
-    stats: { st: 42, ma: 48, en: 44, ag: 42, lu: 44 },
+    stats: {
+      st: 42,
+      ma: 48,
+      en: 44,
+      ag: 42,
+      lu: 44
+    },
     trait: 'Pinch Anchor',
-    alarmItem: { name: 'Thunder Reign', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Thunder Reign',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1511,11 +2153,15 @@ const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'nu'
-    }
+    },
+    name: 'Dionysus'
   },
   Dominion: {
     inherits: 'Bless',
-    item: { name: 'Makougaon', type: 'Skill Card' },
+    item: {
+      name: 'Makougaon',
+      type: 'Skill Card'
+    },
     level: 68,
     arcana: 'Justice',
     skills: {
@@ -1527,11 +2173,20 @@ const compendium = {
       Mahamaon: 72,
       'Evade Curse': 74
     },
-    stats: { st: 42, ma: 45, en: 43, ag: 44, lu: 37 },
+    stats: {
+      st: 42,
+      ma: 45,
+      en: 43,
+      ag: 44,
+      lu: 37
+    },
     trait: 'Blessed Bloodline',
     area: 'Da\'at',
     floor: 'All',
-    alarmItem: { name: 'Divine Judgement', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Divine Judgement',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1543,11 +2198,15 @@ const compendium = {
       nuclear: 'rp',
       bless: 'nu',
       curse: 'rs'
-    }
+    },
+    name: 'Dominion'
   },
   Eligor: {
     inherits: 'Fire',
-    item: { name: 'Tarukaja', type: 'Skill Card' },
+    item: {
+      name: 'Tarukaja',
+      type: 'Skill Card'
+    },
     level: 16,
     arcana: 'Emperor',
     skills: {
@@ -1558,11 +2217,20 @@ const compendium = {
       Sukunda: 19,
       'Memory Blow': 20
     },
-    stats: { st: 12, ma: 10, en: 13, ag: 10, lu: 10 },
+    stats: {
+      st: 12,
+      ma: 10,
+      en: 13,
+      ag: 10,
+      lu: 10
+    },
     trait: 'Thermal Conduct',
     area: 'Chemdah',
     floor: 'L3 & 4',
-    alarmItem: { name: 'Matarukaja', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Matarukaja',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1574,13 +2242,17 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'rs'
-    }
+    },
+    name: 'Eligor'
   },
   'Emperor\'s Amulet': {
     rare: true,
-    item: { name: 'Emperor\'s Amulet', type: 'Item' },
+    item: {
+      name: 'Emperor\'s Amulet',
+      type: 'Item'
+    },
     level: 35,
-    arcana: 'Hanged',
+    arcana: 'Hanged Man',
     skills: {
       Agidyne: 0,
       Bufudyne: 0,
@@ -1594,11 +2266,20 @@ const compendium = {
       'Wind Bloodline': 0,
       'Psychic Bloodline': 0
     },
-    stats: { st: 35, ma: 35, en: 35, ag: 35, lu: 35 },
+    stats: {
+      st: 35,
+      ma: 35,
+      en: 35,
+      ag: 35,
+      lu: 35
+    },
     trait: 'Ultimate Vessel',
     area: 'Sheriruth',
     floor: 'L7-9, 11-13 (after Palace 7)',
-    alarmItem: { name: 'Emperor\'s Charm R', type: 'Item' },
+    alarmItem: {
+      name: 'Emperor\'s Charm R',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -1610,11 +2291,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Emperor\'s Amulet'
   },
   Fafnir: {
     inherits: 'Nuclear',
-    item: { name: 'Spiral Reactor Ring', type: 'Item' },
+    item: {
+      name: 'Spiral Reactor Ring',
+      type: 'Item'
+    },
     level: 86,
     arcana: 'Hermit',
     skills: {
@@ -1626,10 +2311,19 @@ const compendium = {
       Debilitate: 91,
       'Absorb Nuke': 92
     },
-    stats: { st: 61, ma: 55, en: 58, ag: 48, lu: 43 },
+    stats: {
+      st: 61,
+      ma: 55,
+      en: 58,
+      ag: 48,
+      lu: 43
+    },
     trait: 'Ailment Hunter',
     note: 'Only available after 1/12',
-    alarmItem: { name: 'Fire Dragon Horn', type: 'Item' },
+    alarmItem: {
+      name: 'Fire Dragon Horn',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rp',
       gun: 'rp',
@@ -1641,12 +2335,16 @@ const compendium = {
       nuclear: 'ab',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Fafnir'
   },
   Flauros: {
     special: true,
     inherits: 'Ailment',
-    item: { name: 'Giant Slice Belt', type: 'Item' },
+    item: {
+      name: 'Giant Slice Belt',
+      type: 'Item'
+    },
     level: 19,
     arcana: 'Devil',
     skills: {
@@ -1658,9 +2356,18 @@ const compendium = {
       'Cornered Fang': 23,
       'Heat Up': 24
     },
-    stats: { st: 15, ma: 11, en: 13, ag: 14, lu: 11 },
+    stats: {
+      st: 15,
+      ma: 11,
+      en: 13,
+      ag: 14,
+      lu: 11
+    },
     trait: 'Gluttonmouth',
-    alarmItem: { name: 'Rising Slash Belt', type: 'Item' },
+    alarmItem: {
+      name: 'Rising Slash Belt',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1672,11 +2379,15 @@ const compendium = {
       nuclear: 'rs',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Flauros'
   },
   Forneus: {
     inherits: 'Psy',
-    item: { name: 'Psiodyne', type: 'Skill Card' },
+    item: {
+      name: 'Psiodyne',
+      type: 'Skill Card'
+    },
     level: 63,
     arcana: 'Magician',
     skills: {
@@ -1688,11 +2399,20 @@ const compendium = {
       Mapsiodyne: 67,
       'Evade Psy': 68
     },
-    stats: { st: 41, ma: 39, en: 40, ag: 42, lu: 34 },
+    stats: {
+      st: 41,
+      ma: 39,
+      en: 40,
+      ag: 42,
+      lu: 34
+    },
     trait: 'Bloodstained Eyes',
     area: 'Sheriruth',
     floor: 'L12 & 13 (after Palace 7)',
-    alarmItem: { name: 'Mapsiodyne', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Mapsiodyne',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1704,11 +2424,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Forneus'
   },
   Fortuna: {
     inherits: 'Wind',
-    item: { name: 'Lucky Robe', type: 'Item' },
+    item: {
+      name: 'Lucky Robe',
+      type: 'Item'
+    },
     level: 46,
     arcana: 'Fortune',
     skills: {
@@ -1720,9 +2444,18 @@ const compendium = {
       'Amrita Drop': 50,
       'Evade Elec': 51
     },
-    stats: { st: 23, ma: 32, en: 29, ag: 34, lu: 27 },
+    stats: {
+      st: 23,
+      ma: 32,
+      en: 29,
+      ag: 34,
+      lu: 27
+    },
     trait: 'Wind Bloodline',
-    alarmItem: { name: 'Super Lucky Robe', type: 'Item' },
+    alarmItem: {
+      name: 'Super Lucky Robe',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1734,11 +2467,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Fortuna'
   },
   Futsunushi: {
     inherits: 'Physical',
-    item: { name: 'Hinokagutsuchi', type: 'Item' },
+    item: {
+      name: 'Hinokagutsuchi',
+      type: 'Item'
+    },
     level: 86,
     arcana: 'Magician',
     skills: {
@@ -1751,10 +2488,19 @@ const compendium = {
       'Firm Stance': 91,
       'Auto-Maraku': 92
     },
-    stats: { st: 60, ma: 58, en: 55, ag: 52, lu: 40 },
+    stats: {
+      st: 60,
+      ma: 58,
+      en: 55,
+      ag: 52,
+      lu: 40
+    },
     trait: 'Will of the Sword',
     max: true,
-    alarmItem: { name: 'Hinokagutsuchi II', type: 'Item' },
+    alarmItem: {
+      name: 'Hinokagutsuchi II',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -1766,11 +2512,15 @@ const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Futsunushi'
   },
   'Fuu-Ki': {
     inherits: 'Wind',
-    item: { name: 'Wind Boost', type: 'Skill Card' },
+    item: {
+      name: 'Wind Boost',
+      type: 'Skill Card'
+    },
     level: 23,
     arcana: 'Star',
     skills: {
@@ -1781,11 +2531,20 @@ const compendium = {
       Magarula: 26,
       'Resist Wind': 27
     },
-    stats: { st: 14, ma: 17, en: 16, ag: 15, lu: 14 },
+    stats: {
+      st: 14,
+      ma: 17,
+      en: 16,
+      ag: 15,
+      lu: 14
+    },
     trait: 'Intense Focus',
     area: 'Kaitul',
     floor: 'L8 & 9',
-    alarmItem: { name: 'Wind Amp', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Wind Amp',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -1797,11 +2556,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Fuu-Ki'
   },
   Gabriel: {
     inherits: 'Almighty',
-    item: { name: 'Spiral Blizzard Ring', type: 'Item' },
+    item: {
+      name: 'Spiral Blizzard Ring',
+      type: 'Item'
+    },
     level: 77,
     arcana: 'Temperance',
     skills: {
@@ -1814,9 +2577,18 @@ const compendium = {
       'Ice Amp': 82,
       Salvation: 83
     },
-    stats: { st: 43, ma: 51, en: 48, ag: 54, lu: 42 },
+    stats: {
+      st: 43,
+      ma: 51,
+      en: 48,
+      ag: 54,
+      lu: 42
+    },
     trait: 'Relentless',
-    alarmItem: { name: 'Diamond Dust Lily', type: 'Item' },
+    alarmItem: {
+      name: 'Diamond Dust Lily',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1828,11 +2600,15 @@ const compendium = {
       nuclear: '-',
       bless: 'ab',
       curse: '-'
-    }
+    },
+    name: 'Gabriel'
   },
   Ganesha: {
     inherits: 'Ailment',
-    item: { name: 'Rebellion', type: 'Skill Card' },
+    item: {
+      name: 'Rebellion',
+      type: 'Skill Card'
+    },
     level: 53,
     arcana: 'Sun',
     skills: {
@@ -1844,11 +2620,20 @@ const compendium = {
       Masukunda: 57,
       Charge: 60
     },
-    stats: { st: 39, ma: 31, en: 37, ag: 33, lu: 26 },
+    stats: {
+      st: 39,
+      ma: 31,
+      en: 37,
+      ag: 33,
+      lu: 26
+    },
     trait: 'Gluttonmouth',
     area: 'Sheriruth',
     floor: 'L5, 7-9 (before Palace 7) / L3 & 4 (after Palace 7)',
-    alarmItem: { name: 'Revolution', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Revolution',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -1860,11 +2645,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Ganesha'
   },
   Garuda: {
     inherits: 'Wind',
-    item: { name: 'Garudyne', type: 'Skill Card' },
+    item: {
+      name: 'Garudyne',
+      type: 'Skill Card'
+    },
     level: 52,
     arcana: 'Star',
     skills: {
@@ -1876,11 +2665,20 @@ const compendium = {
       Magarudyne: 57,
       'Wind Amp': 59
     },
-    stats: { st: 30, ma: 36, en: 29, ag: 39, lu: 29 },
+    stats: {
+      st: 30,
+      ma: 36,
+      en: 29,
+      ag: 39,
+      lu: 29
+    },
     trait: 'Wind Bloodline',
     area: 'Sheriruth',
     floor: 'L12 (after Palace 7)',
-    alarmItem: { name: 'Magarudyne', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Magarudyne',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1892,11 +2690,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rp',
       curse: '-'
-    }
+    },
+    name: 'Garuda'
   },
   Genbu: {
     inherits: 'Ice',
-    item: { name: 'Frost Ring', type: 'Item' },
+    item: {
+      name: 'Frost Ring',
+      type: 'Item'
+    },
     level: 7,
     arcana: 'Temperance',
     skills: {
@@ -1907,9 +2709,18 @@ const compendium = {
       'Resist Forget': 11,
       'Defense Master': 12
     },
-    stats: { st: 5, ma: 6, en: 7, ag: 6, lu: 4 },
+    stats: {
+      st: 5,
+      ma: 6,
+      en: 7,
+      ag: 6,
+      lu: 4
+    },
     trait: 'Cold-Blooded',
-    alarmItem: { name: 'Spiral Frost Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Spiral Frost Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -1921,11 +2732,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Genbu'
   },
   Girimehkala: {
     inherits: 'Ailment',
-    item: { name: 'Swift Strike', type: 'Skill Card' },
+    item: {
+      name: 'Swift Strike',
+      type: 'Skill Card'
+    },
     level: 43,
     arcana: 'Moon',
     skills: {
@@ -1936,11 +2751,20 @@ const compendium = {
       'Wage War': 47,
       'Repel Phys': 50
     },
-    stats: { st: 32, ma: 24, en: 32, ag: 29, lu: 19 },
+    stats: {
+      st: 32,
+      ma: 24,
+      en: 32,
+      ag: 29,
+      lu: 19
+    },
     trait: 'Cursed Bloodline',
     area: 'Adyeshach',
     floor: 'L4, 6-8, 10',
-    alarmItem: { name: 'Deathbound', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Deathbound',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rp',
       gun: 'rp',
@@ -1952,11 +2776,15 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Girimehkala'
   },
   Hanuman: {
     inherits: 'Physical',
-    item: { name: 'Ruyi Jingu Bang', type: 'Item' },
+    item: {
+      name: 'Ruyi Jingu Bang',
+      type: 'Item'
+    },
     level: 64,
     arcana: 'Strength',
     skills: {
@@ -1967,11 +2795,20 @@ const compendium = {
       'Tetra Break': 67,
       'Regenerate 3': 69
     },
-    stats: { st: 43, ma: 38, en: 40, ag: 40, lu: 38 },
+    stats: {
+      st: 43,
+      ma: 38,
+      en: 40,
+      ag: 40,
+      lu: 38
+    },
     trait: 'Potent Hypnosis',
     area: 'Sheriruth',
     floor: 'L12 & 13 (after Palace 7)',
-    alarmItem: { name: 'Fine Ruyi Jingu Bang', type: 'Item' },
+    alarmItem: {
+      name: 'Fine Ruyi Jingu Bang',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -1983,11 +2820,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: '-'
-    }
+    },
+    name: 'Hanuman'
   },
   Hariti: {
     inherits: 'Electric',
-    item: { name: 'Revival Charm', type: 'Item' },
+    item: {
+      name: 'Revival Charm',
+      type: 'Item'
+    },
     level: 40,
     arcana: 'Empress',
     skills: {
@@ -2000,9 +2841,18 @@ const compendium = {
       'Dizzy Boost': 45,
       'Spirit Drain': 46
     },
-    stats: { st: 21, ma: 32, en: 24, ag: 23, lu: 27 },
+    stats: {
+      st: 21,
+      ma: 32,
+      en: 24,
+      ag: 23,
+      lu: 27
+    },
     trait: 'Electric Bloodline',
-    alarmItem: { name: 'Rejuvenate Charm', type: 'Item' },
+    alarmItem: {
+      name: 'Rejuvenate Charm',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2014,11 +2864,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: '-'
-    }
+    },
+    name: 'Hariti'
   },
   Hastur: {
     inherits: 'Wind',
-    item: { name: 'Spiral Gale Ring', type: 'Item' },
+    item: {
+      name: 'Spiral Gale Ring',
+      type: 'Item'
+    },
     level: 84,
     arcana: 'Star',
     skills: {
@@ -2030,10 +2884,19 @@ const compendium = {
       'Spirit Drain': 88,
       'Repel Wind': 89
     },
-    stats: { st: 51, ma: 59, en: 52, ag: 56, lu: 41 },
+    stats: {
+      st: 51,
+      ma: 59,
+      en: 52,
+      ag: 56,
+      lu: 41
+    },
     trait: 'Mouth of Savoring',
     note: 'Only available after 1/12',
-    alarmItem: { name: 'Storm Sculpture', type: 'Item' },
+    alarmItem: {
+      name: 'Storm Sculpture',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2045,13 +2908,17 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Hastur'
   },
   Hecatoncheires: {
     inherits: 'Physical',
-    item: { name: 'Swift Strike Belt', type: 'Item' },
+    item: {
+      name: 'Swift Strike Belt',
+      type: 'Item'
+    },
     level: 42,
-    arcana: 'Hanged',
+    arcana: 'Hanged Man',
     skills: {
       'Swift Strike': 0,
       'Regenerate 2': 0,
@@ -2061,9 +2928,18 @@ const compendium = {
       'Fortified Moxy': 46,
       'Gatling Blows': 49
     },
-    stats: { st: 35, ma: 22, en: 27, ag: 23, lu: 26 },
+    stats: {
+      st: 35,
+      ma: 22,
+      en: 27,
+      ag: 23,
+      lu: 26
+    },
     trait: 'Gluttonmouth',
-    alarmItem: { name: 'Gatling Belt', type: 'Item' },
+    alarmItem: {
+      name: 'Gatling Belt',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -2075,12 +2951,16 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Hecatoncheires'
   },
   'Hell Biker': {
     special: true,
     inherits: 'Fire',
-    item: { name: 'Black Jacket', type: 'Item' },
+    item: {
+      name: 'Black Jacket',
+      type: 'Item'
+    },
     level: 37,
     arcana: 'Death',
     skills: {
@@ -2092,9 +2972,18 @@ const compendium = {
       Maragion: 40,
       Mamudoon: 41
     },
-    stats: { st: 23, ma: 24, en: 24, ag: 30, lu: 17 },
+    stats: {
+      st: 23,
+      ma: 24,
+      en: 24,
+      ag: 30,
+      lu: 17
+    },
     trait: 'Internal Hypnosis',
-    alarmItem: { name: 'Dark Jacket', type: 'Item' },
+    alarmItem: {
+      name: 'Dark Jacket',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2106,11 +2995,15 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: '-'
-    }
+    },
+    name: 'Hell Biker'
   },
   'High Pixie': {
     inherits: 'Healing',
-    item: { name: 'Magaru', type: 'Skill Card' },
+    item: {
+      name: 'Magaru',
+      type: 'Skill Card'
+    },
     level: 16,
     arcana: 'Fool',
     skills: {
@@ -2121,11 +3014,20 @@ const compendium = {
       Pulinpa: 20,
       Magaru: 22
     },
-    stats: { st: 8, ma: 14, en: 10, ag: 13, lu: 10 },
+    stats: {
+      st: 8,
+      ma: 14,
+      en: 10,
+      ag: 13,
+      lu: 10
+    },
     trait: 'Skillful Combo',
     area: 'Kaitul',
     floor: 'L1-3',
-    alarmItem: { name: 'Garula', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Garula',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'wk',
@@ -2137,11 +3039,15 @@ const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'High Pixie'
   },
   'Hope Diamond': {
     rare: true,
-    item: { name: 'Hope Diamond', type: 'Item' },
+    item: {
+      name: 'Hope Diamond',
+      type: 'Item'
+    },
     level: 40,
     arcana: 'Death',
     skills: {
@@ -2157,11 +3063,20 @@ const compendium = {
       'Striking Weight': 0,
       'Retaliating Body': 0
     },
-    stats: { st: 40, ma: 40, en: 40, ag: 40, lu: 40 },
+    stats: {
+      st: 40,
+      ma: 40,
+      en: 40,
+      ag: 40,
+      lu: 40
+    },
     trait: 'Ultimate Vessel',
     area: 'Sheriruth',
     floor: 'L7-9. 11-13 (after Palace 7)',
-    alarmItem: { name: 'Hope Diamond R', type: 'Item' },
+    alarmItem: {
+      name: 'Hope Diamond R',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -2173,11 +3088,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Hope Diamond'
   },
   Horus: {
     inherits: 'Almighty',
-    item: { name: 'Hallowed Ring', type: 'Item' },
+    item: {
+      name: 'Hallowed Ring',
+      type: 'Item'
+    },
     level: 47,
     arcana: 'Sun',
     skills: {
@@ -2189,9 +3108,18 @@ const compendium = {
       Hamaon: 51,
       'Hama Boost': 52
     },
-    stats: { st: 30, ma: 32, en: 29, ag: 35, lu: 22 },
+    stats: {
+      st: 30,
+      ma: 32,
+      en: 29,
+      ag: 35,
+      lu: 22
+    },
     trait: 'Potent Hypnosis',
-    alarmItem: { name: 'Spiral Hallowed Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Spiral Hallowed Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2203,13 +3131,17 @@ const compendium = {
       nuclear: '-',
       bless: 'rp',
       curse: '-'
-    }
+    },
+    name: 'Horus'
   },
   'Hua Po': {
     inherits: 'Fire',
-    item: { name: 'Ember Ring', type: 'Item' },
+    item: {
+      name: 'Ember Ring',
+      type: 'Item'
+    },
     level: 9,
-    arcana: 'Hanged',
+    arcana: 'Hanged Man',
     skills: {
       Agi: 0,
       Dormina: 0,
@@ -2218,11 +3150,20 @@ const compendium = {
       Maragi: 13,
       'Burn Boost': 15
     },
-    stats: { st: 4, ma: 10, en: 4, ag: 8, lu: 8 },
+    stats: {
+      st: 4,
+      ma: 10,
+      en: 4,
+      ag: 8,
+      lu: 8
+    },
     trait: 'Thermal Conduct',
     area: 'Chemdah',
     floor: 'L1-3',
-    alarmItem: { name: 'Spiral Ember Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Spiral Ember Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: 'wk',
@@ -2234,11 +3175,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Hua Po'
   },
   Incubus: {
     inherits: 'Ailment',
-    item: { name: 'Dream Needle', type: 'Skill Card' },
+    item: {
+      name: 'Dream Needle',
+      type: 'Skill Card'
+    },
     level: 5,
     arcana: 'Devil',
     skills: {
@@ -2248,11 +3193,20 @@ const compendium = {
       Tarunda: 8,
       'Dodge Curse': 9
     },
-    stats: { st: 4, ma: 6, en: 4, ag: 5, lu: 3 },
+    stats: {
+      st: 4,
+      ma: 6,
+      en: 4,
+      ag: 5,
+      lu: 3
+    },
     trait: 'Draining Mouth',
     area: 'Aiyatsbus',
     floor: 'L2, 3 & 6',
-    alarmItem: { name: 'Dormin Rush', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Dormin Rush',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2264,13 +3218,17 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: '-'
-    }
+    },
+    name: 'Incubus'
   },
   Inugami: {
     inherits: 'Fire',
-    item: { name: 'Giant Slice', type: 'Skill Card' },
+    item: {
+      name: 'Giant Slice',
+      type: 'Skill Card'
+    },
     level: 14,
-    arcana: 'Hanged',
+    arcana: 'Hanged Man',
     skills: {
       Pulinpa: 0,
       Tarukaja: 0,
@@ -2280,11 +3238,20 @@ const compendium = {
       'Brain Shake': 18,
       'Confuse Boost': 19
     },
-    stats: { st: 11, ma: 9, en: 9, ag: 12, lu: 8 },
+    stats: {
+      st: 11,
+      ma: 9,
+      en: 9,
+      ag: 12,
+      lu: 8
+    },
     trait: 'Foul Odor',
     area: 'Chemdah',
     floor: 'L4, 6 & 7',
-    alarmItem: { name: 'Rising Slash', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Rising Slash',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'nu',
@@ -2296,11 +3263,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Inugami'
   },
   'Ippon-Datara': {
     inherits: 'Physical',
-    item: { name: 'Sledgehammer', type: 'Skill Card' },
+    item: {
+      name: 'Sledgehammer',
+      type: 'Skill Card'
+    },
     level: 13,
     arcana: 'Hermit',
     skills: {
@@ -2311,11 +3282,20 @@ const compendium = {
       'Sharp Student': 17,
       Counter: 18
     },
-    stats: { st: 11, ma: 7, en: 14, ag: 6, lu: 8 },
+    stats: {
+      st: 11,
+      ma: 7,
+      en: 14,
+      ag: 6,
+      lu: 8
+    },
     trait: 'Striking Weight',
     area: 'Chemdah',
     floor: 'L1-4',
-    alarmItem: { name: 'Flash Bomb', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Flash Bomb',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -2327,11 +3307,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'rs'
-    }
+    },
+    name: 'Ippon-Datara'
   },
   Ishtar: {
     inherits: 'Healing',
-    item: { name: 'Spiral Thunder Ring', type: 'Item' },
+    item: {
+      name: 'Spiral Thunder Ring',
+      type: 'Item'
+    },
     level: 85,
     arcana: 'Lovers',
     skills: {
@@ -2343,10 +3327,19 @@ const compendium = {
       'Spell Master': 89,
       Salvation: 90
     },
-    stats: { st: 48, ma: 59, en: 49, ag: 58, lu: 48 },
+    stats: {
+      st: 48,
+      ma: 59,
+      en: 49,
+      ag: 58,
+      lu: 48
+    },
     trait: 'Grace of Mother',
     max: true,
-    alarmItem: { name: 'Goddess Horn', type: 'Item' },
+    alarmItem: {
+      name: 'Goddess Horn',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2358,11 +3351,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Ishtar'
   },
   Isis: {
     inherits: 'Healing',
-    item: { name: 'Kouga', type: 'Skill Card' },
+    item: {
+      name: 'Kouga',
+      type: 'Skill Card'
+    },
     level: 26,
     arcana: 'Priestess',
     skills: {
@@ -2374,11 +3371,20 @@ const compendium = {
       'Hama Boost': 30,
       Makarakarn: 32
     },
-    stats: { st: 14, ma: 20, en: 17, ag: 18, lu: 16 },
+    stats: {
+      st: 14,
+      ma: 20,
+      en: 17,
+      ag: 18,
+      lu: 16
+    },
     trait: 'Savior Bloodline',
     area: 'Akzeriyyuth',
     floor: 'L5-7, 9-11',
-    alarmItem: { name: 'Makouga', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Makouga',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2390,11 +3396,15 @@ const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: '-'
-    }
+    },
+    name: 'Isis'
   },
   'Jack Frost': {
     inherits: 'Ice',
-    item: { name: 'Frost Hood', type: 'Item' },
+    item: {
+      name: 'Frost Hood',
+      type: 'Item'
+    },
     level: 11,
     arcana: 'Magician',
     skills: {
@@ -2405,11 +3415,20 @@ const compendium = {
       Rakunda: 13,
       'Freeze Boost': 15
     },
-    stats: { st: 8, ma: 9, en: 7, ag: 9, lu: 7 },
+    stats: {
+      st: 8,
+      ma: 9,
+      en: 7,
+      ag: 9,
+      lu: 7
+    },
     trait: 'Frigid Bloodline',
     area: 'Chemdah',
     floor: 'L4 & 6',
-    alarmItem: { name: 'Frost Ace Hood', type: 'Item' },
+    alarmItem: {
+      name: 'Frost Ace Hood',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2421,11 +3440,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Jack Frost'
   },
   'Jack-o\'-Lantern': {
     inherits: 'Fire',
-    item: { name: 'Pumpkin Bomb', type: 'Item' },
+    item: {
+      name: 'Pumpkin Bomb',
+      type: 'Item'
+    },
     level: 2,
     arcana: 'Magician',
     skills: {
@@ -2435,11 +3458,20 @@ const compendium = {
       Dazzler: 5,
       'Resist Sleep': 7
     },
-    stats: { st: 2, ma: 3, en: 3, ag: 3, lu: 2 },
+    stats: {
+      st: 2,
+      ma: 3,
+      en: 3,
+      ag: 3,
+      lu: 2
+    },
     trait: 'Thermal Conduct',
     area: 'Qimranut / Aiyatsbus',
     floor: 'Any / L1',
-    alarmItem: { name: 'Pumpkin Buster', type: 'Item' },
+    alarmItem: {
+      name: 'Pumpkin Buster',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2451,13 +3483,17 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Jack-o\'-Lantern'
   },
   Jatayu: {
     inherits: 'Wind',
-    item: { name: 'Speed Master', type: 'Skill Card' },
+    item: {
+      name: 'Speed Master',
+      type: 'Skill Card'
+    },
     level: 51,
-    arcana: 'Hanged',
+    arcana: 'Hanged Man',
     skills: {
       Garudyne: 0,
       Masukukaja: 0,
@@ -2467,9 +3503,18 @@ const compendium = {
       Magarudyne: 55,
       'Speed Master': 57
     },
-    stats: { st: 31, ma: 34, en: 29, ag: 36, lu: 30 },
+    stats: {
+      st: 31,
+      ma: 34,
+      en: 29,
+      ag: 36,
+      lu: 30
+    },
     trait: 'Wind Bloodline',
-    alarmItem: { name: 'Auto-Masuku', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Auto-Masuku',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2481,11 +3526,15 @@ const compendium = {
       nuclear: 'wk',
       bless: 'rs',
       curse: '-'
-    }
+    },
+    name: 'Jatayu'
   },
   Jikokuten: {
     inherits: 'Physical',
-    item: { name: 'Assault Belt', type: 'Item' },
+    item: {
+      name: 'Assault Belt',
+      type: 'Item'
+    },
     level: 22,
     arcana: 'Temperance',
     skills: {
@@ -2497,9 +3546,18 @@ const compendium = {
       Matarukaja: 27,
       'Adverse Resolve': 28
     },
-    stats: { st: 18, ma: 11, en: 16, ag: 15, lu: 13 },
+    stats: {
+      st: 18,
+      ma: 11,
+      en: 16,
+      ag: 15,
+      lu: 13
+    },
     trait: 'Internal Hypnosis',
-    alarmItem: { name: 'Rush Belt', type: 'Item' },
+    alarmItem: {
+      name: 'Rush Belt',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -2511,11 +3569,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'wk'
-    }
+    },
+    name: 'Jikokuten'
   },
   Kaiwan: {
     inherits: 'Almighty',
-    item: { name: 'Makajam', type: 'Skill Card' },
+    item: {
+      name: 'Makajam',
+      type: 'Skill Card'
+    },
     level: 36,
     arcana: 'Star',
     skills: {
@@ -2527,11 +3589,20 @@ const compendium = {
       Psiodyne: 40,
       Marakunda: 41
     },
-    stats: { st: 23, ma: 26, en: 24, ag: 22, lu: 20 },
+    stats: {
+      st: 23,
+      ma: 26,
+      en: 24,
+      ag: 22,
+      lu: 20
+    },
     trait: 'Psychic Bloodline',
     area: 'Adyeshach',
     floor: 'L10-12',
-    alarmItem: { name: 'Makajamaon', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Makajamaon',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'nu',
@@ -2543,11 +3614,15 @@ const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Kaiwan'
   },
   Kali: {
     inherits: 'Fire',
-    item: { name: 'Null Psy', type: 'Skill Card' },
+    item: {
+      name: 'Null Psy',
+      type: 'Skill Card'
+    },
     level: 63,
     arcana: 'Empress',
     skills: {
@@ -2559,9 +3634,18 @@ const compendium = {
       'Repel Psy': 67,
       'Vorpal Blade': 68
     },
-    stats: { st: 43, ma: 41, en: 39, ag: 39, lu: 34 },
+    stats: {
+      st: 43,
+      ma: 41,
+      en: 39,
+      ag: 39,
+      lu: 34
+    },
     trait: 'Relentless',
-    alarmItem: { name: 'Repel Psy', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Repel Psy',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rp',
@@ -2573,11 +3657,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'rs'
-    }
+    },
+    name: 'Kali'
   },
   Kelpie: {
     inherits: 'Wind',
-    item: { name: 'Garu', type: 'Skill Card' },
+    item: {
+      name: 'Garu',
+      type: 'Skill Card'
+    },
     level: 6,
     arcana: 'Strength',
     skills: {
@@ -2587,11 +3675,20 @@ const compendium = {
       Sukukaja: 9,
       'Terror Claw': 10
     },
-    stats: { st: 5, ma: 5, en: 5, ag: 6, lu: 4 },
+    stats: {
+      st: 5,
+      ma: 5,
+      en: 5,
+      ag: 6,
+      lu: 4
+    },
     trait: 'Striking Weight',
     area: 'Aiyatsbus',
     floor: 'L3',
-    alarmItem: { name: 'Magaru', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Magaru',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2603,11 +3700,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Kelpie'
   },
   'Kikuri-Hime': {
     inherits: 'Healing',
-    item: { name: 'Energy Drop', type: 'Skill Card' },
+    item: {
+      name: 'Energy Drop',
+      type: 'Skill Card'
+    },
     level: 40,
     arcana: 'Priestess',
     skills: {
@@ -2618,11 +3719,20 @@ const compendium = {
       Tetraja: 43,
       'Divine Grace': 45
     },
-    stats: { st: 22, ma: 31, en: 24, ag: 28, lu: 22 },
+    stats: {
+      st: 22,
+      ma: 31,
+      en: 24,
+      ag: 28,
+      lu: 22
+    },
     trait: 'Relief Bloodline',
     area: 'Sheriruth',
     floor: 'L3-5 (before Palace 7) / L2 & 3 (after Palace 7)',
-    alarmItem: { name: 'Energy Shower', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Energy Shower',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2634,11 +3744,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: '-'
-    }
+    },
+    name: 'Kikuri-Hime'
   },
   'Kin-Ki': {
     inherits: 'Physical',
-    item: { name: 'Vajra Blast', type: 'Skill Card' },
+    item: {
+      name: 'Vajra Blast',
+      type: 'Skill Card'
+    },
     level: 25,
     arcana: 'Chariot',
     skills: {
@@ -2650,11 +3764,20 @@ const compendium = {
       'Bad Beat': 30,
       Counterstrike: 31
     },
-    stats: { st: 21, ma: 13, en: 21, ag: 15, lu: 12 },
+    stats: {
+      st: 21,
+      ma: 13,
+      en: 21,
+      ag: 15,
+      lu: 12
+    },
     trait: 'Retaliating Body',
     area: 'Kaitul',
     floor: 'L4, 5, 7-9',
-    alarmItem: { name: 'Vicious Strike', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Vicious Strike',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rp',
@@ -2666,11 +3789,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Kin-Ki'
   },
   'King Frost': {
     inherits: 'Ice',
-    item: { name: 'King Frost Cape', type: 'Item' },
+    item: {
+      name: 'King Frost Cape',
+      type: 'Item'
+    },
     level: 61,
     arcana: 'Emperor',
     skills: {
@@ -2682,11 +3809,20 @@ const compendium = {
       Concentrate: 65,
       'Ice Amp': 67
     },
-    stats: { st: 40, ma: 44, en: 43, ag: 29, lu: 34 },
+    stats: {
+      st: 40,
+      ma: 44,
+      en: 43,
+      ag: 29,
+      lu: 34
+    },
     trait: 'Frigid Bloodline',
     area: 'Sheriruth',
     floor: 'L8, 11, 12, 13 (after Palace 7)',
-    alarmItem: { name: 'King Frost Cape EX', type: 'Item' },
+    alarmItem: {
+      name: 'King Frost Cape EX',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2698,11 +3834,15 @@ const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: '-'
-    }
+    },
+    name: 'King Frost'
   },
   Kodama: {
     inherits: 'Ailment',
-    item: { name: 'Psy Ring', type: 'Item' },
+    item: {
+      name: 'Psy Ring',
+      type: 'Item'
+    },
     level: 11,
     arcana: 'Star',
     skills: {
@@ -2714,11 +3854,20 @@ const compendium = {
       'Fear Boost': 15,
       'Resist Fear': 17
     },
-    stats: { st: 7, ma: 11, en: 8, ag: 10, lu: 4 },
+    stats: {
+      st: 7,
+      ma: 11,
+      en: 8,
+      ag: 10,
+      lu: 4
+    },
     trait: 'Skillful Combo',
     area: 'Aiyatsbus',
     floor: 'L1-3',
-    alarmItem: { name: 'Spiral Psy Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Spiral Psy Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2730,11 +3879,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Kodama'
   },
   'Koh-i-Noor': {
     rare: true,
-    item: { name: 'Koh-i-Noor', type: 'Item' },
+    item: {
+      name: 'Koh-i-Noor',
+      type: 'Item'
+    },
     level: 25,
     arcana: 'Priestess',
     skills: {
@@ -2750,11 +3903,20 @@ const compendium = {
       'Bloodstained Eyes': 0,
       'Rare Antibody': 0
     },
-    stats: { st: 25, ma: 25, en: 25, ag: 25, lu: 25 },
+    stats: {
+      st: 25,
+      ma: 25,
+      en: 25,
+      ag: 25,
+      lu: 25
+    },
     trait: 'Ultimate Vessel',
     area: 'Adyeshach',
     floor: 'L1-4, 6-8, 10-12',
-    alarmItem: { name: 'Koh-i-Noor R', type: 'Item' },
+    alarmItem: {
+      name: 'Koh-i-Noor R',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: 'wk',
@@ -2766,12 +3928,16 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Koh-i-Noor'
   },
   Kohryu: {
     special: true,
     inherits: 'Psy',
-    item: { name: 'Spiral Mystic Ring', type: 'Item' },
+    item: {
+      name: 'Spiral Mystic Ring',
+      type: 'Item'
+    },
     level: 76,
     arcana: 'Hierophant',
     skills: {
@@ -2783,10 +3949,19 @@ const compendium = {
       'Psy Amp': 80,
       'Spell Master': 82
     },
-    stats: { st: 43, ma: 51, en: 50, ag: 53, lu: 38 },
+    stats: {
+      st: 43,
+      ma: 51,
+      en: 50,
+      ag: 53,
+      lu: 38
+    },
     trait: 'Universal Law',
     max: true,
-    alarmItem: { name: 'Dragon\'s Heart', type: 'Item' },
+    alarmItem: {
+      name: 'Dragon\'s Heart',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2798,11 +3973,15 @@ const compendium = {
       nuclear: 'wk',
       bless: 'nu',
       curse: '-'
-    }
+    },
+    name: 'Kohryu'
   },
   'Koppa Tengu': {
     inherits: 'Wind',
-    item: { name: 'Breeze Ring', type: 'Item' },
+    item: {
+      name: 'Breeze Ring',
+      type: 'Item'
+    },
     level: 11,
     arcana: 'Temperance',
     skills: {
@@ -2813,11 +3992,20 @@ const compendium = {
       'Rage Boost': 14,
       'Wage War': 15
     },
-    stats: { st: 7, ma: 8, en: 8, ag: 11, lu: 6 },
+    stats: {
+      st: 7,
+      ma: 8,
+      en: 8,
+      ag: 11,
+      lu: 6
+    },
     trait: 'Intense Focus',
     area: 'Chemdah',
     floor: 'L6 & 7',
-    alarmItem: { name: 'Spiral Breeze Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Spiral Breeze Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2829,11 +4017,15 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: '-'
-    }
+    },
+    name: 'Koppa Tengu'
   },
   Koropokkuru: {
     inherits: 'Ice',
-    item: { name: 'Bufu', type: 'Skill Card' },
+    item: {
+      name: 'Bufu',
+      type: 'Skill Card'
+    },
     level: 9,
     arcana: 'Hermit',
     skills: {
@@ -2845,11 +4037,20 @@ const compendium = {
       Mabufu: 14,
       'Climate Decorum': 15
     },
-    stats: { st: 5, ma: 8, en: 6, ag: 9, lu: 6 },
+    stats: {
+      st: 5,
+      ma: 8,
+      en: 6,
+      ag: 9,
+      lu: 6
+    },
     trait: 'Foul Odor',
     area: 'Chemdah',
     floor: 'L2 & 3',
-    alarmItem: { name: 'Mabufu', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Mabufu',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2861,11 +4062,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Koropokkuru'
   },
   Koumokuten: {
     inherits: 'Physical',
-    item: { name: 'Regenerate 2', type: 'Skill Card' },
+    item: {
+      name: 'Regenerate 2',
+      type: 'Skill Card'
+    },
     level: 49,
     arcana: 'Hermit',
     skills: {
@@ -2877,9 +4082,18 @@ const compendium = {
       'Enduring Soul': 54,
       'Deadly Fury': 55
     },
-    stats: { st: 37, ma: 29, en: 34, ag: 29, lu: 25 },
+    stats: {
+      st: 37,
+      ma: 29,
+      en: 34,
+      ag: 29,
+      lu: 25
+    },
     trait: 'Gluttonmouth',
-    alarmItem: { name: 'Regenerate 3', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Regenerate 3',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -2891,11 +4105,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: '-'
-    }
+    },
+    name: 'Koumokuten'
   },
   Kumbhanda: {
     inherits: 'Ailment',
-    item: { name: 'Terror Claw', type: 'Skill Card' },
+    item: {
+      name: 'Terror Claw',
+      type: 'Skill Card'
+    },
     level: 42,
     arcana: 'Hermit',
     skills: {
@@ -2907,11 +4125,20 @@ const compendium = {
       'Fear Boost': 46,
       Revolution: 47
     },
-    stats: { st: 25, ma: 30, en: 25, ag: 27, lu: 26 },
+    stats: {
+      st: 25,
+      ma: 30,
+      en: 25,
+      ag: 27,
+      lu: 26
+    },
     trait: 'Rare Antibody',
     area: 'Sheriruth',
     floor: 'L8, 9, 11-13 (before Palace 7) / L4 & 5 (after Palace 7)',
-    alarmItem: { name: 'Bloodbath', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Bloodbath',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2923,11 +4150,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'rs'
-    }
+    },
+    name: 'Kumbhanda'
   },
   'Kurama Tengu': {
     inherits: 'Wind',
-    item: { name: 'Wind Ring', type: 'Item' },
+    item: {
+      name: 'Wind Ring',
+      type: 'Item'
+    },
     level: 31,
     arcana: 'Hermit',
     skills: {
@@ -2938,11 +4169,20 @@ const compendium = {
       'Brain Jack': 34,
       'Growth 2': 36
     },
-    stats: { st: 20, ma: 19, en: 21, ag: 24, lu: 16 },
+    stats: {
+      st: 20,
+      ma: 19,
+      en: 21,
+      ag: 24,
+      lu: 16
+    },
     trait: 'Skillful Combo',
     area: 'Sheriruth',
     floor: 'L11 (after Palace 7)',
-    alarmItem: { name: 'Spiral Wind Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Spiral Wind Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2954,11 +4194,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'rs'
-    }
+    },
+    name: 'Kurama Tengu'
   },
   Kushinada: {
     inherits: 'Healing',
-    item: { name: 'Cure Charm', type: 'Item' },
+    item: {
+      name: 'Cure Charm',
+      type: 'Item'
+    },
     level: 42,
     arcana: 'Lovers',
     skills: {
@@ -2971,11 +4215,20 @@ const compendium = {
       'Amrita Shower': 47,
       'Null Ice': 48
     },
-    stats: { st: 24, ma: 30, en: 26, ag: 28, lu: 25 },
+    stats: {
+      st: 24,
+      ma: 30,
+      en: 26,
+      ag: 28,
+      lu: 25
+    },
     trait: 'Savior Bloodline',
     area: 'Sheriruth',
     floor: 'L5, 7-9 (before Palace 7) / L3 & 4 (after Palace 7)',
-    alarmItem: { name: 'Spiral Cure Charm', type: 'Item' },
+    alarmItem: {
+      name: 'Spiral Cure Charm',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -2987,11 +4240,15 @@ const compendium = {
       nuclear: 'wk',
       bless: 'rp',
       curse: '-'
-    }
+    },
+    name: 'Kushinada'
   },
   'Kushi Mitama': {
     inherits: 'Healing',
-    item: { name: 'Aid Charm', type: 'Item' },
+    item: {
+      name: 'Aid Charm',
+      type: 'Item'
+    },
     level: 12,
     arcana: 'Councillor',
     skills: {
@@ -3002,9 +4259,18 @@ const compendium = {
       'Wind Wall': 14,
       'Forget Boost': 16
     },
-    stats: { st: 7, ma: 11, en: 9, ag: 8, lu: 8 },
+    stats: {
+      st: 7,
+      ma: 11,
+      en: 9,
+      ag: 8,
+      lu: 8
+    },
     trait: 'Gluttonmouth',
-    alarmItem: { name: 'Spiral Aid Charm', type: 'Item' },
+    alarmItem: {
+      name: 'Spiral Aid Charm',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3016,11 +4282,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Kushi Mitama'
   },
   Lachesis: {
     inherits: 'Ice',
-    item: { name: 'Snow Ring', type: 'Item' },
+    item: {
+      name: 'Snow Ring',
+      type: 'Item'
+    },
     level: 35,
     arcana: 'Fortune',
     skills: {
@@ -3032,9 +4302,18 @@ const compendium = {
       Mabufula: 39,
       'Ice Boost': 41
     },
-    stats: { st: 18, ma: 26, en: 22, ag: 25, lu: 21 },
+    stats: {
+      st: 18,
+      ma: 26,
+      en: 22,
+      ag: 25,
+      lu: 21
+    },
     trait: 'Internal Hypnosis',
-    alarmItem: { name: 'Spiral Snow Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Spiral Snow Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3046,11 +4325,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Lachesis'
   },
   Lakshmi: {
     inherits: 'Healing',
-    item: { name: 'Amrita Charm', type: 'Item' },
+    item: {
+      name: 'Amrita Charm',
+      type: 'Item'
+    },
     level: 69,
     arcana: 'Fortune',
     skills: {
@@ -3062,10 +4345,19 @@ const compendium = {
       'Amrita Shower': 72,
       'Life Aid': 74
     },
-    stats: { st: 39, ma: 49, en: 41, ag: 47, lu: 38 },
+    stats: {
+      st: 39,
+      ma: 49,
+      en: 41,
+      ag: 47,
+      lu: 38
+    },
     trait: 'Wealth of Lotus',
     max: true,
-    alarmItem: { name: 'Spiral Amrita Charm', type: 'Item' },
+    alarmItem: {
+      name: 'Spiral Amrita Charm',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3077,11 +4369,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: '-'
-    }
+    },
+    name: 'Lakshmi'
   },
   Lamia: {
     inherits: 'Fire',
-    item: { name: 'Rakukaja', type: 'Skill Card' },
+    item: {
+      name: 'Rakukaja',
+      type: 'Skill Card'
+    },
     level: 26,
     arcana: 'Empress',
     skills: {
@@ -3093,11 +4389,20 @@ const compendium = {
       Mamudo: 30,
       'Despair Boost': 31
     },
-    stats: { st: 21, ma: 15, en: 18, ag: 19, lu: 12 },
+    stats: {
+      st: 21,
+      ma: 15,
+      en: 18,
+      ag: 19,
+      lu: 12
+    },
     trait: 'Foul Odor',
     area: 'Akzeriyyuth',
     floor: 'L3, 5-7, 9-11',
-    alarmItem: { name: 'Marakukaja', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Marakukaja',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3109,11 +4414,15 @@ const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Lamia'
   },
   'Leanan Sidhe': {
     inherits: 'Almighty',
-    item: { name: 'Mudo', type: 'Skill Card' },
+    item: {
+      name: 'Mudo',
+      type: 'Skill Card'
+    },
     level: 19,
     arcana: 'Lovers',
     skills: {
@@ -3124,11 +4433,20 @@ const compendium = {
       Mapsi: 22,
       Eiga: 23
     },
-    stats: { st: 9, ma: 17, en: 12, ag: 16, lu: 10 },
+    stats: {
+      st: 9,
+      ma: 17,
+      en: 12,
+      ag: 16,
+      lu: 10
+    },
     trait: 'Skillful Technique',
     area: 'Kaitul',
     floor: 'L3-5',
-    alarmItem: { name: 'Mamudo', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Mamudo',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3140,11 +4458,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Leanan Sidhe'
   },
   Legion: {
     inherits: 'Psy',
-    item: { name: 'Foul Breath', type: 'Skill Card' },
+    item: {
+      name: 'Foul Breath',
+      type: 'Skill Card'
+    },
     level: 38,
     arcana: 'Fool',
     skills: {
@@ -3156,11 +4478,20 @@ const compendium = {
       'Null Dizzy': 42,
       Eigaon: 45
     },
-    stats: { st: 24, ma: 24, en: 30, ag: 23, lu: 20 },
+    stats: {
+      st: 24,
+      ma: 24,
+      en: 30,
+      ag: 23,
+      lu: 20
+    },
     trait: 'Draining Mouth',
     area: 'Adyeshach',
     floor: 'L1-4',
-    alarmItem: { name: 'Stagnant Air', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Stagnant Air',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -3172,11 +4503,15 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Legion'
   },
   Lilim: {
     inherits: 'Ice',
-    item: { name: 'Ice Boost', type: 'Skill Card' },
+    item: {
+      name: 'Ice Boost',
+      type: 'Skill Card'
+    },
     level: 32,
     arcana: 'Devil',
     skills: {
@@ -3188,11 +4523,20 @@ const compendium = {
       'Spirit Drain': 36,
       Mabufula: 37
     },
-    stats: { st: 17, ma: 23, en: 18, ag: 25, lu: 20 },
+    stats: {
+      st: 17,
+      ma: 23,
+      en: 18,
+      ag: 25,
+      lu: 20
+    },
     trait: 'Cold-Blooded',
     area: 'Adyeshach',
     floor: 'L6-8, 10-12',
-    alarmItem: { name: 'Ice Amp', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Ice Amp',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3204,11 +4548,15 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Lilim'
   },
   Lilith: {
     inherits: 'Almighty',
-    item: { name: 'Null Nuke', type: 'Skill Card' },
+    item: {
+      name: 'Null Nuke',
+      type: 'Skill Card'
+    },
     level: 60,
     arcana: 'Moon',
     skills: {
@@ -3220,11 +4568,20 @@ const compendium = {
       'Freeze Boost': 64,
       'Nuke Amp': 65
     },
-    stats: { st: 33, ma: 43, en: 37, ag: 39, lu: 35 },
+    stats: {
+      st: 33,
+      ma: 43,
+      en: 37,
+      ag: 39,
+      lu: 35
+    },
     trait: 'Mighty Gaze',
     area: 'Da\'at',
     floor: 'All',
-    alarmItem: { name: 'Repel Nuke', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Repel Nuke',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3236,11 +4593,15 @@ const compendium = {
       nuclear: 'rp',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Lilith'
   },
   Loa: {
     inherits: 'Curse',
-    item: { name: 'Ominous Words', type: 'Skill Card' },
+    item: {
+      name: 'Ominous Words',
+      type: 'Skill Card'
+    },
     level: 70,
     arcana: 'Hermit',
     skills: {
@@ -3252,10 +4613,19 @@ const compendium = {
       'Spirit Drain': 74,
       'Fortify Spirit': 75
     },
-    stats: { st: 42, ma: 47, en: 43, ag: 46, lu: 39 },
+    stats: {
+      st: 42,
+      ma: 47,
+      en: 43,
+      ag: 46,
+      lu: 39
+    },
     trait: 'Draining Mouth',
     note: 'Only available after 1/12',
-    alarmItem: { name: 'Abysmal Surge', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Abysmal Surge',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3267,12 +4637,16 @@ const compendium = {
       nuclear: 'rs',
       bless: 'wk',
       curse: '-'
-    }
+    },
+    name: 'Loa'
   },
   Lucifer: {
     special: true,
     inherits: 'Almighty',
-    item: { name: 'Tyrant Pistol', type: 'Item' },
+    item: {
+      name: 'Tyrant Pistol',
+      type: 'Item'
+    },
     level: 93,
     arcana: 'Star',
     skills: {
@@ -3285,10 +4659,19 @@ const compendium = {
       'Insta-Heal': 98,
       'Absorb Phys': 99
     },
-    stats: { st: 61, ma: 59, en: 59, ag: 56, lu: 51 },
+    stats: {
+      st: 61,
+      ma: 59,
+      en: 59,
+      ag: 56,
+      lu: 51
+    },
     trait: 'Allure of Wisdom',
     max: true,
-    alarmItem: { name: 'Tyrant Pistol EX', type: 'Item' },
+    alarmItem: {
+      name: 'Tyrant Pistol EX',
+      type: 'Item'
+    },
     affinities: {
       physical: 'nu',
       gun: 'nu',
@@ -3300,13 +4683,17 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'ab'
-    }
+    },
+    name: 'Lucifer'
   },
   Macabre: {
     inherits: 'Curse',
-    item: { name: 'Bloodbath', type: 'Skill Card' },
+    item: {
+      name: 'Bloodbath',
+      type: 'Skill Card'
+    },
     level: 73,
-    arcana: 'Hanged',
+    arcana: 'Hanged Man',
     skills: {
       'Death Scythe': 0,
       'Evil Smile': 0,
@@ -3316,10 +4703,19 @@ const compendium = {
       'Myriad Slashes': 76,
       'Ali Dance': 78
     },
-    stats: { st: 48, ma: 49, en: 42, ag: 48, lu: 39 },
+    stats: {
+      st: 48,
+      ma: 49,
+      en: 42,
+      ag: 48,
+      lu: 39
+    },
     trait: 'Ailment Hunter',
     note: 'Only available after 1/12',
-    alarmItem: { name: 'Death Scythe', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Death Scythe',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3331,11 +4727,15 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Macabre'
   },
   Mada: {
     inherits: 'Fire',
-    item: { name: 'Spiral Inferno Ring', type: 'Item' },
+    item: {
+      name: 'Spiral Inferno Ring',
+      type: 'Item'
+    },
     level: 90,
     arcana: 'Tower',
     skills: {
@@ -3348,10 +4748,19 @@ const compendium = {
       'Enduring Soul': 95,
       'Spell Master': 96
     },
-    stats: { st: 55, ma: 54, en: 61, ag: 59, lu: 48 },
+    stats: {
+      st: 55,
+      ma: 54,
+      en: 61,
+      ag: 59,
+      lu: 48
+    },
     trait: 'Drunken Passion',
     max: true,
-    alarmItem: { name: 'Dark Flame Band', type: 'Item' },
+    alarmItem: {
+      name: 'Dark Flame Band',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3363,11 +4772,15 @@ const compendium = {
       nuclear: 'nu',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Mada'
   },
   Makami: {
     inherits: 'Nuclear',
-    item: { name: 'Frei', type: 'Skill Card' },
+    item: {
+      name: 'Frei',
+      type: 'Skill Card'
+    },
     level: 15,
     arcana: 'Temperance',
     skills: {
@@ -3379,11 +4792,20 @@ const compendium = {
       'Resist Despair': 19,
       'Dodge Elec': 20
     },
-    stats: { st: 13, ma: 12, en: 8, ag: 11, lu: 8 },
+    stats: {
+      st: 13,
+      ma: 12,
+      en: 8,
+      ag: 11,
+      lu: 8
+    },
     trait: 'Skillful Technique',
     area: 'Chemdah',
     floor: 'L6 & 7',
-    alarmItem: { name: 'Mafrei', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Mafrei',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'nu',
@@ -3395,19 +4817,37 @@ const compendium = {
       nuclear: 'rs',
       bless: 'nu',
       curse: '-'
-    }
+    },
+    name: 'Makami'
   },
   Mandrake: {
     inherits: 'Electric',
-    item: { name: 'Sukunda', type: 'Skill Card' },
+    item: {
+      name: 'Sukunda',
+      type: 'Skill Card'
+    },
     level: 3,
     arcana: 'Death',
-    skills: { Pulinpa: 0, 'Energy Drop': 0, Lunge: 4, Sukunda: 5 },
-    stats: { st: 2, ma: 3, en: 3, ag: 4, lu: 4 },
+    skills: {
+      Pulinpa: 0,
+      'Energy Drop': 0,
+      Lunge: 4,
+      Sukunda: 5
+    },
+    stats: {
+      st: 2,
+      ma: 3,
+      en: 3,
+      ag: 4,
+      lu: 4
+    },
     trait: 'Savior Bloodline',
     area: 'Qimranut / Aiyatsbus',
     floor: 'All / L1',
-    alarmItem: { name: 'Masukunda', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Masukunda',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3419,11 +4859,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Mandrake'
   },
   Mara: {
     inherits: 'Psy',
-    item: { name: 'Mapsiodyne', type: 'Skill Card' },
+    item: {
+      name: 'Mapsiodyne',
+      type: 'Skill Card'
+    },
     level: 73,
     arcana: 'Tower',
     skills: {
@@ -3435,11 +4879,20 @@ const compendium = {
       'Psy Amp': 77,
       'Psycho Force': 78
     },
-    stats: { st: 51, ma: 43, en: 43, ag: 45, lu: 44 },
+    stats: {
+      st: 51,
+      ma: 43,
+      en: 43,
+      ag: 45,
+      lu: 44
+    },
     trait: 'Mighty Gaze',
     area: 'Da\'at',
     floor: 'All',
-    alarmItem: { name: 'Psycho Force', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Psycho Force',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'nu',
@@ -3451,11 +4904,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'nu'
-    }
+    },
+    name: 'Mara'
   },
   Maria: {
     inherits: 'Healing',
-    item: { name: 'Spiral Heal Charm', type: 'Item' },
+    item: {
+      name: 'Spiral Heal Charm',
+      type: 'Item'
+    },
     level: 93,
     arcana: 'Faith',
     skills: {
@@ -3467,10 +4924,19 @@ const compendium = {
       'Angelic Grace': 97,
       'Holy Whisper': 98
     },
-    stats: { st: 52, ma: 66, en: 53, ag: 54, lu: 61 },
+    stats: {
+      st: 52,
+      ma: 66,
+      en: 53,
+      ag: 54,
+      lu: 61
+    },
     trait: 'Ave Maria',
     max: true,
-    alarmItem: { name: 'Rosary of Purity', type: 'Item' },
+    alarmItem: {
+      name: 'Rosary of Purity',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3482,11 +4948,15 @@ const compendium = {
       nuclear: '-',
       bless: 'ab',
       curse: '-'
-    }
+    },
+    name: 'Maria'
   },
   Matador: {
     inherits: 'Psy',
-    item: { name: 'Blood Red Capote', type: 'Item' },
+    item: {
+      name: 'Blood Red Capote',
+      type: 'Item'
+    },
     level: 17,
     arcana: 'Death',
     skills: {
@@ -3497,9 +4967,18 @@ const compendium = {
       'Double Shot': 20,
       'Swift Strike': 22
     },
-    stats: { st: 11, ma: 13, en: 10, ag: 16, lu: 8 },
+    stats: {
+      st: 11,
+      ma: 13,
+      en: 10,
+      ag: 16,
+      lu: 8
+    },
     trait: 'Potent Hypnosis',
-    alarmItem: { name: 'Bloodied Capote', type: 'Item' },
+    alarmItem: {
+      name: 'Bloodied Capote',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3511,11 +4990,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Matador'
   },
   Melchizedek: {
     inherits: 'Bless',
-    item: { name: 'Hamaon', type: 'Skill Card' },
+    item: {
+      name: 'Hamaon',
+      type: 'Skill Card'
+    },
     level: 58,
     arcana: 'Justice',
     skills: {
@@ -3527,11 +5010,20 @@ const compendium = {
       Matarukaja: 63,
       'God\'s Hand': 65
     },
-    stats: { st: 37, ma: 32, en: 40, ag: 39, lu: 33 },
+    stats: {
+      st: 37,
+      ma: 32,
+      en: 40,
+      ag: 39,
+      lu: 33
+    },
     trait: 'Deathly Illness',
     area: 'Da\'at',
     floor: 'All',
-    alarmItem: { name: 'Mahamaon', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Mahamaon',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3543,12 +5035,16 @@ const compendium = {
       nuclear: '-',
       bless: 'ab',
       curse: 'nu'
-    }
+    },
+    name: 'Melchizedek'
   },
   Metatron: {
     special: true,
     inherits: 'Bless',
-    item: { name: 'Nataraja', type: 'Item' },
+    item: {
+      name: 'Nataraja',
+      type: 'Item'
+    },
     level: 89,
     arcana: 'Justice',
     skills: {
@@ -3561,9 +5057,18 @@ const compendium = {
       'Bless Amp': 94,
       'Divine Judgement': 95
     },
-    stats: { st: 54, ma: 61, en: 60, ag: 57, lu: 42 },
+    stats: {
+      st: 54,
+      ma: 61,
+      en: 60,
+      ag: 57,
+      lu: 42
+    },
     trait: 'Martyr\'s Gift',
-    alarmItem: { name: 'Nataraja EX', type: 'Item' },
+    alarmItem: {
+      name: 'Nataraja EX',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3575,12 +5080,16 @@ const compendium = {
       nuclear: 'ab',
       bless: '-',
       curse: 'wk'
-    }
+    },
+    name: 'Metatron'
   },
   Michael: {
     special: true,
     inherits: 'Almighty',
-    item: { name: 'Judge of Hell', type: 'Item' },
+    item: {
+      name: 'Judge of Hell',
+      type: 'Item'
+    },
     level: 87,
     arcana: 'Judgement',
     skills: {
@@ -3592,9 +5101,18 @@ const compendium = {
       Megidolaon: 91,
       'Cosmic Flare': 92
     },
-    stats: { st: 57, ma: 54, en: 55, ag: 56, lu: 46 },
+    stats: {
+      st: 57,
+      ma: 54,
+      en: 55,
+      ag: 56,
+      lu: 46
+    },
     trait: 'Potent Hypnosis',
-    alarmItem: { name: 'Judge End', type: 'Item' },
+    alarmItem: {
+      name: 'Judge End',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -3606,11 +5124,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rp',
       curse: 'nu'
-    }
+    },
+    name: 'Michael'
   },
   Mishaguji: {
     inherits: 'Ailment',
-    item: { name: 'Spiral Karma Ring', type: 'Item' },
+    item: {
+      name: 'Spiral Karma Ring',
+      type: 'Item'
+    },
     level: 52,
     arcana: 'Hierophant',
     skills: {
@@ -3622,9 +5144,18 @@ const compendium = {
       Deathbound: 56,
       'Ailment Boost': 57
     },
-    stats: { st: 32, ma: 32, en: 32, ag: 32, lu: 35 },
+    stats: {
+      st: 32,
+      ma: 32,
+      en: 32,
+      ag: 32,
+      lu: 35
+    },
     trait: 'Ailment Hunter',
-    alarmItem: { name: 'Mystic Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Mystic Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -3636,11 +5167,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'ab'
-    }
+    },
+    name: 'Mishaguji'
   },
   Mitra: {
     inherits: 'Bless',
-    item: { name: 'Death Contract', type: 'Item' },
+    item: {
+      name: 'Death Contract',
+      type: 'Item'
+    },
     level: 33,
     arcana: 'Temperance',
     skills: {
@@ -3652,9 +5187,18 @@ const compendium = {
       'Bless Boost': 36,
       Thermopylae: 38
     },
-    stats: { st: 19, ma: 26, en: 19, ag: 24, lu: 18 },
+    stats: {
+      st: 19,
+      ma: 26,
+      en: 19,
+      ag: 24,
+      lu: 18
+    },
     trait: 'Blessed Bloodline',
-    alarmItem: { name: 'Death Promise', type: 'Item' },
+    alarmItem: {
+      name: 'Death Promise',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3666,11 +5210,15 @@ const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: '-'
-    }
+    },
+    name: 'Mitra'
   },
   Mithras: {
     inherits: 'Nuclear',
-    item: { name: 'Nuke Boost', type: 'Skill Card' },
+    item: {
+      name: 'Nuke Boost',
+      type: 'Skill Card'
+    },
     level: 39,
     arcana: 'Sun',
     skills: {
@@ -3682,11 +5230,20 @@ const compendium = {
       Mabaisudi: 43,
       Freidyne: 45
     },
-    stats: { st: 27, ma: 25, en: 27, ag: 25, lu: 20 },
+    stats: {
+      st: 27,
+      ma: 25,
+      en: 27,
+      ag: 25,
+      lu: 20
+    },
     trait: 'Skillful Technique',
     area: 'Adyeshach',
     floor: 'L11 & 12',
-    alarmItem: { name: 'Nuke Amp', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Nuke Amp',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -3698,11 +5255,15 @@ const compendium = {
       nuclear: 'nu',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Mithras'
   },
   Mokoi: {
     inherits: 'Ailment',
-    item: { name: 'Dekunda', type: 'Skill Card' },
+    item: {
+      name: 'Dekunda',
+      type: 'Skill Card'
+    },
     level: 9,
     arcana: 'Death',
     skills: {
@@ -3713,11 +5274,20 @@ const compendium = {
       'Dodge Elec': 13,
       Dekunda: 14
     },
-    stats: { st: 9, ma: 5, en: 6, ag: 10, lu: 4 },
+    stats: {
+      st: 9,
+      ma: 5,
+      en: 6,
+      ag: 10,
+      lu: 4
+    },
     trait: 'Gloomy Child',
     area: 'Chemdah',
     floor: 'L1-4',
-    alarmItem: { name: 'Dekaja', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Dekaja',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3729,13 +5299,17 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Mokoi'
   },
   Moloch: {
     inherits: 'Fire',
-    item: { name: 'Inferno Ring', type: 'Item' },
+    item: {
+      name: 'Inferno Ring',
+      type: 'Item'
+    },
     level: 60,
-    arcana: 'Hanged',
+    arcana: 'Hanged Man',
     skills: {
       Agidyne: 0,
       'Stagnant Air': 0,
@@ -3745,11 +5319,20 @@ const compendium = {
       'Absorb Fire': 64,
       'Fire Amp': 65
     },
-    stats: { st: 32, ma: 45, en: 42, ag: 31, lu: 37 },
+    stats: {
+      st: 32,
+      ma: 45,
+      en: 42,
+      ag: 31,
+      lu: 37
+    },
     trait: 'Immunity',
     area: 'Da\'at',
     floor: 'All',
-    alarmItem: { name: 'Spiral Inferno Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Spiral Inferno Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3761,11 +5344,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Moloch'
   },
   Mot: {
     inherits: 'Ailment',
-    item: { name: 'Null Elec', type: 'Skill Card' },
+    item: {
+      name: 'Null Elec',
+      type: 'Skill Card'
+    },
     level: 72,
     arcana: 'Death',
     skills: {
@@ -3776,11 +5363,20 @@ const compendium = {
       Megidolaon: 76,
       'Repel Elec': 77
     },
-    stats: { st: 43, ma: 51, en: 48, ag: 42, lu: 39 },
+    stats: {
+      st: 43,
+      ma: 51,
+      en: 48,
+      ag: 42,
+      lu: 39
+    },
     trait: 'Mighty Gaze',
     area: 'Da\'at',
     floor: 'All',
-    alarmItem: { name: 'Repel Elec', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Repel Elec',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -3792,11 +5388,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'rp'
-    }
+    },
+    name: 'Mot'
   },
   'Mother Harlot': {
     inherits: 'Ice',
-    item: { name: 'Claiomh Solais', type: 'Item' },
+    item: {
+      name: 'Claiomh Solais',
+      type: 'Item'
+    },
     level: 85,
     arcana: 'Empress',
     skills: {
@@ -3808,10 +5408,19 @@ const compendium = {
       'Repel Bless': 88,
       Debilitate: 90
     },
-    stats: { st: 55, ma: 54, en: 48, ag: 50, lu: 55 },
+    stats: {
+      st: 55,
+      ma: 54,
+      en: 48,
+      ag: 50,
+      lu: 55
+    },
     trait: 'Ghost Nest',
     max: true,
-    alarmItem: { name: 'Claiomh Solais R', type: 'Item' },
+    alarmItem: {
+      name: 'Claiomh Solais R',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3823,11 +5432,15 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Mother Harlot'
   },
   Mothman: {
     inherits: 'Electric',
-    item: { name: 'Skull Cracker', type: 'Skill Card' },
+    item: {
+      name: 'Skull Cracker',
+      type: 'Skill Card'
+    },
     level: 33,
     arcana: 'Moon',
     skills: {
@@ -3839,11 +5452,20 @@ const compendium = {
       Makajamaon: 37,
       Ziodyne: 38
     },
-    stats: { st: 21, ma: 24, en: 16, ag: 24, lu: 21 },
+    stats: {
+      st: 21,
+      ma: 24,
+      en: 16,
+      ag: 24,
+      lu: 21
+    },
     trait: 'Static Electricity',
     area: 'Adyeshach',
     floor: 'L3, 4, 7, 8, 10',
-    alarmItem: { name: 'Mind Slice', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Mind Slice',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'wk',
@@ -3855,11 +5477,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Mothman'
   },
   Naga: {
     inherits: 'Electric',
-    item: { name: 'Counter', type: 'Skill Card' },
+    item: {
+      name: 'Counter',
+      type: 'Skill Card'
+    },
     level: 24,
     arcana: 'Hermit',
     skills: {
@@ -3871,11 +5497,20 @@ const compendium = {
       Mazionga: 28,
       Marakukaja: 29
     },
-    stats: { st: 15, ma: 17, en: 15, ag: 17, lu: 15 },
+    stats: {
+      st: 15,
+      ma: 17,
+      en: 15,
+      ag: 17,
+      lu: 15
+    },
     trait: 'Striking Weight',
     area: 'Akzeriyyuth',
     floor: 'L2, 3, 5-7, 9',
-    alarmItem: { name: 'Counterstrike', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Counterstrike',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -3887,11 +5522,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Naga'
   },
   Narcissus: {
     inherits: 'Ailment',
-    item: { name: 'Dazzler', type: 'Skill Card' },
+    item: {
+      name: 'Dazzler',
+      type: 'Skill Card'
+    },
     level: 48,
     arcana: 'Lovers',
     skills: {
@@ -3903,11 +5542,20 @@ const compendium = {
       Mediarama: 52,
       'Ambient Aid': 53
     },
-    stats: { st: 27, ma: 31, en: 29, ag: 33, lu: 31 },
+    stats: {
+      st: 27,
+      ma: 31,
+      en: 29,
+      ag: 33,
+      lu: 31
+    },
     trait: 'Gluttonmouth',
     area: 'Sheriruth',
     floor: 'L7 & 8 (after Palace 7)',
-    alarmItem: { name: 'Nocturnal Flash', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Nocturnal Flash',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3919,11 +5567,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: '-'
-    }
+    },
+    name: 'Narcissus'
   },
   Nebiros: {
     inherits: 'Curse',
-    item: { name: 'Marin Karin', type: 'Skill Card' },
+    item: {
+      name: 'Marin Karin',
+      type: 'Skill Card'
+    },
     level: 74,
     arcana: 'Devil',
     skills: {
@@ -3935,9 +5587,18 @@ const compendium = {
       Megidolaon: 78,
       'Null Bless': 80
     },
-    stats: { st: 45, ma: 52, en: 44, ag: 46, lu: 42 },
+    stats: {
+      st: 45,
+      ma: 52,
+      en: 44,
+      ag: 46,
+      lu: 42
+    },
     trait: 'Psychic Bloodline',
-    alarmItem: { name: 'Brain Jack', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Brain Jack',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -3949,12 +5610,16 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'rs'
-    }
+    },
+    name: 'Nebiros'
   },
   'Neko Shogun': {
     special: true,
     inherits: 'Almighty',
-    item: { name: 'Catnap', type: 'Item' },
+    item: {
+      name: 'Catnap',
+      type: 'Item'
+    },
     level: 30,
     arcana: 'Star',
     skills: {
@@ -3966,9 +5631,18 @@ const compendium = {
       'Defense Master': 35,
       'Fortified Moxy': 36
     },
-    stats: { st: 19, ma: 20, en: 19, ag: 21, lu: 18 },
+    stats: {
+      st: 19,
+      ma: 20,
+      en: 19,
+      ag: 21,
+      lu: 18
+    },
     trait: 'Pinch Anchor',
-    alarmItem: { name: 'Cat Buster', type: 'Item' },
+    alarmItem: {
+      name: 'Cat Buster',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -3980,11 +5654,15 @@ const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'rs'
-    }
+    },
+    name: 'Neko Shogun'
   },
   Nekomata: {
     inherits: 'Ailment',
-    item: { name: 'Pawzooka', type: 'Item' },
+    item: {
+      name: 'Pawzooka',
+      type: 'Item'
+    },
     level: 17,
     arcana: 'Magician',
     skills: {
@@ -3996,11 +5674,20 @@ const compendium = {
       'Elec Wall': 21,
       'Dodge Elec': 22
     },
-    stats: { st: 13, ma: 10, en: 12, ag: 15, lu: 8 },
+    stats: {
+      st: 13,
+      ma: 10,
+      en: 12,
+      ag: 15,
+      lu: 8
+    },
     trait: 'Foul Odor',
     area: 'Kaitul',
     floor: 'L2-4',
-    alarmItem: { name: 'Paw-omber', type: 'Item' },
+    alarmItem: {
+      name: 'Paw-omber',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4012,11 +5699,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Nekomata'
   },
   'Nigi Mitama': {
     inherits: 'Healing',
-    item: { name: 'Prayer Ring', type: 'Item' },
+    item: {
+      name: 'Prayer Ring',
+      type: 'Item'
+    },
     level: 22,
     arcana: 'Councillor',
     skills: {
@@ -4027,9 +5718,18 @@ const compendium = {
       'Me Patra': 25,
       'Climate Decorum': 26
     },
-    stats: { st: 13, ma: 15, en: 15, ag: 16, lu: 14 },
+    stats: {
+      st: 13,
+      ma: 15,
+      en: 15,
+      ag: 16,
+      lu: 14
+    },
     trait: 'Relief Bloodline',
-    alarmItem: { name: 'Spiral Prayer Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Spiral Prayer Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4041,11 +5741,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'rs'
-    }
+    },
+    name: 'Nigi Mitama'
   },
   Norn: {
     inherits: 'Almighty',
-    item: { name: 'Recarm', type: 'Skill Card' },
+    item: {
+      name: 'Recarm',
+      type: 'Skill Card'
+    },
     level: 52,
     arcana: 'Fortune',
     skills: {
@@ -4057,11 +5761,20 @@ const compendium = {
       Tetraja: 56,
       Samarecarm: 57
     },
-    stats: { st: 30, ma: 38, en: 33, ag: 34, lu: 28 },
+    stats: {
+      st: 30,
+      ma: 38,
+      en: 33,
+      ag: 34,
+      lu: 28
+    },
     trait: 'Intense Focus',
     area: 'Sheriruth',
     floor: 'L11-13 (before Palace 7) / L5 (after Palace 7)',
-    alarmItem: { name: 'Samarecarm', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Samarecarm',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4073,11 +5786,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: '-'
-    }
+    },
+    name: 'Norn'
   },
   Nue: {
     inherits: 'Curse',
-    item: { name: 'Maeiha', type: 'Skill Card' },
+    item: {
+      name: 'Maeiha',
+      type: 'Skill Card'
+    },
     level: 20,
     arcana: 'Death',
     skills: {
@@ -4089,11 +5806,20 @@ const compendium = {
       'Assault Dive': 25,
       'Curse Boost': 26
     },
-    stats: { st: 16, ma: 10, en: 17, ag: 14, lu: 10 },
+    stats: {
+      st: 16,
+      ma: 10,
+      en: 17,
+      ag: 14,
+      lu: 10
+    },
     trait: 'Mighty Gaze',
     area: 'Chemdah',
     floor: 'L4',
-    alarmItem: { name: 'Eiga', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Eiga',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4105,11 +5831,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Nue'
   },
   Obariyon: {
     inherits: 'Physical',
-    item: { name: 'Lucky Punch', type: 'Skill Card' },
+    item: {
+      name: 'Lucky Punch',
+      type: 'Skill Card'
+    },
     level: 8,
     arcana: 'Fool',
     skills: {
@@ -4119,11 +5849,20 @@ const compendium = {
       'Resist Fear': 10,
       Dekaja: 12
     },
-    stats: { st: 7, ma: 3, en: 9, ag: 8, lu: 4 },
+    stats: {
+      st: 7,
+      ma: 3,
+      en: 9,
+      ag: 8,
+      lu: 4
+    },
     trait: 'Striking Weight',
     area: 'Aiyatsbus',
     floor: 'L3, 5 & 6',
-    alarmItem: { name: 'Miracle Punch', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Miracle Punch',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -4135,11 +5874,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Obariyon'
   },
   Oberon: {
     inherits: 'Electric',
-    item: { name: 'Heat Wave', type: 'Skill Card' },
+    item: {
+      name: 'Heat Wave',
+      type: 'Skill Card'
+    },
     level: 66,
     arcana: 'Emperor',
     skills: {
@@ -4152,11 +5895,20 @@ const compendium = {
       Samarecarm: 71,
       'Elec Amp': 72
     },
-    stats: { st: 40, ma: 45, en: 42, ag: 43, lu: 35 },
+    stats: {
+      st: 40,
+      ma: 45,
+      en: 42,
+      ag: 43,
+      lu: 35
+    },
     trait: 'Static Electricity',
     area: 'Sheriruth',
     floor: 'L13 (after Palace 7)',
-    alarmItem: { name: 'Vorpal Blade', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Vorpal Blade',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4168,11 +5920,15 @@ const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Oberon'
   },
   Odin: {
     inherits: 'Electric',
-    item: { name: 'Wild Hunt', type: 'Item' },
+    item: {
+      name: 'Wild Hunt',
+      type: 'Item'
+    },
     level: 84,
     arcana: 'Emperor',
     skills: {
@@ -4184,10 +5940,19 @@ const compendium = {
       'Fast Heal': 88,
       'Elec Amp': 89
     },
-    stats: { st: 53, ma: 58, en: 54, ag: 52, lu: 42 },
+    stats: {
+      st: 53,
+      ma: 58,
+      en: 54,
+      ag: 52,
+      lu: 42
+    },
     trait: 'Bargain Bolts',
     max: true,
-    alarmItem: { name: 'Gungnir', type: 'Item' },
+    alarmItem: {
+      name: 'Gungnir',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4199,11 +5964,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rp',
       curse: 'rp'
-    }
+    },
+    name: 'Odin'
   },
   Okuninushi: {
     inherits: 'Psy',
-    item: { name: 'Official\'s Robe', type: 'Item' },
+    item: {
+      name: 'Official\'s Robe',
+      type: 'Item'
+    },
     level: 54,
     arcana: 'Faith',
     skills: {
@@ -4215,9 +5984,18 @@ const compendium = {
       'Evade Nuke': 57,
       'Heat Wave': 59
     },
-    stats: { st: 39, ma: 35, en: 33, ag: 32, lu: 30 },
+    stats: {
+      st: 39,
+      ma: 35,
+      en: 33,
+      ag: 32,
+      lu: 30
+    },
     trait: 'Psychic Bloodline',
-    alarmItem: { name: 'Official\'s Robe R', type: 'Item' },
+    alarmItem: {
+      name: 'Official\'s Robe R',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4229,12 +6007,16 @@ const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Okuninushi'
   },
   'Ongyo-Ki': {
     special: true,
     inherits: 'Physical',
-    item: { name: 'Myriad Slash Belt', type: 'Item' },
+    item: {
+      name: 'Myriad Slash Belt',
+      type: 'Item'
+    },
     level: 89,
     arcana: 'Hermit',
     skills: {
@@ -4246,10 +6028,19 @@ const compendium = {
       'Firm Stance': 93,
       Agneyastra: 95
     },
-    stats: { st: 56, ma: 53, en: 57, ag: 59, lu: 49 },
+    stats: {
+      st: 56,
+      ma: 53,
+      en: 57,
+      ag: 59,
+      lu: 49
+    },
     trait: 'Demon\'s Bite',
     max: true,
-    alarmItem: { name: 'Sword Dance Belt', type: 'Item' },
+    alarmItem: {
+      name: 'Sword Dance Belt',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -4261,11 +6052,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rp',
       curse: 'rp'
-    }
+    },
+    name: 'Ongyo-Ki'
   },
   Oni: {
     inherits: 'Physical',
-    item: { name: 'Rampage', type: 'Skill Card' },
+    item: {
+      name: 'Rampage',
+      type: 'Skill Card'
+    },
     level: 20,
     arcana: 'Strength',
     skills: {
@@ -4276,11 +6071,20 @@ const compendium = {
       'Sharp Student': 23,
       'Memory Blow': 24
     },
-    stats: { st: 19, ma: 9, en: 17, ag: 12, lu: 10 },
+    stats: {
+      st: 19,
+      ma: 9,
+      en: 17,
+      ag: 12,
+      lu: 10
+    },
     trait: 'Retaliating Body',
     area: 'Kaitul',
     floor: 'L3-5, 8, 9',
-    alarmItem: { name: 'Kill Rush', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Kill Rush',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -4292,11 +6096,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Oni'
   },
   Onmoraki: {
     inherits: 'Curse',
-    item: { name: 'Grudge Ring', type: 'Item' },
+    item: {
+      name: 'Grudge Ring',
+      type: 'Item'
+    },
     level: 12,
     arcana: 'Moon',
     skills: {
@@ -4307,11 +6115,20 @@ const compendium = {
       Pulinpa: 15,
       'Confuse Boost': 17
     },
-    stats: { st: 9, ma: 12, en: 7, ag: 10, lu: 5 },
+    stats: {
+      st: 9,
+      ma: 12,
+      en: 7,
+      ag: 10,
+      lu: 5
+    },
     trait: 'Intense Focus',
     area: 'Chemdah',
     floor: 'L3 & 4',
-    alarmItem: { name: 'Spiral Grudge Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Spiral Grudge Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4323,11 +6140,15 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Onmoraki'
   },
   Orichalcum: {
     rare: true,
-    item: { name: 'Orichalcum', type: 'Item' },
+    item: {
+      name: 'Orichalcum',
+      type: 'Item'
+    },
     level: 60,
     arcana: 'Faith',
     skills: {
@@ -4343,9 +6164,18 @@ const compendium = {
       'Mouth of Savoring': 0,
       'Blessed Bloodline': 0
     },
-    stats: { st: 60, ma: 60, en: 60, ag: 60, lu: 60 },
+    stats: {
+      st: 60,
+      ma: 60,
+      en: 60,
+      ag: 60,
+      lu: 60
+    },
     trait: 'Ultimate Vessel',
-    alarmItem: { name: 'Orichalcum R', type: 'Item' },
+    alarmItem: {
+      name: 'Orichalcum R',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -4357,11 +6187,15 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: '-'
-    }
+    },
+    name: 'Orichalcum'
   },
   Orlov: {
     rare: true,
-    item: { name: 'Orlov', type: 'Item' },
+    item: {
+      name: 'Orlov',
+      type: 'Item'
+    },
     level: 30,
     arcana: 'Strength',
     skills: {
@@ -4377,11 +6211,20 @@ const compendium = {
       'Electric Bloodline': 0,
       'Atomic Bloodline': 0
     },
-    stats: { st: 30, ma: 30, en: 30, ag: 30, lu: 30 },
+    stats: {
+      st: 30,
+      ma: 30,
+      en: 30,
+      ag: 30,
+      lu: 30
+    },
     trait: 'Ultimate Vessel',
     area: 'Sheriruth',
     floor: 'Any (before Palace 7) / L1-5 (after Palace 7)',
-    alarmItem: { name: 'Orlov R', type: 'Item' },
+    alarmItem: {
+      name: 'Orlov R',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -4393,11 +6236,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'wk'
-    }
+    },
+    name: 'Orlov'
   },
   Orobas: {
     inherits: 'Fire',
-    item: { name: 'Rakunda', type: 'Skill Card' },
+    item: {
+      name: 'Rakunda',
+      type: 'Skill Card'
+    },
     level: 17,
     arcana: 'Hierophant',
     skills: {
@@ -4408,11 +6255,20 @@ const compendium = {
       'Fire Break': 20,
       Makajamaon: 21
     },
-    stats: { st: 11, ma: 14, en: 15, ag: 12, lu: 6 },
+    stats: {
+      st: 11,
+      ma: 14,
+      en: 15,
+      ag: 12,
+      lu: 6
+    },
     trait: 'Mighty Gaze',
     area: 'Kaitul',
     floor: 'L1-3',
-    alarmItem: { name: 'Marakunda', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Marakunda',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4424,13 +6280,17 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'rs'
-    }
+    },
+    name: 'Orobas'
   },
   Orthrus: {
     inherits: 'Fire',
-    item: { name: 'Agilao', type: 'Skill Card' },
+    item: {
+      name: 'Agilao',
+      type: 'Skill Card'
+    },
     level: 21,
-    arcana: 'Hanged',
+    arcana: 'Hanged Man',
     skills: {
       Agilao: 0,
       'Double Fangs': 0,
@@ -4439,11 +6299,20 @@ const compendium = {
       'Cornered Fang': 24,
       Matarukaja: 26
     },
-    stats: { st: 16, ma: 14, en: 14, ag: 19, lu: 7 },
+    stats: {
+      st: 16,
+      ma: 14,
+      en: 14,
+      ag: 19,
+      lu: 7
+    },
     trait: 'Thermal Conduct',
     area: 'Kaitul',
     floor: 'L4, 5, 7-9',
-    alarmItem: { name: 'Maragion', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Maragion',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4455,11 +6324,15 @@ const compendium = {
       nuclear: 'rs',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Orthrus'
   },
   Ose: {
     inherits: 'Ailment',
-    item: { name: 'Counterstrike', type: 'Skill Card' },
+    item: {
+      name: 'Counterstrike',
+      type: 'Skill Card'
+    },
     level: 42,
     arcana: 'Fool',
     skills: {
@@ -4470,11 +6343,20 @@ const compendium = {
       Matarukaja: 45,
       'Heat Wave': 47
     },
-    stats: { st: 32, ma: 24, en: 25, ag: 31, lu: 21 },
+    stats: {
+      st: 32,
+      ma: 24,
+      en: 25,
+      ag: 31,
+      lu: 21
+    },
     trait: 'Retaliating Body',
     area: 'Sheriruth',
     floor: 'L1-5, 9 (before Palace 7) / L1-4 (after Palace 7)',
-    alarmItem: { name: 'High Counter', type: 'Skill Card' },
+    alarmItem: {
+      name: 'High Counter',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'nu',
@@ -4486,11 +6368,15 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Ose'
   },
   'Pale Rider': {
     inherits: 'Curse',
-    item: { name: 'Hex Ring', type: 'Item' },
+    item: {
+      name: 'Hex Ring',
+      type: 'Item'
+    },
     level: 54,
     arcana: 'Death',
     skills: {
@@ -4502,9 +6388,18 @@ const compendium = {
       'Evade Bless': 58,
       Deathbound: 59
     },
-    stats: { st: 32, ma: 37, en: 33, ag: 40, lu: 27 },
+    stats: {
+      st: 32,
+      ma: 37,
+      en: 33,
+      ag: 40,
+      lu: 27
+    },
     trait: 'Foul Stench',
-    alarmItem: { name: 'Spiral Hex Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Spiral Hex Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4516,11 +6411,15 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'rp'
-    }
+    },
+    name: 'Pale Rider'
   },
   Parvati: {
     inherits: 'Psy',
-    item: { name: 'Null Ice', type: 'Skill Card' },
+    item: {
+      name: 'Null Ice',
+      type: 'Skill Card'
+    },
     level: 56,
     arcana: 'Lovers',
     skills: {
@@ -4532,11 +6431,20 @@ const compendium = {
       Mapsiodyne: 59,
       'Null Ice': 61
     },
-    stats: { st: 33, ma: 39, en: 33, ag: 39, lu: 31 },
+    stats: {
+      st: 33,
+      ma: 39,
+      en: 33,
+      ag: 39,
+      lu: 31
+    },
     trait: 'Skillful Technique',
     area: 'Sheriruth',
     floor: 'L9, 11, 12 (after Palace 7)',
-    alarmItem: { name: 'Repel Ice', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Repel Ice',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4548,11 +6456,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'wk'
-    }
+    },
+    name: 'Parvati'
   },
   Pazuzu: {
     inherits: 'Curse',
-    item: { name: 'Spiral Curse Ring', type: 'Item' },
+    item: {
+      name: 'Spiral Curse Ring',
+      type: 'Item'
+    },
     level: 45,
     arcana: 'Devil',
     skills: {
@@ -4564,9 +6476,18 @@ const compendium = {
       'Stagnant Air': 49,
       Eigaon: 50
     },
-    stats: { st: 29, ma: 33, en: 27, ag: 26, lu: 27 },
+    stats: {
+      st: 29,
+      ma: 33,
+      en: 27,
+      ag: 26,
+      lu: 27
+    },
     trait: 'Cursed Bloodline',
-    alarmItem: { name: 'Hex Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Hex Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4578,11 +6499,15 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Pazuzu'
   },
   Phoenix: {
     inherits: 'Nuclear',
-    item: { name: 'Heavensent Dress', type: 'Item' },
+    item: {
+      name: 'Heavensent Dress',
+      type: 'Item'
+    },
     level: 21,
     arcana: 'Faith',
     skills: {
@@ -4593,9 +6518,18 @@ const compendium = {
       'Nuke Boost': 25,
       Mafreila: 26
     },
-    stats: { st: 12, ma: 15, en: 15, ag: 17, lu: 11 },
+    stats: {
+      st: 12,
+      ma: 15,
+      en: 15,
+      ag: 17,
+      lu: 11
+    },
     trait: 'Atomic Bloodline',
-    alarmItem: { name: 'Godsent Dress', type: 'Item' },
+    alarmItem: {
+      name: 'Godsent Dress',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4607,11 +6541,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Phoenix'
   },
   Pisaca: {
     inherits: 'Curse',
-    item: { name: 'Headhunter Ladle', type: 'Item' },
+    item: {
+      name: 'Headhunter Ladle',
+      type: 'Item'
+    },
     level: 28,
     arcana: 'Death',
     skills: {
@@ -4623,11 +6561,20 @@ const compendium = {
       'Despair Boost': 32,
       Mudoon: 33
     },
-    stats: { st: 19, ma: 21, en: 21, ag: 16, lu: 14 },
+    stats: {
+      st: 19,
+      ma: 21,
+      en: 21,
+      ag: 16,
+      lu: 14
+    },
     trait: 'Rare Antibody',
     area: 'Akzeriyyuth',
     floor: 'L5-7, 9-11',
-    alarmItem: { name: 'Headhunter Ladle EX', type: 'Item' },
+    alarmItem: {
+      name: 'Headhunter Ladle EX',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4639,19 +6586,38 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Pisaca'
   },
   Pixie: {
     inherits: 'Electric',
-    item: { name: 'Static Ring', type: 'Item' },
+    item: {
+      name: 'Static Ring',
+      type: 'Item'
+    },
     level: 2,
     arcana: 'Lovers',
-    skills: { Zio: 0, Dia: 0, Patra: 3, Tarukaja: 5, 'Resist Confuse': 6 },
-    stats: { st: 1, ma: 3, en: 3, ag: 4, lu: 2 },
+    skills: {
+      Zio: 0,
+      Dia: 0,
+      Patra: 3,
+      Tarukaja: 5,
+      'Resist Confuse': 6
+    },
+    stats: {
+      st: 1,
+      ma: 3,
+      en: 3,
+      ag: 4,
+      lu: 2
+    },
     trait: 'Static Electricity',
     area: 'Qimranut / Aiyatsbus',
     floor: 'Any / L1 & 3',
-    alarmItem: { name: 'Spiral Static Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Spiral Static Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: 'wk',
@@ -4663,11 +6629,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'wk'
-    }
+    },
+    name: 'Pixie'
   },
   Power: {
     inherits: 'Bless',
-    item: { name: 'Bless Boost', type: 'Skill Card' },
+    item: {
+      name: 'Bless Boost',
+      type: 'Skill Card'
+    },
     level: 41,
     arcana: 'Justice',
     skills: {
@@ -4679,11 +6649,20 @@ const compendium = {
       Masukukaja: 45,
       'Null Curse': 46
     },
-    stats: { st: 30, ma: 26, en: 28, ag: 25, lu: 21 },
+    stats: {
+      st: 30,
+      ma: 26,
+      en: 28,
+      ag: 25,
+      lu: 21
+    },
     trait: 'Internal Hypnosis',
     area: 'Sheriruth',
     floor: 'L1-5, 7 (before Palace 7) / L1-3 (after Palace 7)',
-    alarmItem: { name: 'Bless Amp', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Bless Amp',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'wk',
@@ -4695,11 +6674,15 @@ const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'wk'
-    }
+    },
+    name: 'Power'
   },
   Principality: {
     inherits: 'Bless',
-    item: { name: 'Blessing Ring', type: 'Item' },
+    item: {
+      name: 'Blessing Ring',
+      type: 'Item'
+    },
     level: 29,
     arcana: 'Justice',
     skills: {
@@ -4711,9 +6694,18 @@ const compendium = {
       'Bless Boost': 34,
       Mabaisudi: 35
     },
-    stats: { st: 17, ma: 19, en: 18, ag: 21, lu: 19 },
+    stats: {
+      st: 17,
+      ma: 19,
+      en: 18,
+      ag: 21,
+      lu: 19
+    },
     trait: 'Blessed Bloodline',
-    alarmItem: { name: 'Spiral Blessing Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Spiral Blessing Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4725,11 +6717,15 @@ const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'wk'
-    }
+    },
+    name: 'Principality'
   },
   'Queen Mab': {
     inherits: 'Almighty',
-    item: { name: 'Masquerade Ribbon', type: 'Item' },
+    item: {
+      name: 'Masquerade Ribbon',
+      type: 'Item'
+    },
     level: 43,
     arcana: 'Magician',
     skills: {
@@ -4741,11 +6737,20 @@ const compendium = {
       Agidyne: 47,
       Concentrate: 48
     },
-    stats: { st: 23, ma: 35, en: 26, ag: 30, lu: 22 },
+    stats: {
+      st: 23,
+      ma: 35,
+      en: 26,
+      ag: 30,
+      lu: 22
+    },
     trait: 'Static Electricity',
     area: 'Sheriruth',
     floor: 'L5, 7-9 (before Palace 7) / L3 & 4 (after Palace 7)',
-    alarmItem: { name: 'Masquerade Ribbon R', type: 'Item' },
+    alarmItem: {
+      name: 'Masquerade Ribbon R',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4757,11 +6762,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Queen Mab'
   },
   'Queen\'s Necklace': {
     rare: true,
-    item: { name: 'Queen\'s Necklace', type: 'Item' },
+    item: {
+      name: 'Queen\'s Necklace',
+      type: 'Item'
+    },
     level: 15,
     arcana: 'Empress',
     skills: {
@@ -4777,11 +6786,20 @@ const compendium = {
       'Relief Bloodline': 0,
       'Savior Bloodline': 0
     },
-    stats: { st: 15, ma: 15, en: 15, ag: 15, lu: 15 },
+    stats: {
+      st: 15,
+      ma: 15,
+      en: 15,
+      ag: 15,
+      lu: 15
+    },
     trait: 'Ultimate Vessel',
     area: 'Kaitul',
     floor: 'L1-5, 7-9',
-    alarmItem: { name: 'Queen\'s Necklace R', type: 'Item' },
+    alarmItem: {
+      name: 'Queen\'s Necklace R',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -4793,11 +6811,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Queen\'s Necklace'
   },
   Quetzalcoatl: {
     inherits: 'Wind',
-    item: { name: 'Magarudyne', type: 'Skill Card' },
+    item: {
+      name: 'Magarudyne',
+      type: 'Skill Card'
+    },
     level: 66,
     arcana: 'Sun',
     skills: {
@@ -4809,9 +6831,18 @@ const compendium = {
       Magarudyne: 70,
       'Wind Amp': 71
     },
-    stats: { st: 41, ma: 46, en: 41, ag: 43, lu: 34 },
+    stats: {
+      st: 41,
+      ma: 46,
+      en: 41,
+      ag: 43,
+      lu: 34
+    },
     trait: 'Wind Bloodline',
-    alarmItem: { name: 'Panta Rhei', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Panta Rhei',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4823,11 +6854,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Quetzalcoatl'
   },
   'Raja Naga': {
     inherits: 'Electric',
-    item: { name: 'Thunder Ring', type: 'Item' },
+    item: {
+      name: 'Thunder Ring',
+      type: 'Item'
+    },
     level: 55,
     arcana: 'Temperance',
     skills: {
@@ -4839,9 +6874,18 @@ const compendium = {
       Maziodyne: 59,
       'Evade Wind': 60
     },
-    stats: { st: 33, ma: 37, en: 36, ag: 35, lu: 31 },
+    stats: {
+      st: 33,
+      ma: 37,
+      en: 36,
+      ag: 35,
+      lu: 31
+    },
     trait: 'Electric Bloodline',
-    alarmItem: { name: 'Spiral Thunder Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Spiral Thunder Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4853,11 +6897,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Raja Naga'
   },
   Rakshasa: {
     inherits: 'Physical',
-    item: { name: 'Regenerate 1', type: 'Skill Card' },
+    item: {
+      name: 'Regenerate 1',
+      type: 'Skill Card'
+    },
     level: 24,
     arcana: 'Strength',
     skills: {
@@ -4869,12 +6917,21 @@ const compendium = {
       Counterstrike: 28,
       'Adverse Resolve': 30
     },
-    stats: { st: 20, ma: 15, en: 18, ag: 17, lu: 9 },
+    stats: {
+      st: 20,
+      ma: 15,
+      en: 18,
+      ag: 17,
+      lu: 9
+    },
     trait: 'Skillful Combo',
     personality: 'Irritable',
     area: 'Kaitul',
     floor: 'L5, 7-9',
-    alarmItem: { name: 'Regenerate 2', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Regenerate 2',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: 'nu',
@@ -4886,11 +6943,15 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'rs'
-    }
+    },
+    name: 'Rakshasa'
   },
   Rangda: {
     inherits: 'Curse',
-    item: { name: 'Maeiga', type: 'Skill Card' },
+    item: {
+      name: 'Maeiga',
+      type: 'Skill Card'
+    },
     level: 48,
     arcana: 'Magician',
     skills: {
@@ -4901,11 +6962,20 @@ const compendium = {
       Matarunda: 51,
       Mudoon: 53
     },
-    stats: { st: 28, ma: 34, en: 30, ag: 33, lu: 26 },
+    stats: {
+      st: 28,
+      ma: 34,
+      en: 30,
+      ag: 33,
+      lu: 26
+    },
     trait: 'Cursed Bloodline',
     area: 'Sheriruth',
     floor: 'L11-13 (before Palace 7) / L5 (after Palace 7)',
-    alarmItem: { name: 'Eigaon', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Eigaon',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rp',
       gun: 'rp',
@@ -4917,11 +6987,15 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Rangda'
   },
   Raphael: {
     inherits: 'Almighty',
-    item: { name: 'Null Bless', type: 'Skill Card' },
+    item: {
+      name: 'Null Bless',
+      type: 'Skill Card'
+    },
     level: 78,
     arcana: 'Lovers',
     skills: {
@@ -4933,9 +7007,18 @@ const compendium = {
       'Adverse Resolve': 82,
       'Arms Master': 83
     },
-    stats: { st: 57, ma: 45, en: 49, ag: 55, lu: 35 },
+    stats: {
+      st: 57,
+      ma: 45,
+      en: 49,
+      ag: 55,
+      lu: 35
+    },
     trait: 'Pinch Anchor',
-    alarmItem: { name: 'Repel Bless', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Repel Bless',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4947,11 +7030,15 @@ const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: '-'
-    }
+    },
+    name: 'Raphael'
   },
   'Red Rider': {
     inherits: 'Psy',
-    item: { name: 'Karma Ring', type: 'Item' },
+    item: {
+      name: 'Karma Ring',
+      type: 'Item'
+    },
     level: 41,
     arcana: 'Tower',
     skills: {
@@ -4963,9 +7050,18 @@ const compendium = {
       'Ominous Words': 45,
       'Last Stand': 46
     },
-    stats: { st: 26, ma: 27, en: 25, ag: 29, lu: 23 },
+    stats: {
+      st: 26,
+      ma: 27,
+      en: 25,
+      ag: 29,
+      lu: 23
+    },
     trait: 'Ailment Hunter',
-    alarmItem: { name: 'Spiral Karma Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Spiral Karma Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -4977,11 +7073,15 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Red Rider'
   },
   Regent: {
     rare: true,
-    item: { name: 'Regent', type: 'Item' },
+    item: {
+      name: 'Regent',
+      type: 'Item'
+    },
     level: 10,
     arcana: 'Emperor',
     skills: {
@@ -4997,11 +7097,20 @@ const compendium = {
       'Skillful Technique': 0,
       'Skillful Combo': 0
     },
-    stats: { st: 10, ma: 10, en: 10, ag: 10, lu: 10 },
+    stats: {
+      st: 10,
+      ma: 10,
+      en: 10,
+      ag: 10,
+      lu: 10
+    },
     trait: 'Ultimate Vessel',
     area: 'Qimranut / Aiyatsbus / Chemdah',
     floor: 'Any / L1-3, 5 & 6 / L1-4, 6 & 7',
-    alarmItem: { name: 'Regent R', type: 'Item' },
+    alarmItem: {
+      name: 'Regent R',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -5013,11 +7122,15 @@ const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Regent'
   },
   'Saki Mitama': {
     inherits: 'Healing',
-    item: { name: 'Energy Charm', type: 'Item' },
+    item: {
+      name: 'Energy Charm',
+      type: 'Item'
+    },
     level: 6,
     arcana: 'Lovers',
     skills: {
@@ -5028,9 +7141,18 @@ const compendium = {
       Rakukaja: 8,
       'Resist Dizzy': 10
     },
-    stats: { st: 4, ma: 6, en: 5, ag: 6, lu: 4 },
+    stats: {
+      st: 4,
+      ma: 6,
+      en: 5,
+      ag: 6,
+      lu: 4
+    },
     trait: 'Internal Hypnosis',
-    alarmItem: { name: 'Spiral Energy Charm', type: 'Item' },
+    alarmItem: {
+      name: 'Spiral Energy Charm',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5042,11 +7164,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Saki Mitama'
   },
   Sandalphon: {
     inherits: 'Bless',
-    item: { name: 'Sword of Sinai', type: 'Item' },
+    item: {
+      name: 'Sword of Sinai',
+      type: 'Item'
+    },
     level: 75,
     arcana: 'Moon',
     skills: {
@@ -5058,10 +7184,19 @@ const compendium = {
       'Sword Dance': 79,
       Megidolaon: 81
     },
-    stats: { st: 46, ma: 51, en: 49, ag: 48, lu: 38 },
+    stats: {
+      st: 46,
+      ma: 51,
+      en: 49,
+      ag: 48,
+      lu: 38
+    },
     trait: 'Omen',
     max: true,
-    alarmItem: { name: 'Sword of Sinai II', type: 'Item' },
+    alarmItem: {
+      name: 'Sword of Sinai II',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -5073,11 +7208,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rp',
       curse: 'nu'
-    }
+    },
+    name: 'Sandalphon'
   },
   Sandman: {
     inherits: 'Wind',
-    item: { name: 'Dormina', type: 'Skill Card' },
+    item: {
+      name: 'Dormina',
+      type: 'Skill Card'
+    },
     level: 23,
     arcana: 'Magician',
     skills: {
@@ -5089,11 +7228,20 @@ const compendium = {
       Magarula: 27,
       'Sleep Boost': 28
     },
-    stats: { st: 11, ma: 13, en: 14, ag: 17, lu: 21 },
+    stats: {
+      st: 11,
+      ma: 13,
+      en: 14,
+      ag: 17,
+      lu: 21
+    },
     trait: 'Foul Odor',
     area: 'Akzeriyyuth',
     floor: 'L1-3',
-    alarmItem: { name: 'Lullaby', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Lullaby',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5105,11 +7253,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Sandman'
   },
   Sarasvati: {
     inherits: 'Healing',
-    item: { name: 'Mediarama', type: 'Skill Card' },
+    item: {
+      name: 'Mediarama',
+      type: 'Skill Card'
+    },
     level: 50,
     arcana: 'Priestess',
     skills: {
@@ -5121,11 +7273,20 @@ const compendium = {
       Matarunda: 53,
       Diarahan: 54
     },
-    stats: { st: 30, ma: 35, en: 32, ag: 33, lu: 27 },
+    stats: {
+      st: 30,
+      ma: 35,
+      en: 32,
+      ag: 33,
+      lu: 27
+    },
     trait: 'Relief Bloodline',
     area: 'Sheriruth',
     floor: 'L7-9. 12 (after Palace 7)',
-    alarmItem: { name: 'Diarahan', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Diarahan',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5137,11 +7298,15 @@ const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Sarasvati'
   },
   Satan: {
     inherits: 'Ice',
-    item: { name: 'Tantric Oath', type: 'Item' },
+    item: {
+      name: 'Tantric Oath',
+      type: 'Item'
+    },
     level: 92,
     arcana: 'Judgement',
     skills: {
@@ -5154,10 +7319,19 @@ const compendium = {
       Concentrate: 97,
       'Absorb Ice': 98
     },
-    stats: { st: 62, ma: 59, en: 55, ag: 52, lu: 55 },
+    stats: {
+      st: 62,
+      ma: 59,
+      en: 55,
+      ag: 52,
+      lu: 55
+    },
     trait: 'Cocytus',
     max: true,
-    alarmItem: { name: 'Tantric Oath R', type: 'Item' },
+    alarmItem: {
+      name: 'Tantric Oath R',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -5169,12 +7343,16 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'rp'
-    }
+    },
+    name: 'Satan'
   },
   Satanael: {
     special: true,
     inherits: 'Almighty',
-    item: { name: 'Paradise Lost', type: 'Item' },
+    item: {
+      name: 'Paradise Lost',
+      type: 'Item'
+    },
     level: 95,
     arcana: 'Fool',
     skills: {
@@ -5187,10 +7365,19 @@ const compendium = {
       'Tyrant\'s Mind': 98,
       'Victory Cry': 99
     },
-    stats: { st: 63, ma: 60, en: 57, ag: 56, lu: 56 },
+    stats: {
+      st: 63,
+      ma: 60,
+      en: 57,
+      ag: 56,
+      lu: 56
+    },
     trait: 'Pagan Allure',
     note: 'Only available on NG+',
-    alarmItem: { name: 'Paradise Lost R', type: 'Item' },
+    alarmItem: {
+      name: 'Paradise Lost R',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -5202,11 +7389,15 @@ const compendium = {
       nuclear: 'rs',
       bless: 'nu',
       curse: 'ab'
-    }
+    },
+    name: 'Satanael'
   },
   Scathach: {
     inherits: 'Wind',
-    item: { name: 'Makarakarn', type: 'Skill Card' },
+    item: {
+      name: 'Makarakarn',
+      type: 'Skill Card'
+    },
     level: 77,
     arcana: 'Priestess',
     skills: {
@@ -5218,11 +7409,20 @@ const compendium = {
       'Vorpal Blade': 81,
       'Attack Master': 82
     },
-    stats: { st: 48, ma: 52, en: 46, ag: 48, lu: 44 },
+    stats: {
+      st: 48,
+      ma: 52,
+      en: 46,
+      ag: 48,
+      lu: 44
+    },
     trait: 'Skillful Technique',
     area: 'Adyeshach',
     floor: 'L10-12',
-    alarmItem: { name: 'Tetrakarn', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Tetrakarn',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5234,11 +7434,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Scathach'
   },
   Seiryu: {
     inherits: 'Ice',
-    item: { name: 'Blizzard Ring', type: 'Item' },
+    item: {
+      name: 'Blizzard Ring',
+      type: 'Item'
+    },
     level: 62,
     arcana: 'Councillor',
     skills: {
@@ -5250,9 +7454,18 @@ const compendium = {
       'Amrita Drop': 66,
       Makarakarn: 67
     },
-    stats: { st: 38, ma: 41, en: 43, ag: 37, lu: 34 },
+    stats: {
+      st: 38,
+      ma: 41,
+      en: 43,
+      ag: 37,
+      lu: 34
+    },
     trait: 'Relentless',
-    alarmItem: { name: 'Spiral Blizzard Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Spiral Blizzard Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5264,11 +7477,15 @@ const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Seiryu'
   },
   Setanta: {
     inherits: 'Physical',
-    item: { name: 'Rebellion Anklet', type: 'Item' },
+    item: {
+      name: 'Rebellion Anklet',
+      type: 'Item'
+    },
     level: 25,
     arcana: 'Emperor',
     skills: {
@@ -5279,9 +7496,18 @@ const compendium = {
       Rebellion: 29,
       'Rising Slash': 30
     },
-    stats: { st: 19, ma: 16, en: 18, ag: 13, lu: 16 },
+    stats: {
+      st: 19,
+      ma: 16,
+      en: 18,
+      ag: 13,
+      lu: 16
+    },
     trait: 'Retaliating Body',
-    alarmItem: { name: 'Revolution Anklet', type: 'Item' },
+    alarmItem: {
+      name: 'Revolution Anklet',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -5293,12 +7519,16 @@ const compendium = {
       nuclear: 'rs',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Setanta'
   },
   Seth: {
     special: true,
     inherits: 'Fire',
-    item: { name: 'Triple Shot Belt', type: 'Item' },
+    item: {
+      name: 'Triple Shot Belt',
+      type: 'Item'
+    },
     level: 51,
     arcana: 'Tower',
     skills: {
@@ -5309,9 +7539,18 @@ const compendium = {
       'Fire Break': 54,
       'Fortify Spirit': 56
     },
-    stats: { st: 32, ma: 35, en: 30, ag: 35, lu: 28 },
+    stats: {
+      st: 32,
+      ma: 35,
+      en: 30,
+      ag: 35,
+      lu: 28
+    },
     trait: 'Potent Hypnosis',
-    alarmItem: { name: 'Special Shot Belt', type: 'Item' },
+    alarmItem: {
+      name: 'Special Shot Belt',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5323,11 +7562,15 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'rs'
-    }
+    },
+    name: 'Seth'
   },
   Shiisaa: {
     inherits: 'Electric',
-    item: { name: 'Double Fangs', type: 'Skill Card' },
+    item: {
+      name: 'Double Fangs',
+      type: 'Skill Card'
+    },
     level: 15,
     arcana: 'Strength',
     skills: {
@@ -5338,9 +7581,18 @@ const compendium = {
       Rampage: 17,
       'Dodge Elec': 19
     },
-    stats: { st: 10, ma: 11, en: 11, ag: 11, lu: 9 },
+    stats: {
+      st: 10,
+      ma: 11,
+      en: 11,
+      ag: 11,
+      lu: 9
+    },
     trait: 'Atomic Bloodline',
-    alarmItem: { name: 'Cornered Fang', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Cornered Fang',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -5352,11 +7604,15 @@ const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'wk'
-    }
+    },
+    name: 'Shiisaa'
   },
   'Shiki-Ouji': {
     inherits: 'Psy',
-    item: { name: 'Double Shot', type: 'Skill Card' },
+    item: {
+      name: 'Double Shot',
+      type: 'Skill Card'
+    },
     level: 18,
     arcana: 'Chariot',
     skills: {
@@ -5368,11 +7624,20 @@ const compendium = {
       Psio: 23,
       'Oni Kagura': 24
     },
-    stats: { st: 16, ma: 14, en: 12, ag: 9, lu: 10 },
+    stats: {
+      st: 16,
+      ma: 14,
+      en: 12,
+      ag: 9,
+      lu: 10
+    },
     trait: 'Psychic Bloodline',
     area: 'Chemdah',
     floor: 'L6 & 7',
-    alarmItem: { name: 'Triple Down', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Triple Down',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'nu',
       gun: 'nu',
@@ -5384,12 +7649,16 @@ const compendium = {
       nuclear: 'wk',
       bless: 'nu',
       curse: 'nu'
-    }
+    },
+    name: 'Shiki-Ouji'
   },
   Shiva: {
     special: true,
     inherits: 'Psy',
-    item: { name: 'Megido Fire', type: 'Item' },
+    item: {
+      name: 'Megido Fire',
+      type: 'Item'
+    },
     level: 82,
     arcana: 'Judgement',
     skills: {
@@ -5401,9 +7670,18 @@ const compendium = {
       'Auto-Mataru': 87,
       'Psycho Blast': 88
     },
-    stats: { st: 55, ma: 54, en: 53, ag: 53, lu: 38 },
+    stats: {
+      st: 55,
+      ma: 54,
+      en: 53,
+      ag: 53,
+      lu: 38
+    },
     trait: 'Psychic Bloodline',
-    alarmItem: { name: 'Megido Blaster', type: 'Item' },
+    alarmItem: {
+      name: 'Megido Blaster',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5415,11 +7693,15 @@ const compendium = {
       nuclear: 'wk',
       bless: 'nu',
       curse: 'nu'
-    }
+    },
+    name: 'Shiva'
   },
   Siegfried: {
     inherits: 'Physical',
-    item: { name: 'Vorpal Blade Belt', type: 'Item' },
+    item: {
+      name: 'Vorpal Blade Belt',
+      type: 'Item'
+    },
     level: 84,
     arcana: 'Faith',
     skills: {
@@ -5431,9 +7713,18 @@ const compendium = {
       'Vorpal Blade': 89,
       'Auto-Mataru': 90
     },
-    stats: { st: 61, ma: 43, en: 55, ag: 55, lu: 45 },
+    stats: {
+      st: 61,
+      ma: 43,
+      en: 55,
+      ag: 55,
+      lu: 45
+    },
     trait: 'Retaliating Body',
-    alarmItem: { name: 'Brave Belt', type: 'Item' },
+    alarmItem: {
+      name: 'Brave Belt',
+      type: 'Item'
+    },
     affinities: {
       physical: 'nu',
       gun: 'rs',
@@ -5445,19 +7736,38 @@ const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Siegfried'
   },
   Silky: {
     inherits: 'Healing',
-    item: { name: 'Silk Dress', type: 'Item' },
+    item: {
+      name: 'Silk Dress',
+      type: 'Item'
+    },
     level: 6,
     arcana: 'Priestess',
-    skills: { Dormina: 0, Bufu: 0, Dia: 7, Patra: 9, 'Sharp Student': 10 },
-    stats: { st: 4, ma: 7, en: 4, ag: 5, lu: 5 },
+    skills: {
+      Dormina: 0,
+      Bufu: 0,
+      Dia: 7,
+      Patra: 9,
+      'Sharp Student': 10
+    },
+    stats: {
+      st: 4,
+      ma: 7,
+      en: 4,
+      ag: 5,
+      lu: 5
+    },
     trait: 'Intense Focus',
     area: 'Aiyatsbus',
     floor: 'L2, 3, 5 & 6',
-    alarmItem: { name: 'Fine Silk Dress', type: 'Item' },
+    alarmItem: {
+      name: 'Fine Silk Dress',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5469,11 +7779,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Silky'
   },
   Skadi: {
     inherits: 'Ice',
-    item: { name: 'Snow Queen\'s Whip', type: 'Item' },
+    item: {
+      name: 'Snow Queen\'s Whip',
+      type: 'Item'
+    },
     level: 53,
     arcana: 'Priestess',
     skills: {
@@ -5485,11 +7799,20 @@ const compendium = {
       Maeigaon: 57,
       'Spirit Drain': 58
     },
-    stats: { st: 33, ma: 39, en: 32, ag: 34, lu: 28 },
+    stats: {
+      st: 33,
+      ma: 39,
+      en: 32,
+      ag: 34,
+      lu: 28
+    },
     trait: 'Bloodstained Eyes',
     area: 'Sheriruth',
     floor: 'L12 & 13 (before Palace 7) / L5 (after Palace 7)',
-    alarmItem: { name: 'Snow Queen\'s Whip II', type: 'Item' },
+    alarmItem: {
+      name: 'Snow Queen\'s Whip II',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5501,11 +7824,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Skadi'
   },
   Slime: {
     inherits: 'Curse',
-    item: { name: 'Tarunda', type: 'Skill Card' },
+    item: {
+      name: 'Tarunda',
+      type: 'Skill Card'
+    },
     level: 10,
     arcana: 'Chariot',
     skills: {
@@ -5515,11 +7842,20 @@ const compendium = {
       'Fire Wall': 13,
       Headbutt: 14
     },
-    stats: { st: 9, ma: 6, en: 11, ag: 6, lu: 5 },
+    stats: {
+      st: 9,
+      ma: 6,
+      en: 11,
+      ag: 6,
+      lu: 5
+    },
     trait: 'Rare Antibody',
     area: 'Qimranut / Aiyatsbus',
     floor: 'Any / L1, 2, 3, 6',
-    alarmItem: { name: 'Matarunda', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Matarunda',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -5531,12 +7867,16 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Slime'
   },
   Sraosha: {
     special: true,
     inherits: 'Bless',
-    item: { name: 'Archangel Bra', type: 'Item' },
+    item: {
+      name: 'Archangel Bra',
+      type: 'Item'
+    },
     level: 80,
     arcana: 'Star',
     skills: {
@@ -5548,9 +7888,18 @@ const compendium = {
       'Amrita Shower': 84,
       Debilitate: 85
     },
-    stats: { st: 47, ma: 56, en: 45, ag: 56, lu: 43 },
+    stats: {
+      st: 47,
+      ma: 56,
+      en: 45,
+      ag: 56,
+      lu: 43
+    },
     trait: 'Blessed Bloodline',
-    alarmItem: { name: 'High Archangel Bra', type: 'Item' },
+    alarmItem: {
+      name: 'High Archangel Bra',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5562,11 +7911,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rp',
       curse: 'wk'
-    }
+    },
+    name: 'Sraosha'
   },
   'Stone of Scone': {
     rare: true,
-    item: { name: 'Stone of Scone', type: 'Item' },
+    item: {
+      name: 'Stone of Scone',
+      type: 'Item'
+    },
     level: 20,
     arcana: 'Fortune',
     skills: {
@@ -5582,11 +7935,20 @@ const compendium = {
       Gluttonmouth: 0,
       'Intense Focus': 0
     },
-    stats: { st: 20, ma: 20, en: 20, ag: 20, lu: 20 },
+    stats: {
+      st: 20,
+      ma: 20,
+      en: 20,
+      ag: 20,
+      lu: 20
+    },
     trait: 'Ultimate Vessel',
     area: 'Akzeriyyuth',
     floor: 'L1-3, 5-7, 9-11',
-    alarmItem: { name: 'Stone of Scone R', type: 'Item' },
+    alarmItem: {
+      name: 'Stone of Scone R',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -5598,11 +7960,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Stone of Scone'
   },
   Succubus: {
     inherits: 'Curse',
-    item: { name: 'Brain Shot', type: 'Item' },
+    item: {
+      name: 'Brain Shot',
+      type: 'Item'
+    },
     level: 7,
     arcana: 'Moon',
     skills: {
@@ -5613,11 +7979,20 @@ const compendium = {
       'Sleep Boost': 11,
       Mudo: 12
     },
-    stats: { st: 4, ma: 7, en: 5, ag: 8, lu: 4 },
+    stats: {
+      st: 4,
+      ma: 7,
+      en: 5,
+      ag: 8,
+      lu: 4
+    },
     trait: 'Foul Odor',
     area: 'Aiyatsbus',
     floor: 'L5 & 6',
-    alarmItem: { name: 'Pink Buster', type: 'Item' },
+    alarmItem: {
+      name: 'Pink Buster',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5629,11 +8004,15 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Succubus'
   },
   Sudama: {
     inherits: 'Psy',
-    item: { name: 'Mapsi', type: 'Skill Card' },
+    item: {
+      name: 'Mapsi',
+      type: 'Skill Card'
+    },
     level: 17,
     arcana: 'Hermit',
     skills: {
@@ -5645,11 +8024,20 @@ const compendium = {
       'Apt Pupil': 22,
       Psio: 23
     },
-    stats: { st: 9, ma: 14, en: 12, ag: 13, lu: 10 },
+    stats: {
+      st: 9,
+      ma: 14,
+      en: 12,
+      ag: 13,
+      lu: 10
+    },
     trait: 'Gloomy Child',
     area: 'Chemdah',
     floor: 'L6 & 7',
-    alarmItem: { name: 'Psio', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Psio',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5661,11 +8049,15 @@ const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Sudama'
   },
   'Sui-Ki': {
     inherits: 'Ice',
-    item: { name: 'Bufula', type: 'Skill Card' },
+    item: {
+      name: 'Bufula',
+      type: 'Skill Card'
+    },
     level: 24,
     arcana: 'Moon',
     skills: {
@@ -5677,11 +8069,20 @@ const compendium = {
       Mabufula: 28,
       'Dodge Fire': 29
     },
-    stats: { st: 16, ma: 15, en: 15, ag: 18, lu: 15 },
+    stats: {
+      st: 16,
+      ma: 15,
+      en: 15,
+      ag: 18,
+      lu: 15
+    },
     trait: 'Frigid Bloodline',
     area: 'Kaitul',
     floor: 'L7-9',
-    alarmItem: { name: 'Mabufula', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Mabufula',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -5693,11 +8094,15 @@ const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Sui-Ki'
   },
   Surt: {
     inherits: 'Fire',
-    item: { name: 'Maragidyne', type: 'Skill Card' },
+    item: {
+      name: 'Maragidyne',
+      type: 'Skill Card'
+    },
     level: 83,
     arcana: 'Magician',
     skills: {
@@ -5709,9 +8114,18 @@ const compendium = {
       'Evade Ice': 86,
       Gigantomachia: 88
     },
-    stats: { st: 55, ma: 54, en: 51, ag: 50, lu: 46 },
+    stats: {
+      st: 55,
+      ma: 54,
+      en: 51,
+      ag: 50,
+      lu: 46
+    },
     trait: 'Heated Bloodline',
-    alarmItem: { name: 'Inferno', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Inferno',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -5723,11 +8137,15 @@ const compendium = {
       nuclear: 'rs',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Surt'
   },
   Suzaku: {
     inherits: 'Nuclear',
-    item: { name: 'Atom Ring', type: 'Item' },
+    item: {
+      name: 'Atom Ring',
+      type: 'Item'
+    },
     level: 16,
     arcana: 'Sun',
     skills: {
@@ -5739,9 +8157,18 @@ const compendium = {
       'Speed Master': 20,
       Matarunda: 21
     },
-    stats: { st: 9, ma: 12, en: 10, ag: 15, lu: 9 },
+    stats: {
+      st: 9,
+      ma: 12,
+      en: 10,
+      ag: 15,
+      lu: 9
+    },
     trait: 'Gluttonmouth',
-    alarmItem: { name: 'Spiral Atom Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Spiral Atom Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5753,13 +8180,17 @@ const compendium = {
       nuclear: 'rs',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Suzaku'
   },
   'Take-Minakata': {
     inherits: 'Electric',
-    item: { name: 'Zionga', type: 'Skill Card' },
+    item: {
+      name: 'Zionga',
+      type: 'Skill Card'
+    },
     level: 26,
-    arcana: 'Hanged',
+    arcana: 'Hanged Man',
     skills: {
       Zionga: 0,
       'Assault Dive': 0,
@@ -5769,11 +8200,20 @@ const compendium = {
       'Swift Strike': 31,
       'Shock Boost': 32
     },
-    stats: { st: 17, ma: 19, en: 18, ag: 16, lu: 15 },
+    stats: {
+      st: 17,
+      ma: 19,
+      en: 18,
+      ag: 16,
+      lu: 15
+    },
     trait: 'Electric Bloodline',
     area: 'Kaitul',
     floor: 'L7-9',
-    alarmItem: { name: 'Mazionga', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Mazionga',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5785,12 +8225,16 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'rs'
-    }
+    },
+    name: 'Take-Minakata'
   },
   'Tam Lin': {
     special: true,
     inherits: 'Almighty',
-    item: { name: 'Fairy Knight Armor', type: 'Item' },
+    item: {
+      name: 'Fairy Knight Armor',
+      type: 'Item'
+    },
     level: 27,
     arcana: 'Faith',
     skills: {
@@ -5802,9 +8246,18 @@ const compendium = {
       'Brainwash Boost': 31,
       'Heat Up': 32
     },
-    stats: { st: 21, ma: 16, en: 18, ag: 16, lu: 17 },
+    stats: {
+      st: 21,
+      ma: 16,
+      en: 18,
+      ag: 16,
+      lu: 17
+    },
     trait: 'Gluttonmouth',
-    alarmItem: { name: 'Fairy Hero Armor', type: 'Item' },
+    alarmItem: {
+      name: 'Fairy Hero Armor',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -5816,11 +8269,15 @@ const compendium = {
       nuclear: '-',
       bless: 'ab',
       curse: 'wk'
-    }
+    },
+    name: 'Tam Lin'
   },
   Thor: {
     inherits: 'Electric',
-    item: { name: 'Mjolnir', type: 'Item' },
+    item: {
+      name: 'Mjolnir',
+      type: 'Item'
+    },
     level: 64,
     arcana: 'Chariot',
     skills: {
@@ -5832,11 +8289,20 @@ const compendium = {
       'Heat Up': 68,
       'Wild Thunder': 71
     },
-    stats: { st: 44, ma: 39, en: 43, ag: 38, lu: 35 },
+    stats: {
+      st: 44,
+      ma: 39,
+      en: 43,
+      ag: 38,
+      lu: 35
+    },
     trait: 'Intense Focus',
     area: 'Da\'at',
     floor: 'All',
-    alarmItem: { name: 'Imprisoned Mjolnir', type: 'Item' },
+    alarmItem: {
+      name: 'Imprisoned Mjolnir',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -5848,11 +8314,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'rs'
-    }
+    },
+    name: 'Thor'
   },
   Thoth: {
     inherits: 'Nuclear',
-    item: { name: 'Mafreila', type: 'Skill Card' },
+    item: {
+      name: 'Mafreila',
+      type: 'Skill Card'
+    },
     level: 36,
     arcana: 'Emperor',
     skills: {
@@ -5864,11 +8334,20 @@ const compendium = {
       Concentrate: 40,
       'Growth 2': 42
     },
-    stats: { st: 21, ma: 28, en: 21, ag: 24, lu: 21 },
+    stats: {
+      st: 21,
+      ma: 28,
+      en: 21,
+      ag: 24,
+      lu: 21
+    },
     trait: 'Skillful Technique',
     area: 'Akzeriyyuth',
     floor: 'L6, 7, 9-11',
-    alarmItem: { name: 'Freidyne', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Freidyne',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5880,11 +8359,15 @@ const compendium = {
       nuclear: 'nu',
       bless: 'nu',
       curse: 'rs'
-    }
+    },
+    name: 'Thoth'
   },
   Throne: {
     inherits: 'Bless',
-    item: { name: 'Spiral Divine Ring', type: 'Item' },
+    item: {
+      name: 'Spiral Divine Ring',
+      type: 'Item'
+    },
     level: 72,
     arcana: 'Justice',
     skills: {
@@ -5896,11 +8379,20 @@ const compendium = {
       'Invigorate 3': 76,
       Inferno: 78
     },
-    stats: { st: 42, ma: 49, en: 43, ag: 46, lu: 43 },
+    stats: {
+      st: 42,
+      ma: 49,
+      en: 43,
+      ag: 46,
+      lu: 43
+    },
     trait: 'Crisis Control',
     area: 'Da\'at',
     floor: 'All',
-    alarmItem: { name: 'Judgement Cross', type: 'Item' },
+    alarmItem: {
+      name: 'Judgement Cross',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5912,11 +8404,15 @@ const compendium = {
       nuclear: 'wk',
       bless: 'rp',
       curse: '-'
-    }
+    },
+    name: 'Throne'
   },
   Thunderbird: {
     inherits: 'Electric',
-    item: { name: 'Elec Boost', type: 'Skill Card' },
+    item: {
+      name: 'Elec Boost',
+      type: 'Skill Card'
+    },
     level: 34,
     arcana: 'Sun',
     skills: {
@@ -5928,9 +8424,18 @@ const compendium = {
       'Elec Boost': 38,
       Maziodyne: 39
     },
-    stats: { st: 17, ma: 24, en: 24, ag: 26, lu: 18 },
+    stats: {
+      st: 17,
+      ma: 24,
+      en: 24,
+      ag: 26,
+      lu: 18
+    },
     trait: 'Electric Bloodline',
-    alarmItem: { name: 'Elec Amp', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Elec Amp',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5942,11 +8447,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'wk'
-    }
+    },
+    name: 'Thunderbird'
   },
   Titania: {
     inherits: 'Nuclear',
-    item: { name: 'Freidyne', type: 'Skill Card' },
+    item: {
+      name: 'Freidyne',
+      type: 'Skill Card'
+    },
     level: 56,
     arcana: 'Empress',
     skills: {
@@ -5957,11 +8466,20 @@ const compendium = {
       'Nuke Amp': 60,
       Mediarahan: 61
     },
-    stats: { st: 32, ma: 40, en: 35, ag: 38, lu: 30 },
+    stats: {
+      st: 32,
+      ma: 40,
+      en: 35,
+      ag: 38,
+      lu: 30
+    },
     trait: 'Foul Stench',
     area: 'Sheriruth',
     floor: 'L8, 9, 11-13 (after Palace 7)',
-    alarmItem: { name: 'Mafreidyne', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Mafreidyne',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -5973,12 +8491,16 @@ const compendium = {
       nuclear: 'rs',
       bless: 'rs',
       curse: 'rs'
-    }
+    },
+    name: 'Titania'
   },
   Trumpeter: {
     special: true,
     inherits: 'Almighty',
-    item: { name: 'Reactor Ring', type: 'Item' },
+    item: {
+      name: 'Reactor Ring',
+      type: 'Item'
+    },
     level: 59,
     arcana: 'Judgement',
     skills: {
@@ -5990,9 +8512,18 @@ const compendium = {
       'Life Aid': 63,
       Debilitate: 65
     },
-    stats: { st: 33, ma: 42, en: 40, ag: 38, lu: 31 },
+    stats: {
+      st: 33,
+      ma: 42,
+      en: 40,
+      ag: 38,
+      lu: 31
+    },
     trait: 'Relentless',
-    alarmItem: { name: 'Spiral Reactor Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Spiral Reactor Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -6004,11 +8535,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rp',
       curse: 'nu'
-    }
+    },
+    name: 'Trumpeter'
   },
   Unicorn: {
     inherits: 'Bless',
-    item: { name: 'Mahama', type: 'Skill Card' },
+    item: {
+      name: 'Mahama',
+      type: 'Skill Card'
+    },
     level: 39,
     arcana: 'Faith',
     skills: {
@@ -6020,11 +8555,20 @@ const compendium = {
       Kougaon: 43,
       Hamaon: 44
     },
-    stats: { st: 20, ma: 27, en: 25, ag: 28, lu: 24 },
+    stats: {
+      st: 20,
+      ma: 27,
+      en: 25,
+      ag: 28,
+      lu: 24
+    },
     trait: 'Blessed Bloodline',
     area: 'Sheriruth',
     floor: 'L1-4 (before Palace 7) / L1 & 2 (after Palace 7)',
-    alarmItem: { name: 'Hamaon', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Hamaon',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -6036,11 +8580,15 @@ const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'wk'
-    }
+    },
+    name: 'Unicorn'
   },
   Uriel: {
     inherits: 'Almighty',
-    item: { name: 'Heaven\'s Gate', type: 'Item' },
+    item: {
+      name: 'Heaven\'s Gate',
+      type: 'Item'
+    },
     level: 81,
     arcana: 'Justice',
     skills: {
@@ -6052,9 +8600,18 @@ const compendium = {
       'Angelic Grace': 85,
       'Spell Master': 86
     },
-    stats: { st: 50, ma: 54, en: 49, ag: 55, lu: 42 },
+    stats: {
+      st: 50,
+      ma: 54,
+      en: 49,
+      ag: 55,
+      lu: 42
+    },
     trait: 'Mouth of Savoring',
-    alarmItem: { name: 'Providence', type: 'Item' },
+    alarmItem: {
+      name: 'Providence',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -6066,11 +8623,15 @@ const compendium = {
       nuclear: 'ab',
       bless: 'rp',
       curse: '-'
-    }
+    },
+    name: 'Uriel'
   },
   Valkyrie: {
     inherits: 'Physical',
-    item: { name: 'Rising Slash', type: 'Skill Card' },
+    item: {
+      name: 'Rising Slash',
+      type: 'Skill Card'
+    },
     level: 44,
     arcana: 'Strength',
     skills: {
@@ -6081,11 +8642,20 @@ const compendium = {
       Matarukaja: 47,
       'Dodge Phys': 49
     },
-    stats: { st: 33, ma: 24, en: 28, ag: 29, lu: 25 },
+    stats: {
+      st: 33,
+      ma: 24,
+      en: 28,
+      ag: 29,
+      lu: 25
+    },
     trait: 'Skillful Combo',
     area: 'Sheriruth',
     floor: 'L3-5, 7-9 (before Palace 7) / L2-4 (after Palace 7)',
-    alarmItem: { name: 'Deadly Fury', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Deadly Fury',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -6097,12 +8667,16 @@ const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: '-'
-    }
+    },
+    name: 'Valkyrie'
   },
   Vasuki: {
     special: true,
     inherits: 'Ailment',
-    item: { name: 'Kuzuryu Gouhou', type: 'Item' },
+    item: {
+      name: 'Kuzuryu Gouhou',
+      type: 'Item'
+    },
     level: 68,
     arcana: 'Star',
     skills: {
@@ -6114,9 +8688,18 @@ const compendium = {
       'Brainwash Boost': 72,
       'Null Curse': 73
     },
-    stats: { st: 42, ma: 45, en: 44, ag: 42, lu: 38 },
+    stats: {
+      st: 42,
+      ma: 45,
+      en: 44,
+      ag: 42,
+      lu: 38
+    },
     trait: 'Foul Stench',
-    alarmItem: { name: 'Kuzuryu Gouhou EX', type: 'Item' },
+    alarmItem: {
+      name: 'Kuzuryu Gouhou EX',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -6128,11 +8711,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'wk'
-    }
+    },
+    name: 'Vasuki'
   },
   Vishnu: {
     inherits: 'Almighty',
-    item: { name: 'Sudarshana', type: 'Item' },
+    item: {
+      name: 'Sudarshana',
+      type: 'Item'
+    },
     level: 83,
     arcana: 'Fool',
     skills: {
@@ -6145,10 +8732,19 @@ const compendium = {
       'Wind Amp': 88,
       'Riot Gun': 90
     },
-    stats: { st: 56, ma: 51, en: 49, ag: 57, lu: 43 },
+    stats: {
+      st: 56,
+      ma: 51,
+      en: 49,
+      ag: 57,
+      lu: 43
+    },
     trait: 'Vahana\'s Wings',
     max: true,
-    alarmItem: { name: 'Sudarshana EX', type: 'Item' },
+    alarmItem: {
+      name: 'Sudarshana EX',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -6160,11 +8756,15 @@ const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'nu'
-    }
+    },
+    name: 'Vishnu'
   },
   'Vohu Manah': {
     inherits: 'Almighty',
-    item: { name: 'Doomsday', type: 'Item' },
+    item: {
+      name: 'Doomsday',
+      type: 'Item'
+    },
     level: 80,
     arcana: 'Councillor',
     skills: {
@@ -6176,10 +8776,19 @@ const compendium = {
       'Invigorate 3': 84,
       Salvation: 85
     },
-    stats: { st: 46, ma: 59, en: 45, ag: 56, lu: 41 },
+    stats: {
+      st: 46,
+      ma: 59,
+      en: 45,
+      ag: 56,
+      lu: 41
+    },
     trait: 'Positive Thoughts',
     max: true,
-    alarmItem: { name: 'Ancient Day', type: 'Item' },
+    alarmItem: {
+      name: 'Ancient Day',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -6191,11 +8800,15 @@ const compendium = {
       nuclear: '-',
       bless: 'ab',
       curse: 'nu'
-    }
+    },
+    name: 'Vohu Manah'
   },
   'White Rider': {
     inherits: 'Curse',
-    item: { name: 'Gun Boost', type: 'Skill Card' },
+    item: {
+      name: 'Gun Boost',
+      type: 'Skill Card'
+    },
     level: 38,
     arcana: 'Chariot',
     skills: {
@@ -6208,9 +8821,18 @@ const compendium = {
       'Foul Breath': 43,
       'Ailment Boost': 44
     },
-    stats: { st: 22, ma: 21, en: 26, ag: 27, lu: 25 },
+    stats: {
+      st: 22,
+      ma: 21,
+      en: 26,
+      ag: 27,
+      lu: 25
+    },
     trait: 'Bloodstained Eyes',
-    alarmItem: { name: 'Gun Amp', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Gun Amp',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -6222,11 +8844,15 @@ const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'rp'
-    }
+    },
+    name: 'White Rider'
   },
   Yaksini: {
     inherits: 'Ice',
-    item: { name: 'Hysterical Slap', type: 'Skill Card' },
+    item: {
+      name: 'Hysterical Slap',
+      type: 'Skill Card'
+    },
     level: 20,
     arcana: 'Empress',
     skills: {
@@ -6237,11 +8863,20 @@ const compendium = {
       'Attack Master': 23,
       'Vicious Strike': 24
     },
-    stats: { st: 14, ma: 11, en: 13, ag: 16, lu: 13 },
+    stats: {
+      st: 14,
+      ma: 11,
+      en: 13,
+      ag: 16,
+      lu: 13
+    },
     trait: 'Foul Odor',
     area: 'Kaitul',
     floor: 'L3-5, 7',
-    alarmItem: { name: 'Oni Kagura', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Oni Kagura',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'nu',
@@ -6253,11 +8888,15 @@ const compendium = {
       nuclear: 'wk',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Yaksini'
   },
   'Yamata-no-Orochi': {
     inherits: 'Ice',
-    item: { name: 'Triple Down', type: 'Skill Card' },
+    item: {
+      name: 'Triple Down',
+      type: 'Skill Card'
+    },
     level: 64,
     arcana: 'Judgement',
     skills: {
@@ -6268,11 +8907,20 @@ const compendium = {
       'Ice Amp': 67,
       'Diamond Dust': 69
     },
-    stats: { st: 44, ma: 38, en: 48, ag: 36, lu: 33 },
+    stats: {
+      st: 44,
+      ma: 38,
+      en: 48,
+      ag: 36,
+      lu: 33
+    },
     trait: 'Cold-Blooded',
     area: 'Da\'at',
     floor: 'All',
-    alarmItem: { name: 'One-shot Kill', type: 'Skill Card' },
+    alarmItem: {
+      name: 'One-shot Kill',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -6284,11 +8932,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'rs'
-    }
+    },
+    name: 'Yamata-no-Orochi'
   },
   Yatagarasu: {
     inherits: 'Fire',
-    item: { name: 'Black Wing Robe', type: 'Item' },
+    item: {
+      name: 'Black Wing Robe',
+      type: 'Item'
+    },
     level: 57,
     arcana: 'Councillor',
     skills: {
@@ -6300,9 +8952,18 @@ const compendium = {
       'Wind Break': 61,
       'Null Wind': 64
     },
-    stats: { st: 35, ma: 41, en: 30, ag: 40, lu: 32 },
+    stats: {
+      st: 35,
+      ma: 41,
+      en: 30,
+      ag: 40,
+      lu: 32
+    },
     trait: 'Potent Hypnosis',
-    alarmItem: { name: 'Black Wing Robe R', type: 'Item' },
+    alarmItem: {
+      name: 'Black Wing Robe R',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -6314,12 +8975,16 @@ const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'wk'
-    }
+    },
+    name: 'Yatagarasu'
   },
   Yoshitsune: {
     special: true,
     inherits: 'Physical',
-    item: { name: 'Usumidori', type: 'Item' },
+    item: {
+      name: 'Usumidori',
+      type: 'Item'
+    },
     level: 87,
     arcana: 'Tower',
     skills: {
@@ -6331,9 +8996,18 @@ const compendium = {
       'Elec Amp': 92,
       'Hassou Tobi': 94
     },
-    stats: { st: 63, ma: 52, en: 50, ag: 54, lu: 49 },
+    stats: {
+      st: 63,
+      ma: 52,
+      en: 50,
+      ag: 54,
+      lu: 49
+    },
     trait: 'Retaliating Body',
-    alarmItem: { name: 'Usumidori R', type: 'Item' },
+    alarmItem: {
+      name: 'Usumidori R',
+      type: 'Item'
+    },
     affinities: {
       physical: 'nu',
       gun: '-',
@@ -6345,11 +9019,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rp',
       curse: '-'
-    }
+    },
+    name: 'Yoshitsune'
   },
   Yurlungur: {
     inherits: 'Electric',
-    item: { name: 'Mirrirmina', type: 'Item' },
+    item: {
+      name: 'Mirrirmina',
+      type: 'Item'
+    },
     level: 43,
     arcana: 'Sun',
     skills: {
@@ -6361,9 +9039,18 @@ const compendium = {
       'Tetra Break': 48,
       'Elec Boost': 49
     },
-    stats: { st: 26, ma: 29, en: 30, ag: 27, lu: 24 },
+    stats: {
+      st: 26,
+      ma: 29,
+      en: 30,
+      ag: 27,
+      lu: 24
+    },
     trait: 'Mouth of Savoring',
-    alarmItem: { name: 'Mirrirmina EX', type: 'Item' },
+    alarmItem: {
+      name: 'Mirrirmina EX',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -6375,11 +9062,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: '-'
-    }
+    },
+    name: 'Yurlungur'
   },
   'Zaou-Gongen': {
     inherits: 'Fire',
-    item: { name: 'God\'s Hand Belt', type: 'Item' },
+    item: {
+      name: 'God\'s Hand Belt',
+      type: 'Item'
+    },
     level: 80,
     arcana: 'Strength',
     skills: {
@@ -6391,10 +9082,19 @@ const compendium = {
       'Gun Amp': 84,
       'Blazing Hell': 86
     },
-    stats: { st: 57, ma: 45, en: 50, ag: 56, lu: 39 },
+    stats: {
+      st: 57,
+      ma: 45,
+      en: 50,
+      ag: 56,
+      lu: 39
+    },
     trait: 'Undying Fury',
     max: true,
-    alarmItem: { name: 'Gigantomachia Belt', type: 'Item' },
+    alarmItem: {
+      name: 'Gigantomachia Belt',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -6406,11 +9106,15 @@ const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'nu'
-    }
+    },
+    name: 'Zaou-Gongen'
   },
   Zouchouten: {
     inherits: 'Electric',
-    item: { name: 'Spark Ring', type: 'Item' },
+    item: {
+      name: 'Spark Ring',
+      type: 'Item'
+    },
     level: 31,
     arcana: 'Strength',
     skills: {
@@ -6422,9 +9126,18 @@ const compendium = {
       'Swift Strike': 35,
       'Attack Master': 36
     },
-    stats: { st: 22, ma: 19, en: 24, ag: 18, lu: 17 },
+    stats: {
+      st: 22,
+      ma: 19,
+      en: 24,
+      ag: 18,
+      lu: 17
+    },
     trait: 'Electric Bloodline',
-    alarmItem: { name: 'Spiral Spark Ring', type: 'Item' },
+    alarmItem: {
+      name: 'Spiral Spark Ring',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -6436,11 +9149,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Zouchouten'
   },
   Ariadne: {
     inherits: 'Almighty',
-    item: { name: 'Red String', type: 'Item' },
+    item: {
+      name: 'Red String',
+      type: 'Item'
+    },
     level: 30,
     arcana: 'Fortune',
     skills: {
@@ -6452,10 +9169,19 @@ const compendium = {
       'Evade Phys': 34,
       Charge: 36
     },
-    stats: { st: 23, ma: 19, en: 20, ag: 17, lu: 18 },
+    stats: {
+      st: 23,
+      ma: 19,
+      en: 20,
+      ag: 17,
+      lu: 18
+    },
     trait: 'Tag Team',
     dlc: true,
-    alarmItem: { name: 'Red String R', type: 'Item' },
+    alarmItem: {
+      name: 'Red String R',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -6467,11 +9193,15 @@ const compendium = {
       nuclear: 'nu',
       bless: 'rs',
       curse: '-'
-    }
+    },
+    name: 'Ariadne'
   },
   'Ariadne Picaro': {
     inherits: 'Almighty',
-    item: { name: 'Auto-Mataru', type: 'Skill Card' },
+    item: {
+      name: 'Auto-Mataru',
+      type: 'Skill Card'
+    },
     level: 42,
     arcana: 'Fortune',
     skills: {
@@ -6483,10 +9213,19 @@ const compendium = {
       'Evade Phys': 46,
       Charge: 48
     },
-    stats: { st: 36, ma: 23, en: 29, ag: 24, lu: 21 },
+    stats: {
+      st: 36,
+      ma: 23,
+      en: 29,
+      ag: 24,
+      lu: 21
+    },
     trait: 'Tag Team',
     dlc: true,
-    alarmItem: { name: 'Auto-Maraku', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Auto-Maraku',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -6498,11 +9237,15 @@ const compendium = {
       nuclear: 'nu',
       bless: 'rs',
       curse: '-'
-    }
+    },
+    name: 'Ariadne Picaro'
   },
   Asterius: {
     inherits: 'Almighty',
-    item: { name: 'Blazing Horns', type: 'Item' },
+    item: {
+      name: 'Blazing Horns',
+      type: 'Item'
+    },
     level: 56,
     arcana: 'Fortune',
     skills: {
@@ -6514,10 +9257,19 @@ const compendium = {
       Tetrakarn: 60,
       Gigantomachia: 62
     },
-    stats: { st: 43, ma: 43, en: 32, ag: 32, lu: 25 },
+    stats: {
+      st: 43,
+      ma: 43,
+      en: 32,
+      ag: 32,
+      lu: 25
+    },
     trait: 'Frenzied Bull',
     dlc: true,
-    alarmItem: { name: 'Inferno Horns', type: 'Item' },
+    alarmItem: {
+      name: 'Inferno Horns',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -6529,11 +9281,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Asterius'
   },
   'Asterius Picaro': {
     inherits: 'Almighty',
-    item: { name: 'Gigantomachia', type: 'Skill Card' },
+    item: {
+      name: 'Gigantomachia',
+      type: 'Skill Card'
+    },
     level: 62,
     arcana: 'Fortune',
     skills: {
@@ -6545,10 +9301,19 @@ const compendium = {
       Makarakarn: 66,
       Gigantomachia: 68
     },
-    stats: { st: 46, ma: 46, en: 36, ag: 36, lu: 29 },
+    stats: {
+      st: 46,
+      ma: 46,
+      en: 36,
+      ag: 36,
+      lu: 29
+    },
     trait: 'Frenzied Bull',
     dlc: true,
-    alarmItem: { name: 'Agneyastra', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Agneyastra',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -6560,11 +9325,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Asterius Picaro'
   },
   Athena: {
     inherits: 'Almighty',
-    item: { name: 'Kugelbein', type: 'Item' },
+    item: {
+      name: 'Kugelbein',
+      type: 'Item'
+    },
     level: 46,
     arcana: 'Chariot',
     skills: {
@@ -6577,10 +9346,19 @@ const compendium = {
       Samarecarm: 51,
       'Megaton Raid': 52
     },
-    stats: { st: 33, ma: 27, en: 29, ag: 29, lu: 27 },
+    stats: {
+      st: 33,
+      ma: 27,
+      en: 29,
+      ag: 29,
+      lu: 27
+    },
     trait: 'Grace of the Olive',
     dlc: true,
-    alarmItem: { name: 'Kugelbein R', type: 'Item' },
+    alarmItem: {
+      name: 'Kugelbein R',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: 'nu',
@@ -6592,11 +9370,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Athena'
   },
   'Athena Picaro': {
     inherits: 'Almighty',
-    item: { name: 'Charge', type: 'Skill Card' },
+    item: {
+      name: 'Charge',
+      type: 'Skill Card'
+    },
     level: 50,
     arcana: 'Chariot',
     skills: {
@@ -6609,10 +9391,19 @@ const compendium = {
       Samarecarm: 55,
       'Megaton Raid': 56
     },
-    stats: { st: 35, ma: 30, en: 31, ag: 32, lu: 29 },
+    stats: {
+      st: 35,
+      ma: 30,
+      en: 31,
+      ag: 32,
+      lu: 29
+    },
     trait: 'Grace of the Olive',
     dlc: true,
-    alarmItem: { name: 'Concentrate', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Concentrate',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: 'nu',
@@ -6624,11 +9415,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Athena Picaro'
   },
   Izanagi: {
     inherits: 'Almighty',
-    item: { name: 'White Headband', type: 'Item' },
+    item: {
+      name: 'White Headband',
+      type: 'Item'
+    },
     level: 20,
     arcana: 'Fool',
     skills: {
@@ -6640,10 +9435,19 @@ const compendium = {
       Mazionga: 24,
       'Growth 3': 25
     },
-    stats: { st: 14, ma: 13, en: 13, ag: 14, lu: 13 },
+    stats: {
+      st: 14,
+      ma: 13,
+      en: 13,
+      ag: 14,
+      lu: 13
+    },
     trait: 'God Maker',
     dlc: true,
-    alarmItem: { name: 'White Headband R', type: 'Item' },
+    alarmItem: {
+      name: 'White Headband R',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -6655,11 +9459,15 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Izanagi'
   },
   'Izanagi Picaro': {
     inherits: 'Almighty',
-    item: { name: 'Growth 2', type: 'Skill Card' },
+    item: {
+      name: 'Growth 2',
+      type: 'Skill Card'
+    },
     level: 23,
     arcana: 'Fool',
     skills: {
@@ -6671,10 +9479,19 @@ const compendium = {
       Mazionga: 27,
       'Growth 3': 28
     },
-    stats: { st: 16, ma: 15, en: 15, ag: 16, lu: 14 },
+    stats: {
+      st: 16,
+      ma: 15,
+      en: 15,
+      ag: 16,
+      lu: 14
+    },
     trait: 'God Maker',
     dlc: true,
-    alarmItem: { name: 'Growth 3', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Growth 3',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -6686,12 +9503,16 @@ const compendium = {
       nuclear: '-',
       bless: '-',
       curse: 'nu'
-    }
+    },
+    name: 'Izanagi Picaro'
   },
   'Izanagi-no-Okami': {
     special: true,
     inherits: 'Almighty',
-    item: { name: 'Shiny Belt', type: 'Item' },
+    item: {
+      name: 'Shiny Belt',
+      type: 'Item'
+    },
     level: 80,
     arcana: 'World',
     skills: {
@@ -6704,10 +9525,19 @@ const compendium = {
       Salvation: 84,
       'Almighty Boost': 85
     },
-    stats: { st: 52, ma: 56, en: 46, ag: 48, lu: 45 },
+    stats: {
+      st: 52,
+      ma: 56,
+      en: 46,
+      ag: 48,
+      lu: 45
+    },
     trait: 'Country Maker',
     dlc: true,
-    alarmItem: { name: 'Shiny Belt R', type: 'Item' },
+    alarmItem: {
+      name: 'Shiny Belt R',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -6719,12 +9549,16 @@ const compendium = {
       nuclear: 'rs',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Izanagi-no-Okami'
   },
   'Izanagi-no-Okami Picaro': {
     special: true,
     inherits: 'Almighty',
-    item: { name: 'Mediarahan', type: 'Skill Card' },
+    item: {
+      name: 'Mediarahan',
+      type: 'Skill Card'
+    },
     level: 89,
     arcana: 'World',
     skills: {
@@ -6737,10 +9571,19 @@ const compendium = {
       Salvation: 93,
       'Almighty Boost': 94
     },
-    stats: { st: 54, ma: 61, en: 56, ag: 58, lu: 45 },
+    stats: {
+      st: 54,
+      ma: 61,
+      en: 56,
+      ag: 58,
+      lu: 45
+    },
     trait: 'Country Maker',
     dlc: true,
-    alarmItem: { name: 'Salvation', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Salvation',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: 'rs',
@@ -6752,11 +9595,15 @@ const compendium = {
       nuclear: 'rs',
       bless: '-',
       curse: '-'
-    }
+    },
+    name: 'Izanagi-no-Okami Picaro'
   },
   Kaguya: {
     inherits: 'Almighty',
-    item: { name: 'Moonlight Robe', type: 'Item' },
+    item: {
+      name: 'Moonlight Robe',
+      type: 'Item'
+    },
     level: 16,
     arcana: 'Moon',
     skills: {
@@ -6768,10 +9615,19 @@ const compendium = {
       Diarahan: 21,
       'Repel Phys': 22
     },
-    stats: { st: 11, ma: 15, en: 12, ag: 11, lu: 6 },
+    stats: {
+      st: 11,
+      ma: 15,
+      en: 12,
+      ag: 11,
+      lu: 6
+    },
     trait: 'Inviolable Beauty',
     dlc: true,
-    alarmItem: { name: 'Moonlight Robe R', type: 'Item' },
+    alarmItem: {
+      name: 'Moonlight Robe R',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -6783,11 +9639,15 @@ const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'nu'
-    }
+    },
+    name: 'Kaguya'
   },
   'Kaguya Picaro': {
     inherits: 'Almighty',
-    item: { name: 'Diarahan', type: 'Skill Card' },
+    item: {
+      name: 'Diarahan',
+      type: 'Skill Card'
+    },
     level: 25,
     arcana: 'Moon',
     skills: {
@@ -6799,10 +9659,19 @@ const compendium = {
       Diarahan: 30,
       'Repel Phys': 31
     },
-    stats: { st: 17, ma: 20, en: 19, ag: 15, lu: 11 },
+    stats: {
+      st: 17,
+      ma: 20,
+      en: 19,
+      ag: 15,
+      lu: 11
+    },
     trait: 'Inviolable Beauty',
     dlc: true,
-    alarmItem: { name: 'Mediarahan', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Mediarahan',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -6814,11 +9683,15 @@ const compendium = {
       nuclear: '-',
       bless: 'nu',
       curse: 'nu'
-    }
+    },
+    name: 'Kaguya Picaro'
   },
   'Magatsu-Izanagi': {
     inherits: 'Almighty',
-    item: { name: 'Black Headband', type: 'Item' },
+    item: {
+      name: 'Black Headband',
+      type: 'Item'
+    },
     level: 44,
     arcana: 'Tower',
     skills: {
@@ -6830,10 +9703,19 @@ const compendium = {
       'Attack Master': 48,
       'Heat Riser': 50
     },
-    stats: { st: 37, ma: 35, en: 32, ag: 25, lu: 10 },
+    stats: {
+      st: 37,
+      ma: 35,
+      en: 32,
+      ag: 25,
+      lu: 10
+    },
     trait: 'Hollow Jester',
     dlc: true,
-    alarmItem: { name: 'Black Headband R', type: 'Item' },
+    alarmItem: {
+      name: 'Black Headband R',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -6845,11 +9727,15 @@ const compendium = {
       nuclear: 'wk',
       bless: 'nu',
       curse: 'nu'
-    }
+    },
+    name: 'Magatsu-Izanagi'
   },
   'Magatsu-Izanagi Picaro': {
     inherits: 'Almighty',
-    item: { name: 'Heat Riser', type: 'Skill Card' },
+    item: {
+      name: 'Heat Riser',
+      type: 'Skill Card'
+    },
     level: 48,
     arcana: 'Tower',
     skills: {
@@ -6861,10 +9747,19 @@ const compendium = {
       'Speed Master': 52,
       'Heat Riser': 54
     },
-    stats: { st: 40, ma: 38, en: 35, ag: 27, lu: 11 },
+    stats: {
+      st: 40,
+      ma: 38,
+      en: 35,
+      ag: 27,
+      lu: 11
+    },
     trait: 'Hollow Jester',
     dlc: true,
-    alarmItem: { name: 'Debilitate', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Debilitate',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: 'rs',
@@ -6876,11 +9771,15 @@ const compendium = {
       nuclear: 'wk',
       bless: 'nu',
       curse: 'nu'
-    }
+    },
+    name: 'Magatsu-Izanagi Picaro'
   },
   Messiah: {
     inherits: 'Almighty',
-    item: { name: 'Sirius Armor', type: 'Item' },
+    item: {
+      name: 'Sirius Armor',
+      type: 'Item'
+    },
     level: 81,
     arcana: 'Judgement',
     skills: {
@@ -6893,10 +9792,19 @@ const compendium = {
       'Absorb Phys': 85,
       'Almighty Boost': 87
     },
-    stats: { st: 50, ma: 50, en: 50, ag: 50, lu: 50 },
+    stats: {
+      st: 50,
+      ma: 50,
+      en: 50,
+      ag: 50,
+      lu: 50
+    },
     trait: 'Hallowed Spirit',
     dlc: true,
-    alarmItem: { name: 'Sirius Armor EX', type: 'Item' },
+    alarmItem: {
+      name: 'Sirius Armor EX',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -6908,11 +9816,15 @@ const compendium = {
       nuclear: 'rs',
       bless: 'rp',
       curse: 'wk'
-    }
+    },
+    name: 'Messiah'
   },
   'Messiah Picaro': {
     inherits: 'Almighty',
-    item: { name: 'Insta-Heal', type: 'Skill Card' },
+    item: {
+      name: 'Insta-Heal',
+      type: 'Skill Card'
+    },
     level: 90,
     arcana: 'Judgement',
     skills: {
@@ -6925,10 +9837,19 @@ const compendium = {
       'Firm Stance': 94,
       'Almighty Boost': 96
     },
-    stats: { st: 56, ma: 56, en: 55, ag: 55, lu: 55 },
+    stats: {
+      st: 56,
+      ma: 56,
+      en: 55,
+      ag: 55,
+      lu: 55
+    },
     trait: 'Hallowed Spirit',
     dlc: true,
-    alarmItem: { name: 'Firm Stance', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Firm Stance',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -6940,11 +9861,15 @@ const compendium = {
       nuclear: 'rs',
       bless: 'rp',
       curse: 'wk'
-    }
+    },
+    name: 'Messiah Picaro'
   },
   Orpheus: {
     inherits: 'Almighty',
-    item: { name: 'Hades Harp', type: 'Item' },
+    item: {
+      name: 'Hades Harp',
+      type: 'Item'
+    },
     level: 26,
     arcana: 'Fool',
     skills: {
@@ -6956,10 +9881,19 @@ const compendium = {
       Marakukaja: 30,
       'Fire Boost': 32
     },
-    stats: { st: 17, ma: 17, en: 17, ag: 17, lu: 17 },
+    stats: {
+      st: 17,
+      ma: 17,
+      en: 17,
+      ag: 17,
+      lu: 17
+    },
     trait: 'Circle of Sadness',
     dlc: true,
-    alarmItem: { name: 'Hades Harp R', type: 'Item' },
+    alarmItem: {
+      name: 'Hades Harp R',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -6971,11 +9905,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'wk'
-    }
+    },
+    name: 'Orpheus'
   },
   'Orpheus F': {
     inherits: 'Almighty',
-    item: { name: 'Graceful Harp', type: 'Item' },
+    item: {
+      name: 'Graceful Harp',
+      type: 'Item'
+    },
     level: 11,
     arcana: 'Fool',
     skills: {
@@ -6987,10 +9925,19 @@ const compendium = {
       Marakukaja: 14,
       'Dodge Curse': 15
     },
-    stats: { st: 8, ma: 9, en: 8, ag: 9, lu: 6 },
+    stats: {
+      st: 8,
+      ma: 9,
+      en: 8,
+      ag: 9,
+      lu: 6
+    },
     trait: 'Circle of Sadness',
     dlc: true,
-    alarmItem: { name: 'Graceful Harp R', type: 'Item' },
+    alarmItem: {
+      name: 'Graceful Harp R',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -7002,11 +9949,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'wk'
-    }
+    },
+    name: 'Orpheus F'
   },
   'Orpheus F Picaro': {
     inherits: 'Almighty',
-    item: { name: 'Endure', type: 'Skill Card' },
+    item: {
+      name: 'Endure',
+      type: 'Skill Card'
+    },
     level: 13,
     arcana: 'Fool',
     skills: {
@@ -7018,10 +9969,19 @@ const compendium = {
       Marakukaja: 16,
       'Dodge Curse': 17
     },
-    stats: { st: 9, ma: 11, en: 9, ag: 10, lu: 7 },
+    stats: {
+      st: 9,
+      ma: 11,
+      en: 9,
+      ag: 10,
+      lu: 7
+    },
     trait: 'Circle of Sadness',
     dlc: true,
-    alarmItem: { name: 'Enduring Soul', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Enduring Soul',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -7033,11 +9993,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'wk'
-    }
+    },
+    name: 'Orpheus F Picaro'
   },
   'Orpheus Picaro': {
     inherits: 'Almighty',
-    item: { name: 'Agidyne', type: 'Skill Card' },
+    item: {
+      name: 'Agidyne',
+      type: 'Skill Card'
+    },
     level: 29,
     arcana: 'Fool',
     skills: {
@@ -7049,10 +10013,19 @@ const compendium = {
       Matarukaja: 33,
       'Fire Boost': 35
     },
-    stats: { st: 19, ma: 19, en: 19, ag: 19, lu: 18 },
+    stats: {
+      st: 19,
+      ma: 19,
+      en: 19,
+      ag: 19,
+      lu: 18
+    },
     trait: 'Circle of Sadness',
     dlc: true,
-    alarmItem: { name: 'Maragidyne', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Maragidyne',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -7064,11 +10037,15 @@ const compendium = {
       nuclear: '-',
       bless: 'rs',
       curse: 'wk'
-    }
+    },
+    name: 'Orpheus Picaro'
   },
   Raoul: {
     inherits: 'Almighty',
-    item: { name: 'Picaresque Hat', type: 'Item' },
+    item: {
+      name: 'Picaresque Hat',
+      type: 'Item'
+    },
     level: 76,
     arcana: 'Fool',
     skills: {
@@ -7081,10 +10058,19 @@ const compendium = {
       Concentrate: 81,
       'Life Aid': 82
     },
-    stats: { st: 47, ma: 49, en: 43, ag: 54, lu: 42 },
+    stats: {
+      st: 47,
+      ma: 49,
+      en: 43,
+      ag: 54,
+      lu: 42
+    },
     trait: 'Hazy Presence',
     dlc: true,
-    alarmItem: { name: 'Picaresque Crown', type: 'Item' },
+    alarmItem: {
+      name: 'Picaresque Crown',
+      type: 'Item'
+    },
     affinities: {
       physical: '-',
       gun: '-',
@@ -7096,11 +10082,15 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'nu'
-    }
+    },
+    name: 'Raoul'
   },
   Thanatos: {
     inherits: 'Almighty',
-    item: { name: 'Darkness Ring', type: 'Item' },
+    item: {
+      name: 'Darkness Ring',
+      type: 'Item'
+    },
     level: 65,
     arcana: 'Death',
     skills: {
@@ -7112,10 +10102,19 @@ const compendium = {
       'Fortified Moxy': 69,
       'Enduring Soul': 70
     },
-    stats: { st: 43, ma: 49, en: 41, ag: 38, lu: 31 },
+    stats: {
+      st: 43,
+      ma: 49,
+      en: 41,
+      ag: 38,
+      lu: 31
+    },
     trait: 'Iron Heart',
     dlc: true,
-    alarmItem: { name: 'Darkness Ring R', type: 'Item' },
+    alarmItem: {
+      name: 'Darkness Ring R',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -7127,11 +10126,15 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'rp'
-    }
+    },
+    name: 'Thanatos'
   },
   'Thanatos Picaro': {
     inherits: 'Almighty',
-    item: { name: 'Maeigaon', type: 'Skill Card' },
+    item: {
+      name: 'Maeigaon',
+      type: 'Skill Card'
+    },
     level: 69,
     arcana: 'Death',
     skills: {
@@ -7143,10 +10146,19 @@ const compendium = {
       'Adverse Resolve': 73,
       'Enduring Soul': 74
     },
-    stats: { st: 45, ma: 51, en: 43, ag: 40, lu: 35 },
+    stats: {
+      st: 45,
+      ma: 51,
+      en: 43,
+      ag: 40,
+      lu: 35
+    },
     trait: 'Iron Heart',
     dlc: true,
-    alarmItem: { name: 'Demonic Decree', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Demonic Decree',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -7158,11 +10170,15 @@ const compendium = {
       nuclear: '-',
       bless: 'wk',
       curse: 'rp'
-    }
+    },
+    name: 'Thanatos Picaro'
   },
   Tsukiyomi: {
     inherits: 'Almighty',
-    item: { name: 'Black Moon', type: 'Item' },
+    item: {
+      name: 'Black Moon',
+      type: 'Item'
+    },
     level: 50,
     arcana: 'Moon',
     skills: {
@@ -7174,10 +10190,19 @@ const compendium = {
       'Vorpal Blade': 55,
       'Arms Master': 56
     },
-    stats: { st: 38, ma: 32, en: 33, ag: 37, lu: 17 },
+    stats: {
+      st: 38,
+      ma: 32,
+      en: 33,
+      ag: 37,
+      lu: 17
+    },
     trait: 'Bolstering Force',
     dlc: true,
-    alarmItem: { name: 'Black Moon R', type: 'Item' },
+    alarmItem: {
+      name: 'Black Moon R',
+      type: 'Item'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -7189,11 +10214,15 @@ const compendium = {
       nuclear: 'wk',
       bless: 'rs',
       curse: 'rp'
-    }
+    },
+    name: 'Tsukiyomi'
   },
   'Tsukiyomi Picaro': {
     inherits: 'Almighty',
-    item: { name: 'Spell Master', type: 'Skill Card' },
+    item: {
+      name: 'Spell Master',
+      type: 'Skill Card'
+    },
     level: 55,
     arcana: 'Moon',
     skills: {
@@ -7205,10 +10234,19 @@ const compendium = {
       'Vorpal Blade': 60,
       'Spell Master': 61
     },
-    stats: { st: 41, ma: 35, en: 36, ag: 40, lu: 20 },
+    stats: {
+      st: 41,
+      ma: 35,
+      en: 36,
+      ag: 40,
+      lu: 20
+    },
     trait: 'Bolstering Force',
     dlc: true,
-    alarmItem: { name: 'Arms Master', type: 'Skill Card' },
+    alarmItem: {
+      name: 'Arms Master',
+      type: 'Skill Card'
+    },
     affinities: {
       physical: 'rs',
       gun: '-',
@@ -7220,7 +10258,8 @@ const compendium = {
       nuclear: 'wk',
       bless: 'rs',
       curse: 'rp'
-    }
+    },
+    name: 'Tsukiyomi Picaro'
   }
 };
 module.exports = { compendium };

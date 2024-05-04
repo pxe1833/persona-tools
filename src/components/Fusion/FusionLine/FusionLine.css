@@ -1,0 +1,81 @@
+.fusion-line.p5, .fusion-line.p5r {
+    display: flex;
+    width: 100%;
+    padding: 0 8px;
+    font-size: 26px;
+    line-height: 26px;
+    min-height: 56px;
+    @media screen and (max-width: 650px) {
+        min-height: 48px;
+        line-height: 22px;
+        font-size: 22px;
+    }
+    @media screen and (max-width: 500px) {
+        min-height: 40px;
+        line-height: 18px;
+        font-size: 18px;
+    }
+}
+
+.fusion-line-item.p5, .fusion-line-item.p5r {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    &.cost {
+        width: 20%;
+    }
+    &.mat {
+        width: 40%;
+    }
+    font-size: 26px;
+    line-height: 26px;
+    @media screen and (max-width: 650px) {
+        line-height: 22px;
+        font-size: 22px;
+    }
+    @media screen and (max-width: 500px) {
+        line-height: 18px;
+        font-size: 18px;
+    }
+}
+
+.fusion-line-extra-info {
+    visibility: hidden;
+    @media screen and (min-width: 700px) {
+        visibility: visible;
+    }
+}
+
+.fusion-line-item-nav.p5, .fusion-line-item-nav.p5r {
+    background: none;
+    border: none;
+    color: var(--p5-yellow);
+    font-family: P5Hatty, sans-serif;
+    transition: all 0.4s;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    &:hover {
+        color: var(--p5-gold);
+        cursor: pointer;
+    }
+    &:disabled {
+        color: gray;
+        &:hover {
+            color: var(--p5-black);
+            cursor: default;
+        }
+    }
+    font-size: 26px;
+    line-height: 26px;
+    @media screen and (max-width: 650px) {
+        width: 100%;
+        line-height: 22px;
+        font-size: 22px;
+    }
+    @media screen and (max-width: 500px) {
+        width: 100%;
+        line-height: 18px;
+        font-size: 18px;
+    }
+}
